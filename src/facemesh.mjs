@@ -99,6 +99,8 @@ TFFaceMesh.prototype.getEyePatches = async function(imageCanvas, width, height) 
     height: rightHeight
   };
 
+  console.log('Ratio of the left eye width/height:', leftWidth / leftHeight)
+  console.log('Ratio of the right eye width/height:', rightWidth / rightHeight)
   this.predictionReady = true;
 
   return eyeObjs;

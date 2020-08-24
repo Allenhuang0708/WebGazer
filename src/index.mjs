@@ -29,6 +29,7 @@ var faceFeedbackBox = null;
 var gazeDot = null;
 // Why is this not in webgazer.params ?
 var debugVideoLoc = '';
+var eyePatch = null;
 
 /*
  * Initialises variables used to store accuracy eigenValues
@@ -286,6 +287,17 @@ async function loop() {
       var tracker = webgazer.getTracker();
       faceOverlay.getContext('2d').clearRect( 0, 0, videoElement.videoWidth, videoElement.videoHeight);
       tracker.drawFaceOverlay(faceOverlay.getContext('2d'), tracker.getPositions());
+      if(latestEyeFeatures){
+        eyePatch.getContext('2d').clearRect(0, 0, 300, 200);
+        eyePatch.getContext('2d').drawImage(videoElementCanvas, 
+            latestEyeFeatures.left.imagex, latestEyeFeatures.left.imagey,
+            latestEyeFeatures.left.width, latestEyeFeatures.left.height, 100, 5,
+            60, 36);
+        eyePatch.getContext('2d').drawImage(videoElementCanvas, 
+            latestEyeFeatures.right.imagex, latestEyeFeatures.right.imagey,
+            latestEyeFeatures.right.width, latestEyeFeatures.right.height, 5, 5,
+            60, 36);
+      }
     }
 
     // Feedback box
@@ -538,6 +550,14 @@ async function init(stream) {
   gazeDot.style.width = '10px';
   gazeDot.style.height = '10px';
 
+  eyePatch = document.createElement('canvas');
+  eyePatch.style.display = 'block' ;
+  eyePatch.style.position = 'fixed';
+  eyePatch.style.top = 500 + 'px';
+  eyePatch.style.left = 400 + 'px';
+  eyePatch.style.width = 300 + 'px';
+  eyePatch.style.height = 200 + 'px';
+
   // Add other preview/feedback elements to the screen once the video has shown and its parameters are initialized
   document.body.appendChild(videoElement);
   function setupPreviewVideo(e) {
@@ -550,6 +570,7 @@ async function init(stream) {
     document.body.appendChild(faceOverlay);
     document.body.appendChild(faceFeedbackBox);
     document.body.appendChild(gazeDot);
+    document.body.appendChild(eyePatch);
 
     // Run this only once, so remove the event listener
     e.target.removeEventListener(e.type, setupPreviewVideo);

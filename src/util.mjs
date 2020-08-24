@@ -199,6 +199,28 @@ util.equalizeHistogram = function(src, step, dst) {
     return dst;
 };
 
+util.equalizeHistogramTest = function(src, step, dst) {
+    var srcLength = src.length;
+    if (!dst) dst = src;
+    if (!step) step = 5;
+    step = Math.floor(srcLength / 12);
+    var index = 0;
+    var totalPixel = 0;
+    for (var i = 0; i < srcLength; i += step){
+        var segmentPixel = 0;
+        for (var j = 0; j < step; j++){
+            segmentPixel += src[i + j];
+        }
+        dst[index] = segmentPixel;
+        index += 1;
+        totalPixel += segmentPixel;
+    }
+    for (var i = 0; i < dst.length; i++){
+        dst[i] /= totalPixel;
+    }
+    return dst;
+};
+
 util.threshold = function(data, threshold) {
     for (let i = 0; i < data.length; i++) {
         data[i] = (data[i] > threshold) ? 255 : 0;

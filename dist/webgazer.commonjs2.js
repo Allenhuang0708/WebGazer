@@ -453,7 +453,7 @@ __webpack_require__.d(__webpack_exports__, "Tile", function() { return /* reexpo
 __webpack_require__.d(__webpack_exports__, "Transpose", function() { return /* reexport */ kernel_names["sb" /* Transpose */]; });
 __webpack_require__.d(__webpack_exports__, "FromPixels", function() { return /* reexport */ kernel_names["E" /* FromPixels */]; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/slice_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/slice_util.js
 var slice_util_namespaceObject = {};
 __webpack_require__.r(slice_util_namespaceObject);
 __webpack_require__.d(slice_util_namespaceObject, "assertParamsValid", function() { return assertParamsValid; });
@@ -468,7 +468,7 @@ __webpack_require__.d(slice_util_namespaceObject, "stopForAxis", function() { re
 __webpack_require__.d(slice_util_namespaceObject, "isSliceContinous", function() { return isSliceContinous; });
 __webpack_require__.d(slice_util_namespaceObject, "computeFlatOffset", function() { return computeFlatOffset; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/io/io.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/io.js
 var io_namespaceObject = {};
 __webpack_require__.r(io_namespaceObject);
 __webpack_require__.d(io_namespaceObject, "copyModel", function() { return copyModel; });
@@ -492,37 +492,37 @@ __webpack_require__.d(io_namespaceObject, "registerSaveRouter", function() { ret
 __webpack_require__.d(io_namespaceObject, "weightsLoaderFactory", function() { return weightsLoaderFactory; });
 __webpack_require__.d(io_namespaceObject, "withSaveHandler", function() { return withSaveHandler; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/math.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/math.js
 var math_namespaceObject = {};
 __webpack_require__.r(math_namespaceObject);
 __webpack_require__.d(math_namespaceObject, "confusionMatrix", function() { return confusionMatrix; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/browser.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/browser.js
 var browser_namespaceObject = {};
 __webpack_require__.r(browser_namespaceObject);
 __webpack_require__.d(browser_namespaceObject, "toPixels", function() { return toPixels; });
 __webpack_require__.d(browser_namespaceObject, "fromPixels", function() { return fromPixels; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
 var gather_nd_util_namespaceObject = {};
 __webpack_require__.r(gather_nd_util_namespaceObject);
 __webpack_require__.d(gather_nd_util_namespaceObject, "prepareAndValidate", function() { return prepareAndValidate; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
 var scatter_nd_util_namespaceObject = {};
 __webpack_require__.r(scatter_nd_util_namespaceObject);
 __webpack_require__.d(scatter_nd_util_namespaceObject, "validateUpdateShape", function() { return validateUpdateShape; });
 __webpack_require__.d(scatter_nd_util_namespaceObject, "validateInput", function() { return validateInput; });
 __webpack_require__.d(scatter_nd_util_namespaceObject, "calculateShapes", function() { return calculateShapes; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/serialization.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/serialization.js
 var serialization_namespaceObject = {};
 __webpack_require__.r(serialization_namespaceObject);
 __webpack_require__.d(serialization_namespaceObject, "Serializable", function() { return Serializable; });
 __webpack_require__.d(serialization_namespaceObject, "SerializationMap", function() { return SerializationMap; });
 __webpack_require__.d(serialization_namespaceObject, "registerClass", function() { return registerClass; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/test_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/test_util.js
 var test_util_namespaceObject = {};
 __webpack_require__.r(test_util_namespaceObject);
 __webpack_require__.d(test_util_namespaceObject, "TEST_EPSILON_FLOAT16", function() { return TEST_EPSILON_FLOAT16; });
@@ -534,14 +534,14 @@ __webpack_require__.d(test_util_namespaceObject, "expectNumbersClose", function(
 __webpack_require__.d(test_util_namespaceObject, "expectValuesInRange", function() { return expectValuesInRange; });
 __webpack_require__.d(test_util_namespaceObject, "expectArrayBuffersEqual", function() { return expectArrayBuffersEqual; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/segment_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/segment_util.js
 var segment_util_namespaceObject = {};
 __webpack_require__.r(segment_util_namespaceObject);
 __webpack_require__.d(segment_util_namespaceObject, "segOpComputeOptimalWindowSize", function() { return segOpComputeOptimalWindowSize; });
 __webpack_require__.d(segment_util_namespaceObject, "computeOutShape", function() { return segment_util_computeOutShape; });
 __webpack_require__.d(segment_util_namespaceObject, "collectGatherOpShapeInfo", function() { return collectGatherOpShapeInfo; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/spectral_ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/spectral_ops.js
 var spectral_ops_namespaceObject = {};
 __webpack_require__.r(spectral_ops_namespaceObject);
 __webpack_require__.d(spectral_ops_namespaceObject, "fft", function() { return fft; });
@@ -549,7 +549,7 @@ __webpack_require__.d(spectral_ops_namespaceObject, "ifft", function() { return 
 __webpack_require__.d(spectral_ops_namespaceObject, "rfft", function() { return rfft; });
 __webpack_require__.d(spectral_ops_namespaceObject, "irfft", function() { return irfft; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/signal_ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/signal_ops.js
 var signal_ops_namespaceObject = {};
 __webpack_require__.r(signal_ops_namespaceObject);
 __webpack_require__.d(signal_ops_namespaceObject, "hannWindow", function() { return hannWindow; });
@@ -557,7 +557,7 @@ __webpack_require__.d(signal_ops_namespaceObject, "hammingWindow", function() { 
 __webpack_require__.d(signal_ops_namespaceObject, "frame", function() { return signal_ops_frame; });
 __webpack_require__.d(signal_ops_namespaceObject, "stft", function() { return stft; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/loss_ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/loss_ops.js
 var loss_ops_namespaceObject = {};
 __webpack_require__.r(loss_ops_namespaceObject);
 __webpack_require__.d(loss_ops_namespaceObject, "Reduction", function() { return Reduction; });
@@ -571,14 +571,14 @@ __webpack_require__.d(loss_ops_namespaceObject, "meanSquaredError", function() {
 __webpack_require__.d(loss_ops_namespaceObject, "sigmoidCrossEntropy", function() { return sigmoidCrossEntropy; });
 __webpack_require__.d(loss_ops_namespaceObject, "softmaxCrossEntropy", function() { return softmaxCrossEntropy; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/linalg_ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/linalg_ops.js
 var linalg_ops_namespaceObject = {};
 __webpack_require__.r(linalg_ops_namespaceObject);
 __webpack_require__.d(linalg_ops_namespaceObject, "bandPart", function() { return bandPart; });
 __webpack_require__.d(linalg_ops_namespaceObject, "gramSchmidt", function() { return gramSchmidt; });
 __webpack_require__.d(linalg_ops_namespaceObject, "qr", function() { return qr; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/image_ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/image_ops.js
 var image_ops_namespaceObject = {};
 __webpack_require__.r(image_ops_namespaceObject);
 __webpack_require__.d(image_ops_namespaceObject, "nonMaxSuppression", function() { return nonMaxSuppression; });
@@ -589,14 +589,14 @@ __webpack_require__.d(image_ops_namespaceObject, "nonMaxSuppressionWithScore", f
 __webpack_require__.d(image_ops_namespaceObject, "nonMaxSuppressionWithScoreAsync", function() { return nonMaxSuppressionWithScoreAsync; });
 __webpack_require__.d(image_ops_namespaceObject, "cropAndResize", function() { return cropAndResize; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/fused_ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fused_ops.js
 var fused_ops_namespaceObject = {};
 __webpack_require__.r(fused_ops_namespaceObject);
 __webpack_require__.d(fused_ops_namespaceObject, "matMul", function() { return fused_ops_matMul; });
 __webpack_require__.d(fused_ops_namespaceObject, "conv2d", function() { return fused_ops_conv2d; });
 __webpack_require__.d(fused_ops_namespaceObject, "depthwiseConv2d", function() { return fused_ops_depthwiseConv2d; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/ops.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/ops.js
 var ops_namespaceObject = {};
 __webpack_require__.r(ops_namespaceObject);
 __webpack_require__.d(ops_namespaceObject, "add", function() { return add; });
@@ -810,7 +810,7 @@ __webpack_require__.d(ops_namespaceObject, "spectral", function() { return spect
 __webpack_require__.d(ops_namespaceObject, "fused", function() { return fused_ops_namespaceObject; });
 __webpack_require__.d(ops_namespaceObject, "signal", function() { return signal_ops_namespaceObject; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/backend_util.js
 var backend_util_namespaceObject = {};
 __webpack_require__.r(backend_util_namespaceObject);
 __webpack_require__.d(backend_util_namespaceObject, "axesAreInnerMostDims", function() { return axesAreInnerMostDims; });
@@ -872,7 +872,7 @@ __webpack_require__.d(backend_util_namespaceObject, "castTensor", function() { r
 __webpack_require__.d(backend_util_namespaceObject, "reshapeTensor", function() { return reshapeTensor; });
 __webpack_require__.d(backend_util_namespaceObject, "linspaceImpl", function() { return linspaceImpl; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/backends/kernel_impls.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/kernel_impls.js
 var kernel_impls_namespaceObject = {};
 __webpack_require__.r(kernel_impls_namespaceObject);
 __webpack_require__.d(kernel_impls_namespaceObject, "nonMaxSuppressionV3", function() { return nonMaxSuppressionV3; });
@@ -882,16 +882,16 @@ __webpack_require__.d(kernel_impls_namespaceObject, "tile", function() { return 
 __webpack_require__.d(kernel_impls_namespaceObject, "topkImpl", function() { return topkImpl; });
 __webpack_require__.d(kernel_impls_namespaceObject, "whereImpl", function() { return whereImpl; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/engine.js + 2 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/engine.js + 2 modules
 var engine = __webpack_require__(5);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/flags.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/flags.js
 var flags = __webpack_require__(61);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/kernel_names.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/kernel_names.js
 var kernel_names = __webpack_require__(6);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/broadcast_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -976,7 +976,7 @@ function assertAndGetBroadcastShape(shapeA, shapeB) {
     return result;
 }
 //# sourceMappingURL=broadcast_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Add_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Add_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1021,7 +1021,7 @@ const addGradConfig = {
     }
 };
 //# sourceMappingURL=Add_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/AddN_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/AddN_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1051,16 +1051,16 @@ const addNGradConfig = {
     }
 };
 //# sourceMappingURL=AddN_grad.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_util.js
 var tensor_util = __webpack_require__(11);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_util_env.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_util_env.js
 var tensor_util_env = __webpack_require__(3);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/operation.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/operation.js
 var operation = __webpack_require__(4);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/add.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/add.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1118,13 +1118,13 @@ function add_(a, b) {
 }
 const add = Object(operation["a" /* op */])({ add_ });
 //# sourceMappingURL=add.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor.js + 1 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor.js + 1 modules
 var dist_tensor = __webpack_require__(7);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/util.js
 var util = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -1166,10 +1166,10 @@ function computeOutShape(shapes, axis) {
     return outputShape;
 }
 //# sourceMappingURL=concat_util.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/tensor_ops.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/tensor_ops.js
 var tensor_ops = __webpack_require__(8);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1266,7 +1266,7 @@ function concat_(tensors, axis = 0) {
 }
 const concat = Object(operation["a" /* op */])({ concat_ });
 //# sourceMappingURL=concat.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/array_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/array_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -1564,7 +1564,7 @@ const stack = Object(operation["a" /* op */])({ stack_ });
 const unstack = Object(operation["a" /* op */])({ unstack_ });
 const setdiff1dAsync = setdiff1dAsync_;
 //# sourceMappingURL=array_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/floorDiv.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/floorDiv.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1625,7 +1625,7 @@ function floorDiv_(a, b) {
 }
 const floorDiv = Object(operation["a" /* op */])({ floorDiv_ });
 //# sourceMappingURL=floorDiv.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/div.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/div.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1689,7 +1689,7 @@ function div_(a, b) {
 }
 const div = Object(operation["a" /* op */])({ div_ });
 //# sourceMappingURL=div.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/mul.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/mul.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1749,7 +1749,7 @@ function mul_(a, b) {
 }
 const mul = Object(operation["a" /* op */])({ mul_ });
 //# sourceMappingURL=mul.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -2066,7 +2066,7 @@ function checkGrads(grads) {
 }
 
 //# sourceMappingURL=gradients.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/axis_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/axis_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -2162,7 +2162,7 @@ function getInnerMostAxes(numAxes, rank) {
     return res;
 }
 //# sourceMappingURL=axis_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reduction_ops_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reduction_ops_util.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -2198,7 +2198,7 @@ function gradForMinAndMax(dy, y, xOrig, origAxes, permutedAxes) {
     };
 }
 //# sourceMappingURL=reduction_ops_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reduction_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reduction_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -2705,7 +2705,7 @@ const moments = Object(operation["a" /* op */])({ moments_ });
 const sum = Object(operation["a" /* op */])({ sum_ });
 const reduction_ops_prod = Object(operation["a" /* op */])({ prod_ });
 //# sourceMappingURL=reduction_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/square.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/square.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -2748,7 +2748,7 @@ function square_(x) {
 }
 const square = Object(operation["a" /* op */])({ square_ });
 //# sourceMappingURL=square.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/unary_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/unary_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -3620,7 +3620,7 @@ const unary_ops_step = Object(operation["a" /* op */])({ step_ });
 const tan = Object(operation["a" /* op */])({ tan_ });
 const tanh = Object(operation["a" /* op */])({ tanh_ });
 //# sourceMappingURL=unary_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Atan2_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Atan2_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -3674,7 +3674,7 @@ const atan2GradConfig = {
     }
 };
 //# sourceMappingURL=Atan2_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -4051,7 +4051,7 @@ function convertConv2DDataFormat(dataFormat) {
     }
 }
 //# sourceMappingURL=conv_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d_backprop.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool_3d_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4141,7 +4141,7 @@ function avgPool3dBackprop_(dy, input, filterSize, strides, dilations = [1, 1, 1
 }
 const avgPool3dBackprop = Object(operation["a" /* op */])({ avgPool3dBackprop_ });
 //# sourceMappingURL=avg_pool_3d_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool3D_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/AvgPool3D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4173,7 +4173,7 @@ const avgPool3DGradConfig = {
     }
 };
 //# sourceMappingURL=AvgPool3D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_backprop.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4244,7 +4244,7 @@ function avgPoolBackprop_(dy, input, filterSize, strides, pad) {
 }
 const avgPoolBackprop = Object(operation["a" /* op */])({ avgPoolBackprop_ });
 //# sourceMappingURL=avg_pool_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/AvgPool_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4275,7 +4275,7 @@ const avgPoolGradConfig = {
     }
 };
 //# sourceMappingURL=AvgPool_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/mat_mul.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/mat_mul.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4351,7 +4351,7 @@ function matMul_(a, b, transposeA = false, transposeB = false) {
 }
 const matMul = Object(operation["a" /* op */])({ matMul_ });
 //# sourceMappingURL=mat_mul.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/BatchMatMul_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/BatchMatMul_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4403,7 +4403,7 @@ const batchMatMulGradConfig = {
     }
 };
 //# sourceMappingURL=BatchMatMul_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/space_to_batch_nd.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/space_to_batch_nd.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -4492,7 +4492,7 @@ function spaceToBatchND_(x, blockShape, paddings) {
 }
 const spaceToBatchND = Object(operation["a" /* op */])({ spaceToBatchND_ });
 //# sourceMappingURL=space_to_batch_nd.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/BatchToSpaceND_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/BatchToSpaceND_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4519,7 +4519,7 @@ const batchToSpaceNDGradConfig = {
     }
 };
 //# sourceMappingURL=BatchToSpaceND_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/BroadcastTo_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/BroadcastTo_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4563,7 +4563,7 @@ const broadcastToGradConfig = {
     }
 };
 //# sourceMappingURL=BroadcastTo_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/split.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/split.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4641,7 +4641,7 @@ function split_(x, numOrSizeSplits, axis = 0) {
 }
 const split = Object(operation["a" /* op */])({ split_ });
 //# sourceMappingURL=split.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Concat_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Concat_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4674,7 +4674,7 @@ const concatGradConfig = {
     }
 };
 //# sourceMappingURL=Concat_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_filter.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d_backprop_filter.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4756,7 +4756,7 @@ function conv2DBackpropFilter_(x, dy, filterShape, strides, pad, dataFormat = 'N
 }
 const conv2DBackpropFilter = Object(operation["a" /* op */])({ conv2DBackpropFilter_ });
 //# sourceMappingURL=conv2d_backprop_filter.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_input.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d_backprop_input.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4849,7 +4849,7 @@ function conv2DBackpropInput_(xShape, dy, filter, strides, pad, dataFormat = 'NH
 }
 const conv2DBackpropInput = Object(operation["a" /* op */])({ conv2DBackpropInput_ });
 //# sourceMappingURL=conv2d_backprop_input.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2D_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Conv2D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4886,7 +4886,7 @@ const conv2DGradConfig = {
     }
 };
 //# sourceMappingURL=Conv2D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4980,7 +4980,7 @@ function conv2d_(x, filter, strides, pad, dataFormat = 'NHWC', dilations = [1, 1
 }
 const conv2d = Object(operation["a" /* op */])({ conv2d_ });
 //# sourceMappingURL=conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2DBackpropInput_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Conv2DBackpropInput_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5013,7 +5013,7 @@ const conv2DBackpropInputGradConfig = {
     }
 };
 //# sourceMappingURL=Conv2DBackpropInput_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_filter.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d_backprop_filter.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5082,7 +5082,7 @@ function conv3DBackpropFilter_(x, dy, filterShape, strides, pad) {
 }
 const conv3DBackpropFilter = Object(operation["a" /* op */])({ conv3DBackpropFilter_ });
 //# sourceMappingURL=conv3d_backprop_filter.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_input.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d_backprop_input.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5161,7 +5161,7 @@ function conv3DBackpropInput_(xShape, dy, filter, strides, pad) {
 }
 const conv3DBackpropInput = Object(operation["a" /* op */])({ conv3DBackpropInput_ });
 //# sourceMappingURL=conv3d_backprop_input.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Conv3D_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Conv3D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5198,7 +5198,7 @@ const conv3DGradConfig = {
     }
 };
 //# sourceMappingURL=Conv3D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/transpose.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -5256,7 +5256,7 @@ function transpose_(x, perm) {
 }
 const transpose = Object(operation["a" /* op */])({ transpose_ });
 //# sourceMappingURL=transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/cumsum.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/cumsum.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -5323,7 +5323,7 @@ function cumsum_(x, axis = 0, exclusive = false, reverse = false) {
 }
 const cumsum = Object(operation["a" /* op */])({ cumsum_ });
 //# sourceMappingURL=cumsum.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Cumsum_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Cumsum_grad.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -5363,7 +5363,7 @@ const cumsumGradConfig = {
     }
 };
 //# sourceMappingURL=Cumsum_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_filter.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_filter.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5399,7 +5399,7 @@ function depthwiseConv2dNativeBackpropFilter_(x, dy, filterShape, convInfo) {
 }
 const depthwiseConv2dNativeBackpropFilter = Object(operation["a" /* op */])({ depthwiseConv2dNativeBackpropFilter_ });
 //# sourceMappingURL=depthwise_conv2d_native_backprop_filter.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_input.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_input.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5437,7 +5437,7 @@ function depthwiseConv2dNativeBackpropInput_(xShape, dy, filter, convInfo) {
 }
 const depthwiseConv2dNativeBackpropInput = Object(operation["a" /* op */])({ depthwiseConv2dNativeBackpropInput_ });
 //# sourceMappingURL=depthwise_conv2d_native_backprop_input.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/DepthwiseConv2dNative_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/DepthwiseConv2dNative_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5491,7 +5491,7 @@ const depthwiseConv2dNativeGradConfig = {
     }
 };
 //# sourceMappingURL=DepthwiseConv2dNative_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Div_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Div_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5543,7 +5543,7 @@ const divGradConfig = {
     }
 };
 //# sourceMappingURL=Div_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Elu_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Elu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5577,7 +5577,7 @@ const eluGradConfig = {
     }
 };
 //# sourceMappingURL=Elu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/FloorDiv_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/FloorDiv_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5623,7 +5623,7 @@ const floorDivGradConfig = {
     }
 };
 //# sourceMappingURL=FloorDiv_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/sub.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/sub.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5681,7 +5681,7 @@ function sub_(a, b) {
 }
 const sub = Object(operation["a" /* op */])({ sub_ });
 //# sourceMappingURL=sub.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/tile.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/tile.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5744,7 +5744,7 @@ function tile_(x, reps) {
 }
 const tile = Object(operation["a" /* op */])({ tile_ });
 //# sourceMappingURL=tile.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/FusedBatchNorm_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/FusedBatchNorm_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5837,7 +5837,7 @@ const fusedBatchNormGradConfig = {
     }
 };
 //# sourceMappingURL=FusedBatchNorm_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/GreaterEqual_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/GreaterEqual_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5865,7 +5865,7 @@ const greaterEqualGradConfig = {
     }
 };
 //# sourceMappingURL=GreaterEqual_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Identity_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Identity_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5890,7 +5890,7 @@ const identityGradConfig = {
     }
 };
 //# sourceMappingURL=Identity_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization_backprop.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/local_response_normalization_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5918,7 +5918,7 @@ function localResponseNormalizationBackprop_(x, y, dy, depthRadius = 5, bias = 1
 }
 const localResponseNormalizationBackprop = Object(operation["a" /* op */])({ localResponseNormalizationBackprop_ });
 //# sourceMappingURL=local_response_normalization_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/LRN_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/LRN_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5950,7 +5950,7 @@ const lrnGradConfig = {
     }
 };
 //# sourceMappingURL=LRN_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Max_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Max_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5995,7 +5995,7 @@ const maxGradConfig = {
     }
 };
 //# sourceMappingURL=Max_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/greater_equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/greater_equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6047,7 +6047,7 @@ function greaterEqual_(a, b) {
 }
 const greaterEqual = Object(operation["a" /* op */])({ greaterEqual_ });
 //# sourceMappingURL=greater_equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/less.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/less.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6094,7 +6094,7 @@ function less_(a, b) {
 }
 const less = Object(operation["a" /* op */])({ less_ });
 //# sourceMappingURL=less.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Maximum_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Maximum_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6127,7 +6127,7 @@ const maximumGradConfig = {
     }
 };
 //# sourceMappingURL=Maximum_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d_backprop.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_3d_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6226,7 +6226,7 @@ function maxPool3dBackprop_(dy, input, output, filterSize, strides, dilations = 
 }
 const maxPool3dBackprop = Object(operation["a" /* op */])({ maxPool3dBackprop_ });
 //# sourceMappingURL=max_pool_3d_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool3D_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/MaxPool3D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6259,7 +6259,7 @@ const maxPool3DGradConfig = {
     }
 };
 //# sourceMappingURL=MaxPool3D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_backprop.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6327,7 +6327,7 @@ function maxPoolBackprop_(dy, input, output, filterSize, strides, pad, dimRoundi
 }
 const maxPoolBackprop = Object(operation["a" /* op */])({ maxPoolBackprop_ });
 //# sourceMappingURL=max_pool_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/MaxPool_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6359,7 +6359,7 @@ const maxPoolGradConfig = {
     }
 };
 //# sourceMappingURL=MaxPool_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/greater.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/greater.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6407,7 +6407,7 @@ function greater_(a, b) {
 }
 const greater = Object(operation["a" /* op */])({ greater_ });
 //# sourceMappingURL=greater.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/less_equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/less_equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6459,7 +6459,7 @@ function lessEqual_(a, b) {
 }
 const lessEqual = Object(operation["a" /* op */])({ lessEqual_ });
 //# sourceMappingURL=less_equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Minimum_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Minimum_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6492,7 +6492,7 @@ const minimumGradConfig = {
     }
 };
 //# sourceMappingURL=Minimum_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Mod_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Mod_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6541,7 +6541,7 @@ const modGradConfig = {
     }
 };
 //# sourceMappingURL=Mod_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Multiply_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Multiply_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6589,7 +6589,7 @@ const multiplyGradConfig = {
     }
 };
 //# sourceMappingURL=Multiply_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/OneHot_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/OneHot_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6617,7 +6617,7 @@ const oneHotGradConfig = {
     }
 };
 //# sourceMappingURL=OneHot_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/PadV2_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/PadV2_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6648,7 +6648,7 @@ const padV2GradConfig = {
     }
 };
 //# sourceMappingURL=PadV2_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/where_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/where_impl.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -6684,7 +6684,7 @@ function whereImpl(condShape, condVals) {
     return out.toTensor();
 }
 //# sourceMappingURL=where_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/logical_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/logical_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -6870,7 +6870,7 @@ const logicalXor = Object(operation["a" /* op */])({ logicalXor_ });
 const where = Object(operation["a" /* op */])({ where_ });
 const whereAsync = whereAsync_;
 //# sourceMappingURL=logical_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pow.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pow.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6933,7 +6933,7 @@ function pow_(base, exp) {
 }
 const pow = Object(operation["a" /* op */])({ pow_ });
 //# sourceMappingURL=pow.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Pow_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Pow_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6993,7 +6993,7 @@ const powGradConfig = {
     }
 };
 //# sourceMappingURL=Pow_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Prelu_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Prelu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7038,7 +7038,7 @@ const preluGradConfig = {
     }
 };
 //# sourceMappingURL=Prelu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Relu6_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Relu6_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7070,7 +7070,7 @@ const relu6GradConfig = {
     }
 };
 //# sourceMappingURL=Relu6_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Relu_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Relu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7100,7 +7100,7 @@ const reluGradConfig = {
     }
 };
 //# sourceMappingURL=Relu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/selu_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/selu_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -7120,7 +7120,7 @@ const reluGradConfig = {
 const SELU_SCALEALPHA = 1.7580993408473768599402175208123;
 const SELU_SCALE = 1.0507009873554804934193349852946;
 //# sourceMappingURL=selu_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Selu_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Selu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7163,7 +7163,7 @@ const seluGradConfig = {
     }
 };
 //# sourceMappingURL=Selu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batch_to_space_nd.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batch_to_space_nd.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7248,7 +7248,7 @@ function batchToSpaceND_(x, blockShape, crops) {
 }
 const batchToSpaceND = Object(operation["a" /* op */])({ batchToSpaceND_ });
 //# sourceMappingURL=batch_to_space_nd.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/SpaceToBatchND_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/SpaceToBatchND_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7275,7 +7275,7 @@ const spaceToBatchNDGradConfig = {
     }
 };
 //# sourceMappingURL=SpaceToBatchND_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/SplitV_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/SplitV_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7302,7 +7302,7 @@ const splitVGradConfig = {
     }
 };
 //# sourceMappingURL=SplitV_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Square_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Square_grad.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -7330,7 +7330,7 @@ const squareGradConfig = {
     }
 };
 //# sourceMappingURL=Square_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/SquaredDifference_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/SquaredDifference_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7363,7 +7363,7 @@ const squaredDifferenceGradConfig = {
     }
 };
 //# sourceMappingURL=SquaredDifference_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Sub_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Sub_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7411,7 +7411,7 @@ const subGradConfig = {
     }
 };
 //# sourceMappingURL=Sub_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7470,7 +7470,7 @@ function pad_(x, paddings, constantValue = 0) {
 }
 const pad_pad = Object(operation["a" /* op */])({ pad_ });
 //# sourceMappingURL=pad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/slice_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/slice_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -7664,7 +7664,7 @@ function computeFlatOffset(begin, strides) {
     return flatOffset;
 }
 //# sourceMappingURL=slice_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/slice.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/slice.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -7821,7 +7821,7 @@ const slice2d = Object(operation["a" /* op */])({ slice2d_ });
 const slice3d = Object(operation["a" /* op */])({ slice3d_ });
 const slice4d = Object(operation["a" /* op */])({ slice4d_ });
 //# sourceMappingURL=slice.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Tile_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Tile_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7901,7 +7901,7 @@ const tileGradConfig = {
     },
 };
 //# sourceMappingURL=Tile_grad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Transpose_grad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Transpose_grad.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -7931,10 +7931,10 @@ const transposeGradConfig = {
     }
 };
 //# sourceMappingURL=Transpose_grad.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/kernel_registry.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/kernel_registry.js
 var kernel_registry = __webpack_require__(17);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/register_all_gradients.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/register_all_gradients.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -8048,10 +8048,10 @@ for (const gradientConfig of gradConfigs) {
     Object(kernel_registry["d" /* registerGradient */])(gradientConfig);
 }
 //# sourceMappingURL=register_all_gradients.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/environment.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/environment.js
 var environment = __webpack_require__(10);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/platforms/platform_browser.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/platforms/platform_browser.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -8093,13 +8093,13 @@ if (Object(environment["c" /* env */])().get('IS_BROWSER')) {
     Object(environment["c" /* env */])().setPlatform('browser', new PlatformBrowser());
 }
 //# sourceMappingURL=platform_browser.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/platforms/platform_node.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/platforms/platform_node.js
 var platform_node = __webpack_require__(62);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/io_utils.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/io_utils.js
 var io_utils = __webpack_require__(13);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/router_registry.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/router_registry.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -8186,7 +8186,7 @@ const registerLoadRouter = (loudRouter) => IORouterRegistry.registerLoadRouter(l
 const getSaveHandlers = (url) => IORouterRegistry.getSaveHandlers(url);
 const getLoadHandlers = (url, loadOptions) => IORouterRegistry.getLoadHandlers(url, loadOptions);
 //# sourceMappingURL=router_registry.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/model_management.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/model_management.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -8498,7 +8498,7 @@ async function moveModel(sourceURL, destURL) {
 }
 
 //# sourceMappingURL=model_management.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/indexed_db.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/indexed_db.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -8822,7 +8822,7 @@ if (Object(environment["c" /* env */])().getBool('IS_BROWSER')) {
     }
 }
 //# sourceMappingURL=indexed_db.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/local_storage.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/local_storage.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9113,7 +9113,7 @@ if (Object(environment["c" /* env */])().getBool('IS_BROWSER')) {
     }
 }
 //# sourceMappingURL=local_storage.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/browser_files.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/browser_files.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9419,7 +9419,7 @@ function browserFiles(files) {
     return new browser_files_BrowserFiles(files);
 }
 //# sourceMappingURL=browser_files.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/progress.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/progress.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -9476,10 +9476,10 @@ function monitorPromisesProgress(promises, onProgress, startFraction, endFractio
     return Promise.all(promises.map(registerMonitor));
 }
 //# sourceMappingURL=progress.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/types.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/types.js
 var types = __webpack_require__(34);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/weights_loader.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/weights_loader.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9673,7 +9673,7 @@ function weightsLoaderFactory(fetchWeightsFunction) {
     };
 }
 //# sourceMappingURL=weights_loader.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/http.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/http.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9982,7 +9982,7 @@ function browserHTTPRequest(path, loadOptions) {
     return http(path, loadOptions);
 }
 //# sourceMappingURL=http.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/passthrough.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/passthrough.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -10087,7 +10087,7 @@ function withSaveHandler(saveHandler) {
     return new PassthroughSaver(saveHandler);
 }
 //# sourceMappingURL=passthrough.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/io.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/io.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -10117,7 +10117,7 @@ function withSaveHandler(saveHandler) {
 
 
 //# sourceMappingURL=io.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/one_hot.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/one_hot.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -10174,7 +10174,7 @@ function oneHot_(indices, depth, onValue = 1, offValue = 0) {
 }
 const oneHot = Object(operation["a" /* op */])({ oneHot_ });
 //# sourceMappingURL=one_hot.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/confusion_matrix.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/confusion_matrix.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10245,7 +10245,7 @@ function confusionMatrix_(labels, predictions, numClasses) {
 }
 const confusionMatrix = Object(operation["a" /* op */])({ confusionMatrix_ });
 //# sourceMappingURL=confusion_matrix.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/math.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/math.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10268,7 +10268,7 @@ const confusionMatrix = Object(operation["a" /* op */])({ confusionMatrix_ });
 
 
 //# sourceMappingURL=math.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/browser.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/browser.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -10513,7 +10513,7 @@ async function toPixels(img, canvas) {
 }
 const fromPixels = Object(operation["a" /* op */])({ fromPixels_ });
 //# sourceMappingURL=browser.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
 
 /**
  * Validate gather nd inputs.
@@ -10565,7 +10565,7 @@ function prepareAndValidate(tensor, indices) {
     return [resultShape, nResult, sliceSize, strides];
 }
 //# sourceMappingURL=gather_nd_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
 
 /**
  * Check whether updates.shape = indices.shape[:batchDim] +
@@ -10663,7 +10663,7 @@ function calculateShapes(updates, indices, shape) {
     return { sliceRank, numUpdates, sliceSize, strides, outputSize };
 }
 //# sourceMappingURL=scatter_nd_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/serialization.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/serialization.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10777,7 +10777,7 @@ function registerClass(cls) {
     SerializationMap.register(cls);
 }
 //# sourceMappingURL=serialization.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/test_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/test_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -10898,13 +10898,13 @@ function expectArrayBuffersEqual(actual, expected) {
     expect(new Float32Array(actual)).toEqual(new Float32Array(expected));
 }
 //# sourceMappingURL=test_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/globals.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/globals.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -11240,7 +11240,7 @@ function setPlatform(platformName, platform) {
     Object(environment["c" /* env */])().setPlatform(platformName, platform);
 }
 //# sourceMappingURL=globals.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/add_n.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/add_n.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11301,7 +11301,7 @@ function addN_(tensors) {
 }
 const addN = Object(operation["a" /* op */])({ addN_ });
 //# sourceMappingURL=add_n.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/atan2.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/atan2.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11353,7 +11353,7 @@ function atan2_(a, b) {
 }
 const atan2 = Object(operation["a" /* op */])({ atan2_ });
 //# sourceMappingURL=atan2.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11434,7 +11434,7 @@ function avgPool_(x, filterSize, strides, pad, dimRoundingMode) {
 }
 const avgPool = Object(operation["a" /* op */])({ avgPool_ });
 //# sourceMappingURL=avg_pool.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool_3d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11546,7 +11546,7 @@ function avgPool3d_(x, filterSize, strides, pad, dimRoundingMode, dataFormat = '
 }
 const avgPool3d = Object(operation["a" /* op */])({ avgPool3d_ });
 //# sourceMappingURL=avg_pool_3d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm_util.js
 function xAs4D(x) {
     let x4D;
     if (x.rank === 0 || x.rank === 1) {
@@ -11564,7 +11564,7 @@ function xAs4D(x) {
     return x4D;
 }
 //# sourceMappingURL=batchnorm_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11670,7 +11670,7 @@ function as1DOr4D(x) {
 }
 const batchNorm = Object(operation["a" /* op */])({ batchNorm_ });
 //# sourceMappingURL=batchnorm.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm2d.js
 
 
 
@@ -11716,7 +11716,7 @@ function batchNorm2d_(x, mean, variance, offset, scale, varianceEpsilon) {
 }
 const batchNorm2d = Object(operation["a" /* op */])({ batchNorm2d_ });
 //# sourceMappingURL=batchnorm2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm3d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm3d.js
 
 
 
@@ -11762,7 +11762,7 @@ function batchNorm3d_(x, mean, variance, offset, scale, varianceEpsilon) {
 }
 const batchNorm3d = Object(operation["a" /* op */])({ batchNorm3d_ });
 //# sourceMappingURL=batchnorm3d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm4d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm4d.js
 
 
 
@@ -11808,7 +11808,7 @@ function batchNorm4d_(x, mean, variance, offset, scale, varianceEpsilon) {
 }
 const batchNorm4d = Object(operation["a" /* op */])({ batchNorm4d_ });
 //# sourceMappingURL=batchnorm4d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/clone.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/clone.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11851,7 +11851,7 @@ function clone_(x) {
 }
 const clone = Object(operation["a" /* op */])({ clone_ });
 //# sourceMappingURL=clone.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_to.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/broadcast_to.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11924,10 +11924,10 @@ function broadcastTo_(x, shape) {
 }
 const broadcastTo = Object(operation["a" /* op */])({ broadcastTo_ });
 //# sourceMappingURL=broadcast_to.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/complex.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/complex.js
 var complex = __webpack_require__(18);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_1d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_1d.js
 
 
 /**
@@ -11946,7 +11946,7 @@ function concat1d_(tensors) {
 }
 const concat1d = Object(operation["a" /* op */])({ concat1d_ });
 //# sourceMappingURL=concat_1d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_2d.js
 
 
 /**
@@ -11981,7 +11981,7 @@ function concat2d_(tensors, axis) {
 }
 const concat2d = Object(operation["a" /* op */])({ concat2d_ });
 //# sourceMappingURL=concat_2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_3d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_3d.js
 
 
 /**
@@ -12020,7 +12020,7 @@ function concat3d_(tensors, axis) {
 }
 const concat3d = Object(operation["a" /* op */])({ concat3d_ });
 //# sourceMappingURL=concat_3d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_4d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_4d.js
 
 
 /**
@@ -12036,7 +12036,7 @@ function concat4d_(tensors, axis) {
 }
 const concat4d = Object(operation["a" /* op */])({ concat4d_ });
 //# sourceMappingURL=concat_4d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv1d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv1d.js
 
 
 
@@ -12105,7 +12105,7 @@ function conv1d_(x, filter, stride, pad, dataFormat = 'NWC', dilation = 1, dimRo
 }
 const conv1d = Object(operation["a" /* op */])({ conv1d_ });
 //# sourceMappingURL=conv1d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d_transpose.js
 
 
 
@@ -12136,7 +12136,7 @@ function conv2dTranspose_(x, filter, outputShape, strides, pad, dimRoundingMode)
 }
 const conv2dTranspose = Object(operation["a" /* op */])({ conv2dTranspose_ });
 //# sourceMappingURL=conv2d_transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12225,7 +12225,7 @@ function conv3d_(x, filter, strides, pad, dataFormat = 'NDHWC', dilations = [1, 
 }
 const conv3d = Object(operation["a" /* op */])({ conv3d_ });
 //# sourceMappingURL=conv3d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d_transpose.js
 
 
 
@@ -12254,7 +12254,7 @@ function conv3dTranspose_(x, filter, outputShape, strides, pad) {
 }
 const conv3dTranspose = Object(operation["a" /* op */])({ conv3dTranspose_ });
 //# sourceMappingURL=conv3d_transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depth_to_space.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depth_to_space.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12331,7 +12331,7 @@ function depthToSpace_(x, blockSize, dataFormat = 'NHWC') {
 }
 const depthToSpace = Object(operation["a" /* op */])({ depthToSpace_ });
 //# sourceMappingURL=depth_to_space.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depthwise_conv2d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12441,7 +12441,7 @@ function depthwiseConv2d_(x, filter, strides, pad, dataFormat = 'NHWC', dilation
 }
 const depthwiseConv2d = Object(operation["a" /* op */])({ depthwiseConv2d_ });
 //# sourceMappingURL=depthwise_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/diag.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/diag.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12496,7 +12496,7 @@ function diag_(x) {
 }
 const diag = Object(operation["a" /* op */])({ diag_ });
 //# sourceMappingURL=diag.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/div_no_nan.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/div_no_nan.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12560,7 +12560,7 @@ function divNoNan_(a, b) {
 }
 const divNoNan = Object(operation["a" /* op */])({ divNoNan_ });
 //# sourceMappingURL=div_no_nan.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/dot.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/dot.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12632,7 +12632,7 @@ function dot_(t1, t2) {
 }
 const dot = Object(operation["a" /* op */])({ dot_ });
 //# sourceMappingURL=dot.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/elu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/elu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12676,7 +12676,7 @@ function elu_(x) {
 }
 const elu = Object(operation["a" /* op */])({ elu_ });
 //# sourceMappingURL=elu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12724,7 +12724,7 @@ function equal_(a, b) {
 }
 const equal = Object(operation["a" /* op */])({ equal_ });
 //# sourceMappingURL=equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/eye.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/eye.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12789,7 +12789,7 @@ function eye_(numRows, numColumns, batchShape, dtype = 'float32') {
 }
 const eye = Object(operation["a" /* op */])({ eye_ });
 //# sourceMappingURL=eye.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/fill.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fill.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12827,10 +12827,10 @@ function fill(shape, value, dtype) {
 }
 
 //# sourceMappingURL=fill.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/imag.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/imag.js
 var imag = __webpack_require__(25);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/maximum.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/maximum.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12899,7 +12899,7 @@ function maximum_(a, b) {
 }
 const maximum = Object(operation["a" /* op */])({ maximum_ });
 //# sourceMappingURL=maximum.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/leaky_relu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/leaky_relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12943,7 +12943,7 @@ function leakyRelu_(x, alpha = 0.2) {
 }
 const leakyRelu = Object(operation["a" /* op */])({ leakyRelu_ });
 //# sourceMappingURL=leaky_relu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/local_response_normalization.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13009,7 +13009,7 @@ function localResponseNormalization_(x, depthRadius = 5, bias = 1, alpha = 1, be
 }
 const localResponseNormalization = Object(operation["a" /* op */])({ localResponseNormalization_ });
 //# sourceMappingURL=local_response_normalization.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13090,7 +13090,7 @@ function max_(x, axis = null, keepDims = false) {
 }
 const max_max = Object(operation["a" /* op */])({ max_ });
 //# sourceMappingURL=max.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13179,7 +13179,7 @@ function maxPool_(x, filterSize, strides, pad, dimRoundingMode) {
 }
 const maxPool = Object(operation["a" /* op */])({ maxPool_ });
 //# sourceMappingURL=max_pool.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_3d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13290,7 +13290,7 @@ function maxPool3d_(x, filterSize = [1, 1, 1], strides, pad, dimRoundingMode, da
 }
 const maxPool3d = Object(operation["a" /* op */])({ maxPool3d_ });
 //# sourceMappingURL=max_pool_3d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_with_argmax.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_with_argmax.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13353,7 +13353,7 @@ function maxPoolWithArgmax_(x, filterSize, strides, pad, includeBatchInIndex = f
 }
 const maxPoolWithArgmax = Object(operation["a" /* op */])({ maxPoolWithArgmax_ });
 //# sourceMappingURL=max_pool_with_argmax.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/minimum.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/minimum.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13422,7 +13422,7 @@ function minimum_(a, b) {
 }
 const minimum = Object(operation["a" /* op */])({ minimum_ });
 //# sourceMappingURL=minimum.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/mod.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/mod.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13485,7 +13485,7 @@ function mod_(a, b) {
 }
 const mod = Object(operation["a" /* op */])({ mod_ });
 //# sourceMappingURL=mod.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/multinomial.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/multinomial.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13542,7 +13542,7 @@ function multinomial_(logits, numSamples, seed, normalized = false) {
 }
 const multinomial = Object(operation["a" /* op */])({ multinomial_ });
 //# sourceMappingURL=multinomial.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/not_equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/not_equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13589,7 +13589,7 @@ function notEqual_(a, b) {
 }
 const notEqual = Object(operation["a" /* op */])({ notEqual_ });
 //# sourceMappingURL=not_equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/outer_product.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/outer_product.js
 
 
 
@@ -13619,7 +13619,7 @@ function outerProduct_(v1, v2) {
 }
 const outerProduct = Object(operation["a" /* op */])({ outerProduct_ });
 //# sourceMappingURL=outer_product.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad1d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad1d.js
 
 
 
@@ -13632,7 +13632,7 @@ function pad1d_(x, paddings, constantValue = 0) {
 }
 const pad1d = Object(operation["a" /* op */])({ pad1d_ });
 //# sourceMappingURL=pad1d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad2d.js
 
 
 
@@ -13646,7 +13646,7 @@ function pad2d_(x, paddings, constantValue = 0) {
 }
 const pad2d = Object(operation["a" /* op */])({ pad2d_ });
 //# sourceMappingURL=pad2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad3d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad3d.js
 
 
 
@@ -13660,7 +13660,7 @@ function pad3d_(x, paddings, constantValue = 0) {
 }
 const pad3d = Object(operation["a" /* op */])({ pad3d_ });
 //# sourceMappingURL=pad3d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad4d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad4d.js
 
 
 
@@ -13675,7 +13675,7 @@ function pad4d_(x, paddings, constantValue = 0) {
 }
 const pad4d = Object(operation["a" /* op */])({ pad4d_ });
 //# sourceMappingURL=pad4d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pool.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pool.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13805,7 +13805,7 @@ function withSpaceToBatchBasePaddings(filterShape, dilation) {
 }
 const pool = Object(operation["a" /* op */])({ pool_ });
 //# sourceMappingURL=pool.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/prelu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/prelu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -13854,7 +13854,7 @@ function prelu_(x, alpha) {
 }
 const prelu = Object(operation["a" /* op */])({ prelu_ });
 //# sourceMappingURL=prelu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/rand.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/rand.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13905,10 +13905,10 @@ function rand_(shape, randFunction, dtype) {
 }
 const rand = Object(operation["a" /* op */])({ rand_ });
 //# sourceMappingURL=rand.js.map
-// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
-var seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
+var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/rand_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/rand_util.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13940,7 +13940,7 @@ class rand_util_MPRandGauss {
             this.lower = this.mean - this.stdDev * 2;
         }
         const seedValue = seed ? seed : Math.random();
-        this.random = seedrandom["alea"](seedValue.toString());
+        this.random = _seedrandom_2_4_3_seedrandom["alea"](seedValue.toString());
     }
     /** Returns next sample from a Gaussian distribution. */
     nextValue() {
@@ -13990,7 +13990,7 @@ class rand_util_RandGamma {
         this.beta = 1 / beta; // convert rate to scale parameter
         this.dtype = dtype;
         const seedValue = seed ? seed : Math.random();
-        this.randu = seedrandom["alea"](seedValue.toString());
+        this.randu = _seedrandom_2_4_3_seedrandom["alea"](seedValue.toString());
         this.randn = new rand_util_MPRandGauss(0, 1, dtype, false, this.randu());
         if (alpha < 1) {
             this.d = alpha + (2 / 3);
@@ -14047,7 +14047,7 @@ class rand_util_UniformRandom {
         if (!this.canReturnFloat() && this.range <= 1) {
             throw new Error(`The difference between ${min} - ${max} <= 1 and dtype is not float`);
         }
-        this.random = seedrandom["alea"](seed);
+        this.random = _seedrandom_2_4_3_seedrandom["alea"](seed);
     }
     convertValue(value) {
         if (this.canReturnFloat()) {
@@ -14122,7 +14122,7 @@ function skewness(values) {
     return (1 / n) * sum3 / Math.pow((1 / (n - 1)) * sum2, 3 / 2);
 }
 //# sourceMappingURL=rand_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/random_gamma.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/random_gamma.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14176,7 +14176,7 @@ function randomGamma_(shape, alpha, beta = 1, dtype = 'float32', seed) {
 }
 const randomGamma = Object(operation["a" /* op */])({ randomGamma_ });
 //# sourceMappingURL=random_gamma.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/random_normal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/random_normal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14223,7 +14223,7 @@ function randomNormal_(shape, mean = 0, stdDev = 1, dtype, seed) {
 }
 const randomNormal = Object(operation["a" /* op */])({ randomNormal_ });
 //# sourceMappingURL=random_normal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/random_uniform.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/random_uniform.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14272,10 +14272,10 @@ function randomUniform_(shape, minval = 0, maxval = 1, dtype = 'float32', seed) 
 }
 const randomUniform = Object(operation["a" /* op */])({ randomUniform_ });
 //# sourceMappingURL=random_uniform.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/real.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/real.js
 var real = __webpack_require__(22);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/relu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -14322,7 +14322,7 @@ function relu_(x) {
 }
 const relu = Object(operation["a" /* op */])({ relu_ });
 //# sourceMappingURL=relu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/relu6.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/relu6.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -14370,7 +14370,7 @@ function relu6_(x) {
 }
 const relu6 = Object(operation["a" /* op */])({ relu6_ });
 //# sourceMappingURL=relu6.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/selu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/selu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -14416,7 +14416,7 @@ function selu_(x) {
 }
 const selu = Object(operation["a" /* op */])({ selu_ });
 //# sourceMappingURL=selu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/separable_conv2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/separable_conv2d.js
 
 
 
@@ -14505,7 +14505,7 @@ function separableConv2d_(x, depthwiseFilter, pointwiseFilter, strides, pad, dil
 }
 const separableConv2d = Object(operation["a" /* op */])({ separableConv2d_ });
 //# sourceMappingURL=separable_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/squared_difference.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/squared_difference.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14567,7 +14567,7 @@ function squaredDifference_(a, b) {
 }
 const squaredDifference = Object(operation["a" /* op */])({ squaredDifference_ });
 //# sourceMappingURL=squared_difference.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/truncated_normal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/truncated_normal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14619,7 +14619,7 @@ function truncatedNormal_(shape, mean = 0, stdDev = 1, dtype, seed) {
 }
 const truncatedNormal = Object(operation["a" /* op */])({ truncatedNormal_ });
 //# sourceMappingURL=truncated_normal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reduce_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reduce_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -14649,7 +14649,7 @@ function computeOptimalWindowSize(inSize) {
     return Object(util["nearestDivisor"])(inSize, Math.floor(Math.sqrt(inSize)));
 }
 //# sourceMappingURL=reduce_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/segment_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/segment_util.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -14720,7 +14720,7 @@ function collectGatherOpShapeInfo(x, indices, axis) {
     return { batchSize, sliceSize, dimSize, outputShape };
 }
 //# sourceMappingURL=segment_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/segment_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/segment_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -14872,7 +14872,7 @@ function gatherDropNegatives(x, indices) {
 const gather = Object(operation["a" /* op */])({ gather_ });
 const unsortedSegmentSum = Object(operation["a" /* op */])({ unsortedSegmentSum_ });
 //# sourceMappingURL=segment_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/boolean_mask.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/boolean_mask.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -14944,7 +14944,7 @@ async function booleanMaskAsync_(tensor, mask, axis) {
 }
 const booleanMaskAsync = booleanMaskAsync_;
 //# sourceMappingURL=boolean_mask.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reverse.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reverse.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15059,7 +15059,7 @@ const reverse2d = Object(operation["a" /* op */])({ reverse2d_ });
 const reverse3d = Object(operation["a" /* op */])({ reverse3d_ });
 const reverse4d = Object(operation["a" /* op */])({ reverse4d_ });
 //# sourceMappingURL=reverse.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/compare.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/compare.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15153,7 +15153,7 @@ const lessEqualStrict = Object(operation["a" /* op */])({ lessEqualStrict_ });
 const lessStrict = Object(operation["a" /* op */])({ lessStrict_ });
 const notEqualStrict = Object(operation["a" /* op */])({ notEqualStrict_ });
 //# sourceMappingURL=compare.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/binary_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/binary_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15335,7 +15335,7 @@ const powStrict = Object(operation["a" /* op */])({ powStrict_ });
 const squaredDifferenceStrict = Object(operation["a" /* op */])({ squaredDifferenceStrict_ });
 const subStrict = Object(operation["a" /* op */])({ subStrict_ });
 //# sourceMappingURL=binary_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/softmax.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/softmax.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15447,7 +15447,7 @@ function logSoftmax_(logits, axis = -1) {
 const softmax = Object(operation["a" /* op */])({ softmax_ });
 const logSoftmax = Object(operation["a" /* op */])({ logSoftmax_ });
 //# sourceMappingURL=softmax.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/norm.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/norm.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15563,7 +15563,7 @@ function normImpl(x, p, axis = null) {
 }
 const norm_norm = Object(operation["a" /* op */])({ norm_ });
 //# sourceMappingURL=norm.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/lstm.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/lstm.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15657,7 +15657,7 @@ function basicLSTMCell_(forgetBias, lstmKernel, lstmBias, data, c, h) {
 const basicLSTMCell = Object(operation["a" /* op */])({ basicLSTMCell_ });
 const multiRNNCell = Object(operation["a" /* op */])({ multiRNNCell_ });
 //# sourceMappingURL=lstm.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/moving_average.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/moving_average.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15725,7 +15725,7 @@ function movingAverage_(v, x, decay, step, zeroDebias = true) {
 }
 const movingAverage = Object(operation["a" /* op */])({ movingAverage_ });
 //# sourceMappingURL=moving_average.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/strided_slice.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/strided_slice.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15840,7 +15840,7 @@ function stridedSlice_(x, begin, end, strides, beginMask = 0, endMask = 0, ellip
 }
 const stridedSlice = Object(operation["a" /* op */])({ stridedSlice_ });
 //# sourceMappingURL=strided_slice.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/topk.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/topk.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -15898,7 +15898,7 @@ function topk_(x, k = 1, sorted = true) {
 }
 const topk = Object(operation["a" /* op */])({ topk_ });
 //# sourceMappingURL=topk.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/scatter_nd.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15945,7 +15945,7 @@ function scatterND_(indices, updates, shape) {
 }
 const scatterND = Object(operation["a" /* op */])({ scatterND_ });
 //# sourceMappingURL=scatter_nd.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/spectral_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/spectral_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16127,7 +16127,7 @@ const ifft = Object(operation["a" /* op */])({ ifft_ });
 const rfft = Object(operation["a" /* op */])({ rfft_ });
 const irfft = Object(operation["a" /* op */])({ irfft_ });
 //# sourceMappingURL=spectral_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/sparse_to_dense_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/sparse_to_dense_util.js
 /**
  * Validate sparseToDense inputs.
  *
@@ -16167,7 +16167,7 @@ function sparse_to_dense_util_validateInput(sparseIndices, sparseValues, outputS
     }
 }
 //# sourceMappingURL=sparse_to_dense_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/sparse_to_dense.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/sparse_to_dense.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16234,7 +16234,7 @@ function sparseToDense_(sparseIndices, sparseValues, outputShape, defaultValue =
 }
 const sparseToDense = Object(operation["a" /* op */])({ sparseToDense_ });
 //# sourceMappingURL=sparse_to_dense.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/gather_nd.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16303,7 +16303,7 @@ function gatherND_(x, indices) {
 }
 const gatherND = Object(operation["a" /* op */])({ gatherND_ });
 //# sourceMappingURL=gather_nd.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/dropout_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/dropout_util.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -16351,7 +16351,7 @@ function getNoiseShape(x, noiseShape) {
     return noiseShape;
 }
 //# sourceMappingURL=dropout_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/dropout.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/dropout.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16413,7 +16413,7 @@ function dropout_(x, rate, noiseShape, seed) {
 }
 const dropout = Object(operation["a" /* op */])({ dropout_ });
 //# sourceMappingURL=dropout.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/signal_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/signal_ops.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -16555,7 +16555,7 @@ const hammingWindow = Object(operation["a" /* op */])({ hammingWindow_ });
 const signal_ops_frame = Object(operation["a" /* op */])({ frame_ });
 const stft = Object(operation["a" /* op */])({ stft_ });
 //# sourceMappingURL=signal_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/in_top_k.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/in_top_k.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -16637,7 +16637,7 @@ async function inTopKAsync_(predictions, targets, k = 1) {
 }
 const inTopKAsync = inTopKAsync_;
 //# sourceMappingURL=in_top_k.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/loss_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/loss_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -17048,7 +17048,7 @@ const meanSquaredError = Object(operation["a" /* op */])({ meanSquaredError_ });
 const sigmoidCrossEntropy = Object(operation["a" /* op */])({ sigmoidCrossEntropy_ });
 const softmaxCrossEntropy = Object(operation["a" /* op */])({ softmaxCrossEntropy_ });
 //# sourceMappingURL=loss_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/linalg_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/linalg_ops.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -17368,7 +17368,7 @@ const bandPart = Object(operation["a" /* op */])({ bandPart_ });
 const gramSchmidt = Object(operation["a" /* op */])({ gramSchmidt_ });
 const qr = Object(operation["a" /* op */])({ qr_ });
 //# sourceMappingURL=linalg_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/array_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/array_util.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -17452,7 +17452,7 @@ function binarySearch_(arr, target, comparator) {
     return found ? left : -left - 1;
 }
 //# sourceMappingURL=array_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/non_max_suppression_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/non_max_suppression_impl.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -17607,7 +17607,7 @@ function ascendingComparator(c1, c2) {
         ((c1.score === c2.score) && (c2.boxIndex - c1.boxIndex));
 }
 //# sourceMappingURL=non_max_suppression_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/nonmax_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/nonmax_util.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -17648,7 +17648,7 @@ function nonMaxSuppSanityCheck(boxes, scores, maxOutputSize, iouThreshold, score
 }
 
 //# sourceMappingURL=nonmax_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/non_max_suppression.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/non_max_suppression.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -17682,7 +17682,7 @@ function nonMaxSuppression_(boxes, scores, maxOutputSize, iouThreshold = 0.5, sc
 }
 const nonMaxSuppression = Object(operation["a" /* op */])({ nonMaxSuppression_ });
 //# sourceMappingURL=non_max_suppression.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/image_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/image_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -17939,7 +17939,7 @@ const nonMaxSuppressionWithScore = Object(operation["a" /* op */])({ nonMaxSuppr
 const nonMaxSuppressionWithScoreAsync = nonMaxSuppressionWithScoreAsync_;
 const cropAndResize = Object(operation["a" /* op */])({ cropAndResize_ });
 //# sourceMappingURL=image_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/fused_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fused_util.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -17962,7 +17962,7 @@ const shouldFuse = (gradientDepth, activation) => {
     return !gradientMode || activation === 'linear';
 };
 //# sourceMappingURL=fused_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/fused_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fused_ops.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -18432,7 +18432,7 @@ const fused_ops_matMul = Object(operation["a" /* op */])({ fusedMatMul_ });
 const fused_ops_conv2d = Object(operation["a" /* op */])({ fusedConv2d_ });
 const fused_ops_depthwiseConv2d = Object(operation["a" /* op */])({ fusedDepthwiseConv2d_ });
 //# sourceMappingURL=fused_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/ops.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -18564,7 +18564,7 @@ const fused_ops_depthwiseConv2d = Object(operation["a" /* op */])({ fusedDepthwi
 
 
 //# sourceMappingURL=ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -18689,7 +18689,7 @@ Object.defineProperty(optimizer_Optimizer, Symbol.hasInstance, {
     }
 });
 //# sourceMappingURL=optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adadelta_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adadelta_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -18809,7 +18809,7 @@ class adadelta_optimizer_AdadeltaOptimizer extends optimizer_Optimizer {
 adadelta_optimizer_AdadeltaOptimizer.className = 'Adadelta'; // Name matters for Python compatibility.
 registerClass(adadelta_optimizer_AdadeltaOptimizer);
 //# sourceMappingURL=adadelta_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adagrad_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adagrad_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -18901,7 +18901,7 @@ class adagrad_optimizer_AdagradOptimizer extends optimizer_Optimizer {
 adagrad_optimizer_AdagradOptimizer.className = 'Adagrad'; // Note: Name matters for Python compatibility.
 registerClass(adagrad_optimizer_AdagradOptimizer);
 //# sourceMappingURL=adagrad_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adam_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adam_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19041,7 +19041,7 @@ class adam_optimizer_AdamOptimizer extends optimizer_Optimizer {
 adam_optimizer_AdamOptimizer.className = 'Adam'; // Note: Name matters for Python compatibility.
 registerClass(adam_optimizer_AdamOptimizer);
 //# sourceMappingURL=adam_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adamax_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adamax_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19161,7 +19161,7 @@ class adamax_optimizer_AdamaxOptimizer extends optimizer_Optimizer {
 adamax_optimizer_AdamaxOptimizer.className = 'Adamax'; // Note: Name matters for Python compatbility.
 registerClass(adamax_optimizer_AdamaxOptimizer);
 //# sourceMappingURL=adamax_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/sgd_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/sgd_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19243,7 +19243,7 @@ class sgd_optimizer_SGDOptimizer extends optimizer_Optimizer {
 sgd_optimizer_SGDOptimizer.className = 'SGD'; // Note: Name matters for Python compatibility.
 registerClass(sgd_optimizer_SGDOptimizer);
 //# sourceMappingURL=sgd_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/momentum_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/momentum_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19350,7 +19350,7 @@ class momentum_optimizer_MomentumOptimizer extends sgd_optimizer_SGDOptimizer {
 momentum_optimizer_MomentumOptimizer.className = 'Momentum'; // Name matters for Python compatibility.
 registerClass(momentum_optimizer_MomentumOptimizer);
 //# sourceMappingURL=momentum_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/rmsprop_optimizer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/rmsprop_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19521,10 +19521,10 @@ class rmsprop_optimizer_RMSPropOptimizer extends optimizer_Optimizer {
 rmsprop_optimizer_RMSPropOptimizer.className = 'RMSProp'; // Note: Name matters for Python compatibility.
 registerClass(rmsprop_optimizer_RMSPropOptimizer);
 //# sourceMappingURL=rmsprop_optimizer.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/types.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/types.js
 var dist_types = __webpack_require__(23);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer_constructors.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/optimizer_constructors.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19704,7 +19704,7 @@ class optimizer_constructors_OptimizerConstructors {
     }
 }
 //# sourceMappingURL=optimizer_constructors.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/train.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/train.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19743,10 +19743,10 @@ const train = {
     adam: optimizer_constructors_OptimizerConstructors.adam
 };
 //# sourceMappingURL=train.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/browser_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/browser_util.js
 var browser_util = __webpack_require__(40);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/array_ops_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/array_ops_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -19891,7 +19891,7 @@ function getSliceSize(uncroppedShape, crops, blockShape) {
     return sliceSize;
 }
 //# sourceMappingURL=array_ops_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/erf_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/erf_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -19915,7 +19915,7 @@ const ERF_A3 = 1.421413741;
 const ERF_A4 = -1.453152027;
 const ERF_A5 = 1.061405429;
 //# sourceMappingURL=erf_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/log.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/log.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -19944,7 +19944,7 @@ function log_log(...msg) {
     }
 }
 //# sourceMappingURL=log.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/complex_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/complex_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -20081,7 +20081,7 @@ function exponent(k, n, inverse) {
     return { real, imag };
 }
 //# sourceMappingURL=complex_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/backend_util.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -20168,10 +20168,10 @@ function linspaceImpl(start, stop, num) {
     return Object(tensor_ops["g" /* tensor1d */])(values, 'float32');
 }
 //# sourceMappingURL=backend_util.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/device_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/device_util.js
 var device_util = __webpack_require__(36);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/split_shared.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/split_shared.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -20204,7 +20204,7 @@ function split_shared_split(x, sizeSplits, axis) {
     });
 }
 //# sourceMappingURL=split_shared.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/tile_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/tile_impl.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -20244,7 +20244,7 @@ function tile_impl_tile(xBuf, reps) {
     return result.toTensor();
 }
 //# sourceMappingURL=tile_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/topk_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/topk_impl.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -20296,7 +20296,7 @@ function topkImpl(x, xShape, xDtype, k, sorted) {
     ];
 }
 //# sourceMappingURL=topk_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/kernel_impls.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/kernel_impls.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -20319,7 +20319,7 @@ function topkImpl(x, xShape, xDtype, k, sorted) {
 
 
 //# sourceMappingURL=kernel_impls.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/backend.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/backend.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -20827,7 +20827,7 @@ function notYetImplemented(kernelName) {
         `Did you forget to import the kernel?`);
 }
 //# sourceMappingURL=backend.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/add.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/add.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20851,7 +20851,7 @@ dist_tensor["a" /* Tensor */].prototype.add = function (b) {
     return add(this, b);
 };
 //# sourceMappingURL=add.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atan2.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/atan2.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20875,7 +20875,7 @@ dist_tensor["a" /* Tensor */].prototype.atan2 = function (b) {
     return atan2(this, b);
 };
 //# sourceMappingURL=atan2.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/avg_pool.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/avg_pool.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20899,7 +20899,7 @@ dist_tensor["a" /* Tensor */].prototype.avgPool = function (filterSize, strides,
     return avgPool(this, filterSize, strides, pad, dimRoundingMode);
 };
 //# sourceMappingURL=avg_pool.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batchnorm.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/batchnorm.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20923,7 +20923,7 @@ dist_tensor["a" /* Tensor */].prototype.batchNorm = function (mean, variance, of
     return batchNorm(this, mean, variance, offset, scale, varianceEpsilon);
 };
 //# sourceMappingURL=batchnorm.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/broadcast_to.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/broadcast_to.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20947,7 +20947,7 @@ dist_tensor["a" /* Tensor */].prototype.broadcastTo = function (shape) {
     return broadcastTo(this, shape);
 };
 //# sourceMappingURL=broadcast_to.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batch_to_space_nd.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/batch_to_space_nd.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20971,7 +20971,7 @@ dist_tensor["a" /* Tensor */].prototype.batchToSpaceND = function (blockShape, c
     return batchToSpaceND(this, blockShape, crops);
 };
 //# sourceMappingURL=batch_to_space_nd.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/concat.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/concat.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20998,7 +20998,7 @@ dist_tensor["a" /* Tensor */].prototype.concat = function (x, axis) {
     return concat([this, ...x], axis);
 };
 //# sourceMappingURL=concat.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv1d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/conv1d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21022,7 +21022,7 @@ dist_tensor["a" /* Tensor */].prototype.conv1d = function (filter, stride, pad, 
     return conv1d(this, filter, stride, pad, dataFormat, dilation, dimRoundingMode);
 };
 //# sourceMappingURL=conv1d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/conv2d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21046,7 +21046,7 @@ dist_tensor["a" /* Tensor */].prototype.conv2d = function (filter, strides, pad,
     return conv2d(this, filter, strides, pad, dataFormat, dilations, dimRoundingMode);
 };
 //# sourceMappingURL=conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d_transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/conv2d_transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21070,7 +21070,7 @@ dist_tensor["a" /* Tensor */].prototype.conv2dTranspose = function (filter, outp
     return conv2dTranspose(this, filter, outputShape, strides, pad, dimRoundingMode);
 };
 //# sourceMappingURL=conv2d_transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cumsum.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/cumsum.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21094,7 +21094,7 @@ dist_tensor["a" /* Tensor */].prototype.cumsum = function (axis, exclusive, reve
     return cumsum(this, axis, exclusive, reverse);
 };
 //# sourceMappingURL=cumsum.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depth_to_space.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/depth_to_space.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21118,7 +21118,7 @@ dist_tensor["a" /* Tensor */].prototype.depthToSpace = function (blockSize, data
     return depthToSpace(this, blockSize, dataFormat);
 };
 //# sourceMappingURL=depth_to_space.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21142,7 +21142,7 @@ dist_tensor["a" /* Tensor */].prototype.depthwiseConv2d = function (filter, stri
     return depthwiseConv2d(this, filter, strides, pad, dataFormat, dilations, dimRoundingMode);
 };
 //# sourceMappingURL=depthwise_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2D_deprecated.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2D_deprecated.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21171,7 +21171,7 @@ dist_tensor["a" /* Tensor */].prototype.depthwiseConv2D = function (filter, stri
     return depthwiseConv2d(this, filter, strides, pad, dataFormat, dilations, dimRoundingMode);
 };
 //# sourceMappingURL=depthwise_conv2D_deprecated.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/div.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21195,7 +21195,7 @@ dist_tensor["a" /* Tensor */].prototype.div = function (b) {
     return div(this, b);
 };
 //# sourceMappingURL=div.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div_no_nan.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/div_no_nan.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21219,7 +21219,7 @@ dist_tensor["a" /* Tensor */].prototype.divNoNan = function (b) {
     return divNoNan(this, b);
 };
 //# sourceMappingURL=div_no_nan.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/dot.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/dot.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21243,7 +21243,7 @@ dist_tensor["a" /* Tensor */].prototype.dot = function (b) {
     return dot(this, b);
 };
 //# sourceMappingURL=dot.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/elu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/elu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21267,7 +21267,7 @@ dist_tensor["a" /* Tensor */].prototype.elu = function () {
     return elu(this);
 };
 //# sourceMappingURL=elu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21291,7 +21291,7 @@ dist_tensor["a" /* Tensor */].prototype.equal = function (b) {
     return equal(this, b);
 };
 //# sourceMappingURL=equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/floorDiv.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/floorDiv.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21315,7 +21315,7 @@ dist_tensor["a" /* Tensor */].prototype.floorDiv = function (b) {
     return floorDiv(this, b);
 };
 //# sourceMappingURL=floorDiv.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/greater.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21339,7 +21339,7 @@ dist_tensor["a" /* Tensor */].prototype.greater = function (b) {
     return greater(this, b);
 };
 //# sourceMappingURL=greater.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater_equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/greater_equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21363,7 +21363,7 @@ dist_tensor["a" /* Tensor */].prototype.greaterEqual = function (b) {
     return greaterEqual(this, b);
 };
 //# sourceMappingURL=greater_equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/leaky_relu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/leaky_relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21387,7 +21387,7 @@ dist_tensor["a" /* Tensor */].prototype.leakyRelu = function (alpha) {
     return leakyRelu(this, alpha);
 };
 //# sourceMappingURL=leaky_relu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/less.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21411,7 +21411,7 @@ dist_tensor["a" /* Tensor */].prototype.less = function (b) {
     return less(this, b);
 };
 //# sourceMappingURL=less.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less_equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/less_equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21435,7 +21435,7 @@ dist_tensor["a" /* Tensor */].prototype.lessEqual = function (b) {
     return lessEqual(this, b);
 };
 //# sourceMappingURL=less_equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/local_response_normalization.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/local_response_normalization.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21459,7 +21459,7 @@ dist_tensor["a" /* Tensor */].prototype.localResponseNormalization = function (d
     return localResponseNormalization(this, depthRadius, bias, alpha, beta);
 };
 //# sourceMappingURL=local_response_normalization.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mat_mul.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/mat_mul.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21483,7 +21483,7 @@ dist_tensor["a" /* Tensor */].prototype.matMul = function (b, transposeA, transp
     return matMul(this, b, transposeA, transposeB);
 };
 //# sourceMappingURL=mat_mul.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/max.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21507,7 +21507,7 @@ dist_tensor["a" /* Tensor */].prototype.max = function (axis, keepDims) {
     return max_max(this, axis, keepDims);
 };
 //# sourceMappingURL=max.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max_pool.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/max_pool.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21531,7 +21531,7 @@ dist_tensor["a" /* Tensor */].prototype.maxPool = function (filterSize, strides,
     return maxPool(this, filterSize, strides, pad, dimRoundingMode);
 };
 //# sourceMappingURL=max_pool.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/maximum.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/maximum.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21555,7 +21555,7 @@ dist_tensor["a" /* Tensor */].prototype.maximum = function (b) {
     return maximum(this, b);
 };
 //# sourceMappingURL=maximum.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/minimum.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/minimum.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21579,7 +21579,7 @@ dist_tensor["a" /* Tensor */].prototype.minimum = function (b) {
     return minimum(this, b);
 };
 //# sourceMappingURL=minimum.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mod.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/mod.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21603,7 +21603,7 @@ dist_tensor["a" /* Tensor */].prototype.mod = function (b) {
     return mod(this, b);
 };
 //# sourceMappingURL=mod.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mul.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/mul.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21627,7 +21627,7 @@ dist_tensor["a" /* Tensor */].prototype.mul = function (b) {
     return mul(this, b);
 };
 //# sourceMappingURL=mul.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/not_equal.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/not_equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21651,7 +21651,7 @@ dist_tensor["a" /* Tensor */].prototype.notEqual = function (b) {
     return notEqual(this, b);
 };
 //# sourceMappingURL=not_equal.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/one_hot.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/one_hot.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21675,7 +21675,7 @@ dist_tensor["a" /* Tensor */].prototype.oneHot = function (depth, onValue = 1, o
     return oneHot(this, depth, onValue, offValue);
 };
 //# sourceMappingURL=one_hot.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pad.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/pad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -21699,7 +21699,7 @@ dist_tensor["a" /* Tensor */].prototype.pad = function (paddings, constantValue)
     return pad_pad(this, paddings, constantValue);
 };
 //# sourceMappingURL=pad.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pool.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/pool.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21723,7 +21723,7 @@ dist_tensor["a" /* Tensor */].prototype.pool = function (windowShape, poolingTyp
     return pool(this, windowShape, poolingType, padding, dilationRate, strides);
 };
 //# sourceMappingURL=pool.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pow.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/pow.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21747,7 +21747,7 @@ dist_tensor["a" /* Tensor */].prototype.pow = function (exp) {
     return pow(this, exp);
 };
 //# sourceMappingURL=pow.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/prelu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/prelu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21771,7 +21771,7 @@ dist_tensor["a" /* Tensor */].prototype.prelu = function (alpha) {
     return prelu(this, alpha);
 };
 //# sourceMappingURL=prelu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21795,7 +21795,7 @@ dist_tensor["a" /* Tensor */].prototype.relu = function () {
     return relu(this);
 };
 //# sourceMappingURL=relu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu6.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/relu6.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21819,7 +21819,7 @@ dist_tensor["a" /* Tensor */].prototype.relu6 = function () {
     return relu6(this);
 };
 //# sourceMappingURL=relu6.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/selu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/selu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21843,7 +21843,7 @@ dist_tensor["a" /* Tensor */].prototype.selu = function () {
     return selu(this);
 };
 //# sourceMappingURL=selu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/separable_conv2d.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/separable_conv2d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21867,7 +21867,7 @@ dist_tensor["a" /* Tensor */].prototype.separableConv2d = function (depthwiseFil
     return separableConv2d(this, depthwiseFilter, pointwiseFilter, strides, pad, dilation, dataFormat);
 };
 //# sourceMappingURL=separable_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/split.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/split.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21891,7 +21891,7 @@ dist_tensor["a" /* Tensor */].prototype.split = function (numOrSizeSplits, axis)
     return split(this, numOrSizeSplits, axis);
 };
 //# sourceMappingURL=split.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/squared_difference.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/squared_difference.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21915,7 +21915,7 @@ dist_tensor["a" /* Tensor */].prototype.squaredDifference = function (b) {
     return squaredDifference(this, b);
 };
 //# sourceMappingURL=squared_difference.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/space_to_batch_nd.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/space_to_batch_nd.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21939,7 +21939,7 @@ dist_tensor["a" /* Tensor */].prototype.spaceToBatchND = function (blockShape, p
     return spaceToBatchND(this, blockShape, paddings);
 };
 //# sourceMappingURL=space_to_batch_nd.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sub.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/sub.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21963,7 +21963,7 @@ dist_tensor["a" /* Tensor */].prototype.sub = function (b) {
     return sub(this, b);
 };
 //# sourceMappingURL=sub.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tile.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/tile.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21987,7 +21987,7 @@ dist_tensor["a" /* Tensor */].prototype.tile = function (reps) {
     return tile(this, reps);
 };
 //# sourceMappingURL=tile.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -22011,7 +22011,7 @@ dist_tensor["a" /* Tensor */].prototype.transpose = function (perm) {
     return transpose(this, perm);
 };
 //# sourceMappingURL=transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/register_all_chained_ops.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/register_all_chained_ops.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -22078,7 +22078,7 @@ dist_tensor["a" /* Tensor */].prototype.transpose = function (perm) {
 
 
 //# sourceMappingURL=register_all_chained_ops.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -23201,19 +23201,19 @@ __webpack_require__.d(__webpack_exports__, "a", function() { return /* binding *
 
 // UNUSED EXPORTS: Engine
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/environment.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/environment.js
 var dist_environment = __webpack_require__(10);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/global_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/global_util.js
 var global_util = __webpack_require__(33);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/kernel_registry.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/kernel_registry.js
 var kernel_registry = __webpack_require__(17);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/util.js
 var util = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/profiler.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/profiler.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -23299,7 +23299,7 @@ class profiler_Logger {
     }
 }
 //# sourceMappingURL=profiler.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tape.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tape.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -23450,13 +23450,13 @@ function backpropagateGradients(tensorAccumulatedGradientMap, filteredTape, tidy
     }
 }
 //# sourceMappingURL=tape.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor.js + 1 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor.js + 1 modules
 var tensor = __webpack_require__(7);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_util.js
 var tensor_util = __webpack_require__(11);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/engine.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/engine.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -24533,10 +24533,10 @@ __webpack_require__.d(__webpack_exports__, "d", function() { return /* binding *
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ tensor_Tensor; });
 __webpack_require__.d(__webpack_exports__, "c", function() { return /* binding */ tensor_Variable; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/util.js
 var util = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_format.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_format.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -24700,7 +24700,7 @@ function createComplexTuples(vals) {
     return complexTuples;
 }
 //# sourceMappingURL=tensor_format.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -31333,16 +31333,16 @@ __webpack_require__.d(__webpack_exports__, "c", function() { return /* binding *
 
 // UNUSED EXPORTS: iteratorFromIncrementing, iteratorFromConcatenatedFunction, ChainedIterator, PrefetchIterator, ShuffleIterator
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
-var seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
+var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/deep_map.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/deep_map.js
 var deep_map = __webpack_require__(19);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/deep_clone.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/deep_clone.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31378,7 +31378,7 @@ function cloneIfTensor(item) {
     }
 }
 //# sourceMappingURL=deep_clone.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/ring_buffer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/ring_buffer.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31540,7 +31540,7 @@ class RingBuffer {
     }
 }
 //# sourceMappingURL=ring_buffer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/growing_ring_buffer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/growing_ring_buffer.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31602,7 +31602,7 @@ class growing_ring_buffer_GrowingRingBuffer extends RingBuffer {
 }
 growing_ring_buffer_GrowingRingBuffer.INITIAL_CAPACITY = 32;
 //# sourceMappingURL=growing_ring_buffer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -32572,7 +32572,7 @@ class lazy_iterator_ShuffleIterator extends lazy_iterator_PrefetchIterator {
         this.windowSize = windowSize;
         // Local state that should not be clobbered by out-of-order execution.
         this.upstreamExhausted = false;
-        this.random = seedrandom["alea"](seed || dist["util"].now().toString());
+        this.random = _seedrandom_2_4_3_seedrandom["alea"](seed || dist["util"].now().toString());
         this.lastRead = Promise.resolve({ value: null, done: false });
     }
     async next() {
@@ -34228,19 +34228,19 @@ __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport 
 __webpack_require__.d(__webpack_exports__, "c", function() { return /* reexport */ version; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ shared_namespaceObject; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/shared.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/shared.js
 var shared_namespaceObject = {};
 __webpack_require__.r(shared_namespaceObject);
 __webpack_require__.d(shared_namespaceObject, "maxImpl", function() { return Max_impl["a" /* maxImpl */]; });
 __webpack_require__.d(shared_namespaceObject, "transposeImpl", function() { return Transpose_impl["a" /* transposeImpl */]; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
 var Max_impl = __webpack_require__(37);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
 var Transpose_impl = __webpack_require__(30);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/shared.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/shared.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -34261,19 +34261,19 @@ var Transpose_impl = __webpack_require__(30);
 
 
 //# sourceMappingURL=shared.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
-var seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
+var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
 var cpu_util = __webpack_require__(9);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
 var pool_utils = __webpack_require__(26);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/backend_cpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/backend_cpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -36743,7 +36743,7 @@ class backend_cpu_MathBackendCPU extends dist["KernelBackend"] {
             for (let event = 1; event < cdf.length; ++event) {
                 cdf[event] = cdf[event - 1] + probVals[offset + event];
             }
-            const random = seedrandom["alea"](seed.toString());
+            const random = _seedrandom_2_4_3_seedrandom["alea"](seed.toString());
             const outOffset = b * numSamples;
             for (let sampleId = 0; sampleId < numSamples; ++sampleId) {
                 const r = random();
@@ -37180,13 +37180,13 @@ class backend_cpu_MathBackendCPU extends dist["KernelBackend"] {
     }
 }
 //# sourceMappingURL=backend_cpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/base.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -40429,16 +40429,16 @@ __webpack_require__.d(__webpack_exports__, "deregisterOp", function() { return /
 __webpack_require__.d(__webpack_exports__, "registerOp", function() { return /* reexport */ register["c" /* registerOp */]; });
 __webpack_require__.d(__webpack_exports__, "version_converter", function() { return /* reexport */ version; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/operation_mapper.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/operation_mapper.js
 var operation_mapper = __webpack_require__(15);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/utils.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/utils.js
 var utils = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/custom_op/node_value_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/custom_op/node_value_impl.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -40528,10 +40528,10 @@ class node_value_impl_NodeValueImpl {
     }
 }
 //# sourceMappingURL=node_value_impl.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/custom_op/register.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/custom_op/register.js
 var register = __webpack_require__(24);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/arithmetic_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/arithmetic_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -40596,7 +40596,7 @@ const executeOp = (node, tensorMap, context) => {
 };
 const CATEGORY = 'arithmetic';
 //# sourceMappingURL=arithmetic_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/basic_math_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/basic_math_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -40715,7 +40715,7 @@ const basic_math_executor_executeOp = (node, tensorMap, context) => {
 };
 const basic_math_executor_CATEGORY = 'basic_math';
 //# sourceMappingURL=basic_math_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/tensor_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/tensor_utils.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -40753,7 +40753,7 @@ function shapesEqualAllowUndefinedSize(n1, n2) {
     return true;
 }
 //# sourceMappingURL=tensor_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/tensor_array.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/tensor_array.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -40987,7 +40987,7 @@ class tensor_array_TensorArray {
 }
 tensor_array_TensorArray.nextId = 0;
 //# sourceMappingURL=tensor_array.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/control_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/control_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41130,7 +41130,7 @@ const control_executor_executeOp = async (node, tensorMap, context) => {
 };
 const control_executor_CATEGORY = 'control';
 //# sourceMappingURL=control_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/convolution_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/convolution_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41270,7 +41270,7 @@ const convolution_executor_executeOp = (node, tensorMap, context) => {
 };
 const convolution_executor_CATEGORY = 'convolution';
 //# sourceMappingURL=convolution_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/creation_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/creation_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41352,7 +41352,7 @@ const creation_executor_executeOp = (node, tensorMap, context) => {
 };
 const creation_executor_CATEGORY = 'creation';
 //# sourceMappingURL=creation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/dynamic_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/dynamic_executor.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -41404,7 +41404,7 @@ const dynamic_executor_executeOp = async (node, tensorMap, context) => {
 };
 const dynamic_executor_CATEGORY = 'dynamic';
 //# sourceMappingURL=dynamic_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/evaluation_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/evaluation_executor.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -41438,7 +41438,7 @@ const evaluation_executor_executeOp = (node, tensorMap, context) => {
 };
 const evaluation_executor_CATEGORY = 'evaluation';
 //# sourceMappingURL=evaluation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/graph_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/graph_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41508,7 +41508,7 @@ const graph_executor_executeOp = (node, tensorMap, context) => {
 };
 const graph_executor_CATEGORY = 'graph';
 //# sourceMappingURL=graph_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/image_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/image_executor.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -41556,7 +41556,7 @@ const image_executor_executeOp = (node, tensorMap, context) => {
 };
 const image_executor_CATEGORY = 'image';
 //# sourceMappingURL=image_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/logical_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/logical_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41614,7 +41614,7 @@ const logical_executor_executeOp = (node, tensorMap, context) => {
 };
 const logical_executor_CATEGORY = 'logical';
 //# sourceMappingURL=logical_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/matrices_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/matrices_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41671,7 +41671,7 @@ const matrices_executor_executeOp = (node, tensorMap, context) => {
 };
 const matrices_executor_CATEGORY = 'matrices';
 //# sourceMappingURL=matrices_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/normalization_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/normalization_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41717,7 +41717,7 @@ const normalization_executor_executeOp = (node, tensorMap, context) => {
 };
 const normalization_executor_CATEGORY = 'normalization';
 //# sourceMappingURL=normalization_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/reduction_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/reduction_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41793,7 +41793,7 @@ const reduction_executor_executeOp = (node, tensorMap, context) => {
 };
 const reduction_executor_CATEGORY = 'reduction';
 //# sourceMappingURL=reduction_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/slice_join_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/slice_join_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41922,7 +41922,7 @@ const slice_join_executor_executeOp = (node, tensorMap, context) => {
 };
 const slice_join_executor_CATEGORY = 'slice_join';
 //# sourceMappingURL=slice_join_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/spectral_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/spectral_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41961,7 +41961,7 @@ const spectral_executor_executeOp = (node, tensorMap, context) => {
 };
 const spectral_executor_CATEGORY = 'spectral';
 //# sourceMappingURL=spectral_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/transformation_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/transformation_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -42024,7 +42024,7 @@ const transformation_executor_executeOp = (node, tensorMap, context) => {
 };
 const transformation_executor_CATEGORY = 'transformation';
 //# sourceMappingURL=transformation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/operation_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/operation_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -42120,7 +42120,7 @@ function operation_executor_executeOp(node, tensorMap, context) {
     return [].concat(value);
 }
 //# sourceMappingURL=operation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/execution_context.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/execution_context.js
 /**
  * ExecutionContext captures the runtime environment of the node. It keeps
  * track of the current frame and iteration for the control flow ops.
@@ -42243,7 +42243,7 @@ class ExecutionContext {
     }
 }
 //# sourceMappingURL=execution_context.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/model_analysis.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/model_analysis.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -42363,7 +42363,7 @@ function isDynamicShape(node) {
     return DYNAMIC_SHAPE_OPS.indexOf(node.op) >= 0;
 }
 //# sourceMappingURL=model_analysis.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/graph_executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/graph_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -42824,7 +42824,7 @@ class graph_executor_GraphExecutor {
     }
 }
 //# sourceMappingURL=graph_executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/graph_model.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/graph_model.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -43176,13 +43176,13 @@ async function loadGraphModel(modelUrl, options = {}) {
     return model;
 }
 //# sourceMappingURL=graph_model.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/index.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/index.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -51061,7 +51061,7 @@ __webpack_require__.d(__webpack_exports__, "webgl_util", function() { return /* 
 __webpack_require__.d(__webpack_exports__, "forceHalfFloat", function() { return /* reexport */ forceHalfFloat; });
 __webpack_require__.d(__webpack_exports__, "webgl", function() { return /* binding */ webgl; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
 var webgl_util_namespaceObject = {};
 __webpack_require__.r(webgl_util_namespaceObject);
 __webpack_require__.d(webgl_util_namespaceObject, "callAndCheck", function() { return callAndCheck; });
@@ -51106,7 +51106,7 @@ __webpack_require__.d(webgl_util_namespaceObject, "isCapableOfRenderingToFloatTe
 __webpack_require__.d(webgl_util_namespaceObject, "isDownloadFloatTextureEnabled", function() { return isDownloadFloatTextureEnabled; });
 __webpack_require__.d(webgl_util_namespaceObject, "isWebGLFenceEnabled", function() { return isWebGLFenceEnabled; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
 var gpgpu_util_namespaceObject = {};
 __webpack_require__.r(gpgpu_util_namespaceObject);
 __webpack_require__.d(gpgpu_util_namespaceObject, "createVertexShader", function() { return gpgpu_util_createVertexShader; });
@@ -51126,10 +51126,10 @@ __webpack_require__.d(gpgpu_util_namespaceObject, "downloadByteEncodedFloatMatri
 __webpack_require__.d(gpgpu_util_namespaceObject, "downloadPackedMatrixFromBuffer", function() { return downloadPackedMatrixFromBuffer; });
 __webpack_require__.d(gpgpu_util_namespaceObject, "downloadMatrixFromPackedOutputTexture", function() { return downloadMatrixFromPackedOutputTexture; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/canvas_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/canvas_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -51206,7 +51206,7 @@ function getWebGLRenderingContext(webGLVersion) {
     return canvas.getContext('webgl2', WEBGL_ATTRIBUTES);
 }
 //# sourceMappingURL=canvas_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/tex_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/tex_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -51375,7 +51375,7 @@ gl, textureHalfFloatExtension) {
     };
 }
 //# sourceMappingURL=tex_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -51898,7 +51898,7 @@ function isWebGLFenceEnabled(webGLVersion) {
     return isEnabled;
 }
 //# sourceMappingURL=webgl_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/flags_webgl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/flags_webgl.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -52020,7 +52020,7 @@ ENV.registerFlag('WEBGL_SIZE_UPLOAD_UNIFORM', () => {
     return useUniforms ? 4 : 0;
 });
 //# sourceMappingURL=flags_webgl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/addn_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -52064,7 +52064,7 @@ class AddNProgram {
     }
 }
 //# sourceMappingURL=addn_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/addn_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -52110,7 +52110,7 @@ class AddNPackedProgram {
     }
 }
 //# sourceMappingURL=addn_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/argminmax_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -52166,7 +52166,7 @@ class ArgMinMaxProgram {
     }
 }
 //# sourceMappingURL=argminmax_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/packing_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/packing_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -52206,7 +52206,7 @@ function getSourceCoords(rank, dims) {
     return coords;
 }
 //# sourceMappingURL=packing_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/glsl_version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/glsl_version.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -52325,7 +52325,7 @@ function getGlslDifferences() {
     };
 }
 //# sourceMappingURL=glsl_version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/shader_compiler_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -52446,7 +52446,7 @@ const ENCODE_FLOAT_SNIPPET = `
   }
 `;
 //# sourceMappingURL=shader_compiler_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/shader_compiler.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -53677,7 +53677,7 @@ function getSqueezedParams(params, keptDims) {
     return keptDims.map(d => params[d]).join(', ');
 }
 //# sourceMappingURL=shader_compiler.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/argminmax_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -53805,7 +53805,7 @@ class argminmax_packed_gpu_ArgMinMaxPackedProgram {
     }
 }
 //# sourceMappingURL=argminmax_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/avg_pool_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/avg_pool_backprop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -53962,7 +53962,7 @@ class AvgPool3DBackpropProgram {
     }
 }
 //# sourceMappingURL=avg_pool_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/batchnorm_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54013,7 +54013,7 @@ class batchnorm_gpu_BatchNormProgram {
     }
 }
 //# sourceMappingURL=batchnorm_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/batchnorm_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54068,7 +54068,7 @@ class batchnorm_packed_gpu_BatchNormPackedProgram {
     }
 }
 //# sourceMappingURL=batchnorm_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_complex_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/binaryop_complex_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54115,7 +54115,7 @@ class binaryop_complex_gpu_BinaryOpComplexProgram {
     }
 }
 //# sourceMappingURL=binaryop_complex_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/binaryop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54212,7 +54212,7 @@ class binaryop_gpu_BinaryOpProgram {
     }
 }
 //# sourceMappingURL=binaryop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/binaryop_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -54425,7 +54425,7 @@ class binaryop_packed_gpu_BinaryOpPackedProgram {
     }
 }
 //# sourceMappingURL=binaryop_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/clip_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54473,7 +54473,7 @@ class ClipProgram {
     }
 }
 //# sourceMappingURL=clip_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/clip_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54524,7 +54524,7 @@ class ClipPackedProgram {
     }
 }
 //# sourceMappingURL=clip_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/complex_abs_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/complex_abs_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54562,7 +54562,7 @@ class ComplexAbsProgram {
     }
 }
 //# sourceMappingURL=complex_abs_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/concat_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54612,7 +54612,7 @@ class concat_gpu_ConcatProgram {
     }
 }
 //# sourceMappingURL=concat_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/concat_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -54728,7 +54728,7 @@ function shiftedChannels(channels, channel, shift) {
     return res.join();
 }
 //# sourceMappingURL=concat_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54998,7 +54998,7 @@ class Conv3DDerInputProgram {
     }
 }
 //# sourceMappingURL=conv_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu_depthwise.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu_depthwise.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -55122,7 +55122,7 @@ class DepthwiseConv2DDerInputProgram {
     }
 }
 //# sourceMappingURL=conv_backprop_gpu_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -55418,7 +55418,7 @@ class Conv3DProgram {
     }
 }
 //# sourceMappingURL=conv_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu_depthwise.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_gpu_depthwise.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -55524,7 +55524,7 @@ class DepthwiseConv2DProgram {
     }
 }
 //# sourceMappingURL=conv_gpu_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu_depthwise.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu_depthwise.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -55827,7 +55827,7 @@ class conv_packed_gpu_depthwise_DepthwiseConvPacked2DProgram {
     }
 }
 //# sourceMappingURL=conv_packed_gpu_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/crop_and_resize_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/crop_and_resize_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -55944,7 +55944,7 @@ class CropAndResizeProgram {
     }
 }
 //# sourceMappingURL=crop_and_resize_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/cumsum_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/cumsum_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56029,7 +56029,7 @@ function getFinalCoord(rank, name) {
     }
 }
 //# sourceMappingURL=cumsum_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/decode_matrix_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -56083,7 +56083,7 @@ class decode_matrix_gpu_DecodeMatrixProgram {
     }
 }
 //# sourceMappingURL=decode_matrix_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/decode_matrix_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -56137,7 +56137,7 @@ class decode_matrix_packed_gpu_DecodeMatrixPackedProgram {
     }
 }
 //# sourceMappingURL=decode_matrix_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/depth_to_space_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/depth_to_space_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56224,7 +56224,7 @@ class DepthToSpaceProgram {
     }
 }
 //# sourceMappingURL=depth_to_space_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/diag_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/diag_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -56255,7 +56255,7 @@ class DiagProgram {
     }
 }
 //# sourceMappingURL=diag_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_float_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56292,7 +56292,7 @@ class encode_float_gpu_EncodeFloatProgram {
     }
 }
 //# sourceMappingURL=encode_float_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_float_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56332,7 +56332,7 @@ class encode_float_packed_gpu_EncodeFloatPackedProgram {
     }
 }
 //# sourceMappingURL=encode_float_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_matrix_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56395,7 +56395,7 @@ class encode_matrix_gpu_EncodeMatrixProgram {
     }
 }
 //# sourceMappingURL=encode_matrix_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_matrix_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56496,7 +56496,7 @@ class encode_matrix_packed_gpu_EncodeMatrixPackedProgram {
     }
 }
 //# sourceMappingURL=encode_matrix_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/fft_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/fft_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56561,7 +56561,7 @@ class FFTProgram {
     }
 }
 //# sourceMappingURL=fft_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/fill_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/fill_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -56601,7 +56601,7 @@ class FillProgram {
     }
 }
 //# sourceMappingURL=fill_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gather_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -56657,7 +56657,7 @@ function gather_gpu_getSourceCoords(aShape, axis) {
     return sourceCoords.join();
 }
 //# sourceMappingURL=gather_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_nd_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gather_nd_gpu.js
 
 class gather_nd_gpu_GatherNDProgram {
     constructor(sliceDim, strides, shape) {
@@ -56683,7 +56683,7 @@ class gather_nd_gpu_GatherNDProgram {
     }
 }
 //# sourceMappingURL=gather_nd_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -56842,7 +56842,7 @@ function downloadMatrixFromPackedOutputTexture(gl, debug, physicalRows, physical
     return packedRGBA;
 }
 //# sourceMappingURL=gpgpu_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_context.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_context.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57304,7 +57304,7 @@ function linearSearchLastTrue(arr) {
     return i - 1;
 }
 //# sourceMappingURL=gpgpu_context.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_math.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_math.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57471,7 +57471,7 @@ function makeShaderKey(program, inputs, output) {
     return key;
 }
 //# sourceMappingURL=gpgpu_math.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/im2col_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/im2col_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -57556,7 +57556,7 @@ class im2col_packed_gpu_Im2ColPackedProgram {
     }
 }
 //# sourceMappingURL=im2col_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/lrn_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57618,7 +57618,7 @@ class LRNProgram {
     }
 }
 //# sourceMappingURL=lrn_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_grad_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/lrn_grad_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -57704,7 +57704,7 @@ class LRNGradProgram {
     }
 }
 //# sourceMappingURL=lrn_grad_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/lrn_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC All Rights Reserved.
@@ -57811,7 +57811,7 @@ class LRNPackedProgram {
     }
 }
 //# sourceMappingURL=lrn_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/max_pool_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/max_pool_backprop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57974,7 +57974,7 @@ class MaxPool3DBackpropProgram {
     }
 }
 //# sourceMappingURL=max_pool_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/mulmat_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/mulmat_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -58058,7 +58058,7 @@ class MatMulPackedProgram {
     }
 }
 //# sourceMappingURL=mulmat_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/multinomial_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/multinomial_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58113,7 +58113,7 @@ class MultinomialProgram {
     }
 }
 //# sourceMappingURL=multinomial_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/onehot_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/onehot_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58145,7 +58145,7 @@ class OneHotProgram {
     }
 }
 //# sourceMappingURL=onehot_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pack_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pack_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -58256,7 +58256,7 @@ function getOutput(shape, dims) {
           rEdge || cEdge ? 0. : getA(${sourceCoords[3]})`;
 }
 //# sourceMappingURL=pack_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pad_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58316,7 +58316,7 @@ class pad_gpu_PadProgram {
     }
 }
 //# sourceMappingURL=pad_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pad_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -58390,7 +58390,7 @@ class pad_packed_gpu_PadPackedProgram {
     }
 }
 //# sourceMappingURL=pad_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pool_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pool_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58802,7 +58802,7 @@ class Pool3DProgram {
     }
 }
 //# sourceMappingURL=pool_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reduce_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reduce_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58963,7 +58963,7 @@ class ReduceProgram {
     }
 }
 //# sourceMappingURL=reduce_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reshape_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reshape_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -59039,7 +59039,7 @@ function getReshapedInputCoords(shape) {
   `;
 }
 //# sourceMappingURL=reshape_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_backprop_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59167,7 +59167,7 @@ class ResizeBilinearBackpropProgram {
     }
 }
 //# sourceMappingURL=resize_bilinear_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -59235,7 +59235,7 @@ class ResizeBilinearProgram {
     }
 }
 //# sourceMappingURL=resize_bilinear_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -59349,7 +59349,7 @@ class ResizeBilinearPackedProgram {
     }
 }
 //# sourceMappingURL=resize_bilinear_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_backprop_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC All Rights Reserved.
@@ -59466,7 +59466,7 @@ class ResizeNearestNeigborBackpropProgram {
     }
 }
 //# sourceMappingURL=resize_nearest_neighbor_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59526,7 +59526,7 @@ class ResizeNearestNeighborProgram {
     }
 }
 //# sourceMappingURL=resize_nearest_neighbor_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reverse_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -59578,7 +59578,7 @@ class reverse_gpu_ReverseProgram {
     }
 }
 //# sourceMappingURL=reverse_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reverse_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC All Rights Reserved.
@@ -59678,7 +59678,7 @@ class reverse_packed_gpu_ReversePackedProgram {
     }
 }
 //# sourceMappingURL=reverse_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/scatter_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/scatter_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59743,7 +59743,7 @@ class scatter_gpu_ScatterProgram {
     }
 }
 //# sourceMappingURL=scatter_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/segment_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/segment_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59892,7 +59892,7 @@ class SegmentOpProgram {
     }
 }
 //# sourceMappingURL=segment_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/select_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/select_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -59951,7 +59951,7 @@ class select_gpu_SelectProgram {
     }
 }
 //# sourceMappingURL=select_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/slice_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60025,7 +60025,7 @@ function slice_gpu_getCoords(rank) {
     }
 }
 //# sourceMappingURL=slice_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/slice_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -60112,7 +60112,7 @@ class slice_packed_gpu_SlicePackedProgram {
     }
 }
 //# sourceMappingURL=slice_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/strided_slice_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/strided_slice_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60164,7 +60164,7 @@ class strided_slice_gpu_StridedSliceProgram {
     }
 }
 //# sourceMappingURL=strided_slice_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/texture_manager.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/texture_manager.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60319,7 +60319,7 @@ function getKeyFromTextureShape(shapeRowsCol, physicalTexType, isPacked) {
     return `${shapeRowsCol[0]}_${shapeRowsCol[1]}_${physicalTexType}_${isPacked}`;
 }
 //# sourceMappingURL=texture_manager.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/tile_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/tile_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60372,7 +60372,7 @@ function tile_gpu_getSourceCoords(aShape) {
     return sourceCoords.join();
 }
 //# sourceMappingURL=tile_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/unaryop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60561,7 +60561,7 @@ const LOGICAL_NOT = `return float(!(x >= 1.0));`;
 const TO_INT = `return float(int(x));`;
 const CLONE = 'return x;';
 //# sourceMappingURL=unaryop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/unaryop_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -60642,7 +60642,7 @@ class UnaryOpPackedProgram {
     }
 }
 //# sourceMappingURL=unaryop_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/unpack_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/unpack_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -60684,7 +60684,7 @@ class unpack_gpu_UnpackProgram {
     }
 }
 //# sourceMappingURL=unpack_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/backend_webgl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/backend_webgl.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -62853,13 +62853,13 @@ function float32ToTypedArray(a, dtype) {
     }
 }
 //# sourceMappingURL=backend_webgl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version_version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Div_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Div_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -62890,7 +62890,7 @@ function divImpl(a, b, backend) {
     return output;
 }
 //# sourceMappingURL=Div_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Div.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Div.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -62919,7 +62919,7 @@ const divConfig = {
     }
 };
 //# sourceMappingURL=Div.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -62969,7 +62969,7 @@ class from_pixels_gpu_FromPixelsProgram {
     }
 }
 //# sourceMappingURL=from_pixels_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -63033,7 +63033,7 @@ class from_pixels_packed_gpu_FromPixelsPackedProgram {
     }
 }
 //# sourceMappingURL=from_pixels_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -63098,10 +63098,10 @@ function fromPixels(args) {
     return res;
 }
 //# sourceMappingURL=FromPixels.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
 var base = __webpack_require__(31);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/shared.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernel_utils/shared.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63125,7 +63125,7 @@ var base = __webpack_require__(31);
 const { maxImpl: maxImplCPU, transposeImpl: transposeImplCPU } = base["b" /* shared */];
 
 //# sourceMappingURL=shared.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reduce.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reduce.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63156,7 +63156,7 @@ function reduce(x, dtype, reductionType, backend) {
     return reduce(output, dtype, reductionType, backend);
 }
 //# sourceMappingURL=reduce.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reshape.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reshape.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63200,7 +63200,7 @@ function reshape(x, afterShape, backend) {
     return { dataId: x.dataId, shape: afterShape, dtype: x.dtype };
 }
 //# sourceMappingURL=reshape.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Max_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63233,7 +63233,7 @@ function maxImpl(x, reduceShape, outShape, backend) {
     return reshape(reduced, outShape, backend);
 }
 //# sourceMappingURL=Max_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/transpose_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -63283,7 +63283,7 @@ function getSwitchedCoords(newDim) {
     return switchedCoords.join();
 }
 //# sourceMappingURL=transpose_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/transpose_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -63346,7 +63346,7 @@ class transpose_packed_gpu_TransposePackedProgram {
     }
 }
 //# sourceMappingURL=transpose_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63375,7 +63375,7 @@ function transposeImpl(x, perm, backend) {
 }
 
 //# sourceMappingURL=Transpose_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Max.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63450,7 +63450,7 @@ const maxConfig = {
     }
 };
 //# sourceMappingURL=Max.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63476,7 +63476,7 @@ function maxPoolWithArgmaxImpl(x, includeBatchInIndex, convInfo, backend) {
     return [poolOutput, indexOutput];
 }
 //# sourceMappingURL=MaxPoolWithArgmax_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63513,7 +63513,7 @@ const maxPoolWithArgmaxConfig = {
     }
 };
 //# sourceMappingURL=MaxPoolWithArgmax.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV3.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV3.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63549,7 +63549,7 @@ const nonMaxSuppressionV3Config = {
     }
 };
 //# sourceMappingURL=NonMaxSuppressionV3.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV5.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV5.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63589,7 +63589,7 @@ const nonMaxSuppressionV5Config = {
     }
 };
 //# sourceMappingURL=NonMaxSuppressionV5.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Square.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Square.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -63619,7 +63619,7 @@ const squareConfig = {
     }
 };
 //# sourceMappingURL=Square.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SquaredDifference.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/SquaredDifference.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63653,7 +63653,7 @@ const squaredDifferenceConfig = {
     }
 };
 //# sourceMappingURL=SquaredDifference.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63701,7 +63701,7 @@ const transposeConfig = {
     }
 };
 //# sourceMappingURL=Transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/register_all_kernels.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/register_all_kernels.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63738,7 +63738,7 @@ for (const kernelConfig of kernelConfigs) {
     Object(dist["registerKernel"])(kernelConfig);
 }
 //# sourceMappingURL=register_all_kernels.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/webgl.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -63771,7 +63771,7 @@ function forceHalfFloat() {
     Object(dist["env"])().set('WEBGL_FORCE_F16_TEXTURES', true);
 }
 //# sourceMappingURL=webgl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/index.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/index.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63836,7 +63836,7 @@ __webpack_require__.d(__webpack_exports__, "metrics", function() { return /* ree
 __webpack_require__.d(__webpack_exports__, "models", function() { return /* reexport */ exports_models_namespaceObject; });
 __webpack_require__.d(__webpack_exports__, "regularizers", function() { return /* reexport */ exports_regularizers_namespaceObject; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_constraints.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_constraints.js
 var exports_constraints_namespaceObject = {};
 __webpack_require__.r(exports_constraints_namespaceObject);
 __webpack_require__.d(exports_constraints_namespaceObject, "maxNorm", function() { return maxNorm; });
@@ -63844,7 +63844,7 @@ __webpack_require__.d(exports_constraints_namespaceObject, "unitNorm", function(
 __webpack_require__.d(exports_constraints_namespaceObject, "nonNeg", function() { return nonNeg; });
 __webpack_require__.d(exports_constraints_namespaceObject, "minMaxNorm", function() { return minMaxNorm; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_initializers.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_initializers.js
 var exports_initializers_namespaceObject = {};
 __webpack_require__.r(exports_initializers_namespaceObject);
 __webpack_require__.d(exports_initializers_namespaceObject, "zeros", function() { return zeros; });
@@ -63863,7 +63863,7 @@ __webpack_require__.d(exports_initializers_namespaceObject, "leCunNormal", funct
 __webpack_require__.d(exports_initializers_namespaceObject, "leCunUniform", function() { return leCunUniform; });
 __webpack_require__.d(exports_initializers_namespaceObject, "orthogonal", function() { return orthogonal; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_layers.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_layers.js
 var exports_layers_namespaceObject = {};
 __webpack_require__.r(exports_layers_namespaceObject);
 __webpack_require__.d(exports_layers_namespaceObject, "inputLayer", function() { return exports_layers_inputLayer; });
@@ -63939,7 +63939,7 @@ __webpack_require__.d(exports_layers_namespaceObject, "gaussianDropout", functio
 __webpack_require__.d(exports_layers_namespaceObject, "alphaDropout", function() { return alphaDropout; });
 __webpack_require__.d(exports_layers_namespaceObject, "masking", function() { return masking; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_metrics.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_metrics.js
 var exports_metrics_namespaceObject = {};
 __webpack_require__.r(exports_metrics_namespaceObject);
 __webpack_require__.d(exports_metrics_namespaceObject, "binaryAccuracy", function() { return exports_metrics_binaryAccuracy; });
@@ -63958,22 +63958,22 @@ __webpack_require__.d(exports_metrics_namespaceObject, "meanSquaredError", funct
 __webpack_require__.d(exports_metrics_namespaceObject, "MSE", function() { return exports_metrics_MSE; });
 __webpack_require__.d(exports_metrics_namespaceObject, "mse", function() { return exports_metrics_mse; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_models.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_models.js
 var exports_models_namespaceObject = {};
 __webpack_require__.r(exports_models_namespaceObject);
 __webpack_require__.d(exports_models_namespaceObject, "modelFromJSON", function() { return modelFromJSON; });
 
-// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_regularizers.js
+// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_regularizers.js
 var exports_regularizers_namespaceObject = {};
 __webpack_require__.r(exports_regularizers_namespaceObject);
 __webpack_require__.d(exports_regularizers_namespaceObject, "l1l2", function() { return l1l2; });
 __webpack_require__.d(exports_regularizers_namespaceObject, "l1", function() { return exports_regularizers_l1; });
 __webpack_require__.d(exports_regularizers_namespaceObject, "l2", function() { return exports_regularizers_l2; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/backend/common.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/backend/common.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64008,7 +64008,7 @@ function imageDataFormat() {
     return 'channelsLast';
 }
 //# sourceMappingURL=common.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/errors.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/errors.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64088,7 +64088,7 @@ class IndexError extends Error {
     }
 }
 //# sourceMappingURL=errors.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/generic_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/generic_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64572,7 +64572,7 @@ function mapActivationToFusedKernel(activationName) {
     return null;
 }
 //# sourceMappingURL=generic_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/constraints.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/constraints.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64721,7 +64721,7 @@ function getConstraint(identifier) {
     }
 }
 //# sourceMappingURL=constraints.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_constraints.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_constraints.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64767,7 +64767,7 @@ function minMaxNorm(config) {
     return new constraints_MinMaxNorm(config);
 }
 //# sourceMappingURL=exports_constraints.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/keras_format/common.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/keras_format/common.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64783,7 +64783,7 @@ const VALID_POOL_MODE_VALUES = ['max', 'avg'];
 const VALID_BIDIRECTIONAL_MERGE_MODES = ['sum', 'mul', 'concat', 'ave'];
 const VALID_SAMPLE_WEIGHT_MODES = ['temporal'];
 //# sourceMappingURL=common.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/common.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/common.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64890,7 +64890,7 @@ function isValidTensorName(name) {
     return !!name.match(tensorNameRegex);
 }
 //# sourceMappingURL=common.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/math_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/math_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -65022,7 +65022,7 @@ function range(begin, end) {
     return out;
 }
 //# sourceMappingURL=math_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/backend/tfjs_backend.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/backend/tfjs_backend.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -65666,7 +65666,7 @@ function inTrainPhase(x, alt, training = false) {
     return training ? x() : alt();
 }
 //# sourceMappingURL=tfjs_backend.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/keras_format/initializer_config.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/keras_format/initializer_config.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -65691,7 +65691,7 @@ const initializerClassNames = [
     'TruncatedNormal', 'VarianceScaling', 'Orthogonal', 'Identity'
 ];
 //# sourceMappingURL=initializer_config.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/initializers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/initializers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66181,7 +66181,7 @@ function getInitializer(identifier) {
     }
 }
 //# sourceMappingURL=initializers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_initializers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_initializers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66363,7 +66363,7 @@ function orthogonal(args) {
     return new initializers_Orthogonal(args);
 }
 //# sourceMappingURL=exports_initializers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/backend/state.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/backend/state.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66399,7 +66399,7 @@ function getUid(prefix = '') {
     return prefix + _uidPrefixes[prefix].toString();
 }
 //# sourceMappingURL=state.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/types_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/types_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66476,7 +66476,7 @@ function getExactlyOneShape(shapes) {
     }
 }
 //# sourceMappingURL=types_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/variable_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/variable_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66506,7 +66506,7 @@ function countParamsInWeights(weights) {
     return count;
 }
 //# sourceMappingURL=variable_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/variables.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/variables.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66797,7 +66797,7 @@ function gradients(lossFn, variables) {
     return variables.map(variable => valudAndGrads.grads[variable.name]);
 }
 //# sourceMappingURL=variables.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/topology.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/topology.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68031,7 +68031,7 @@ function getSourceInputs(tensor, layer, nodeIndex) {
     }
 }
 //# sourceMappingURL=topology.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/input_layer.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/input_layer.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68156,7 +68156,7 @@ function Input(config) {
     return outputs[0];
 }
 //# sourceMappingURL=input_layer.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/logs.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/logs.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68215,7 +68215,7 @@ function disposeTensorsInLogs(logs) {
     }
 }
 //# sourceMappingURL=logs.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/base_callbacks.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/base_callbacks.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68704,7 +68704,7 @@ function configureCallbacks(callbacks, verbose, epochs, initialEpoch, numTrainSa
     return { callbackList, history };
 }
 //# sourceMappingURL=base_callbacks.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/serialization.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/serialization.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68732,7 +68732,7 @@ function deserialize(config, customObjects = {}, fastWeightInit = false) {
     return deserializeKerasObject(config, dist["serialization"].SerializationMap.getMap().classNameMap, customObjects, 'layer', fastWeightInit);
 }
 //# sourceMappingURL=serialization.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/losses.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/losses.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68970,7 +68970,7 @@ function get(identifierOrFn) {
     }
 }
 //# sourceMappingURL=losses.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/metrics.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/metrics.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69135,7 +69135,7 @@ function getLossOrMetricName(fn) {
     }
 }
 //# sourceMappingURL=metrics.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/optimizers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/optimizers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69175,7 +69175,7 @@ function getOptimizer(identifier) {
     throw new ValueError(`Unknown Optimizer ${identifier}`);
 }
 //# sourceMappingURL=optimizers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/user_defined_metadata.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/user_defined_metadata.js
 /**
  * @license
  * Copyright 2019 Google LLC
@@ -69277,7 +69277,7 @@ function plainObjectCheck(x) {
     }
 }
 //# sourceMappingURL=user_defined_metadata.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/layer_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/layer_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69475,7 +69475,7 @@ printFn) {
     }
 }
 //# sourceMappingURL=layer_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/serialization_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/serialization_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69600,13 +69600,13 @@ function convertTsToPythonic(tsConfig, key) {
     }
 }
 //# sourceMappingURL=serialization_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/executor.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/executor.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -70051,7 +70051,7 @@ function getNodeOutputs(fetch) {
     return layerOutputs;
 }
 //# sourceMappingURL=executor.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/container.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/container.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -71193,7 +71193,7 @@ class container_Container extends topology_Layer {
     }
 }
 //# sourceMappingURL=container.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -71350,7 +71350,7 @@ function computeWeightedLoss(losses, sampleWeights) {
     return Object(dist["mul"])(losses, sampleWeights);
 }
 //# sourceMappingURL=training_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training_dataset.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training_dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -71702,7 +71702,7 @@ model, dataset, args) {
     return singletonOrArray(outs);
 }
 //# sourceMappingURL=training_dataset.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training_tensors.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training_tensors.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -72140,7 +72140,7 @@ function disposeNewTensors(tensors, refTensors) {
     });
 }
 //# sourceMappingURL=training_tensors.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -73746,7 +73746,7 @@ class training_LayersModel extends container_Container {
 training_LayersModel.className = 'Model';
 dist["serialization"].registerClass(training_LayersModel);
 //# sourceMappingURL=training.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/models.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/models.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -74683,7 +74683,7 @@ class models_Sequential extends training_LayersModel {
 models_Sequential.className = 'Sequential';
 dist["serialization"].registerClass(models_Sequential);
 //# sourceMappingURL=models.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -74934,7 +74934,7 @@ function registerCallbackConstructor(verbosityLevel, callbackConstructor) {
     base_callbacks_CallbackConstructorRegistry.registerCallbackConstructor(verbosityLevel, callbackConstructor);
 }
 //# sourceMappingURL=exports.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/activations.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/activations.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75155,7 +75155,7 @@ function getActivation(identifier) {
     }
 }
 //# sourceMappingURL=activations.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/regularizers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/regularizers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75255,7 +75255,7 @@ function getRegularizer(identifier) {
     }
 }
 //# sourceMappingURL=regularizers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/advanced_activations.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/advanced_activations.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75483,7 +75483,7 @@ class advanced_activations_Softmax extends topology_Layer {
 advanced_activations_Softmax.className = 'Softmax';
 dist["serialization"].registerClass(advanced_activations_Softmax);
 //# sourceMappingURL=advanced_activations.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/conv_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/conv_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75561,7 +75561,7 @@ function deconvLength(dimSize, strideSize, kernelSize, padding) {
     return dimSize;
 }
 //# sourceMappingURL=conv_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/convolutional.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -76399,7 +76399,7 @@ class convolutional_UpSampling2D extends topology_Layer {
 convolutional_UpSampling2D.className = 'UpSampling2D';
 dist["serialization"].registerClass(convolutional_UpSampling2D);
 //# sourceMappingURL=convolutional.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional_depthwise.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/convolutional_depthwise.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -76539,7 +76539,7 @@ class convolutional_depthwise_DepthwiseConv2D extends convolutional_BaseConv {
 convolutional_depthwise_DepthwiseConv2D.className = 'DepthwiseConv2D';
 dist["serialization"].registerClass(convolutional_depthwise_DepthwiseConv2D);
 //# sourceMappingURL=convolutional_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/core.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/core.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -77001,7 +77001,7 @@ class core_Masking extends topology_Layer {
 core_Masking.className = 'Masking';
 dist["serialization"].registerClass(core_Masking);
 //# sourceMappingURL=core.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/embeddings.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/embeddings.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -77141,7 +77141,7 @@ class embeddings_Embedding extends topology_Layer {
 embeddings_Embedding.className = 'Embedding';
 dist["serialization"].registerClass(embeddings_Embedding);
 //# sourceMappingURL=embeddings.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/merge.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/merge.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78123,7 +78123,7 @@ merge_Dot.className = 'Dot';
 dist["serialization"].registerClass(merge_Dot);
 // TODO(cais): Add functional interfaces for the merge layers.
 //# sourceMappingURL=merge.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/noise.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/noise.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78277,7 +78277,7 @@ class noise_AlphaDropout extends topology_Layer {
 noise_AlphaDropout.className = 'AlphaDropout';
 dist["serialization"].registerClass(noise_AlphaDropout);
 //# sourceMappingURL=noise.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/normalization.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/normalization.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78674,7 +78674,7 @@ class normalization_LayerNormalization extends topology_Layer {
 normalization_LayerNormalization.className = 'LayerNormalization';
 dist["serialization"].registerClass(normalization_LayerNormalization);
 //# sourceMappingURL=normalization.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/padding.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/padding.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78859,7 +78859,7 @@ class padding_ZeroPadding2D extends topology_Layer {
 padding_ZeroPadding2D.className = 'ZeroPadding2D';
 dist["serialization"].registerClass(padding_ZeroPadding2D);
 //# sourceMappingURL=padding.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/pooling.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/pooling.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -79378,7 +79378,7 @@ class pooling_GlobalMaxPooling2D extends pooling_GlobalPooling2D {
 pooling_GlobalMaxPooling2D.className = 'GlobalMaxPooling2D';
 dist["serialization"].registerClass(pooling_GlobalMaxPooling2D);
 //# sourceMappingURL=pooling.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/recurrent.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/recurrent.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -80914,7 +80914,7 @@ function generateDropoutMask(ones, rate, training = null, count = 1) {
     }
 }
 //# sourceMappingURL=recurrent.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/wrappers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/wrappers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -81399,7 +81399,7 @@ class wrappers_Bidirectional extends wrappers_Wrapper {
 wrappers_Bidirectional.className = 'Bidirectional';
 dist["serialization"].registerClass(wrappers_Bidirectional);
 //# sourceMappingURL=wrappers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_layers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_layers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -82933,7 +82933,7 @@ function masking(args) {
     return new core_Masking(args);
 }
 //# sourceMappingURL=exports_layers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_metrics.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_metrics.js
 
 
 /**
@@ -83212,7 +83212,7 @@ function exports_metrics_mse(yTrue, yPred) {
     return meanSquaredError(yTrue, yPred);
 }
 //# sourceMappingURL=exports_metrics.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_models.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_models.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83224,7 +83224,7 @@ function exports_metrics_mse(yTrue, yPred) {
  */
 
 //# sourceMappingURL=exports_models.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_regularizers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_regularizers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83270,7 +83270,7 @@ function exports_regularizers_l2(config) {
     return l2(config);
 }
 //# sourceMappingURL=exports_regularizers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/callbacks.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/callbacks.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83443,7 +83443,7 @@ function earlyStopping(args) {
 }
 const callbacks_callbacks = { earlyStopping };
 //# sourceMappingURL=callbacks.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/index.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/index.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83495,19 +83495,19 @@ __webpack_require__.d(__webpack_exports__, "FileDataSource", function() { return
 __webpack_require__.d(__webpack_exports__, "URLDataSource", function() { return /* reexport */ url_data_source_URLDataSource; });
 __webpack_require__.d(__webpack_exports__, "version_data", function() { return /* reexport */ version; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
-var seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
+var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js + 3 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js + 3 modules
 var lazy_iterator = __webpack_require__(14);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/deep_map.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/deep_map.js
 var deep_map = __webpack_require__(19);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/dataset.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -83905,7 +83905,7 @@ class dataset_Dataset {
             }
         }
         const base = this;
-        const random = seedrandom["alea"](seed || dist["util"].now().toString());
+        const random = _seedrandom_2_4_3_seedrandom["alea"](seed || dist["util"].now().toString());
         return datasetFromIteratorFn(async () => {
             let seed2 = random.int32();
             if (reshuffleEachIteration) {
@@ -84152,7 +84152,7 @@ function batchConcat(arrays) {
     }
 }
 //# sourceMappingURL=dataset.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/datasets/text_line_dataset.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/datasets/text_line_dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84200,7 +84200,7 @@ class text_line_dataset_TextLineDataset extends dataset_Dataset {
     }
 }
 //# sourceMappingURL=text_line_dataset.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/datasets/csv_dataset.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/datasets/csv_dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84578,7 +84578,7 @@ class csv_dataset_CSVDataset extends dataset_Dataset {
 // tf.data.FixedLengthRecordDataset()
 // tf.data.TFRecordDataset()
 //# sourceMappingURL=csv_dataset.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/microphone_iterator.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/microphone_iterator.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -84766,7 +84766,7 @@ class microphone_iterator_MicrophoneIterator extends lazy_iterator["a" /* LazyIt
     }
 }
 //# sourceMappingURL=microphone_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/webcam_iterator.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/webcam_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84959,7 +84959,7 @@ class webcam_iterator_WebcamIterator extends lazy_iterator["a" /* LazyIterator *
     }
 }
 //# sourceMappingURL=webcam_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/datasource.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/datasource.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84990,10 +84990,10 @@ class DataSource {
 // in combination with chainable source->dataset above, e.g.:
 // tf.data.url(...).asCsvDataset().shuffle().batch()
 //# sourceMappingURL=datasource.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/byte_chunk_iterator.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/byte_chunk_iterator.js
 var byte_chunk_iterator = __webpack_require__(57);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/file_chunk_iterator.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/file_chunk_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85088,7 +85088,7 @@ class file_chunk_iterator_FileChunkIterator extends byte_chunk_iterator["a" /* B
     }
 }
 //# sourceMappingURL=file_chunk_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/url_chunk_iterator.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/url_chunk_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85150,7 +85150,7 @@ const getRequestInitFromRequest = (request) => {
     return init;
 };
 //# sourceMappingURL=url_chunk_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/source_util.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/source_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85175,7 +85175,7 @@ function isLocalPath(source) {
     return (typeof source === 'string') && source.substr(0, 7) === 'file://';
 }
 //# sourceMappingURL=source_util.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/sources/file_data_source.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/sources/file_data_source.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85227,7 +85227,7 @@ class file_data_source_FileDataSource extends DataSource {
     }
 }
 //# sourceMappingURL=file_data_source.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/sources/url_data_source.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/sources/url_data_source.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85280,7 +85280,7 @@ class url_data_source_URLDataSource extends DataSource {
     }
 }
 //# sourceMappingURL=url_data_source.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/readers.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/readers.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85554,13 +85554,13 @@ async function microphone(microphoneConfig) {
     return microphone_iterator_MicrophoneIterator.create(microphoneConfig);
 }
 //# sourceMappingURL=readers.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/version.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/index.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/index.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85599,16 +85599,16 @@ __webpack_require__.d(__webpack_exports__, "MathBackendCPU", function() { return
 __webpack_require__.d(__webpack_exports__, "version_cpu", function() { return /* reexport */ base["c" /* version_cpu */]; });
 __webpack_require__.d(__webpack_exports__, "shared", function() { return /* reexport */ base["b" /* shared */]; });
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
 var base = __webpack_require__(31);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
 var cpu_util = __webpack_require__(9);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/kernel_utils.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/utils/kernel_utils.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85678,7 +85678,7 @@ function createBinaryKernelImpl(op) {
     };
 }
 //# sourceMappingURL=kernel_utils.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Div_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Div_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85698,7 +85698,7 @@ function createBinaryKernelImpl(op) {
 
 const divImpl = createBinaryKernelImpl((a, b) => a / b);
 //# sourceMappingURL=Div_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Div.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Div.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85720,13 +85720,13 @@ const divImpl = createBinaryKernelImpl((a, b) => a / b);
 
 const divConfig = createBinaryKernelConfig(dist["Div"], divImpl);
 //# sourceMappingURL=Div.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
 var Max_impl = __webpack_require__(37);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
 var Transpose_impl = __webpack_require__(30);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Max.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -85781,10 +85781,10 @@ const maxConfig = {
     }
 };
 //# sourceMappingURL=Max.js.map
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
 var pool_utils = __webpack_require__(26);
 
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax_impl.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85810,7 +85810,7 @@ function maxPoolWithArgmaxImpl(xValues, xShape, dtype, includeBatchInIndex, conv
     return [maxPools.values, maxPositions.values];
 }
 //# sourceMappingURL=MaxPoolWithArgmax_impl.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85851,7 +85851,7 @@ const maxPoolWithArgmaxConfig = {
     }
 };
 //# sourceMappingURL=MaxPoolWithArgmax.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV5.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV5.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -85891,7 +85891,7 @@ const nonMaxSuppressionV5Config = {
     }
 };
 //# sourceMappingURL=NonMaxSuppressionV5.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Square.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Square.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -85928,7 +85928,7 @@ const squareConfig = {
     }
 };
 //# sourceMappingURL=Square.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SquaredDifference.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/SquaredDifference.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85954,7 +85954,7 @@ const squaredDifferenceImpl = createBinaryKernelImpl((aVal, bVal) => {
 });
 const squaredDifferenceConfig = createBinaryKernelConfig(dist["SquaredDifference"], squaredDifferenceImpl);
 //# sourceMappingURL=SquaredDifference.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85994,7 +85994,7 @@ const transposeConfig = {
     }
 };
 //# sourceMappingURL=Transpose.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/register_all_kernels.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/register_all_kernels.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -86031,7 +86031,7 @@ for (const kernelConfig of kernelConfigs) {
     Object(dist["registerKernel"])(kernelConfig);
 }
 //# sourceMappingURL=register_all_kernels.js.map
-// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/index.js
+// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/index.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -86065,10 +86065,10 @@ Object(dist["registerBackend"])('cpu', () => new base["a" /* MathBackendCPU */](
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs/dist/tf.node.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs@2.0.1@@tensorflow/tfjs/dist/tf.node.js
 var tf_node = __webpack_require__(60);
 
-// EXTERNAL MODULE: ./node_modules/regression/dist/regression.js
+// EXTERNAL MODULE: ./node_modules/_regression@2.0.1@regression/dist/regression.js
 var regression = __webpack_require__(80);
 
 // CONCATENATED MODULE: ./src/params.mjs
@@ -86128,10 +86128,10 @@ window.cancelRequestAnimFrame = (function() {
     window.clearTimeout;
 })();
 
-// EXTERNAL MODULE: ./node_modules/localforage/dist/localforage.js
+// EXTERNAL MODULE: ./node_modules/_localforage@1.7.3@localforage/dist/localforage.js
 var localforage = __webpack_require__(32);
 
-// EXTERNAL MODULE: ./node_modules/@tensorflow-models/facemesh/dist/index.js
+// EXTERNAL MODULE: ./node_modules/_@tensorflow-models_facemesh@0.0.3@@tensorflow-models/facemesh/dist/index.js
 var dist = __webpack_require__(59);
 
 // CONCATENATED MODULE: ./src/facemesh.mjs
@@ -86236,6 +86236,8 @@ TFFaceMesh.prototype.getEyePatches = async function(imageCanvas, width, height) 
     height: rightHeight
   };
 
+  console.log('Ratio of the left eye width/height:', leftWidth / leftHeight)
+  console.log('Ratio of the right eye width/height:', rightWidth / rightHeight)
   this.predictionReady = true;
 
   return eyeObjs;
@@ -86286,7 +86288,7 @@ TFFaceMesh.prototype.name = 'TFFaceMesh';
 
 /* harmony default export */ var facemesh = (TFFaceMesh);
 
-// EXTERNAL MODULE: ./node_modules/numeric/numeric-1.2.6.js
+// EXTERNAL MODULE: ./node_modules/_numeric@1.2.6@numeric/numeric-1.2.6.js
 var numeric_1_2_6 = __webpack_require__(12);
 
 // CONCATENATED MODULE: ./src/mat.mjs
@@ -86790,6 +86792,28 @@ util.equalizeHistogram = function(src, step, dst) {
     // Equalize image:
     for (var i = 0; i < srcLength; ++i) {
         dst[i] = hist[src[i]];
+    }
+    return dst;
+};
+
+util.equalizeHistogramTest = function(src, step, dst) {
+    var srcLength = src.length;
+    if (!dst) dst = src;
+    if (!step) step = 5;
+    step = Math.floor(srcLength / 12);
+    var index = 0;
+    var totalPixel = 0;
+    for (var i = 0; i < srcLength; i += step){
+        var segmentPixel = 0;
+        for (var j = 0; j < step; j++){
+            segmentPixel += src[i + j];
+        }
+        dst[index] = segmentPixel;
+        index += 1;
+        totalPixel += segmentPixel;
+    }
+    for (var i = 0; i < dst.length; i++){
+        dst[i] /= totalPixel;
     }
     return dst;
 };
@@ -87781,6 +87805,7 @@ var faceFeedbackBox = null;
 var gazeDot = null;
 // Why is this not in webgazer.params ?
 var debugVideoLoc = '';
+var eyePatch = null;
 
 /*
  * Initialises variables used to store accuracy eigenValues
@@ -88038,6 +88063,17 @@ async function loop() {
       var tracker = src_webgazer.getTracker();
       faceOverlay.getContext('2d').clearRect( 0, 0, videoElement.videoWidth, videoElement.videoHeight);
       tracker.drawFaceOverlay(faceOverlay.getContext('2d'), tracker.getPositions());
+      if(latestEyeFeatures){
+        eyePatch.getContext('2d').clearRect(0, 0, 300, 200);
+        eyePatch.getContext('2d').drawImage(videoElementCanvas, 
+            latestEyeFeatures.left.imagex, latestEyeFeatures.left.imagey,
+            latestEyeFeatures.left.width, latestEyeFeatures.left.height, 100, 5,
+            60, 36);
+        eyePatch.getContext('2d').drawImage(videoElementCanvas, 
+            latestEyeFeatures.right.imagex, latestEyeFeatures.right.imagey,
+            latestEyeFeatures.right.width, latestEyeFeatures.right.height, 5, 5,
+            60, 36);
+      }
     }
 
     // Feedback box
@@ -88290,6 +88326,14 @@ async function init(stream) {
   gazeDot.style.width = '10px';
   gazeDot.style.height = '10px';
 
+  eyePatch = document.createElement('canvas');
+  eyePatch.style.display = 'block' ;
+  eyePatch.style.position = 'fixed';
+  eyePatch.style.top = 500 + 'px';
+  eyePatch.style.left = 400 + 'px';
+  eyePatch.style.width = 300 + 'px';
+  eyePatch.style.height = 200 + 'px';
+
   // Add other preview/feedback elements to the screen once the video has shown and its parameters are initialized
   document.body.appendChild(videoElement);
   function setupPreviewVideo(e) {
@@ -88302,6 +88346,7 @@ async function init(stream) {
     document.body.appendChild(faceOverlay);
     document.body.appendChild(faceFeedbackBox);
     document.body.appendChild(gazeDot);
+    document.body.appendChild(eyePatch);
 
     // Run this only once, so remove the event listener
     e.target.removeEventListener(e.type, setupPreviewVideo);
