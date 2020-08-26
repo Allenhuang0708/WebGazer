@@ -237,7 +237,7 @@ async function getPrediction(regModelIndex) {
     console.log('regression not set, call setRegression()');
     return null;
   }
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     predictions.push(regs[reg].predict(latestEyeFeatures));
   }
   if (regModelIndex !== undefined) {
@@ -316,7 +316,7 @@ async function loop() {
       var x = 0;
       var y = 0;
       var len = smoothingVals.length;
-      for (var d in smoothingVals.data) {
+      for (let d = 0; d < smoothingVals.data.length; d++) {
         x += smoothingVals.get(d).x;
         y += smoothingVals.get(d).y;
       }
@@ -361,7 +361,7 @@ var recordScreenPosition = function(x, y, eventType) {
     console.log('regression not set, call setRegression()');
     return null;
   }
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     if( latestEyeFeatures )
       regs[reg].addData(latestEyeFeatures, [x, y], eventType);
   }
@@ -438,7 +438,7 @@ async function loadGlobalData() {
   data = loadData;
 
   // Load data into regression model(s)
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     regs[reg].setData(loadData);
   }
 
@@ -467,7 +467,7 @@ function clearData() {
   localforage.clear();
 
   // Removes data from regression model
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     regs[reg].init();
   }
 }
@@ -570,7 +570,7 @@ async function init(stream) {
     document.body.appendChild(faceOverlay);
     document.body.appendChild(faceFeedbackBox);
     document.body.appendChild(gazeDot);
-    document.body.appendChild(eyePatch);
+    //document.body.appendChild(eyePatch);
 
     // Run this only once, so remove the event listener
     e.target.removeEventListener(e.type, setupPreviewVideo);
@@ -705,7 +705,7 @@ webgazer.end = function() {
   //loop may run an extra time and fail due to removed elements
   paused = true;
 
-  //webgazer.stopVideo(); // uncomment if you want to stop the video from streaming
+  webgazer.stopVideo(); // uncomment if you want to stop the video from streaming
 
   //remove video element and canvas
   document.body.removeChild(videoElement);

@@ -87040,7 +87040,7 @@ util.KalmanFilter.prototype.update = function(z) {
 
 
 
-const ridgeReg_reg = {};
+const reg = {};
 var ridgeParameter = Math.pow(10,-5);
 var dataWindow = 700;
 var trailDataWindow = 10;
@@ -87116,14 +87116,14 @@ function getCurrentFixationIndex() {
  * this object allow to perform ridge regression
  * @constructor
  */
-ridgeReg_reg.RidgeReg = function() {
+reg.RidgeReg = function() {
   this.init();
 };
 
 /**
  * Initialize new arrays and initialize Kalman filter.
  */
-ridgeReg_reg.RidgeReg.prototype.init = function() {
+reg.RidgeReg.prototype.init = function() {
   this.screenXClicksArray = new src_util.DataWindow(dataWindow);
   this.screenYClicksArray = new src_util.DataWindow(dataWindow);
   this.eyeFeaturesClicks = new src_util.DataWindow(dataWindow);
@@ -87178,7 +87178,7 @@ ridgeReg_reg.RidgeReg.prototype.init = function() {
  * @param {Object} screenPos - The current screen point
  * @param {Object} type - The type of performed action
  */
-ridgeReg_reg.RidgeReg.prototype.addData = function(eyes, screenPos, type) {
+reg.RidgeReg.prototype.addData = function(eyes, screenPos, type) {
   if (!eyes) {
     return;
   }
@@ -87214,7 +87214,7 @@ ridgeReg_reg.RidgeReg.prototype.addData = function(eyes, screenPos, type) {
  * @param {Object} eyesObj - The current user eyes object
  * @returns {Object}
  */
-ridgeReg_reg.RidgeReg.prototype.predict = function(eyesObj) {
+reg.RidgeReg.prototype.predict = function(eyesObj) {
   if (!eyesObj || this.eyeFeaturesClicks.length === 0) {
     return null;
   }
@@ -87272,7 +87272,7 @@ ridgeReg_reg.RidgeReg.prototype.predict = function(eyesObj) {
  * replace current data member with given data
  * @param {Array.<Object>} data - The data to set
  */
-ridgeReg_reg.RidgeReg.prototype.setData = function(data) {
+reg.RidgeReg.prototype.setData = function(data) {
   for (var i = 0; i < data.length; i++) {
     // Clone data array
     var leftData = new Uint8ClampedArray(data[i].eyes.left.patch.data);
@@ -87290,7 +87290,7 @@ ridgeReg_reg.RidgeReg.prototype.setData = function(data) {
  * Return the data
  * @returns {Array.<Object>|*}
  */
-ridgeReg_reg.RidgeReg.prototype.getData = function() {
+reg.RidgeReg.prototype.getData = function() {
   return this.dataClicks.data;
 }
 
@@ -87298,9 +87298,9 @@ ridgeReg_reg.RidgeReg.prototype.getData = function() {
  * The RidgeReg object name
  * @type {string}
  */
-ridgeReg_reg.RidgeReg.prototype.name = 'ridge';
+reg.RidgeReg.prototype.name = 'ridge';
 
-/* harmony default export */ var ridgeReg = (ridgeReg_reg);
+/* harmony default export */ var ridgeReg = (reg);
 
 // CONCATENATED MODULE: ./src/ridgeWeightedReg.mjs
 
@@ -88013,7 +88013,7 @@ async function getPrediction(regModelIndex) {
     console.log('regression not set, call setRegression()');
     return null;
   }
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     predictions.push(regs[reg].predict(latestEyeFeatures));
   }
   if (regModelIndex !== undefined) {
@@ -88092,7 +88092,7 @@ async function loop() {
       var x = 0;
       var y = 0;
       var len = smoothingVals.length;
-      for (var d in smoothingVals.data) {
+      for (let d = 0; d < smoothingVals.data.length; d++) {
         x += smoothingVals.get(d).x;
         y += smoothingVals.get(d).y;
       }
@@ -88137,7 +88137,7 @@ var recordScreenPosition = function(x, y, eventType) {
     console.log('regression not set, call setRegression()');
     return null;
   }
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     if( latestEyeFeatures )
       regs[reg].addData(latestEyeFeatures, [x, y], eventType);
   }
@@ -88214,7 +88214,7 @@ async function loadGlobalData() {
   data = loadData;
 
   // Load data into regression model(s)
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     regs[reg].setData(loadData);
   }
 
@@ -88243,7 +88243,7 @@ function clearData() {
   localforage.clear();
 
   // Removes data from regression model
-  for (var reg in regs) {
+  for (let reg = 0; reg < regs.length; reg++) {
     regs[reg].init();
   }
 }
@@ -88346,7 +88346,7 @@ async function init(stream) {
     document.body.appendChild(faceOverlay);
     document.body.appendChild(faceFeedbackBox);
     document.body.appendChild(gazeDot);
-    document.body.appendChild(eyePatch);
+    //document.body.appendChild(eyePatch);
 
     // Run this only once, so remove the event listener
     e.target.removeEventListener(e.type, setupPreviewVideo);
@@ -88481,7 +88481,7 @@ src_webgazer.end = function() {
   //loop may run an extra time and fail due to removed elements
   paused = true;
 
-  //webgazer.stopVideo(); // uncomment if you want to stop the video from streaming
+  src_webgazer.stopVideo(); // uncomment if you want to stop the video from streaming
 
   //remove video element and canvas
   document.body.removeChild(videoElement);
