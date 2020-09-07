@@ -324,7 +324,7 @@ async function loop() {
       var pred = webgazer.util.bound({'x':x/len, 'y':y/len});
 
       if (webgazer.params.storingPoints) {
-        drawCoordinates('blue',pred.x,pred.y); //draws the previous predictions
+        //drawCoordinates('blue',pred.x,pred.y); //draws the previous predictions
         //store the position of the past fifty occuring tracker preditions
         webgazer.storePoints(pred.x, pred.y, k);
         k++;

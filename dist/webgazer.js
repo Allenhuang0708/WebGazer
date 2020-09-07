@@ -86236,8 +86236,6 @@ TFFaceMesh.prototype.getEyePatches = async function(imageCanvas, width, height) 
     height: rightHeight
   };
 
-  console.log('Ratio of the left eye width/height:', leftWidth / leftHeight)
-  console.log('Ratio of the right eye width/height:', rightWidth / rightHeight)
   this.predictionReady = true;
 
   return eyeObjs;
@@ -88100,7 +88098,7 @@ async function loop() {
       var pred = src_webgazer.util.bound({'x':x/len, 'y':y/len});
 
       if (src_webgazer.params.storingPoints) {
-        drawCoordinates('blue',pred.x,pred.y); //draws the previous predictions
+        //drawCoordinates('blue',pred.x,pred.y); //draws the previous predictions
         //store the position of the past fifty occuring tracker preditions
         src_webgazer.storePoints(pred.x, pred.y, src_k);
         src_k++;
