@@ -31,7 +31,7 @@ def change_axis(torch_arr):
     if len(torch_arr.shape) == 4:
         torch_arr = np.moveaxis(torch_arr, [0, 1], [3, 2])
     elif len(torch_arr.shape) == 2:
-        torch_arr = np.moveaxis(torch_arr, 0, 1)  
+        torch_arr = np.moveaxis(torch_arr, 0, 1)
     return torch_arr
 
 

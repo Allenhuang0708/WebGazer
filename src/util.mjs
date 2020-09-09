@@ -1,4 +1,5 @@
 import mat from './mat';
+import * as tf from '@tensorflow/tfjs';
 
 const util = {};
 
