@@ -30,47 +30,55 @@ util.getEyeFeats = function(eyes) {
     // face model
     var resizedFace = this.resizeEye(eyes.face, modelWidth, modelHeight);
     resizedFace = this.convertPixels(resizedFace.data, 224, 224);
-    var face_tensor = tf.tensor4d(resizedFace);
-    var face_output_0 =  deep_learning_model.face[0].predict(face_tensor);
-    var [face_input_0, face_input_1] = tf.split(face_output_0, 2, 3);
-    var face_output_1_a = deep_learning_model.face[1].predict(face_input_0);
-    var face_output_1_b = deep_learning_model.face[2].predict(face_input_1);
-    var face_input_2 = tf.concat([face_output_1_a, face_output_1_b], 3);
-    var face_output_2_1 = deep_learning_model.face[3].predict(face_input_2);
+    const faceLayer = this.convGroupModel(resizedFace, deep_learning_model.face);
 
     //eyes model
     var resizedLeft = this.resizeEye(eyes.left, modelWidth, modelHeight);
     resizedLeft = this.convertPixels(resizedLeft.data, 224, 224);
-    var face_tensor = tf.tensor4d(resizedLeft);
-    var face_output_0 =  deep_learning_model.eyes[0].predict(face_tensor);
-    var [face_input_0, face_input_1] = tf.split(face_output_0, 2, 3);
-    var face_output_1_a = deep_learning_model.eyes[1].predict(face_input_0);
-    var face_output_1_b = deep_learning_model.eyes[2].predict(face_input_1);
-    var face_input_2 = tf.concat([face_output_1_a, face_output_1_b], 3);
-    var face_output_2_2 = deep_learning_model.eyes[3].predict(face_input_2);
+    const leftEyeLayer = this.convGroupModel(resizedLeft, deep_learning_model.eyes);
     
     var resizedRight = this.resizeEye(eyes.right, modelWidth, modelHeight);
     resizedRight = this.convertPixels(resizedRight.data, 224, 224);
-    var face_tensor = tf.tensor4d(resizedRight);
-    var face_output_0 =  deep_learning_model.eyes[0].predict(face_tensor);
-    var [face_input_0, face_input_1] = tf.split(face_output_0, 2, 3);
-    var face_output_1_a = deep_learning_model.eyes[1].predict(face_input_0);
-    var face_output_1_b = deep_learning_model.eyes[2].predict(face_input_1);
-    var face_input_2 = tf.concat([face_output_1_a, face_output_1_b], 3);
-    var face_output_2_3 = deep_learning_model.eyes[3].predict(face_input_2);
+    const rightEyeLayer =this.convGroupModel(resizedRight, deep_learning_model.eyes);
 
-    var eye_input = tf.concat([face_output_2_2.reshape([-1]), face_output_2_3.reshape([-1])]);
-    var eye_output = deep_learning_model.eyes[4].predict(eye_input.reshape([1, -1]));
+    const eye_output = tf.tidy(() => {
+        const eye_input = tf.concat([leftEyeLayer.reshape([-1]), rightEyeLayer.reshape([-1])]);
+        const eye_output = deep_learning_model.eyes[4].predict(eye_input.reshape([1, -1]));
+        return eye_output;
+    });
 
-    var faceGrid = tf.tensor1d(eyes.faceGrid);
-    var face_grid = deep_learning_model.face_grid.predict(faceGrid.reshape([1, -1]));
+    const face_grid = tf.tidy(() => {
+        const faceGrid = tf.tensor1d(eyes.faceGrid);
+        const face_grid = deep_learning_model.face_grid.predict(faceGrid.reshape([1, -1]));
+        return face_grid;
+    });
 
-    var connect_input = tf.concat([face_output_2_1, eye_output, face_grid], 1)
+    var connect_input = tf.concat([faceLayer, eye_output, face_grid], 1)
     var full_connect = deep_learning_model.full_connect.predict(connect_input);
     var result = full_connect.arraySync();
 
+    leftEyeLayer.dispose();
+    faceLayer.dispose();
+    rightEyeLayer.dispose();
+    eye_output.dispose();
+    face_grid.dispose();
+    connect_input.dispose();
+    full_connect.dispose();
     return result[0];
 }
+
+util.convGroupModel = function(inputData, modelSequence) {
+    return tf.tidy(() =>{
+        const inputTensorLayer1 = tf.tensor4d(inputData);
+        const outputTensorLayer1 =  modelSequence[0].predict(inputTensorLayer1);
+        const [inputTensorLayer2a, inputTensorLayer2b] = tf.split(outputTensorLayer1, 2, 3);
+        const outputTensorLayer2a = modelSequence[1].predict(inputTensorLayer2a);
+        const outputTensorLayer2b = modelSequence[2].predict(inputTensorLayer2b);
+        const inputTensorLayer3 = tf.concat([outputTensorLayer2a, outputTensorLayer2b], 3);
+        const outputTensorLayer3 = modelSequence[3].predict(inputTensorLayer3);
+        return outputTensorLayer3;
+    });
+};
 
 //Data Window class
 //operates like an array but 'wraps' data around to keep the array at a fixed windowSize

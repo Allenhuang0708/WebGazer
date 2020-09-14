@@ -86521,41 +86521,50 @@ util.getEyeFeats = function (eyes) {
   // face model
   var resizedFace = this.resizeEye(eyes.face, modelWidth, modelHeight);
   resizedFace = this.convertPixels(resizedFace.data, 224, 224);
-  var face_tensor = tf_node.tensor4d(resizedFace);
-  var face_output_0 = src_deep_learning_model.face[0].predict(face_tensor);
-  var [face_input_0, face_input_1] = tf_node.split(face_output_0, 2, 3);
-  var face_output_1_a = src_deep_learning_model.face[1].predict(face_input_0);
-  var face_output_1_b = src_deep_learning_model.face[2].predict(face_input_1);
-  var face_input_2 = tf_node.concat([face_output_1_a, face_output_1_b], 3);
-  var face_output_2_1 = src_deep_learning_model.face[3].predict(face_input_2); //eyes model
+  var faceLayer = this.convGroupModel(resizedFace, src_deep_learning_model.face); //eyes model
 
   var resizedLeft = this.resizeEye(eyes.left, modelWidth, modelHeight);
   resizedLeft = this.convertPixels(resizedLeft.data, 224, 224);
-  var face_tensor = tf_node.tensor4d(resizedLeft);
-  var face_output_0 = src_deep_learning_model.eyes[0].predict(face_tensor);
-  var [face_input_0, face_input_1] = tf_node.split(face_output_0, 2, 3);
-  var face_output_1_a = src_deep_learning_model.eyes[1].predict(face_input_0);
-  var face_output_1_b = src_deep_learning_model.eyes[2].predict(face_input_1);
-  var face_input_2 = tf_node.concat([face_output_1_a, face_output_1_b], 3);
-  var face_output_2_2 = src_deep_learning_model.eyes[3].predict(face_input_2);
+  var leftEyeLayer = this.convGroupModel(resizedLeft, src_deep_learning_model.eyes);
   var resizedRight = this.resizeEye(eyes.right, modelWidth, modelHeight);
   resizedRight = this.convertPixels(resizedRight.data, 224, 224);
-  var face_tensor = tf_node.tensor4d(resizedRight);
-  var face_output_0 = src_deep_learning_model.eyes[0].predict(face_tensor);
-  var [face_input_0, face_input_1] = tf_node.split(face_output_0, 2, 3);
-  var face_output_1_a = src_deep_learning_model.eyes[1].predict(face_input_0);
-  var face_output_1_b = src_deep_learning_model.eyes[2].predict(face_input_1);
-  var face_input_2 = tf_node.concat([face_output_1_a, face_output_1_b], 3);
-  var face_output_2_3 = src_deep_learning_model.eyes[3].predict(face_input_2);
-  var eye_input = tf_node.concat([face_output_2_2.reshape([-1]), face_output_2_3.reshape([-1])]);
-  var eye_output = src_deep_learning_model.eyes[4].predict(eye_input.reshape([1, -1]));
-  var faceGrid = tf_node.tensor1d(eyes.faceGrid);
-  var face_grid = src_deep_learning_model.face_grid.predict(faceGrid.reshape([1, -1]));
-  var connect_input = tf_node.concat([face_output_2_1, eye_output, face_grid], 1);
+  var rightEyeLayer = this.convGroupModel(resizedRight, src_deep_learning_model.eyes);
+  var eye_output = tf_node.tidy(() => {
+    var eye_input = tf_node.concat([leftEyeLayer.reshape([-1]), rightEyeLayer.reshape([-1])]);
+    var eye_output = src_deep_learning_model.eyes[4].predict(eye_input.reshape([1, -1]));
+    return eye_output;
+  });
+  var face_grid = tf_node.tidy(() => {
+    var faceGrid = tf_node.tensor1d(eyes.faceGrid);
+    var face_grid = src_deep_learning_model.face_grid.predict(faceGrid.reshape([1, -1]));
+    return face_grid;
+  });
+  var connect_input = tf_node.concat([faceLayer, eye_output, face_grid], 1);
   var full_connect = src_deep_learning_model.full_connect.predict(connect_input);
   var result = full_connect.arraySync();
-  console.log(result);
+  console.log('before disposing', tf_node.memory().numTensors);
+  leftEyeLayer.dispose();
+  faceLayer.dispose();
+  rightEyeLayer.dispose();
+  eye_output.dispose();
+  face_grid.dispose();
+  connect_input.dispose();
+  full_connect.dispose();
+  console.log('after disposing', tf_node.memory().numTensors);
   return result[0];
+};
+
+util.convGroupModel = function (inputData, modelSequence) {
+  return tf_node.tidy(() => {
+    var inputTensorLayer1 = tf_node.tensor4d(inputData);
+    var outputTensorLayer1 = modelSequence[0].predict(inputTensorLayer1);
+    var [inputTensorLayer2a, inputTensorLayer2b] = tf_node.split(outputTensorLayer1, 2, 3);
+    var outputTensorLayer2a = modelSequence[1].predict(inputTensorLayer2a);
+    var outputTensorLayer2b = modelSequence[2].predict(inputTensorLayer2b);
+    var inputTensorLayer3 = tf_node.concat([outputTensorLayer2a, outputTensorLayer2b], 3);
+    var outputTensorLayer3 = modelSequence[3].predict(inputTensorLayer3);
+    return outputTensorLayer3;
+  });
 }; //Data Window class
 //operates like an array but 'wraps' data around to keep the array at a fixed windowSize
 
@@ -88351,10 +88360,6 @@ function _loop() {
           //store the position of the past fifty occuring tracker preditions
           src_webgazer.storePoints(pred.x, pred.y, src_k);
           src_k++;
-
-          if (src_k == 50) {
-            src_k = 0;
-          }
         } // GazeDot
 
 
