@@ -24,9 +24,23 @@ function createConfig(options) {
     module: {
       rules: [
         {
-          test: /\.mjs$/,
-          type: 'javascript/esm',
-          exclude: /node_modules/
+          test: /\.m?js$/,
+          exclude: /(node_modules|bower_components)/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                [
+                  '@babel/preset-env',
+                  {
+                    targets: {
+                      esmodules: true,
+                    },
+                  },
+                ],
+              ],
+            }
+          }
         }
       ]
     },

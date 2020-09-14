@@ -1,5 +1,5 @@
 import FacemeshModel from '@tensorflow-models/facemesh';
-
+import util from './util';
 /**
  * Constructor of TFFaceMesh object
  * @constructor
@@ -102,6 +102,11 @@ TFFaceMesh.prototype.getEyePatches = async function(imageCanvas, width, height) 
 
   this.predictionReady = true;
 
+  var face = util.getFace(imageCanvas, positions);
+  eyeObjs.face = face;
+
+  var faceGrid = util.getGrid(imageCanvas, positions);
+  eyeObjs.faceGrid = faceGrid;
   return eyeObjs;
 };
 

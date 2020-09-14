@@ -1,5 +1,5 @@
-import '@tensorflow/tfjs';
 import 'regression';
+import tf from '@tensorflow/tfjs';
 import params from './params';
 import './dom_util';
 import localforage from 'localforage';
@@ -17,6 +17,8 @@ webgazer.reg.RidgeWeightedReg = ridgeRegWeighted.RidgeWeightedReg;
 webgazer.reg.RidgeRegThreaded = ridgeRegThreaded.RidgeRegThreaded;
 webgazer.util = util;
 webgazer.params = params;
+
+var deep_learning_model = null;
 
 //PRIVATE VARIABLES
 
@@ -256,6 +258,30 @@ async function getPrediction(regModelIndex) {
   }
 }
 
+async function loadModel() {
+  var eyes_model_groups0 = await tf.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups0/model.json');
+  var eyes_model_groups10 = await tf.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups10/model.json');
+  var eyes_model_groups11 = await tf.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups11/model.json');
+  var eyes_model_groups2 = await tf.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups2/model.json');
+
+  var face_model_groups0 = await tf.loadLayersModel('http://localhost:5503/www/models/face_model_groups0/model.json');
+  var face_model_groups10 = await tf.loadLayersModel('http://localhost:5503/www/models/face_model_groups10/model.json');
+  var face_model_groups11 = await tf.loadLayersModel('http://localhost:5503/www/models/face_model_groups11/model.json');
+  var face_model_groups2 = await tf.loadLayersModel('http://localhost:5503/www/models/face_model_groups2/model.json');
+
+  var face_grid = await tf.loadLayersModel('http://localhost:5503/www/models/face_grid_model/model.json');
+
+  var eye_connect = await tf.loadLayersModel('http://localhost:5503/www/models/eye_conect_model/model.json');
+
+  var full_connect = await tf.loadLayersModel('http://localhost:5503/www/models/full_connect_model/model.json');
+  var deep_learning_model = {};
+  deep_learning_model.eyes = [eyes_model_groups0, eyes_model_groups10, eyes_model_groups11, eyes_model_groups2, eye_connect]
+  deep_learning_model.face = [face_model_groups0, face_model_groups10, face_model_groups11, face_model_groups2]
+  deep_learning_model.face_grid = face_grid
+  deep_learning_model.full_connect = full_connect
+  return  deep_learning_model
+}
+
 /**
  * Runs every available animation frame if webgazer is not paused
  */
@@ -328,9 +354,6 @@ async function loop() {
         //store the position of the past fifty occuring tracker preditions
         webgazer.storePoints(pred.x, pred.y, k);
         k++;
-        if (k == 50) {
-          k = 0;
-        }
       }
       // GazeDot
       if (webgazer.params.showGazeDot) {
@@ -582,6 +605,8 @@ async function init(stream) {
   //BEGIN CALLBACK LOOP
   paused = false;
   clockStart = performance.now();
+
+  deep_learning_model = await loadModel();
 
   await loop();
 }
@@ -1113,3 +1138,4 @@ webgazer.getStoredPoints = function() {
 }
 
 export default webgazer;
+export {deep_learning_model};

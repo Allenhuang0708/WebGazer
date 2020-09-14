@@ -1,6 +1,6 @@
 import mat from './mat';
-import * as tf from '@tensorflow/tfjs';
-
+import tf from '@tensorflow/tfjs';
+import {deep_learning_model} from './index';
 const util = {};
 
 /**
@@ -12,7 +12,9 @@ const util = {};
  * @param {Number} height - height of the eye patch
  */
 
-
+// 224 * 224 for deep learning model
+var modelWidth = 224;
+var modelHeight = 224;
 var resizeWidth = 10;
 var resizeHeight = 6;
 
@@ -25,22 +27,51 @@ util.Eye = function(patch, imagex, imagey, width, height) {
 };
 
 util.getEyeFeats = function(eyes) {
-    var resizedLeft = this.resizeEye(eyes.left, resizeHeight, resizeHeight);
-    var resizedright = this.resizeEye(eyes.right, resizeHeight, resizeHeight);
+    // face model
+    var resizedFace = this.resizeEye(eyes.face, modelWidth, modelHeight);
+    resizedFace = this.convertPixels(resizedFace.data, 224, 224);
+    var face_tensor = tf.tensor4d(resizedFace);
+    var face_output_0 =  deep_learning_model.face[0].predict(face_tensor);
+    var [face_input_0, face_input_1] = tf.split(face_output_0, 2, 3);
+    var face_output_1_a = deep_learning_model.face[1].predict(face_input_0);
+    var face_output_1_b = deep_learning_model.face[2].predict(face_input_1);
+    var face_input_2 = tf.concat([face_output_1_a, face_output_1_b], 3);
+    var face_output_2_1 = deep_learning_model.face[3].predict(face_input_2);
 
-    var leftGray = this.grayscale(resizedLeft.data, resizedLeft.width, resizedLeft.height);
-    var rightGray = this.grayscale(resizedright.data, resizedright.width, resizedright.height);
+    //eyes model
+    var resizedLeft = this.resizeEye(eyes.left, modelWidth, modelHeight);
+    resizedLeft = this.convertPixels(resizedLeft.data, 224, 224);
+    var face_tensor = tf.tensor4d(resizedLeft);
+    var face_output_0 =  deep_learning_model.eyes[0].predict(face_tensor);
+    var [face_input_0, face_input_1] = tf.split(face_output_0, 2, 3);
+    var face_output_1_a = deep_learning_model.eyes[1].predict(face_input_0);
+    var face_output_1_b = deep_learning_model.eyes[2].predict(face_input_1);
+    var face_input_2 = tf.concat([face_output_1_a, face_output_1_b], 3);
+    var face_output_2_2 = deep_learning_model.eyes[3].predict(face_input_2);
+    
+    var resizedRight = this.resizeEye(eyes.right, modelWidth, modelHeight);
+    resizedRight = this.convertPixels(resizedRight.data, 224, 224);
+    var face_tensor = tf.tensor4d(resizedRight);
+    var face_output_0 =  deep_learning_model.eyes[0].predict(face_tensor);
+    var [face_input_0, face_input_1] = tf.split(face_output_0, 2, 3);
+    var face_output_1_a = deep_learning_model.eyes[1].predict(face_input_0);
+    var face_output_1_b = deep_learning_model.eyes[2].predict(face_input_1);
+    var face_input_2 = tf.concat([face_output_1_a, face_output_1_b], 3);
+    var face_output_2_3 = deep_learning_model.eyes[3].predict(face_input_2);
 
-    var histLeft = [];
-    this.equalizeHistogram(leftGray, 5, histLeft);
-    var histRight = [];
-    this.equalizeHistogram(rightGray, 5, histRight);
+    var eye_input = tf.concat([face_output_2_2.reshape([-1]), face_output_2_3.reshape([-1])]);
+    var eye_output = deep_learning_model.eyes[4].predict(eye_input.reshape([1, -1]));
 
-    var leftGrayArray = Array.prototype.slice.call(histLeft);
-    var rightGrayArray = Array.prototype.slice.call(histRight);
+    var faceGrid = tf.tensor1d(eyes.faceGrid);
+    var face_grid = deep_learning_model.face_grid.predict(faceGrid.reshape([1, -1]));
 
-    return leftGrayArray.concat(rightGrayArray);
+    var connect_input = tf.concat([face_output_2_1, eye_output, face_grid], 1)
+    var full_connect = deep_learning_model.full_connect.predict(connect_input);
+    var result = full_connect.arraySync();
+
+    return result[0];
 }
+
 //Data Window class
 //operates like an array but 'wraps' data around to keep the array at a fixed windowSize
 /**
@@ -147,6 +178,26 @@ util.grayscale = function(pixels, width, height){
     }
     return gray;
 };
+
+/* 
+Reform the pixel data to: height * width * channel
+*/
+util.convertPixels = function(pixels, width, height) {
+    var matrix = new Array(height);
+    for (var row = 0; row < matrix.length; row++) {
+        var colArr = new Array(width);    
+        for (var col = 0; col < colArr.length; col++) {
+            var channelArr = new Array(3);
+            for (var channel = 0; channel < channelArr.length; channel++) {
+                channelArr[channel] = pixels[row * width * 4 + col * 4 + channel]
+            }
+            colArr[col] = channelArr;
+        }
+        matrix[row] = colArr;
+    }
+    matrix = [matrix]; // make it a 4D
+    return matrix;
+}
 
 /**
  * Increase contrast of an image.
@@ -436,4 +487,55 @@ util.KalmanFilter.prototype.update = function(z) {
     return transpose(mult(this.H, this.X))[0]; //Transforms the predicted state back into it's measurement form
 };
 
+util.getFace = function(imageCanvas, positions) {
+    var faceY = Math.round(Math.min(positions[109][1], positions[10][1], positions[338][1]));
+    var faceX = Math.round(Math.min(positions[127][0], positions[234][0], positions[93][0]));
+    var width = Math.round(Math.max(positions[356][0], positions[454][0], positions[323][0]) - faceX);
+    var height = Math.round(Math.max(positions[148][1], positions[152][1], positions[377][1]) - faceY);
+    var patch =  imageCanvas.getContext('2d').getImageData(faceX, faceY, width, height);
+
+    var face = {};
+    face = {
+        patch: patch,
+        width: width,
+        height: height
+    }
+    return face;
+}
+
+util.getGrid = function(imageCanvas, positions) {
+    let width = imageCanvas.width;
+    let height = imageCanvas.height;
+    let array = [];
+    let meshSize = 25;
+
+    const rectWidth = width / meshSize;
+    const rectHeight = height / meshSize;
+    const xMin = positions[54][0]
+    const xMax = positions[365][0]
+    const yMin = positions[54][1]
+    const yMax = positions[365][1]
+
+    const startPoint1 = Math.ceil(xMin / rectWidth)
+    const endPoint1 = Math.ceil(xMax / rectWidth)
+    const startPoint2 = Math.ceil(yMin / rectHeight)
+    const endPoint2 = Math.ceil(yMax / rectHeight)
+
+    for (let i = 0; i < meshSize; i++) {
+        if (i >= startPoint2 && i <= endPoint2) {
+            for (let j = 0; j < meshSize; j++) {
+                if (j >= startPoint1 && j <= endPoint1) {
+                    array.push(1);
+                } else {
+                    array.push(0);
+                }
+            }
+        } else {
+            for (let k = 0; k < meshSize; k++) {
+                array.push(0);
+            }
+        }
+    }
+    return array;
+}
 export default util;

@@ -1,22 +1,22 @@
 /*
- * This function calculates a measurement for how precise 
+ * This function calculates a measurement for how precise
  * the eye tracker currently is which is displayed to the user
  */
-function calculatePrecision(past50Array) {
-  var windowHeight = $(window).height();
-  var windowWidth = $(window).width();
+function calculatePrecision(pastArray) {
+  const windowHeight = $(window).height();
+  const windowWidth = $(window).width();
 
   // Retrieve the last 50 gaze prediction points
-  var x50 = past50Array[0];
-  var y50 = past50Array[1];
+  const x = pastArray[0];
+  const y = pastArray[1];
 
   // Calculate the position of the point the user is staring at
-  var staringPointX = windowWidth / 2;
-  var staringPointY = windowHeight / 2;
+  const staringPointX = windowWidth / 2;
+  const staringPointY = windowHeight / 2;
 
-  var precisionPercentages = new Array(50);
-  calculatePrecisionPercentages(precisionPercentages, windowHeight, x50, y50, staringPointX, staringPointY);
-  var precision = calculateAverage(precisionPercentages);
+  const precisionPercentages = new Array(x.length);
+  calculatePrecisionPercentages(precisionPercentages, windowHeight, x, y, staringPointX, staringPointY);
+  const precision = calculateAverage(precisionPercentages);
 
   // Return the precision measurement as a rounded percentage
   return Math.round(precision);
@@ -27,11 +27,11 @@ function calculatePrecision(past50Array) {
  * the prediction point from the centre point (uses the window height as
  * lower threshold 0%)
  */
-function calculatePrecisionPercentages(precisionPercentages, windowHeight, x50, y50, staringPointX, staringPointY) {
-  for (x = 0; x < 50; x++) {
+function calculatePrecisionPercentages(precisionPercentages, windowHeight, x, y, staringPointX, staringPointY) {
+  for (let i = 0; i < precisionPercentages.length; i++) {
     // Calculate distance between each prediction and staring point
-    var xDiff = staringPointX - x50[x];
-    var yDiff = staringPointY - y50[x];
+    var xDiff = staringPointX - x[i];
+    var yDiff = staringPointY - y[i];
     var distance = Math.sqrt((xDiff * xDiff) + (yDiff * yDiff));
 
     // Calculate precision percentage
@@ -46,7 +46,7 @@ function calculatePrecisionPercentages(precisionPercentages, windowHeight, x50, 
     }
 
     // Store the precision
-    precisionPercentages[x] = precision;
+    precisionPercentages[i] = precision;
   }
 }
 
@@ -54,10 +54,10 @@ function calculatePrecisionPercentages(precisionPercentages, windowHeight, x50, 
  * Calculates the average of all precision percentages calculated
  */
 function calculateAverage(precisionPercentages) {
-  var precision = 0;
-  for (x = 0; x < 50; x++) {
-    precision += precisionPercentages[x];
+  let precision = 0;
+  for (let i = 0; i < precisionPercentages.length; i++) {
+    precision += precisionPercentages[i];
   }
-  precision = precision / 50;
+  precision /= precisionPercentages.length;
   return precision;
 }

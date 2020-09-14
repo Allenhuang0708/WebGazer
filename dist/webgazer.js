@@ -453,7 +453,7 @@ __webpack_require__.d(__webpack_exports__, "Tile", function() { return /* reexpo
 __webpack_require__.d(__webpack_exports__, "Transpose", function() { return /* reexport */ kernel_names["sb" /* Transpose */]; });
 __webpack_require__.d(__webpack_exports__, "FromPixels", function() { return /* reexport */ kernel_names["E" /* FromPixels */]; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/slice_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/slice_util.js
 var slice_util_namespaceObject = {};
 __webpack_require__.r(slice_util_namespaceObject);
 __webpack_require__.d(slice_util_namespaceObject, "assertParamsValid", function() { return assertParamsValid; });
@@ -468,7 +468,7 @@ __webpack_require__.d(slice_util_namespaceObject, "stopForAxis", function() { re
 __webpack_require__.d(slice_util_namespaceObject, "isSliceContinous", function() { return isSliceContinous; });
 __webpack_require__.d(slice_util_namespaceObject, "computeFlatOffset", function() { return computeFlatOffset; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/io.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/io/io.js
 var io_namespaceObject = {};
 __webpack_require__.r(io_namespaceObject);
 __webpack_require__.d(io_namespaceObject, "copyModel", function() { return copyModel; });
@@ -492,37 +492,37 @@ __webpack_require__.d(io_namespaceObject, "registerSaveRouter", function() { ret
 __webpack_require__.d(io_namespaceObject, "weightsLoaderFactory", function() { return weightsLoaderFactory; });
 __webpack_require__.d(io_namespaceObject, "withSaveHandler", function() { return withSaveHandler; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/math.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/math.js
 var math_namespaceObject = {};
 __webpack_require__.r(math_namespaceObject);
 __webpack_require__.d(math_namespaceObject, "confusionMatrix", function() { return confusionMatrix; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/browser.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/browser.js
 var browser_namespaceObject = {};
 __webpack_require__.r(browser_namespaceObject);
 __webpack_require__.d(browser_namespaceObject, "toPixels", function() { return toPixels; });
 __webpack_require__.d(browser_namespaceObject, "fromPixels", function() { return fromPixels; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
 var gather_nd_util_namespaceObject = {};
 __webpack_require__.r(gather_nd_util_namespaceObject);
 __webpack_require__.d(gather_nd_util_namespaceObject, "prepareAndValidate", function() { return prepareAndValidate; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
 var scatter_nd_util_namespaceObject = {};
 __webpack_require__.r(scatter_nd_util_namespaceObject);
 __webpack_require__.d(scatter_nd_util_namespaceObject, "validateUpdateShape", function() { return validateUpdateShape; });
 __webpack_require__.d(scatter_nd_util_namespaceObject, "validateInput", function() { return validateInput; });
 __webpack_require__.d(scatter_nd_util_namespaceObject, "calculateShapes", function() { return calculateShapes; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/serialization.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/serialization.js
 var serialization_namespaceObject = {};
 __webpack_require__.r(serialization_namespaceObject);
 __webpack_require__.d(serialization_namespaceObject, "Serializable", function() { return Serializable; });
 __webpack_require__.d(serialization_namespaceObject, "SerializationMap", function() { return SerializationMap; });
 __webpack_require__.d(serialization_namespaceObject, "registerClass", function() { return registerClass; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/test_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/test_util.js
 var test_util_namespaceObject = {};
 __webpack_require__.r(test_util_namespaceObject);
 __webpack_require__.d(test_util_namespaceObject, "TEST_EPSILON_FLOAT16", function() { return TEST_EPSILON_FLOAT16; });
@@ -534,14 +534,14 @@ __webpack_require__.d(test_util_namespaceObject, "expectNumbersClose", function(
 __webpack_require__.d(test_util_namespaceObject, "expectValuesInRange", function() { return expectValuesInRange; });
 __webpack_require__.d(test_util_namespaceObject, "expectArrayBuffersEqual", function() { return expectArrayBuffersEqual; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/segment_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/segment_util.js
 var segment_util_namespaceObject = {};
 __webpack_require__.r(segment_util_namespaceObject);
 __webpack_require__.d(segment_util_namespaceObject, "segOpComputeOptimalWindowSize", function() { return segOpComputeOptimalWindowSize; });
 __webpack_require__.d(segment_util_namespaceObject, "computeOutShape", function() { return segment_util_computeOutShape; });
 __webpack_require__.d(segment_util_namespaceObject, "collectGatherOpShapeInfo", function() { return collectGatherOpShapeInfo; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/spectral_ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/spectral_ops.js
 var spectral_ops_namespaceObject = {};
 __webpack_require__.r(spectral_ops_namespaceObject);
 __webpack_require__.d(spectral_ops_namespaceObject, "fft", function() { return fft; });
@@ -549,7 +549,7 @@ __webpack_require__.d(spectral_ops_namespaceObject, "ifft", function() { return 
 __webpack_require__.d(spectral_ops_namespaceObject, "rfft", function() { return rfft; });
 __webpack_require__.d(spectral_ops_namespaceObject, "irfft", function() { return irfft; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/signal_ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/signal_ops.js
 var signal_ops_namespaceObject = {};
 __webpack_require__.r(signal_ops_namespaceObject);
 __webpack_require__.d(signal_ops_namespaceObject, "hannWindow", function() { return hannWindow; });
@@ -557,7 +557,7 @@ __webpack_require__.d(signal_ops_namespaceObject, "hammingWindow", function() { 
 __webpack_require__.d(signal_ops_namespaceObject, "frame", function() { return signal_ops_frame; });
 __webpack_require__.d(signal_ops_namespaceObject, "stft", function() { return stft; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/loss_ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/loss_ops.js
 var loss_ops_namespaceObject = {};
 __webpack_require__.r(loss_ops_namespaceObject);
 __webpack_require__.d(loss_ops_namespaceObject, "Reduction", function() { return Reduction; });
@@ -571,14 +571,14 @@ __webpack_require__.d(loss_ops_namespaceObject, "meanSquaredError", function() {
 __webpack_require__.d(loss_ops_namespaceObject, "sigmoidCrossEntropy", function() { return sigmoidCrossEntropy; });
 __webpack_require__.d(loss_ops_namespaceObject, "softmaxCrossEntropy", function() { return softmaxCrossEntropy; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/linalg_ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/linalg_ops.js
 var linalg_ops_namespaceObject = {};
 __webpack_require__.r(linalg_ops_namespaceObject);
 __webpack_require__.d(linalg_ops_namespaceObject, "bandPart", function() { return bandPart; });
 __webpack_require__.d(linalg_ops_namespaceObject, "gramSchmidt", function() { return gramSchmidt; });
 __webpack_require__.d(linalg_ops_namespaceObject, "qr", function() { return qr; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/image_ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/image_ops.js
 var image_ops_namespaceObject = {};
 __webpack_require__.r(image_ops_namespaceObject);
 __webpack_require__.d(image_ops_namespaceObject, "nonMaxSuppression", function() { return nonMaxSuppression; });
@@ -589,14 +589,14 @@ __webpack_require__.d(image_ops_namespaceObject, "nonMaxSuppressionWithScore", f
 __webpack_require__.d(image_ops_namespaceObject, "nonMaxSuppressionWithScoreAsync", function() { return nonMaxSuppressionWithScoreAsync; });
 __webpack_require__.d(image_ops_namespaceObject, "cropAndResize", function() { return cropAndResize; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fused_ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/fused_ops.js
 var fused_ops_namespaceObject = {};
 __webpack_require__.r(fused_ops_namespaceObject);
 __webpack_require__.d(fused_ops_namespaceObject, "matMul", function() { return fused_ops_matMul; });
 __webpack_require__.d(fused_ops_namespaceObject, "conv2d", function() { return fused_ops_conv2d; });
 __webpack_require__.d(fused_ops_namespaceObject, "depthwiseConv2d", function() { return fused_ops_depthwiseConv2d; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/ops.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/ops/ops.js
 var ops_namespaceObject = {};
 __webpack_require__.r(ops_namespaceObject);
 __webpack_require__.d(ops_namespaceObject, "add", function() { return add; });
@@ -810,7 +810,7 @@ __webpack_require__.d(ops_namespaceObject, "spectral", function() { return spect
 __webpack_require__.d(ops_namespaceObject, "fused", function() { return fused_ops_namespaceObject; });
 __webpack_require__.d(ops_namespaceObject, "signal", function() { return signal_ops_namespaceObject; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/backend_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
 var backend_util_namespaceObject = {};
 __webpack_require__.r(backend_util_namespaceObject);
 __webpack_require__.d(backend_util_namespaceObject, "axesAreInnerMostDims", function() { return axesAreInnerMostDims; });
@@ -872,7 +872,7 @@ __webpack_require__.d(backend_util_namespaceObject, "castTensor", function() { r
 __webpack_require__.d(backend_util_namespaceObject, "reshapeTensor", function() { return reshapeTensor; });
 __webpack_require__.d(backend_util_namespaceObject, "linspaceImpl", function() { return linspaceImpl; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/kernel_impls.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-core/dist/backends/kernel_impls.js
 var kernel_impls_namespaceObject = {};
 __webpack_require__.r(kernel_impls_namespaceObject);
 __webpack_require__.d(kernel_impls_namespaceObject, "nonMaxSuppressionV3", function() { return nonMaxSuppressionV3; });
@@ -882,16 +882,16 @@ __webpack_require__.d(kernel_impls_namespaceObject, "tile", function() { return 
 __webpack_require__.d(kernel_impls_namespaceObject, "topkImpl", function() { return topkImpl; });
 __webpack_require__.d(kernel_impls_namespaceObject, "whereImpl", function() { return whereImpl; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/engine.js + 2 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/engine.js + 2 modules
 var engine = __webpack_require__(5);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/flags.js
-var flags = __webpack_require__(61);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/flags.js
+var flags = __webpack_require__(62);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/kernel_names.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/kernel_names.js
 var kernel_names = __webpack_require__(6);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/broadcast_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -976,7 +976,7 @@ function assertAndGetBroadcastShape(shapeA, shapeB) {
     return result;
 }
 //# sourceMappingURL=broadcast_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Add_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Add_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1021,7 +1021,7 @@ const addGradConfig = {
     }
 };
 //# sourceMappingURL=Add_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/AddN_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/AddN_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1051,16 +1051,16 @@ const addNGradConfig = {
     }
 };
 //# sourceMappingURL=AddN_grad.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
 var tensor_util = __webpack_require__(11);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_util_env.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_util_env.js
 var tensor_util_env = __webpack_require__(3);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/operation.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/operation.js
 var operation = __webpack_require__(4);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/add.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/add.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1118,13 +1118,13 @@ function add_(a, b) {
 }
 const add = Object(operation["a" /* op */])({ add_ });
 //# sourceMappingURL=add.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor.js + 1 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor.js + 1 modules
 var dist_tensor = __webpack_require__(7);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/util.js
 var util = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -1166,10 +1166,10 @@ function computeOutShape(shapes, axis) {
     return outputShape;
 }
 //# sourceMappingURL=concat_util.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/tensor_ops.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/tensor_ops.js
 var tensor_ops = __webpack_require__(8);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1266,7 +1266,7 @@ function concat_(tensors, axis = 0) {
 }
 const concat = Object(operation["a" /* op */])({ concat_ });
 //# sourceMappingURL=concat.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/array_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/array_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -1564,7 +1564,7 @@ const stack = Object(operation["a" /* op */])({ stack_ });
 const unstack = Object(operation["a" /* op */])({ unstack_ });
 const setdiff1dAsync = setdiff1dAsync_;
 //# sourceMappingURL=array_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/floorDiv.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/floorDiv.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1625,7 +1625,7 @@ function floorDiv_(a, b) {
 }
 const floorDiv = Object(operation["a" /* op */])({ floorDiv_ });
 //# sourceMappingURL=floorDiv.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/div.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/div.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1689,7 +1689,7 @@ function div_(a, b) {
 }
 const div = Object(operation["a" /* op */])({ div_ });
 //# sourceMappingURL=div.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/mul.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/mul.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -1749,7 +1749,7 @@ function mul_(a, b) {
 }
 const mul = Object(operation["a" /* op */])({ mul_ });
 //# sourceMappingURL=mul.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -2066,7 +2066,7 @@ function checkGrads(grads) {
 }
 
 //# sourceMappingURL=gradients.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/axis_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/axis_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -2162,7 +2162,7 @@ function getInnerMostAxes(numAxes, rank) {
     return res;
 }
 //# sourceMappingURL=axis_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reduction_ops_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reduction_ops_util.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -2198,7 +2198,7 @@ function gradForMinAndMax(dy, y, xOrig, origAxes, permutedAxes) {
     };
 }
 //# sourceMappingURL=reduction_ops_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reduction_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reduction_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -2705,7 +2705,7 @@ const moments = Object(operation["a" /* op */])({ moments_ });
 const sum = Object(operation["a" /* op */])({ sum_ });
 const reduction_ops_prod = Object(operation["a" /* op */])({ prod_ });
 //# sourceMappingURL=reduction_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/square.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/square.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -2748,7 +2748,7 @@ function square_(x) {
 }
 const square = Object(operation["a" /* op */])({ square_ });
 //# sourceMappingURL=square.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/unary_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/unary_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -3620,7 +3620,7 @@ const unary_ops_step = Object(operation["a" /* op */])({ step_ });
 const tan = Object(operation["a" /* op */])({ tan_ });
 const tanh = Object(operation["a" /* op */])({ tanh_ });
 //# sourceMappingURL=unary_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Atan2_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Atan2_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -3674,7 +3674,7 @@ const atan2GradConfig = {
     }
 };
 //# sourceMappingURL=Atan2_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -4051,7 +4051,7 @@ function convertConv2DDataFormat(dataFormat) {
     }
 }
 //# sourceMappingURL=conv_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool_3d_backprop.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4141,7 +4141,7 @@ function avgPool3dBackprop_(dy, input, filterSize, strides, dilations = [1, 1, 1
 }
 const avgPool3dBackprop = Object(operation["a" /* op */])({ avgPool3dBackprop_ });
 //# sourceMappingURL=avg_pool_3d_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/AvgPool3D_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool3D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4173,7 +4173,7 @@ const avgPool3DGradConfig = {
     }
 };
 //# sourceMappingURL=AvgPool3D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool_backprop.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4244,7 +4244,7 @@ function avgPoolBackprop_(dy, input, filterSize, strides, pad) {
 }
 const avgPoolBackprop = Object(operation["a" /* op */])({ avgPoolBackprop_ });
 //# sourceMappingURL=avg_pool_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/AvgPool_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4275,7 +4275,7 @@ const avgPoolGradConfig = {
     }
 };
 //# sourceMappingURL=AvgPool_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/mat_mul.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/mat_mul.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4351,7 +4351,7 @@ function matMul_(a, b, transposeA = false, transposeB = false) {
 }
 const matMul = Object(operation["a" /* op */])({ matMul_ });
 //# sourceMappingURL=mat_mul.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/BatchMatMul_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/BatchMatMul_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4403,7 +4403,7 @@ const batchMatMulGradConfig = {
     }
 };
 //# sourceMappingURL=BatchMatMul_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/space_to_batch_nd.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/space_to_batch_nd.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -4492,7 +4492,7 @@ function spaceToBatchND_(x, blockShape, paddings) {
 }
 const spaceToBatchND = Object(operation["a" /* op */])({ spaceToBatchND_ });
 //# sourceMappingURL=space_to_batch_nd.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/BatchToSpaceND_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/BatchToSpaceND_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4519,7 +4519,7 @@ const batchToSpaceNDGradConfig = {
     }
 };
 //# sourceMappingURL=BatchToSpaceND_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/BroadcastTo_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/BroadcastTo_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4563,7 +4563,7 @@ const broadcastToGradConfig = {
     }
 };
 //# sourceMappingURL=BroadcastTo_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/split.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/split.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4641,7 +4641,7 @@ function split_(x, numOrSizeSplits, axis = 0) {
 }
 const split = Object(operation["a" /* op */])({ split_ });
 //# sourceMappingURL=split.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Concat_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Concat_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4674,7 +4674,7 @@ const concatGradConfig = {
     }
 };
 //# sourceMappingURL=Concat_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d_backprop_filter.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_filter.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4756,7 +4756,7 @@ function conv2DBackpropFilter_(x, dy, filterShape, strides, pad, dataFormat = 'N
 }
 const conv2DBackpropFilter = Object(operation["a" /* op */])({ conv2DBackpropFilter_ });
 //# sourceMappingURL=conv2d_backprop_filter.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d_backprop_input.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_input.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4849,7 +4849,7 @@ function conv2DBackpropInput_(xShape, dy, filter, strides, pad, dataFormat = 'NH
 }
 const conv2DBackpropInput = Object(operation["a" /* op */])({ conv2DBackpropInput_ });
 //# sourceMappingURL=conv2d_backprop_input.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Conv2D_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4886,7 +4886,7 @@ const conv2DGradConfig = {
     }
 };
 //# sourceMappingURL=Conv2D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4980,7 +4980,7 @@ function conv2d_(x, filter, strides, pad, dataFormat = 'NHWC', dilations = [1, 1
 }
 const conv2d = Object(operation["a" /* op */])({ conv2d_ });
 //# sourceMappingURL=conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Conv2DBackpropInput_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2DBackpropInput_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5013,7 +5013,7 @@ const conv2DBackpropInputGradConfig = {
     }
 };
 //# sourceMappingURL=Conv2DBackpropInput_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d_backprop_filter.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_filter.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5082,7 +5082,7 @@ function conv3DBackpropFilter_(x, dy, filterShape, strides, pad) {
 }
 const conv3DBackpropFilter = Object(operation["a" /* op */])({ conv3DBackpropFilter_ });
 //# sourceMappingURL=conv3d_backprop_filter.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d_backprop_input.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_input.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5161,7 +5161,7 @@ function conv3DBackpropInput_(xShape, dy, filter, strides, pad) {
 }
 const conv3DBackpropInput = Object(operation["a" /* op */])({ conv3DBackpropInput_ });
 //# sourceMappingURL=conv3d_backprop_input.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Conv3D_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Conv3D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5198,7 +5198,7 @@ const conv3DGradConfig = {
     }
 };
 //# sourceMappingURL=Conv3D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/transpose.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -5256,7 +5256,7 @@ function transpose_(x, perm) {
 }
 const transpose = Object(operation["a" /* op */])({ transpose_ });
 //# sourceMappingURL=transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/cumsum.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/cumsum.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -5323,7 +5323,7 @@ function cumsum_(x, axis = 0, exclusive = false, reverse = false) {
 }
 const cumsum = Object(operation["a" /* op */])({ cumsum_ });
 //# sourceMappingURL=cumsum.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Cumsum_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Cumsum_grad.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -5363,7 +5363,7 @@ const cumsumGradConfig = {
     }
 };
 //# sourceMappingURL=Cumsum_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_filter.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_filter.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5399,7 +5399,7 @@ function depthwiseConv2dNativeBackpropFilter_(x, dy, filterShape, convInfo) {
 }
 const depthwiseConv2dNativeBackpropFilter = Object(operation["a" /* op */])({ depthwiseConv2dNativeBackpropFilter_ });
 //# sourceMappingURL=depthwise_conv2d_native_backprop_filter.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_input.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_input.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5437,7 +5437,7 @@ function depthwiseConv2dNativeBackpropInput_(xShape, dy, filter, convInfo) {
 }
 const depthwiseConv2dNativeBackpropInput = Object(operation["a" /* op */])({ depthwiseConv2dNativeBackpropInput_ });
 //# sourceMappingURL=depthwise_conv2d_native_backprop_input.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/DepthwiseConv2dNative_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/DepthwiseConv2dNative_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5491,7 +5491,7 @@ const depthwiseConv2dNativeGradConfig = {
     }
 };
 //# sourceMappingURL=DepthwiseConv2dNative_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Div_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Div_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5543,7 +5543,7 @@ const divGradConfig = {
     }
 };
 //# sourceMappingURL=Div_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Elu_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Elu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5577,7 +5577,7 @@ const eluGradConfig = {
     }
 };
 //# sourceMappingURL=Elu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/FloorDiv_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/FloorDiv_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5623,7 +5623,7 @@ const floorDivGradConfig = {
     }
 };
 //# sourceMappingURL=FloorDiv_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/sub.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/sub.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5681,7 +5681,7 @@ function sub_(a, b) {
 }
 const sub = Object(operation["a" /* op */])({ sub_ });
 //# sourceMappingURL=sub.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/tile.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/tile.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5744,7 +5744,7 @@ function tile_(x, reps) {
 }
 const tile = Object(operation["a" /* op */])({ tile_ });
 //# sourceMappingURL=tile.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/FusedBatchNorm_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/FusedBatchNorm_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5837,7 +5837,7 @@ const fusedBatchNormGradConfig = {
     }
 };
 //# sourceMappingURL=FusedBatchNorm_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/GreaterEqual_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/GreaterEqual_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5865,7 +5865,7 @@ const greaterEqualGradConfig = {
     }
 };
 //# sourceMappingURL=GreaterEqual_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Identity_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Identity_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5890,7 +5890,7 @@ const identityGradConfig = {
     }
 };
 //# sourceMappingURL=Identity_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/local_response_normalization_backprop.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5918,7 +5918,7 @@ function localResponseNormalizationBackprop_(x, y, dy, depthRadius = 5, bias = 1
 }
 const localResponseNormalizationBackprop = Object(operation["a" /* op */])({ localResponseNormalizationBackprop_ });
 //# sourceMappingURL=local_response_normalization_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/LRN_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/LRN_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5950,7 +5950,7 @@ const lrnGradConfig = {
     }
 };
 //# sourceMappingURL=LRN_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Max_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Max_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -5995,7 +5995,7 @@ const maxGradConfig = {
     }
 };
 //# sourceMappingURL=Max_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/greater_equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/greater_equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6047,7 +6047,7 @@ function greaterEqual_(a, b) {
 }
 const greaterEqual = Object(operation["a" /* op */])({ greaterEqual_ });
 //# sourceMappingURL=greater_equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/less.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/less.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6094,7 +6094,7 @@ function less_(a, b) {
 }
 const less = Object(operation["a" /* op */])({ less_ });
 //# sourceMappingURL=less.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Maximum_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Maximum_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6127,7 +6127,7 @@ const maximumGradConfig = {
     }
 };
 //# sourceMappingURL=Maximum_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_3d_backprop.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6226,7 +6226,7 @@ function maxPool3dBackprop_(dy, input, output, filterSize, strides, dilations = 
 }
 const maxPool3dBackprop = Object(operation["a" /* op */])({ maxPool3dBackprop_ });
 //# sourceMappingURL=max_pool_3d_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/MaxPool3D_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool3D_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6259,7 +6259,7 @@ const maxPool3DGradConfig = {
     }
 };
 //# sourceMappingURL=MaxPool3D_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_backprop.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_backprop.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6327,7 +6327,7 @@ function maxPoolBackprop_(dy, input, output, filterSize, strides, pad, dimRoundi
 }
 const maxPoolBackprop = Object(operation["a" /* op */])({ maxPoolBackprop_ });
 //# sourceMappingURL=max_pool_backprop.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/MaxPool_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6359,7 +6359,7 @@ const maxPoolGradConfig = {
     }
 };
 //# sourceMappingURL=MaxPool_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/greater.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/greater.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6407,7 +6407,7 @@ function greater_(a, b) {
 }
 const greater = Object(operation["a" /* op */])({ greater_ });
 //# sourceMappingURL=greater.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/less_equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/less_equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6459,7 +6459,7 @@ function lessEqual_(a, b) {
 }
 const lessEqual = Object(operation["a" /* op */])({ lessEqual_ });
 //# sourceMappingURL=less_equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Minimum_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Minimum_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6492,7 +6492,7 @@ const minimumGradConfig = {
     }
 };
 //# sourceMappingURL=Minimum_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Mod_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Mod_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6541,7 +6541,7 @@ const modGradConfig = {
     }
 };
 //# sourceMappingURL=Mod_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Multiply_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Multiply_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6589,7 +6589,7 @@ const multiplyGradConfig = {
     }
 };
 //# sourceMappingURL=Multiply_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/OneHot_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/OneHot_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6617,7 +6617,7 @@ const oneHotGradConfig = {
     }
 };
 //# sourceMappingURL=OneHot_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/PadV2_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/PadV2_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6648,7 +6648,7 @@ const padV2GradConfig = {
     }
 };
 //# sourceMappingURL=PadV2_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/where_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/where_impl.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -6684,7 +6684,7 @@ function whereImpl(condShape, condVals) {
     return out.toTensor();
 }
 //# sourceMappingURL=where_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/logical_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/logical_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -6870,7 +6870,7 @@ const logicalXor = Object(operation["a" /* op */])({ logicalXor_ });
 const where = Object(operation["a" /* op */])({ where_ });
 const whereAsync = whereAsync_;
 //# sourceMappingURL=logical_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pow.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pow.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6933,7 +6933,7 @@ function pow_(base, exp) {
 }
 const pow = Object(operation["a" /* op */])({ pow_ });
 //# sourceMappingURL=pow.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Pow_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Pow_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -6993,7 +6993,7 @@ const powGradConfig = {
     }
 };
 //# sourceMappingURL=Pow_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Prelu_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Prelu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7038,7 +7038,7 @@ const preluGradConfig = {
     }
 };
 //# sourceMappingURL=Prelu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Relu6_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Relu6_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7070,7 +7070,7 @@ const relu6GradConfig = {
     }
 };
 //# sourceMappingURL=Relu6_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Relu_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Relu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7100,7 +7100,7 @@ const reluGradConfig = {
     }
 };
 //# sourceMappingURL=Relu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/selu_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/selu_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -7120,7 +7120,7 @@ const reluGradConfig = {
 const SELU_SCALEALPHA = 1.7580993408473768599402175208123;
 const SELU_SCALE = 1.0507009873554804934193349852946;
 //# sourceMappingURL=selu_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Selu_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Selu_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7163,7 +7163,7 @@ const seluGradConfig = {
     }
 };
 //# sourceMappingURL=Selu_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batch_to_space_nd.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batch_to_space_nd.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7248,7 +7248,7 @@ function batchToSpaceND_(x, blockShape, crops) {
 }
 const batchToSpaceND = Object(operation["a" /* op */])({ batchToSpaceND_ });
 //# sourceMappingURL=batch_to_space_nd.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/SpaceToBatchND_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/SpaceToBatchND_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7275,7 +7275,7 @@ const spaceToBatchNDGradConfig = {
     }
 };
 //# sourceMappingURL=SpaceToBatchND_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/SplitV_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/SplitV_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7302,7 +7302,7 @@ const splitVGradConfig = {
     }
 };
 //# sourceMappingURL=SplitV_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Square_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Square_grad.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -7330,7 +7330,7 @@ const squareGradConfig = {
     }
 };
 //# sourceMappingURL=Square_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/SquaredDifference_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/SquaredDifference_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7363,7 +7363,7 @@ const squaredDifferenceGradConfig = {
     }
 };
 //# sourceMappingURL=SquaredDifference_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Sub_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Sub_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7411,7 +7411,7 @@ const subGradConfig = {
     }
 };
 //# sourceMappingURL=Sub_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7470,7 +7470,7 @@ function pad_(x, paddings, constantValue = 0) {
 }
 const pad_pad = Object(operation["a" /* op */])({ pad_ });
 //# sourceMappingURL=pad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/slice_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/slice_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -7664,7 +7664,7 @@ function computeFlatOffset(begin, strides) {
     return flatOffset;
 }
 //# sourceMappingURL=slice_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/slice.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/slice.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -7821,7 +7821,7 @@ const slice2d = Object(operation["a" /* op */])({ slice2d_ });
 const slice3d = Object(operation["a" /* op */])({ slice3d_ });
 const slice4d = Object(operation["a" /* op */])({ slice4d_ });
 //# sourceMappingURL=slice.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Tile_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Tile_grad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -7901,7 +7901,7 @@ const tileGradConfig = {
     },
 };
 //# sourceMappingURL=Tile_grad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/gradients/Transpose_grad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/gradients/Transpose_grad.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -7931,10 +7931,10 @@ const transposeGradConfig = {
     }
 };
 //# sourceMappingURL=Transpose_grad.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/kernel_registry.js
-var kernel_registry = __webpack_require__(17);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/kernel_registry.js
+var kernel_registry = __webpack_require__(18);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/register_all_gradients.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/register_all_gradients.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -8048,10 +8048,10 @@ for (const gradientConfig of gradConfigs) {
     Object(kernel_registry["d" /* registerGradient */])(gradientConfig);
 }
 //# sourceMappingURL=register_all_gradients.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/environment.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/environment.js
 var environment = __webpack_require__(10);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/platforms/platform_browser.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/platforms/platform_browser.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -8093,13 +8093,13 @@ if (Object(environment["c" /* env */])().get('IS_BROWSER')) {
     Object(environment["c" /* env */])().setPlatform('browser', new PlatformBrowser());
 }
 //# sourceMappingURL=platform_browser.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/platforms/platform_node.js
-var platform_node = __webpack_require__(62);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/platforms/platform_node.js
+var platform_node = __webpack_require__(63);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/io_utils.js
-var io_utils = __webpack_require__(13);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/io_utils.js
+var io_utils = __webpack_require__(14);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/router_registry.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/router_registry.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -8186,7 +8186,7 @@ const registerLoadRouter = (loudRouter) => IORouterRegistry.registerLoadRouter(l
 const getSaveHandlers = (url) => IORouterRegistry.getSaveHandlers(url);
 const getLoadHandlers = (url, loadOptions) => IORouterRegistry.getLoadHandlers(url, loadOptions);
 //# sourceMappingURL=router_registry.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/model_management.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/model_management.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -8498,7 +8498,7 @@ async function moveModel(sourceURL, destURL) {
 }
 
 //# sourceMappingURL=model_management.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/indexed_db.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/indexed_db.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -8822,7 +8822,7 @@ if (Object(environment["c" /* env */])().getBool('IS_BROWSER')) {
     }
 }
 //# sourceMappingURL=indexed_db.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/local_storage.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/local_storage.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9113,7 +9113,7 @@ if (Object(environment["c" /* env */])().getBool('IS_BROWSER')) {
     }
 }
 //# sourceMappingURL=local_storage.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/browser_files.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/browser_files.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9419,7 +9419,7 @@ function browserFiles(files) {
     return new browser_files_BrowserFiles(files);
 }
 //# sourceMappingURL=browser_files.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/progress.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/progress.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -9476,10 +9476,10 @@ function monitorPromisesProgress(promises, onProgress, startFraction, endFractio
     return Promise.all(promises.map(registerMonitor));
 }
 //# sourceMappingURL=progress.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/types.js
-var types = __webpack_require__(34);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/types.js
+var types = __webpack_require__(35);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/weights_loader.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/weights_loader.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9673,7 +9673,7 @@ function weightsLoaderFactory(fetchWeightsFunction) {
     };
 }
 //# sourceMappingURL=weights_loader.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/http.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/http.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -9982,7 +9982,7 @@ function browserHTTPRequest(path, loadOptions) {
     return http(path, loadOptions);
 }
 //# sourceMappingURL=http.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/passthrough.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/passthrough.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -10087,7 +10087,7 @@ function withSaveHandler(saveHandler) {
     return new PassthroughSaver(saveHandler);
 }
 //# sourceMappingURL=passthrough.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/io/io.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/io/io.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -10117,7 +10117,7 @@ function withSaveHandler(saveHandler) {
 
 
 //# sourceMappingURL=io.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/one_hot.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/one_hot.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -10174,7 +10174,7 @@ function oneHot_(indices, depth, onValue = 1, offValue = 0) {
 }
 const oneHot = Object(operation["a" /* op */])({ oneHot_ });
 //# sourceMappingURL=one_hot.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/confusion_matrix.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/confusion_matrix.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10245,7 +10245,7 @@ function confusionMatrix_(labels, predictions, numClasses) {
 }
 const confusionMatrix = Object(operation["a" /* op */])({ confusionMatrix_ });
 //# sourceMappingURL=confusion_matrix.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/math.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/math.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10268,7 +10268,7 @@ const confusionMatrix = Object(operation["a" /* op */])({ confusionMatrix_ });
 
 
 //# sourceMappingURL=math.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/browser.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/browser.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -10513,7 +10513,7 @@ async function toPixels(img, canvas) {
 }
 const fromPixels = Object(operation["a" /* op */])({ fromPixels_ });
 //# sourceMappingURL=browser.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
 
 /**
  * Validate gather nd inputs.
@@ -10565,7 +10565,7 @@ function prepareAndValidate(tensor, indices) {
     return [resultShape, nResult, sliceSize, strides];
 }
 //# sourceMappingURL=gather_nd_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
 
 /**
  * Check whether updates.shape = indices.shape[:batchDim] +
@@ -10663,7 +10663,7 @@ function calculateShapes(updates, indices, shape) {
     return { sliceRank, numUpdates, sliceSize, strides, outputSize };
 }
 //# sourceMappingURL=scatter_nd_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/serialization.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/serialization.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10777,7 +10777,7 @@ function registerClass(cls) {
     SerializationMap.register(cls);
 }
 //# sourceMappingURL=serialization.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/test_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/test_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -10898,13 +10898,13 @@ function expectArrayBuffersEqual(actual, expected) {
     expect(new Float32Array(actual)).toEqual(new Float32Array(expected));
 }
 //# sourceMappingURL=test_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/globals.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/globals.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -11240,7 +11240,7 @@ function setPlatform(platformName, platform) {
     Object(environment["c" /* env */])().setPlatform(platformName, platform);
 }
 //# sourceMappingURL=globals.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/add_n.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/add_n.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11301,7 +11301,7 @@ function addN_(tensors) {
 }
 const addN = Object(operation["a" /* op */])({ addN_ });
 //# sourceMappingURL=add_n.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/atan2.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/atan2.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11353,7 +11353,7 @@ function atan2_(a, b) {
 }
 const atan2 = Object(operation["a" /* op */])({ atan2_ });
 //# sourceMappingURL=atan2.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11434,7 +11434,7 @@ function avgPool_(x, filterSize, strides, pad, dimRoundingMode) {
 }
 const avgPool = Object(operation["a" /* op */])({ avgPool_ });
 //# sourceMappingURL=avg_pool.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/avg_pool_3d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11546,7 +11546,7 @@ function avgPool3d_(x, filterSize, strides, pad, dimRoundingMode, dataFormat = '
 }
 const avgPool3d = Object(operation["a" /* op */])({ avgPool3d_ });
 //# sourceMappingURL=avg_pool_3d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm_util.js
 function xAs4D(x) {
     let x4D;
     if (x.rank === 0 || x.rank === 1) {
@@ -11564,7 +11564,7 @@ function xAs4D(x) {
     return x4D;
 }
 //# sourceMappingURL=batchnorm_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11670,7 +11670,7 @@ function as1DOr4D(x) {
 }
 const batchNorm = Object(operation["a" /* op */])({ batchNorm_ });
 //# sourceMappingURL=batchnorm.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm2d.js
 
 
 
@@ -11716,7 +11716,7 @@ function batchNorm2d_(x, mean, variance, offset, scale, varianceEpsilon) {
 }
 const batchNorm2d = Object(operation["a" /* op */])({ batchNorm2d_ });
 //# sourceMappingURL=batchnorm2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm3d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm3d.js
 
 
 
@@ -11762,7 +11762,7 @@ function batchNorm3d_(x, mean, variance, offset, scale, varianceEpsilon) {
 }
 const batchNorm3d = Object(operation["a" /* op */])({ batchNorm3d_ });
 //# sourceMappingURL=batchnorm3d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/batchnorm4d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm4d.js
 
 
 
@@ -11808,7 +11808,7 @@ function batchNorm4d_(x, mean, variance, offset, scale, varianceEpsilon) {
 }
 const batchNorm4d = Object(operation["a" /* op */])({ batchNorm4d_ });
 //# sourceMappingURL=batchnorm4d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/clone.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/clone.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11851,7 +11851,7 @@ function clone_(x) {
 }
 const clone = Object(operation["a" /* op */])({ clone_ });
 //# sourceMappingURL=clone.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/broadcast_to.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_to.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -11924,10 +11924,10 @@ function broadcastTo_(x, shape) {
 }
 const broadcastTo = Object(operation["a" /* op */])({ broadcastTo_ });
 //# sourceMappingURL=broadcast_to.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/complex.js
-var complex = __webpack_require__(18);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/complex.js
+var complex = __webpack_require__(19);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_1d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_1d.js
 
 
 /**
@@ -11946,7 +11946,7 @@ function concat1d_(tensors) {
 }
 const concat1d = Object(operation["a" /* op */])({ concat1d_ });
 //# sourceMappingURL=concat_1d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_2d.js
 
 
 /**
@@ -11981,7 +11981,7 @@ function concat2d_(tensors, axis) {
 }
 const concat2d = Object(operation["a" /* op */])({ concat2d_ });
 //# sourceMappingURL=concat_2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_3d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_3d.js
 
 
 /**
@@ -12020,7 +12020,7 @@ function concat3d_(tensors, axis) {
 }
 const concat3d = Object(operation["a" /* op */])({ concat3d_ });
 //# sourceMappingURL=concat_3d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/concat_4d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/concat_4d.js
 
 
 /**
@@ -12036,7 +12036,7 @@ function concat4d_(tensors, axis) {
 }
 const concat4d = Object(operation["a" /* op */])({ concat4d_ });
 //# sourceMappingURL=concat_4d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv1d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv1d.js
 
 
 
@@ -12105,7 +12105,7 @@ function conv1d_(x, filter, stride, pad, dataFormat = 'NWC', dilation = 1, dimRo
 }
 const conv1d = Object(operation["a" /* op */])({ conv1d_ });
 //# sourceMappingURL=conv1d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv2d_transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_transpose.js
 
 
 
@@ -12136,7 +12136,7 @@ function conv2dTranspose_(x, filter, outputShape, strides, pad, dimRoundingMode)
 }
 const conv2dTranspose = Object(operation["a" /* op */])({ conv2dTranspose_ });
 //# sourceMappingURL=conv2d_transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12225,7 +12225,7 @@ function conv3d_(x, filter, strides, pad, dataFormat = 'NDHWC', dilations = [1, 
 }
 const conv3d = Object(operation["a" /* op */])({ conv3d_ });
 //# sourceMappingURL=conv3d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/conv3d_transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_transpose.js
 
 
 
@@ -12254,7 +12254,7 @@ function conv3dTranspose_(x, filter, outputShape, strides, pad) {
 }
 const conv3dTranspose = Object(operation["a" /* op */])({ conv3dTranspose_ });
 //# sourceMappingURL=conv3d_transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depth_to_space.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depth_to_space.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12331,7 +12331,7 @@ function depthToSpace_(x, blockSize, dataFormat = 'NHWC') {
 }
 const depthToSpace = Object(operation["a" /* op */])({ depthToSpace_ });
 //# sourceMappingURL=depth_to_space.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/depthwise_conv2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12441,7 +12441,7 @@ function depthwiseConv2d_(x, filter, strides, pad, dataFormat = 'NHWC', dilation
 }
 const depthwiseConv2d = Object(operation["a" /* op */])({ depthwiseConv2d_ });
 //# sourceMappingURL=depthwise_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/diag.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/diag.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12496,7 +12496,7 @@ function diag_(x) {
 }
 const diag = Object(operation["a" /* op */])({ diag_ });
 //# sourceMappingURL=diag.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/div_no_nan.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/div_no_nan.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12560,7 +12560,7 @@ function divNoNan_(a, b) {
 }
 const divNoNan = Object(operation["a" /* op */])({ divNoNan_ });
 //# sourceMappingURL=div_no_nan.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/dot.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/dot.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12632,7 +12632,7 @@ function dot_(t1, t2) {
 }
 const dot = Object(operation["a" /* op */])({ dot_ });
 //# sourceMappingURL=dot.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/elu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/elu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12676,7 +12676,7 @@ function elu_(x) {
 }
 const elu = Object(operation["a" /* op */])({ elu_ });
 //# sourceMappingURL=elu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12724,7 +12724,7 @@ function equal_(a, b) {
 }
 const equal = Object(operation["a" /* op */])({ equal_ });
 //# sourceMappingURL=equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/eye.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/eye.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12789,7 +12789,7 @@ function eye_(numRows, numColumns, batchShape, dtype = 'float32') {
 }
 const eye = Object(operation["a" /* op */])({ eye_ });
 //# sourceMappingURL=eye.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fill.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/fill.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12827,10 +12827,10 @@ function fill(shape, value, dtype) {
 }
 
 //# sourceMappingURL=fill.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/imag.js
-var imag = __webpack_require__(25);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/imag.js
+var imag = __webpack_require__(26);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/maximum.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/maximum.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -12899,7 +12899,7 @@ function maximum_(a, b) {
 }
 const maximum = Object(operation["a" /* op */])({ maximum_ });
 //# sourceMappingURL=maximum.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/leaky_relu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/leaky_relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -12943,7 +12943,7 @@ function leakyRelu_(x, alpha = 0.2) {
 }
 const leakyRelu = Object(operation["a" /* op */])({ leakyRelu_ });
 //# sourceMappingURL=leaky_relu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/local_response_normalization.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13009,7 +13009,7 @@ function localResponseNormalization_(x, depthRadius = 5, bias = 1, alpha = 1, be
 }
 const localResponseNormalization = Object(operation["a" /* op */])({ localResponseNormalization_ });
 //# sourceMappingURL=local_response_normalization.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13090,7 +13090,7 @@ function max_(x, axis = null, keepDims = false) {
 }
 const max_max = Object(operation["a" /* op */])({ max_ });
 //# sourceMappingURL=max.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13179,7 +13179,7 @@ function maxPool_(x, filterSize, strides, pad, dimRoundingMode) {
 }
 const maxPool = Object(operation["a" /* op */])({ maxPool_ });
 //# sourceMappingURL=max_pool.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_3d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13290,7 +13290,7 @@ function maxPool3d_(x, filterSize = [1, 1, 1], strides, pad, dimRoundingMode, da
 }
 const maxPool3d = Object(operation["a" /* op */])({ maxPool3d_ });
 //# sourceMappingURL=max_pool_3d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/max_pool_with_argmax.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_with_argmax.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13353,7 +13353,7 @@ function maxPoolWithArgmax_(x, filterSize, strides, pad, includeBatchInIndex = f
 }
 const maxPoolWithArgmax = Object(operation["a" /* op */])({ maxPoolWithArgmax_ });
 //# sourceMappingURL=max_pool_with_argmax.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/minimum.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/minimum.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13422,7 +13422,7 @@ function minimum_(a, b) {
 }
 const minimum = Object(operation["a" /* op */])({ minimum_ });
 //# sourceMappingURL=minimum.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/mod.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/mod.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13485,7 +13485,7 @@ function mod_(a, b) {
 }
 const mod = Object(operation["a" /* op */])({ mod_ });
 //# sourceMappingURL=mod.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/multinomial.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/multinomial.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13542,7 +13542,7 @@ function multinomial_(logits, numSamples, seed, normalized = false) {
 }
 const multinomial = Object(operation["a" /* op */])({ multinomial_ });
 //# sourceMappingURL=multinomial.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/not_equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/not_equal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13589,7 +13589,7 @@ function notEqual_(a, b) {
 }
 const notEqual = Object(operation["a" /* op */])({ notEqual_ });
 //# sourceMappingURL=not_equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/outer_product.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/outer_product.js
 
 
 
@@ -13619,7 +13619,7 @@ function outerProduct_(v1, v2) {
 }
 const outerProduct = Object(operation["a" /* op */])({ outerProduct_ });
 //# sourceMappingURL=outer_product.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad1d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad1d.js
 
 
 
@@ -13632,7 +13632,7 @@ function pad1d_(x, paddings, constantValue = 0) {
 }
 const pad1d = Object(operation["a" /* op */])({ pad1d_ });
 //# sourceMappingURL=pad1d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad2d.js
 
 
 
@@ -13646,7 +13646,7 @@ function pad2d_(x, paddings, constantValue = 0) {
 }
 const pad2d = Object(operation["a" /* op */])({ pad2d_ });
 //# sourceMappingURL=pad2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad3d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad3d.js
 
 
 
@@ -13660,7 +13660,7 @@ function pad3d_(x, paddings, constantValue = 0) {
 }
 const pad3d = Object(operation["a" /* op */])({ pad3d_ });
 //# sourceMappingURL=pad3d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pad4d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pad4d.js
 
 
 
@@ -13675,7 +13675,7 @@ function pad4d_(x, paddings, constantValue = 0) {
 }
 const pad4d = Object(operation["a" /* op */])({ pad4d_ });
 //# sourceMappingURL=pad4d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/pool.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/pool.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13805,7 +13805,7 @@ function withSpaceToBatchBasePaddings(filterShape, dilation) {
 }
 const pool = Object(operation["a" /* op */])({ pool_ });
 //# sourceMappingURL=pool.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/prelu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/prelu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -13854,7 +13854,7 @@ function prelu_(x, alpha) {
 }
 const prelu = Object(operation["a" /* op */])({ prelu_ });
 //# sourceMappingURL=prelu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/rand.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/rand.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -13905,10 +13905,10 @@ function rand_(shape, randFunction, dtype) {
 }
 const rand = Object(operation["a" /* op */])({ rand_ });
 //# sourceMappingURL=rand.js.map
-// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
-var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
+var seedrandom = __webpack_require__(21);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/rand_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/rand_util.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13940,7 +13940,7 @@ class rand_util_MPRandGauss {
             this.lower = this.mean - this.stdDev * 2;
         }
         const seedValue = seed ? seed : Math.random();
-        this.random = _seedrandom_2_4_3_seedrandom["alea"](seedValue.toString());
+        this.random = seedrandom["alea"](seedValue.toString());
     }
     /** Returns next sample from a Gaussian distribution. */
     nextValue() {
@@ -13990,7 +13990,7 @@ class rand_util_RandGamma {
         this.beta = 1 / beta; // convert rate to scale parameter
         this.dtype = dtype;
         const seedValue = seed ? seed : Math.random();
-        this.randu = _seedrandom_2_4_3_seedrandom["alea"](seedValue.toString());
+        this.randu = seedrandom["alea"](seedValue.toString());
         this.randn = new rand_util_MPRandGauss(0, 1, dtype, false, this.randu());
         if (alpha < 1) {
             this.d = alpha + (2 / 3);
@@ -14047,7 +14047,7 @@ class rand_util_UniformRandom {
         if (!this.canReturnFloat() && this.range <= 1) {
             throw new Error(`The difference between ${min} - ${max} <= 1 and dtype is not float`);
         }
-        this.random = _seedrandom_2_4_3_seedrandom["alea"](seed);
+        this.random = seedrandom["alea"](seed);
     }
     convertValue(value) {
         if (this.canReturnFloat()) {
@@ -14122,7 +14122,7 @@ function skewness(values) {
     return (1 / n) * sum3 / Math.pow((1 / (n - 1)) * sum2, 3 / 2);
 }
 //# sourceMappingURL=rand_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/random_gamma.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/random_gamma.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14176,7 +14176,7 @@ function randomGamma_(shape, alpha, beta = 1, dtype = 'float32', seed) {
 }
 const randomGamma = Object(operation["a" /* op */])({ randomGamma_ });
 //# sourceMappingURL=random_gamma.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/random_normal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/random_normal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14223,7 +14223,7 @@ function randomNormal_(shape, mean = 0, stdDev = 1, dtype, seed) {
 }
 const randomNormal = Object(operation["a" /* op */])({ randomNormal_ });
 //# sourceMappingURL=random_normal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/random_uniform.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/random_uniform.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14272,10 +14272,10 @@ function randomUniform_(shape, minval = 0, maxval = 1, dtype = 'float32', seed) 
 }
 const randomUniform = Object(operation["a" /* op */])({ randomUniform_ });
 //# sourceMappingURL=random_uniform.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/real.js
-var real = __webpack_require__(22);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/real.js
+var real = __webpack_require__(23);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/relu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -14322,7 +14322,7 @@ function relu_(x) {
 }
 const relu = Object(operation["a" /* op */])({ relu_ });
 //# sourceMappingURL=relu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/relu6.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/relu6.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -14370,7 +14370,7 @@ function relu6_(x) {
 }
 const relu6 = Object(operation["a" /* op */])({ relu6_ });
 //# sourceMappingURL=relu6.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/selu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/selu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -14416,7 +14416,7 @@ function selu_(x) {
 }
 const selu = Object(operation["a" /* op */])({ selu_ });
 //# sourceMappingURL=selu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/separable_conv2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/separable_conv2d.js
 
 
 
@@ -14505,7 +14505,7 @@ function separableConv2d_(x, depthwiseFilter, pointwiseFilter, strides, pad, dil
 }
 const separableConv2d = Object(operation["a" /* op */])({ separableConv2d_ });
 //# sourceMappingURL=separable_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/squared_difference.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/squared_difference.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14567,7 +14567,7 @@ function squaredDifference_(a, b) {
 }
 const squaredDifference = Object(operation["a" /* op */])({ squaredDifference_ });
 //# sourceMappingURL=squared_difference.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/truncated_normal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/truncated_normal.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -14619,7 +14619,7 @@ function truncatedNormal_(shape, mean = 0, stdDev = 1, dtype, seed) {
 }
 const truncatedNormal = Object(operation["a" /* op */])({ truncatedNormal_ });
 //# sourceMappingURL=truncated_normal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reduce_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reduce_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -14649,7 +14649,7 @@ function computeOptimalWindowSize(inSize) {
     return Object(util["nearestDivisor"])(inSize, Math.floor(Math.sqrt(inSize)));
 }
 //# sourceMappingURL=reduce_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/segment_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/segment_util.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -14720,7 +14720,7 @@ function collectGatherOpShapeInfo(x, indices, axis) {
     return { batchSize, sliceSize, dimSize, outputShape };
 }
 //# sourceMappingURL=segment_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/segment_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/segment_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -14872,7 +14872,7 @@ function gatherDropNegatives(x, indices) {
 const gather = Object(operation["a" /* op */])({ gather_ });
 const unsortedSegmentSum = Object(operation["a" /* op */])({ unsortedSegmentSum_ });
 //# sourceMappingURL=segment_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/boolean_mask.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/boolean_mask.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -14944,7 +14944,7 @@ async function booleanMaskAsync_(tensor, mask, axis) {
 }
 const booleanMaskAsync = booleanMaskAsync_;
 //# sourceMappingURL=boolean_mask.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/reverse.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/reverse.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15059,7 +15059,7 @@ const reverse2d = Object(operation["a" /* op */])({ reverse2d_ });
 const reverse3d = Object(operation["a" /* op */])({ reverse3d_ });
 const reverse4d = Object(operation["a" /* op */])({ reverse4d_ });
 //# sourceMappingURL=reverse.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/compare.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/compare.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15153,7 +15153,7 @@ const lessEqualStrict = Object(operation["a" /* op */])({ lessEqualStrict_ });
 const lessStrict = Object(operation["a" /* op */])({ lessStrict_ });
 const notEqualStrict = Object(operation["a" /* op */])({ notEqualStrict_ });
 //# sourceMappingURL=compare.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/binary_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/binary_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15335,7 +15335,7 @@ const powStrict = Object(operation["a" /* op */])({ powStrict_ });
 const squaredDifferenceStrict = Object(operation["a" /* op */])({ squaredDifferenceStrict_ });
 const subStrict = Object(operation["a" /* op */])({ subStrict_ });
 //# sourceMappingURL=binary_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/softmax.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/softmax.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15447,7 +15447,7 @@ function logSoftmax_(logits, axis = -1) {
 const softmax = Object(operation["a" /* op */])({ softmax_ });
 const logSoftmax = Object(operation["a" /* op */])({ logSoftmax_ });
 //# sourceMappingURL=softmax.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/norm.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/norm.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15563,7 +15563,7 @@ function normImpl(x, p, axis = null) {
 }
 const norm_norm = Object(operation["a" /* op */])({ norm_ });
 //# sourceMappingURL=norm.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/lstm.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/lstm.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15657,7 +15657,7 @@ function basicLSTMCell_(forgetBias, lstmKernel, lstmBias, data, c, h) {
 const basicLSTMCell = Object(operation["a" /* op */])({ basicLSTMCell_ });
 const multiRNNCell = Object(operation["a" /* op */])({ multiRNNCell_ });
 //# sourceMappingURL=lstm.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/moving_average.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/moving_average.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15725,7 +15725,7 @@ function movingAverage_(v, x, decay, step, zeroDebias = true) {
 }
 const movingAverage = Object(operation["a" /* op */])({ movingAverage_ });
 //# sourceMappingURL=moving_average.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/strided_slice.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/strided_slice.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15840,7 +15840,7 @@ function stridedSlice_(x, begin, end, strides, beginMask = 0, endMask = 0, ellip
 }
 const stridedSlice = Object(operation["a" /* op */])({ stridedSlice_ });
 //# sourceMappingURL=strided_slice.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/topk.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/topk.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -15898,7 +15898,7 @@ function topk_(x, k = 1, sorted = true) {
 }
 const topk = Object(operation["a" /* op */])({ topk_ });
 //# sourceMappingURL=topk.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/scatter_nd.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -15945,7 +15945,7 @@ function scatterND_(indices, updates, shape) {
 }
 const scatterND = Object(operation["a" /* op */])({ scatterND_ });
 //# sourceMappingURL=scatter_nd.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/spectral_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/spectral_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16127,7 +16127,7 @@ const ifft = Object(operation["a" /* op */])({ ifft_ });
 const rfft = Object(operation["a" /* op */])({ rfft_ });
 const irfft = Object(operation["a" /* op */])({ irfft_ });
 //# sourceMappingURL=spectral_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/sparse_to_dense_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/sparse_to_dense_util.js
 /**
  * Validate sparseToDense inputs.
  *
@@ -16167,7 +16167,7 @@ function sparse_to_dense_util_validateInput(sparseIndices, sparseValues, outputS
     }
 }
 //# sourceMappingURL=sparse_to_dense_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/sparse_to_dense.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/sparse_to_dense.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16234,7 +16234,7 @@ function sparseToDense_(sparseIndices, sparseValues, outputShape, defaultValue =
 }
 const sparseToDense = Object(operation["a" /* op */])({ sparseToDense_ });
 //# sourceMappingURL=sparse_to_dense.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/gather_nd.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16303,7 +16303,7 @@ function gatherND_(x, indices) {
 }
 const gatherND = Object(operation["a" /* op */])({ gatherND_ });
 //# sourceMappingURL=gather_nd.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/dropout_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/dropout_util.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -16351,7 +16351,7 @@ function getNoiseShape(x, noiseShape) {
     return noiseShape;
 }
 //# sourceMappingURL=dropout_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/dropout.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/dropout.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -16413,7 +16413,7 @@ function dropout_(x, rate, noiseShape, seed) {
 }
 const dropout = Object(operation["a" /* op */])({ dropout_ });
 //# sourceMappingURL=dropout.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/signal_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/signal_ops.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -16555,7 +16555,7 @@ const hammingWindow = Object(operation["a" /* op */])({ hammingWindow_ });
 const signal_ops_frame = Object(operation["a" /* op */])({ frame_ });
 const stft = Object(operation["a" /* op */])({ stft_ });
 //# sourceMappingURL=signal_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/in_top_k.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/in_top_k.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -16637,7 +16637,7 @@ async function inTopKAsync_(predictions, targets, k = 1) {
 }
 const inTopKAsync = inTopKAsync_;
 //# sourceMappingURL=in_top_k.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/loss_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/loss_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -17048,7 +17048,7 @@ const meanSquaredError = Object(operation["a" /* op */])({ meanSquaredError_ });
 const sigmoidCrossEntropy = Object(operation["a" /* op */])({ sigmoidCrossEntropy_ });
 const softmaxCrossEntropy = Object(operation["a" /* op */])({ softmaxCrossEntropy_ });
 //# sourceMappingURL=loss_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/linalg_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/linalg_ops.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -17368,7 +17368,7 @@ const bandPart = Object(operation["a" /* op */])({ bandPart_ });
 const gramSchmidt = Object(operation["a" /* op */])({ gramSchmidt_ });
 const qr = Object(operation["a" /* op */])({ qr_ });
 //# sourceMappingURL=linalg_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/array_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/array_util.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -17452,7 +17452,7 @@ function binarySearch_(arr, target, comparator) {
     return found ? left : -left - 1;
 }
 //# sourceMappingURL=array_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/non_max_suppression_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/non_max_suppression_impl.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -17607,7 +17607,7 @@ function ascendingComparator(c1, c2) {
         ((c1.score === c2.score) && (c2.boxIndex - c1.boxIndex));
 }
 //# sourceMappingURL=non_max_suppression_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/nonmax_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/nonmax_util.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -17648,7 +17648,7 @@ function nonMaxSuppSanityCheck(boxes, scores, maxOutputSize, iouThreshold, score
 }
 
 //# sourceMappingURL=nonmax_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/non_max_suppression.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/non_max_suppression.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -17682,7 +17682,7 @@ function nonMaxSuppression_(boxes, scores, maxOutputSize, iouThreshold = 0.5, sc
 }
 const nonMaxSuppression = Object(operation["a" /* op */])({ nonMaxSuppression_ });
 //# sourceMappingURL=non_max_suppression.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/image_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/image_ops.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -17939,7 +17939,7 @@ const nonMaxSuppressionWithScore = Object(operation["a" /* op */])({ nonMaxSuppr
 const nonMaxSuppressionWithScoreAsync = nonMaxSuppressionWithScoreAsync_;
 const cropAndResize = Object(operation["a" /* op */])({ cropAndResize_ });
 //# sourceMappingURL=image_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fused_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/fused_util.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -17962,7 +17962,7 @@ const shouldFuse = (gradientDepth, activation) => {
     return !gradientMode || activation === 'linear';
 };
 //# sourceMappingURL=fused_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/fused_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/fused_ops.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -18432,7 +18432,7 @@ const fused_ops_matMul = Object(operation["a" /* op */])({ fusedMatMul_ });
 const fused_ops_conv2d = Object(operation["a" /* op */])({ fusedConv2d_ });
 const fused_ops_depthwiseConv2d = Object(operation["a" /* op */])({ fusedDepthwiseConv2d_ });
 //# sourceMappingURL=fused_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/ops.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -18564,7 +18564,7 @@ const fused_ops_depthwiseConv2d = Object(operation["a" /* op */])({ fusedDepthwi
 
 
 //# sourceMappingURL=ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -18689,7 +18689,7 @@ Object.defineProperty(optimizer_Optimizer, Symbol.hasInstance, {
     }
 });
 //# sourceMappingURL=optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adadelta_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adadelta_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -18809,7 +18809,7 @@ class adadelta_optimizer_AdadeltaOptimizer extends optimizer_Optimizer {
 adadelta_optimizer_AdadeltaOptimizer.className = 'Adadelta'; // Name matters for Python compatibility.
 registerClass(adadelta_optimizer_AdadeltaOptimizer);
 //# sourceMappingURL=adadelta_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adagrad_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adagrad_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -18901,7 +18901,7 @@ class adagrad_optimizer_AdagradOptimizer extends optimizer_Optimizer {
 adagrad_optimizer_AdagradOptimizer.className = 'Adagrad'; // Note: Name matters for Python compatibility.
 registerClass(adagrad_optimizer_AdagradOptimizer);
 //# sourceMappingURL=adagrad_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adam_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adam_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19041,7 +19041,7 @@ class adam_optimizer_AdamOptimizer extends optimizer_Optimizer {
 adam_optimizer_AdamOptimizer.className = 'Adam'; // Note: Name matters for Python compatibility.
 registerClass(adam_optimizer_AdamOptimizer);
 //# sourceMappingURL=adam_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/adamax_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/adamax_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19161,7 +19161,7 @@ class adamax_optimizer_AdamaxOptimizer extends optimizer_Optimizer {
 adamax_optimizer_AdamaxOptimizer.className = 'Adamax'; // Note: Name matters for Python compatbility.
 registerClass(adamax_optimizer_AdamaxOptimizer);
 //# sourceMappingURL=adamax_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/sgd_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/sgd_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19243,7 +19243,7 @@ class sgd_optimizer_SGDOptimizer extends optimizer_Optimizer {
 sgd_optimizer_SGDOptimizer.className = 'SGD'; // Note: Name matters for Python compatibility.
 registerClass(sgd_optimizer_SGDOptimizer);
 //# sourceMappingURL=sgd_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/momentum_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/momentum_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19350,7 +19350,7 @@ class momentum_optimizer_MomentumOptimizer extends sgd_optimizer_SGDOptimizer {
 momentum_optimizer_MomentumOptimizer.className = 'Momentum'; // Name matters for Python compatibility.
 registerClass(momentum_optimizer_MomentumOptimizer);
 //# sourceMappingURL=momentum_optimizer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/rmsprop_optimizer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/rmsprop_optimizer.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19521,10 +19521,10 @@ class rmsprop_optimizer_RMSPropOptimizer extends optimizer_Optimizer {
 rmsprop_optimizer_RMSPropOptimizer.className = 'RMSProp'; // Note: Name matters for Python compatibility.
 registerClass(rmsprop_optimizer_RMSPropOptimizer);
 //# sourceMappingURL=rmsprop_optimizer.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/types.js
-var dist_types = __webpack_require__(23);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/types.js
+var dist_types = __webpack_require__(24);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/optimizers/optimizer_constructors.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer_constructors.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19704,7 +19704,7 @@ class optimizer_constructors_OptimizerConstructors {
     }
 }
 //# sourceMappingURL=optimizer_constructors.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/train.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/train.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -19743,10 +19743,10 @@ const train = {
     adam: optimizer_constructors_OptimizerConstructors.adam
 };
 //# sourceMappingURL=train.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/browser_util.js
-var browser_util = __webpack_require__(40);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/browser_util.js
+var browser_util = __webpack_require__(41);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/array_ops_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/array_ops_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -19891,7 +19891,7 @@ function getSliceSize(uncroppedShape, crops, blockShape) {
     return sliceSize;
 }
 //# sourceMappingURL=array_ops_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/ops/erf_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/ops/erf_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -19915,7 +19915,7 @@ const ERF_A3 = 1.421413741;
 const ERF_A4 = -1.453152027;
 const ERF_A5 = 1.061405429;
 //# sourceMappingURL=erf_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/log.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/log.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -19944,7 +19944,7 @@ function log_log(...msg) {
     }
 }
 //# sourceMappingURL=log.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/complex_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/complex_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -20081,7 +20081,7 @@ function exponent(k, n, inverse) {
     return { real, imag };
 }
 //# sourceMappingURL=complex_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/backend_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -20168,10 +20168,10 @@ function linspaceImpl(start, stop, num) {
     return Object(tensor_ops["g" /* tensor1d */])(values, 'float32');
 }
 //# sourceMappingURL=backend_util.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/device_util.js
-var device_util = __webpack_require__(36);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/device_util.js
+var device_util = __webpack_require__(37);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/split_shared.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/split_shared.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -20204,7 +20204,7 @@ function split_shared_split(x, sizeSplits, axis) {
     });
 }
 //# sourceMappingURL=split_shared.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/tile_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/tile_impl.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -20244,7 +20244,7 @@ function tile_impl_tile(xBuf, reps) {
     return result.toTensor();
 }
 //# sourceMappingURL=tile_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/topk_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/topk_impl.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -20296,7 +20296,7 @@ function topkImpl(x, xShape, xDtype, k, sorted) {
     ];
 }
 //# sourceMappingURL=topk_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/kernel_impls.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/kernel_impls.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -20319,7 +20319,7 @@ function topkImpl(x, xShape, xDtype, k, sorted) {
 
 
 //# sourceMappingURL=kernel_impls.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/backends/backend.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/backends/backend.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -20827,7 +20827,7 @@ function notYetImplemented(kernelName) {
         `Did you forget to import the kernel?`);
 }
 //# sourceMappingURL=backend.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/add.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/add.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20851,7 +20851,7 @@ dist_tensor["a" /* Tensor */].prototype.add = function (b) {
     return add(this, b);
 };
 //# sourceMappingURL=add.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/atan2.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atan2.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20875,7 +20875,7 @@ dist_tensor["a" /* Tensor */].prototype.atan2 = function (b) {
     return atan2(this, b);
 };
 //# sourceMappingURL=atan2.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/avg_pool.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/avg_pool.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20899,7 +20899,7 @@ dist_tensor["a" /* Tensor */].prototype.avgPool = function (filterSize, strides,
     return avgPool(this, filterSize, strides, pad, dimRoundingMode);
 };
 //# sourceMappingURL=avg_pool.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/batchnorm.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batchnorm.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20923,7 +20923,7 @@ dist_tensor["a" /* Tensor */].prototype.batchNorm = function (mean, variance, of
     return batchNorm(this, mean, variance, offset, scale, varianceEpsilon);
 };
 //# sourceMappingURL=batchnorm.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/broadcast_to.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/broadcast_to.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20947,7 +20947,7 @@ dist_tensor["a" /* Tensor */].prototype.broadcastTo = function (shape) {
     return broadcastTo(this, shape);
 };
 //# sourceMappingURL=broadcast_to.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/batch_to_space_nd.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batch_to_space_nd.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20971,7 +20971,7 @@ dist_tensor["a" /* Tensor */].prototype.batchToSpaceND = function (blockShape, c
     return batchToSpaceND(this, blockShape, crops);
 };
 //# sourceMappingURL=batch_to_space_nd.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/concat.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/concat.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -20998,7 +20998,7 @@ dist_tensor["a" /* Tensor */].prototype.concat = function (x, axis) {
     return concat([this, ...x], axis);
 };
 //# sourceMappingURL=concat.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/conv1d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv1d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21022,7 +21022,7 @@ dist_tensor["a" /* Tensor */].prototype.conv1d = function (filter, stride, pad, 
     return conv1d(this, filter, stride, pad, dataFormat, dilation, dimRoundingMode);
 };
 //# sourceMappingURL=conv1d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/conv2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21046,7 +21046,7 @@ dist_tensor["a" /* Tensor */].prototype.conv2d = function (filter, strides, pad,
     return conv2d(this, filter, strides, pad, dataFormat, dilations, dimRoundingMode);
 };
 //# sourceMappingURL=conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/conv2d_transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d_transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21070,7 +21070,7 @@ dist_tensor["a" /* Tensor */].prototype.conv2dTranspose = function (filter, outp
     return conv2dTranspose(this, filter, outputShape, strides, pad, dimRoundingMode);
 };
 //# sourceMappingURL=conv2d_transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/cumsum.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cumsum.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21094,7 +21094,7 @@ dist_tensor["a" /* Tensor */].prototype.cumsum = function (axis, exclusive, reve
     return cumsum(this, axis, exclusive, reverse);
 };
 //# sourceMappingURL=cumsum.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/depth_to_space.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depth_to_space.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21118,7 +21118,7 @@ dist_tensor["a" /* Tensor */].prototype.depthToSpace = function (blockSize, data
     return depthToSpace(this, blockSize, dataFormat);
 };
 //# sourceMappingURL=depth_to_space.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21142,7 +21142,7 @@ dist_tensor["a" /* Tensor */].prototype.depthwiseConv2d = function (filter, stri
     return depthwiseConv2d(this, filter, strides, pad, dataFormat, dilations, dimRoundingMode);
 };
 //# sourceMappingURL=depthwise_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2D_deprecated.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2D_deprecated.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21171,7 +21171,7 @@ dist_tensor["a" /* Tensor */].prototype.depthwiseConv2D = function (filter, stri
     return depthwiseConv2d(this, filter, strides, pad, dataFormat, dilations, dimRoundingMode);
 };
 //# sourceMappingURL=depthwise_conv2D_deprecated.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/div.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21195,7 +21195,7 @@ dist_tensor["a" /* Tensor */].prototype.div = function (b) {
     return div(this, b);
 };
 //# sourceMappingURL=div.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/div_no_nan.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div_no_nan.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21219,7 +21219,7 @@ dist_tensor["a" /* Tensor */].prototype.divNoNan = function (b) {
     return divNoNan(this, b);
 };
 //# sourceMappingURL=div_no_nan.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/dot.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/dot.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21243,7 +21243,7 @@ dist_tensor["a" /* Tensor */].prototype.dot = function (b) {
     return dot(this, b);
 };
 //# sourceMappingURL=dot.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/elu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/elu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21267,7 +21267,7 @@ dist_tensor["a" /* Tensor */].prototype.elu = function () {
     return elu(this);
 };
 //# sourceMappingURL=elu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21291,7 +21291,7 @@ dist_tensor["a" /* Tensor */].prototype.equal = function (b) {
     return equal(this, b);
 };
 //# sourceMappingURL=equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/floorDiv.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/floorDiv.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21315,7 +21315,7 @@ dist_tensor["a" /* Tensor */].prototype.floorDiv = function (b) {
     return floorDiv(this, b);
 };
 //# sourceMappingURL=floorDiv.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/greater.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21339,7 +21339,7 @@ dist_tensor["a" /* Tensor */].prototype.greater = function (b) {
     return greater(this, b);
 };
 //# sourceMappingURL=greater.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/greater_equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater_equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21363,7 +21363,7 @@ dist_tensor["a" /* Tensor */].prototype.greaterEqual = function (b) {
     return greaterEqual(this, b);
 };
 //# sourceMappingURL=greater_equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/leaky_relu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/leaky_relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21387,7 +21387,7 @@ dist_tensor["a" /* Tensor */].prototype.leakyRelu = function (alpha) {
     return leakyRelu(this, alpha);
 };
 //# sourceMappingURL=leaky_relu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/less.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21411,7 +21411,7 @@ dist_tensor["a" /* Tensor */].prototype.less = function (b) {
     return less(this, b);
 };
 //# sourceMappingURL=less.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/less_equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less_equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21435,7 +21435,7 @@ dist_tensor["a" /* Tensor */].prototype.lessEqual = function (b) {
     return lessEqual(this, b);
 };
 //# sourceMappingURL=less_equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/local_response_normalization.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/local_response_normalization.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21459,7 +21459,7 @@ dist_tensor["a" /* Tensor */].prototype.localResponseNormalization = function (d
     return localResponseNormalization(this, depthRadius, bias, alpha, beta);
 };
 //# sourceMappingURL=local_response_normalization.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/mat_mul.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mat_mul.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21483,7 +21483,7 @@ dist_tensor["a" /* Tensor */].prototype.matMul = function (b, transposeA, transp
     return matMul(this, b, transposeA, transposeB);
 };
 //# sourceMappingURL=mat_mul.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/max.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21507,7 +21507,7 @@ dist_tensor["a" /* Tensor */].prototype.max = function (axis, keepDims) {
     return max_max(this, axis, keepDims);
 };
 //# sourceMappingURL=max.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/max_pool.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max_pool.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21531,7 +21531,7 @@ dist_tensor["a" /* Tensor */].prototype.maxPool = function (filterSize, strides,
     return maxPool(this, filterSize, strides, pad, dimRoundingMode);
 };
 //# sourceMappingURL=max_pool.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/maximum.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/maximum.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21555,7 +21555,7 @@ dist_tensor["a" /* Tensor */].prototype.maximum = function (b) {
     return maximum(this, b);
 };
 //# sourceMappingURL=maximum.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/minimum.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/minimum.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21579,7 +21579,7 @@ dist_tensor["a" /* Tensor */].prototype.minimum = function (b) {
     return minimum(this, b);
 };
 //# sourceMappingURL=minimum.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/mod.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mod.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21603,7 +21603,7 @@ dist_tensor["a" /* Tensor */].prototype.mod = function (b) {
     return mod(this, b);
 };
 //# sourceMappingURL=mod.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/mul.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mul.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21627,7 +21627,7 @@ dist_tensor["a" /* Tensor */].prototype.mul = function (b) {
     return mul(this, b);
 };
 //# sourceMappingURL=mul.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/not_equal.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/not_equal.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21651,7 +21651,7 @@ dist_tensor["a" /* Tensor */].prototype.notEqual = function (b) {
     return notEqual(this, b);
 };
 //# sourceMappingURL=not_equal.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/one_hot.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/one_hot.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21675,7 +21675,7 @@ dist_tensor["a" /* Tensor */].prototype.oneHot = function (depth, onValue = 1, o
     return oneHot(this, depth, onValue, offValue);
 };
 //# sourceMappingURL=one_hot.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/pad.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pad.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -21699,7 +21699,7 @@ dist_tensor["a" /* Tensor */].prototype.pad = function (paddings, constantValue)
     return pad_pad(this, paddings, constantValue);
 };
 //# sourceMappingURL=pad.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/pool.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pool.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21723,7 +21723,7 @@ dist_tensor["a" /* Tensor */].prototype.pool = function (windowShape, poolingTyp
     return pool(this, windowShape, poolingType, padding, dilationRate, strides);
 };
 //# sourceMappingURL=pool.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/pow.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pow.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21747,7 +21747,7 @@ dist_tensor["a" /* Tensor */].prototype.pow = function (exp) {
     return pow(this, exp);
 };
 //# sourceMappingURL=pow.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/prelu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/prelu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21771,7 +21771,7 @@ dist_tensor["a" /* Tensor */].prototype.prelu = function (alpha) {
     return prelu(this, alpha);
 };
 //# sourceMappingURL=prelu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/relu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21795,7 +21795,7 @@ dist_tensor["a" /* Tensor */].prototype.relu = function () {
     return relu(this);
 };
 //# sourceMappingURL=relu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/relu6.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu6.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21819,7 +21819,7 @@ dist_tensor["a" /* Tensor */].prototype.relu6 = function () {
     return relu6(this);
 };
 //# sourceMappingURL=relu6.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/selu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/selu.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21843,7 +21843,7 @@ dist_tensor["a" /* Tensor */].prototype.selu = function () {
     return selu(this);
 };
 //# sourceMappingURL=selu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/separable_conv2d.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/separable_conv2d.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21867,7 +21867,7 @@ dist_tensor["a" /* Tensor */].prototype.separableConv2d = function (depthwiseFil
     return separableConv2d(this, depthwiseFilter, pointwiseFilter, strides, pad, dilation, dataFormat);
 };
 //# sourceMappingURL=separable_conv2d.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/split.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/split.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21891,7 +21891,7 @@ dist_tensor["a" /* Tensor */].prototype.split = function (numOrSizeSplits, axis)
     return split(this, numOrSizeSplits, axis);
 };
 //# sourceMappingURL=split.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/squared_difference.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/squared_difference.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21915,7 +21915,7 @@ dist_tensor["a" /* Tensor */].prototype.squaredDifference = function (b) {
     return squaredDifference(this, b);
 };
 //# sourceMappingURL=squared_difference.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/space_to_batch_nd.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/space_to_batch_nd.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21939,7 +21939,7 @@ dist_tensor["a" /* Tensor */].prototype.spaceToBatchND = function (blockShape, p
     return spaceToBatchND(this, blockShape, paddings);
 };
 //# sourceMappingURL=space_to_batch_nd.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/sub.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sub.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21963,7 +21963,7 @@ dist_tensor["a" /* Tensor */].prototype.sub = function (b) {
     return sub(this, b);
 };
 //# sourceMappingURL=sub.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/tile.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tile.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -21987,7 +21987,7 @@ dist_tensor["a" /* Tensor */].prototype.tile = function (reps) {
     return tile(this, reps);
 };
 //# sourceMappingURL=tile.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -22011,7 +22011,7 @@ dist_tensor["a" /* Tensor */].prototype.transpose = function (perm) {
     return transpose(this, perm);
 };
 //# sourceMappingURL=transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/public/chained_ops/register_all_chained_ops.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/register_all_chained_ops.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -22078,7 +22078,7 @@ dist_tensor["a" /* Tensor */].prototype.transpose = function (perm) {
 
 
 //# sourceMappingURL=register_all_chained_ops.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -23201,19 +23201,19 @@ __webpack_require__.d(__webpack_exports__, "a", function() { return /* binding *
 
 // UNUSED EXPORTS: Engine
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/environment.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/environment.js
 var dist_environment = __webpack_require__(10);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/global_util.js
-var global_util = __webpack_require__(33);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/global_util.js
+var global_util = __webpack_require__(34);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/kernel_registry.js
-var kernel_registry = __webpack_require__(17);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/kernel_registry.js
+var kernel_registry = __webpack_require__(18);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/util.js
 var util = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/profiler.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/profiler.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -23299,7 +23299,7 @@ class profiler_Logger {
     }
 }
 //# sourceMappingURL=profiler.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tape.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tape.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -23450,13 +23450,13 @@ function backpropagateGradients(tensorAccumulatedGradientMap, filteredTape, tidy
     }
 }
 //# sourceMappingURL=tape.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor.js + 1 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor.js + 1 modules
 var tensor = __webpack_require__(7);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
 var tensor_util = __webpack_require__(11);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/engine.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/engine.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -24533,10 +24533,10 @@ __webpack_require__.d(__webpack_exports__, "d", function() { return /* binding *
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ tensor_Tensor; });
 __webpack_require__.d(__webpack_exports__, "c", function() { return /* binding */ tensor_Variable; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/util.js
 var util = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor_format.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor_format.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -24700,7 +24700,7 @@ function createComplexTuples(vals) {
     return complexTuples;
 }
 //# sourceMappingURL=tensor_format.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/tensor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-core/dist/tensor.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -25610,10 +25610,10 @@ Object.defineProperty(tensor_Variable, Symbol.hasInstance, {
 /* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 /* harmony import */ var _tensor_util_env__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
-/* harmony import */ var _complex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(18);
-/* harmony import */ var _imag__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(25);
+/* harmony import */ var _complex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(19);
+/* harmony import */ var _imag__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(26);
 /* harmony import */ var _operation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4);
-/* harmony import */ var _real__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(22);
+/* harmony import */ var _real__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(23);
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -26328,7 +26328,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isTensorInList", function() { return isTensorInList; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getTensorsInContainer", function() { return getTensorsInContainer; });
 /* harmony import */ var _tensor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
-/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(23);
+/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
 /**
  * @license
@@ -26410,6 +26410,97 @@ function isIterable(obj) {
 
 /***/ }),
 /* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * @license
+ * Copyright 2020 Google LLC. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * =============================================================================
+ */
+
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var tfjsCore = __webpack_require__(0);
+var tfjsLayers = __webpack_require__(87);
+var tfjsConverter = __webpack_require__(39);
+var tfjsData = __webpack_require__(88);
+var tfjsBackendCpu = __webpack_require__(89);
+var tfjsBackendWebgl = __webpack_require__(86);
+
+/** @license See the LICENSE file. */
+// This code is auto-generated, do not modify this file!
+var version = '2.0.1';
+
+/**
+ * @license
+ * Copyright 2018 Google LLC. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * =============================================================================
+ */
+var version$1 = {
+    'tfjs-core': tfjsCore.version_core,
+    'tfjs-backend-cpu': tfjsBackendCpu.version_cpu,
+    'tfjs-backend-webgl': tfjsBackendWebgl.version_webgl,
+    'tfjs-data': tfjsData.version_data,
+    'tfjs-layers': tfjsLayers.version_layers,
+    'tfjs-converter': tfjsConverter.version_converter,
+    'tfjs': version
+};
+
+Object.keys(tfjsCore).forEach(function (k) {
+  if (k !== 'default') Object.defineProperty(exports, k, {
+    enumerable: true,
+    get: function () {
+      return tfjsCore[k];
+    }
+  });
+});
+Object.keys(tfjsLayers).forEach(function (k) {
+  if (k !== 'default') Object.defineProperty(exports, k, {
+    enumerable: true,
+    get: function () {
+      return tfjsLayers[k];
+    }
+  });
+});
+Object.keys(tfjsConverter).forEach(function (k) {
+  if (k !== 'default') Object.defineProperty(exports, k, {
+    enumerable: true,
+    get: function () {
+      return tfjsConverter[k];
+    }
+  });
+});
+exports.data = tfjsData;
+exports.version = version$1;
+//# sourceMappingURL=tf.node.js.map
+
+
+/***/ }),
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30838,10 +30929,10 @@ numeric.svd= function svd(A) {
 };
 
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(27)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)))
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30855,10 +30946,10 @@ numeric.svd= function svd(A) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return basename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return getModelArtifactsInfoForJSON; });
 /* unused harmony export getFloat16Decoder */
-/* harmony import */ var _ops_complex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+/* harmony import */ var _ops_complex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
 /* harmony import */ var _ops_tensor_ops__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
-/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(34);
+/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(35);
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31314,10 +31405,10 @@ function getFloat16Decoder() {
     };
 }
 //# sourceMappingURL=io_utils.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(39).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(40).Buffer))
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31333,16 +31424,16 @@ __webpack_require__.d(__webpack_exports__, "c", function() { return /* binding *
 
 // UNUSED EXPORTS: iteratorFromIncrementing, iteratorFromConcatenatedFunction, ChainedIterator, PrefetchIterator, ShuffleIterator
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
-var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
+var seedrandom = __webpack_require__(21);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/deep_map.js
-var deep_map = __webpack_require__(19);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/deep_map.js
+var deep_map = __webpack_require__(20);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/deep_clone.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/deep_clone.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31378,7 +31469,7 @@ function cloneIfTensor(item) {
     }
 }
 //# sourceMappingURL=deep_clone.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/ring_buffer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/ring_buffer.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31540,7 +31631,7 @@ class RingBuffer {
     }
 }
 //# sourceMappingURL=ring_buffer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/growing_ring_buffer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/growing_ring_buffer.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -31602,7 +31693,7 @@ class growing_ring_buffer_GrowingRingBuffer extends RingBuffer {
 }
 growing_ring_buffer_GrowingRingBuffer.INITIAL_CAPACITY = 32;
 //# sourceMappingURL=growing_ring_buffer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -32572,7 +32663,7 @@ class lazy_iterator_ShuffleIterator extends lazy_iterator_PrefetchIterator {
         this.windowSize = windowSize;
         // Local state that should not be clobbered by out-of-order execution.
         this.upstreamExhausted = false;
-        this.random = _seedrandom_2_4_3_seedrandom["alea"](seed || dist["util"].now().toString());
+        this.random = seedrandom["alea"](seed || dist["util"].now().toString());
         this.lastRead = Promise.resolve({ value: null, done: false });
     }
     async next() {
@@ -32611,7 +32702,7 @@ class lazy_iterator_ShuffleIterator extends lazy_iterator_PrefetchIterator {
 //# sourceMappingURL=lazy_iterator.js.map
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32632,25 +32723,25 @@ class lazy_iterator_ShuffleIterator extends lazy_iterator_PrefetchIterator {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return getTensorShapeArrayParam; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getBoolArrayParam; });
 /* harmony import */ var _tensorflow_tfjs_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _data_compiled_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(21);
-/* harmony import */ var _custom_op_register__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(24);
+/* harmony import */ var _data_compiled_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
+/* harmony import */ var _custom_op_register__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(25);
 /* harmony import */ var _executors_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
-/* harmony import */ var _op_list_arithmetic__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(41);
-/* harmony import */ var _op_list_basic_math__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(42);
-/* harmony import */ var _op_list_control__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(43);
-/* harmony import */ var _op_list_convolution__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(44);
-/* harmony import */ var _op_list_creation__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(45);
-/* harmony import */ var _op_list_dynamic__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(46);
-/* harmony import */ var _op_list_evaluation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(47);
-/* harmony import */ var _op_list_graph__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(48);
-/* harmony import */ var _op_list_image__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(49);
-/* harmony import */ var _op_list_logical__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(50);
-/* harmony import */ var _op_list_matrices__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(51);
-/* harmony import */ var _op_list_normalization__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(52);
-/* harmony import */ var _op_list_reduction__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(53);
-/* harmony import */ var _op_list_slice_join__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(54);
-/* harmony import */ var _op_list_spectral__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(55);
-/* harmony import */ var _op_list_transformation__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(56);
+/* harmony import */ var _op_list_arithmetic__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(42);
+/* harmony import */ var _op_list_basic_math__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(43);
+/* harmony import */ var _op_list_control__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(44);
+/* harmony import */ var _op_list_convolution__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(45);
+/* harmony import */ var _op_list_creation__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(46);
+/* harmony import */ var _op_list_dynamic__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(47);
+/* harmony import */ var _op_list_evaluation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(48);
+/* harmony import */ var _op_list_graph__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(49);
+/* harmony import */ var _op_list_image__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(50);
+/* harmony import */ var _op_list_logical__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(51);
+/* harmony import */ var _op_list_matrices__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(52);
+/* harmony import */ var _op_list_normalization__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(53);
+/* harmony import */ var _op_list_reduction__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(54);
+/* harmony import */ var _op_list_slice_join__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(55);
+/* harmony import */ var _op_list_spectral__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(56);
+/* harmony import */ var _op_list_transformation__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(57);
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -33115,10 +33206,10 @@ function getBoolArrayParam(attrs, name, def) {
     return def;
 }
 //# sourceMappingURL=operation_mapper.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(39).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(40).Buffer))
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = function() {
@@ -33127,7 +33218,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33138,7 +33229,7 @@ module.exports = function() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return registerGradient; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return unregisterKernel; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return unregisterGradient; });
-/* harmony import */ var _global_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
+/* harmony import */ var _global_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -33254,7 +33345,7 @@ function makeKey(kernelName, backendName) {
 //# sourceMappingURL=kernel_registry.js.map
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33319,7 +33410,7 @@ const complex = Object(_operation__WEBPACK_IMPORTED_MODULE_4__[/* op */ "a"])({ 
 //# sourceMappingURL=complex.js.map
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33561,7 +33652,7 @@ function isPrimitive(value) {
 //# sourceMappingURL=deep_map.js.map
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // A library of seedable RNGs implemented in Javascript.
@@ -33576,17 +33667,17 @@ function isPrimitive(value) {
 // alea, a 53-bit multiply-with-carry generator by Johannes Baagøe.
 // Period: ~2^116
 // Reported to pass all BigCrush tests.
-var alea = __webpack_require__(68);
+var alea = __webpack_require__(69);
 
 // xor128, a pure xor-shift generator by George Marsaglia.
 // Period: 2^128-1.
 // Reported to fail: MatrixRank and LinearComp.
-var xor128 = __webpack_require__(69);
+var xor128 = __webpack_require__(70);
 
 // xorwow, George Marsaglia's 160-bit xor-shift combined plus weyl.
 // Period: 2^192-2^32
 // Reported to fail: CollisionOver, SimpPoker, and LinearComp.
-var xorwow = __webpack_require__(70);
+var xorwow = __webpack_require__(71);
 
 // xorshift7, by François Panneton and Pierre L'ecuyer, takes
 // a different approach: it adds robustness by allowing more shifts
@@ -33594,7 +33685,7 @@ var xorwow = __webpack_require__(70);
 // with 256 bits, that passes BigCrush with no systmatic failures.
 // Period 2^256-1.
 // No systematic BigCrush failures reported.
-var xorshift7 = __webpack_require__(71);
+var xorshift7 = __webpack_require__(72);
 
 // xor4096, by Richard Brent, is a 4096-bit xor-shift with a
 // very long period that also adds a Weyl generator. It also passes
@@ -33603,18 +33694,18 @@ var xorshift7 = __webpack_require__(71);
 // collisions.
 // Period: 2^4128-2^32.
 // No systematic BigCrush failures reported.
-var xor4096 = __webpack_require__(72);
+var xor4096 = __webpack_require__(73);
 
 // Tyche-i, by Samuel Neves and Filipe Araujo, is a bit-shifting random
 // number generator derived from ChaCha, a modern stream cipher.
 // https://eden.dei.uc.pt/~sneves/pubs/2011-snfa2.pdf
 // Period: ~2^127
 // No systematic BigCrush failures reported.
-var tychei = __webpack_require__(73);
+var tychei = __webpack_require__(74);
 
 // The original ARC4-based prng included in this library.
 // Period: ~2^1600
-var sr = __webpack_require__(74);
+var sr = __webpack_require__(75);
 
 sr.alea = alea;
 sr.xor128 = xor128;
@@ -33627,7 +33718,7 @@ module.exports = sr;
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33696,7 +33787,7 @@ var SaverDef;
 //# sourceMappingURL=compiled_api.js.map
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33751,7 +33842,7 @@ const real = Object(_operation__WEBPACK_IMPORTED_MODULE_3__[/* op */ "a"])({ rea
 //# sourceMappingURL=real.js.map
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33836,7 +33927,7 @@ function sumOutType(type) {
 //# sourceMappingURL=types.js.map
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33915,7 +34006,7 @@ function deregisterOp(name) {
 //# sourceMappingURL=register.js.map
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33969,7 +34060,7 @@ const imag = Object(_operation__WEBPACK_IMPORTED_MODULE_3__[/* op */ "a"])({ ima
 //# sourceMappingURL=imag.js.map
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34111,7 +34202,7 @@ function maxPoolPositions(xValues, xShape, dtype, convInfo, flattenPositions = f
 //# sourceMappingURL=pool_utils.js.map
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 var g;
@@ -34137,7 +34228,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -34165,7 +34256,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
@@ -34174,7 +34265,7 @@ module.exports = __webpack_amd_options__;
 /* WEBPACK VAR INJECTION */}.call(this, {}))
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34218,7 +34309,7 @@ function transposeImpl(xVals, xShape, dtype, perm, newShape) {
 //# sourceMappingURL=Transpose_impl.js.map
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34228,19 +34319,19 @@ __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport 
 __webpack_require__.d(__webpack_exports__, "c", function() { return /* reexport */ version; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ shared_namespaceObject; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/shared.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/shared.js
 var shared_namespaceObject = {};
 __webpack_require__.r(shared_namespaceObject);
 __webpack_require__.d(shared_namespaceObject, "maxImpl", function() { return Max_impl["a" /* maxImpl */]; });
 __webpack_require__.d(shared_namespaceObject, "transposeImpl", function() { return Transpose_impl["a" /* transposeImpl */]; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
-var Max_impl = __webpack_require__(37);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
+var Max_impl = __webpack_require__(38);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
-var Transpose_impl = __webpack_require__(30);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
+var Transpose_impl = __webpack_require__(31);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/shared.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/shared.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -34261,19 +34352,19 @@ var Transpose_impl = __webpack_require__(30);
 
 
 //# sourceMappingURL=shared.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
-var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
+var seedrandom = __webpack_require__(21);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
 var cpu_util = __webpack_require__(9);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
-var pool_utils = __webpack_require__(26);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
+var pool_utils = __webpack_require__(27);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/backend_cpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/backend_cpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -36743,7 +36834,7 @@ class backend_cpu_MathBackendCPU extends dist["KernelBackend"] {
             for (let event = 1; event < cdf.length; ++event) {
                 cdf[event] = cdf[event - 1] + probVals[offset + event];
             }
-            const random = _seedrandom_2_4_3_seedrandom["alea"](seed.toString());
+            const random = seedrandom["alea"](seed.toString());
             const outOffset = b * numSamples;
             for (let sampleId = 0; sampleId < numSamples; ++sampleId) {
                 const r = random();
@@ -37180,13 +37271,13 @@ class backend_cpu_MathBackendCPU extends dist["KernelBackend"] {
     }
 }
 //# sourceMappingURL=backend_cpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/base.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -37214,7 +37305,7 @@ const version = '2.0.1';
 //# sourceMappingURL=base.js.map
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var require;var require;/*!
@@ -40015,10 +40106,10 @@ module.exports = localforage_js;
 },{"3":3}]},{},[4])(4)
 });
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(27)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)))
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40096,10 +40187,10 @@ function getGlobal(key, init) {
     }
 }
 //# sourceMappingURL=global_util.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(27), __webpack_require__(35)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28), __webpack_require__(36)))
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40136,7 +40227,7 @@ const DTYPE_VALUE_SIZE_MAP = {
 //# sourceMappingURL=types.js.map
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -40326,7 +40417,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40374,7 +40465,7 @@ function isBrowser() {
 //# sourceMappingURL=device_util.js.map
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40415,7 +40506,7 @@ function maxImpl(aVals, reduceSize, outShape, dtype) {
 //# sourceMappingURL=Max_impl.js.map
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40429,16 +40520,16 @@ __webpack_require__.d(__webpack_exports__, "deregisterOp", function() { return /
 __webpack_require__.d(__webpack_exports__, "registerOp", function() { return /* reexport */ register["c" /* registerOp */]; });
 __webpack_require__.d(__webpack_exports__, "version_converter", function() { return /* reexport */ version; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/operation_mapper.js
-var operation_mapper = __webpack_require__(15);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/operation_mapper.js
+var operation_mapper = __webpack_require__(16);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/utils.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/utils.js
 var utils = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/custom_op/node_value_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/custom_op/node_value_impl.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -40528,10 +40619,10 @@ class node_value_impl_NodeValueImpl {
     }
 }
 //# sourceMappingURL=node_value_impl.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/custom_op/register.js
-var register = __webpack_require__(24);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/custom_op/register.js
+var register = __webpack_require__(25);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/arithmetic_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/arithmetic_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -40596,7 +40687,7 @@ const executeOp = (node, tensorMap, context) => {
 };
 const CATEGORY = 'arithmetic';
 //# sourceMappingURL=arithmetic_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/basic_math_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/basic_math_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -40715,7 +40806,7 @@ const basic_math_executor_executeOp = (node, tensorMap, context) => {
 };
 const basic_math_executor_CATEGORY = 'basic_math';
 //# sourceMappingURL=basic_math_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/tensor_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/tensor_utils.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -40753,7 +40844,7 @@ function shapesEqualAllowUndefinedSize(n1, n2) {
     return true;
 }
 //# sourceMappingURL=tensor_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/tensor_array.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/tensor_array.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -40987,7 +41078,7 @@ class tensor_array_TensorArray {
 }
 tensor_array_TensorArray.nextId = 0;
 //# sourceMappingURL=tensor_array.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/control_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/control_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41130,7 +41221,7 @@ const control_executor_executeOp = async (node, tensorMap, context) => {
 };
 const control_executor_CATEGORY = 'control';
 //# sourceMappingURL=control_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/convolution_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/convolution_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41270,7 +41361,7 @@ const convolution_executor_executeOp = (node, tensorMap, context) => {
 };
 const convolution_executor_CATEGORY = 'convolution';
 //# sourceMappingURL=convolution_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/creation_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/creation_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41352,7 +41443,7 @@ const creation_executor_executeOp = (node, tensorMap, context) => {
 };
 const creation_executor_CATEGORY = 'creation';
 //# sourceMappingURL=creation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/dynamic_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/dynamic_executor.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -41404,7 +41495,7 @@ const dynamic_executor_executeOp = async (node, tensorMap, context) => {
 };
 const dynamic_executor_CATEGORY = 'dynamic';
 //# sourceMappingURL=dynamic_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/evaluation_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/evaluation_executor.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -41438,7 +41529,7 @@ const evaluation_executor_executeOp = (node, tensorMap, context) => {
 };
 const evaluation_executor_CATEGORY = 'evaluation';
 //# sourceMappingURL=evaluation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/graph_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/graph_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41508,7 +41599,7 @@ const graph_executor_executeOp = (node, tensorMap, context) => {
 };
 const graph_executor_CATEGORY = 'graph';
 //# sourceMappingURL=graph_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/image_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/image_executor.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -41556,7 +41647,7 @@ const image_executor_executeOp = (node, tensorMap, context) => {
 };
 const image_executor_CATEGORY = 'image';
 //# sourceMappingURL=image_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/logical_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/logical_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41614,7 +41705,7 @@ const logical_executor_executeOp = (node, tensorMap, context) => {
 };
 const logical_executor_CATEGORY = 'logical';
 //# sourceMappingURL=logical_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/matrices_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/matrices_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41671,7 +41762,7 @@ const matrices_executor_executeOp = (node, tensorMap, context) => {
 };
 const matrices_executor_CATEGORY = 'matrices';
 //# sourceMappingURL=matrices_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/normalization_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/normalization_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41717,7 +41808,7 @@ const normalization_executor_executeOp = (node, tensorMap, context) => {
 };
 const normalization_executor_CATEGORY = 'normalization';
 //# sourceMappingURL=normalization_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/reduction_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/reduction_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41793,7 +41884,7 @@ const reduction_executor_executeOp = (node, tensorMap, context) => {
 };
 const reduction_executor_CATEGORY = 'reduction';
 //# sourceMappingURL=reduction_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/slice_join_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/slice_join_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41922,7 +42013,7 @@ const slice_join_executor_executeOp = (node, tensorMap, context) => {
 };
 const slice_join_executor_CATEGORY = 'slice_join';
 //# sourceMappingURL=slice_join_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/spectral_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/spectral_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -41961,7 +42052,7 @@ const spectral_executor_executeOp = (node, tensorMap, context) => {
 };
 const spectral_executor_CATEGORY = 'spectral';
 //# sourceMappingURL=spectral_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/executors/transformation_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/executors/transformation_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -42024,7 +42115,7 @@ const transformation_executor_executeOp = (node, tensorMap, context) => {
 };
 const transformation_executor_CATEGORY = 'transformation';
 //# sourceMappingURL=transformation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/operations/operation_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/operations/operation_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -42120,7 +42211,7 @@ function operation_executor_executeOp(node, tensorMap, context) {
     return [].concat(value);
 }
 //# sourceMappingURL=operation_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/execution_context.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/execution_context.js
 /**
  * ExecutionContext captures the runtime environment of the node. It keeps
  * track of the current frame and iteration for the control flow ops.
@@ -42243,7 +42334,7 @@ class ExecutionContext {
     }
 }
 //# sourceMappingURL=execution_context.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/model_analysis.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/model_analysis.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -42363,7 +42454,7 @@ function isDynamicShape(node) {
     return DYNAMIC_SHAPE_OPS.indexOf(node.op) >= 0;
 }
 //# sourceMappingURL=model_analysis.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/graph_executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/graph_executor.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -42824,7 +42915,7 @@ class graph_executor_GraphExecutor {
     }
 }
 //# sourceMappingURL=graph_executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/executor/graph_model.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/executor/graph_model.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -43176,13 +43267,13 @@ async function loadGraphModel(modelUrl, options = {}) {
     return model;
 }
 //# sourceMappingURL=graph_model.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-converter@2.0.1@@tensorflow/tfjs-converter/dist/index.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-converter/dist/index.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -43205,7 +43296,7 @@ const version = '2.0.1';
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43219,9 +43310,9 @@ const version = '2.0.1';
 
 
 
-var base64 = __webpack_require__(65)
-var ieee754 = __webpack_require__(66)
-var isArray = __webpack_require__(67)
+var base64 = __webpack_require__(66)
+var ieee754 = __webpack_require__(67)
+var isArray = __webpack_require__(68)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -44999,10 +45090,10 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(27)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)))
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45046,10 +45137,10 @@ function nextFrame() {
 }
 
 //# sourceMappingURL=browser_util.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(76).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(77).setImmediate))
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45240,7 +45331,7 @@ const json = [
 //# sourceMappingURL=arithmetic.js.map
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45730,7 +45821,7 @@ const json = [
 //# sourceMappingURL=basic_math.js.map
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45964,7 +46055,7 @@ const json = [
 //# sourceMappingURL=control.js.map
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46303,7 +46394,7 @@ const json = [
 //# sourceMappingURL=convolution.js.map
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46486,7 +46577,7 @@ const json = [
 //# sourceMappingURL=creation.js.map
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46570,7 +46661,7 @@ const json = [
 //# sourceMappingURL=dynamic.js.map
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46604,7 +46695,7 @@ const json = [{
 //# sourceMappingURL=evaluation.js.map
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46723,7 +46814,7 @@ const json = [
 //# sourceMappingURL=graph.js.map
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46791,7 +46882,7 @@ const json = [
 //# sourceMappingURL=image.js.map
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46943,7 +47034,7 @@ const json = [
 //# sourceMappingURL=logical.js.map
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47089,7 +47180,7 @@ const json = [
 //# sourceMappingURL=matrices.js.map
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47246,7 +47337,7 @@ const json = [
 //# sourceMappingURL=normalization.js.map
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47364,7 +47455,7 @@ const json = [
 //# sourceMappingURL=reduction.js.map
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47592,7 +47683,7 @@ const json = [
 //# sourceMappingURL=slice_join.js.map
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47653,7 +47744,7 @@ const json = [
 //# sourceMappingURL=spectral.js.map
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47790,14 +47881,14 @@ const json = [
 //# sourceMappingURL=transformation.js.map
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Buffer) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ByteChunkIterator; });
 /* harmony import */ var _tensorflow_tfjs_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _lazy_iterator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
-/* harmony import */ var _string_iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(58);
+/* harmony import */ var _lazy_iterator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
+/* harmony import */ var _string_iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(59);
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -47885,7 +47976,7 @@ class Utf8IteratorImpl extends _lazy_iterator__WEBPACK_IMPORTED_MODULE_1__[/* On
         }
         else {
             // tslint:disable-next-line:no-require-imports
-            const { StringDecoder } = __webpack_require__(78);
+            const { StringDecoder } = __webpack_require__(79);
             this.decoder = new StringDecoder('utf8');
         }
     }
@@ -47913,15 +48004,15 @@ class Utf8IteratorImpl extends _lazy_iterator__WEBPACK_IMPORTED_MODULE_1__[/* On
     }
 }
 //# sourceMappingURL=byte_chunk_iterator.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(39).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(40).Buffer))
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StringIterator; });
-/* harmony import */ var _lazy_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var _lazy_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -48023,14 +48114,14 @@ class SplitIteratorImpl extends _lazy_iterator__WEBPACK_IMPORTED_MODULE_0__[/* O
 //# sourceMappingURL=string_iterator.js.map
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const blazeface = __webpack_require__(81);
-const tfconv = __webpack_require__(38);
+const tfconv = __webpack_require__(39);
 const tf = __webpack_require__(0);
 const keypoints_1 = __webpack_require__(82);
 const pipeline_1 = __webpack_require__(83);
@@ -48181,1729 +48272,7 @@ exports.FaceMesh = FaceMesh;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/**
- * @license
- * Copyright 2020 Google LLC. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * =============================================================================
- */
-
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-var tfjsCore = __webpack_require__(0);
-var tfjsLayers = __webpack_require__(87);
-var tfjsConverter = __webpack_require__(38);
-var tfjsData = __webpack_require__(88);
-var tfjsBackendCpu = __webpack_require__(89);
-var tfjsBackendWebgl = __webpack_require__(86);
-
-/** @license See the LICENSE file. */
-// This code is auto-generated, do not modify this file!
-var version = '2.0.1';
-
-/**
- * @license
- * Copyright 2018 Google LLC. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * =============================================================================
- */
-var version$1 = {
-    'tfjs-core': tfjsCore.version_core,
-    'tfjs-backend-cpu': tfjsBackendCpu.version_cpu,
-    'tfjs-backend-webgl': tfjsBackendWebgl.version_webgl,
-    'tfjs-data': tfjsData.version_data,
-    'tfjs-layers': tfjsLayers.version_layers,
-    'tfjs-converter': tfjsConverter.version_converter,
-    'tfjs': version
-};
-
-Object.keys(tfjsCore).forEach(function (k) {
-  if (k !== 'default') Object.defineProperty(exports, k, {
-    enumerable: true,
-    get: function () {
-      return tfjsCore[k];
-    }
-  });
-});
-Object.keys(tfjsLayers).forEach(function (k) {
-  if (k !== 'default') Object.defineProperty(exports, k, {
-    enumerable: true,
-    get: function () {
-      return tfjsLayers[k];
-    }
-  });
-});
-Object.keys(tfjsConverter).forEach(function (k) {
-  if (k !== 'default') Object.defineProperty(exports, k, {
-    enumerable: true,
-    get: function () {
-      return tfjsConverter[k];
-    }
-  });
-});
-exports.data = tfjsData;
-exports.version = version$1;
-//# sourceMappingURL=tf.node.js.map
-
-
-/***/ }),
 /* 61 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var _device_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36);
-/* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
-/**
- * @license
- * Copyright 2019 Google Inc. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * =============================================================================
- */
-
-
-const ENV = Object(_environment__WEBPACK_IMPORTED_MODULE_1__[/* env */ "c"])();
-/**
- * This file contains environment-related flag registrations.
- */
-/** Whether to enable debug mode. */
-ENV.registerFlag('DEBUG', () => false, debugValue => {
-    if (debugValue) {
-        console.warn('Debugging mode is ON. The output of every math call will ' +
-            'be downloaded to CPU and checked for NaNs. ' +
-            'This significantly impacts performance.');
-    }
-});
-/** Whether we are in a browser (as versus, say, node.js) environment. */
-ENV.registerFlag('IS_BROWSER', () => _device_util__WEBPACK_IMPORTED_MODULE_0__["isBrowser"]());
-/** Whether we are in a browser (as versus, say, node.js) environment. */
-ENV.registerFlag('IS_NODE', () => (typeof process !== 'undefined') &&
-    (typeof process.versions !== 'undefined') &&
-    (typeof process.versions.node !== 'undefined'));
-/** Whether this browser is Chrome. */
-ENV.registerFlag('IS_CHROME', () => typeof navigator !== 'undefined' && navigator != null &&
-    navigator.userAgent != null && /Chrome/.test(navigator.userAgent) &&
-    /Google Inc/.test(navigator.vendor));
-/**
- * True when the environment is "production" where we disable safety checks
- * to gain performance.
- */
-ENV.registerFlag('PROD', () => false);
-/**
- * Whether to do sanity checks when inferring a shape from user-provided
- * values, used when creating a new tensor.
- */
-ENV.registerFlag('TENSORLIKE_CHECK_SHAPE_CONSISTENCY', () => ENV.getBool('DEBUG'));
-/** Whether deprecation warnings are enabled. */
-ENV.registerFlag('DEPRECATION_WARNINGS_ENABLED', () => true);
-/** True if running unit tests. */
-ENV.registerFlag('IS_TEST', () => false);
-//# sourceMappingURL=flags.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(35)))
-
-/***/ }),
-/* 62 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* unused harmony export getNodeFetch */
-/* unused harmony export resetSystemFetch */
-/* unused harmony export setSystemFetch */
-/* unused harmony export getSystemFetch */
-/* unused harmony export PlatformNode */
-/* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * =============================================================================
- */
-
-// We are wrapping this within an object so it can be stubbed by Jasmine.
-const getNodeFetch = {
-    // tslint:disable-next-line:no-require-imports
-    importFetch: () => __webpack_require__(63)
-};
-let systemFetch;
-// These getters and setters are for testing so we don't export a mutable
-// variable.
-function resetSystemFetch() {
-    systemFetch = null;
-}
-function setSystemFetch(fetchFn) {
-    systemFetch = fetchFn;
-}
-function getSystemFetch() {
-    return systemFetch;
-}
-class PlatformNode {
-    constructor() {
-        // tslint:disable-next-line:no-require-imports
-        this.util = __webpack_require__(64);
-        // According to the spec, the built-in encoder can do only UTF-8 encoding.
-        // https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder/TextEncoder
-        this.textEncoder = new this.util.TextEncoder();
-    }
-    fetch(path, requestInits) {
-        if (Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().global.fetch != null) {
-            return Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().global.fetch(path, requestInits);
-        }
-        if (systemFetch == null) {
-            systemFetch = getNodeFetch.importFetch();
-        }
-        return systemFetch(path, requestInits);
-    }
-    now() {
-        const time = process.hrtime();
-        return time[0] * 1000 + time[1] / 1000000;
-    }
-    encode(text, encoding) {
-        if (encoding !== 'utf-8' && encoding !== 'utf8') {
-            throw new Error(`Node built-in encoder only supports utf-8, but got ${encoding}`);
-        }
-        return this.textEncoder.encode(text);
-    }
-    decode(bytes, encoding) {
-        if (bytes.length === 0) {
-            return '';
-        }
-        return new this.util.TextDecoder(encoding).decode(bytes);
-    }
-}
-if (Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().get('IS_NODE')) {
-    Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().setPlatform('node', new PlatformNode());
-}
-//# sourceMappingURL=platform_node.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(35)))
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-/* 64 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-/* 65 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.byteLength = byteLength
-exports.toByteArray = toByteArray
-exports.fromByteArray = fromByteArray
-
-var lookup = []
-var revLookup = []
-var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array
-
-var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-for (var i = 0, len = code.length; i < len; ++i) {
-  lookup[i] = code[i]
-  revLookup[code.charCodeAt(i)] = i
-}
-
-// Support decoding URL-safe base64 strings, as Node.js does.
-// See: https://en.wikipedia.org/wiki/Base64#URL_applications
-revLookup['-'.charCodeAt(0)] = 62
-revLookup['_'.charCodeAt(0)] = 63
-
-function getLens (b64) {
-  var len = b64.length
-
-  if (len % 4 > 0) {
-    throw new Error('Invalid string. Length must be a multiple of 4')
-  }
-
-  // Trim off extra bytes after placeholder bytes are found
-  // See: https://github.com/beatgammit/base64-js/issues/42
-  var validLen = b64.indexOf('=')
-  if (validLen === -1) validLen = len
-
-  var placeHoldersLen = validLen === len
-    ? 0
-    : 4 - (validLen % 4)
-
-  return [validLen, placeHoldersLen]
-}
-
-// base64 is 4/3 + up to two characters of the original data
-function byteLength (b64) {
-  var lens = getLens(b64)
-  var validLen = lens[0]
-  var placeHoldersLen = lens[1]
-  return ((validLen + placeHoldersLen) * 3 / 4) - placeHoldersLen
-}
-
-function _byteLength (b64, validLen, placeHoldersLen) {
-  return ((validLen + placeHoldersLen) * 3 / 4) - placeHoldersLen
-}
-
-function toByteArray (b64) {
-  var tmp
-  var lens = getLens(b64)
-  var validLen = lens[0]
-  var placeHoldersLen = lens[1]
-
-  var arr = new Arr(_byteLength(b64, validLen, placeHoldersLen))
-
-  var curByte = 0
-
-  // if there are placeholders, only get up to the last complete 4 chars
-  var len = placeHoldersLen > 0
-    ? validLen - 4
-    : validLen
-
-  var i
-  for (i = 0; i < len; i += 4) {
-    tmp =
-      (revLookup[b64.charCodeAt(i)] << 18) |
-      (revLookup[b64.charCodeAt(i + 1)] << 12) |
-      (revLookup[b64.charCodeAt(i + 2)] << 6) |
-      revLookup[b64.charCodeAt(i + 3)]
-    arr[curByte++] = (tmp >> 16) & 0xFF
-    arr[curByte++] = (tmp >> 8) & 0xFF
-    arr[curByte++] = tmp & 0xFF
-  }
-
-  if (placeHoldersLen === 2) {
-    tmp =
-      (revLookup[b64.charCodeAt(i)] << 2) |
-      (revLookup[b64.charCodeAt(i + 1)] >> 4)
-    arr[curByte++] = tmp & 0xFF
-  }
-
-  if (placeHoldersLen === 1) {
-    tmp =
-      (revLookup[b64.charCodeAt(i)] << 10) |
-      (revLookup[b64.charCodeAt(i + 1)] << 4) |
-      (revLookup[b64.charCodeAt(i + 2)] >> 2)
-    arr[curByte++] = (tmp >> 8) & 0xFF
-    arr[curByte++] = tmp & 0xFF
-  }
-
-  return arr
-}
-
-function tripletToBase64 (num) {
-  return lookup[num >> 18 & 0x3F] +
-    lookup[num >> 12 & 0x3F] +
-    lookup[num >> 6 & 0x3F] +
-    lookup[num & 0x3F]
-}
-
-function encodeChunk (uint8, start, end) {
-  var tmp
-  var output = []
-  for (var i = start; i < end; i += 3) {
-    tmp =
-      ((uint8[i] << 16) & 0xFF0000) +
-      ((uint8[i + 1] << 8) & 0xFF00) +
-      (uint8[i + 2] & 0xFF)
-    output.push(tripletToBase64(tmp))
-  }
-  return output.join('')
-}
-
-function fromByteArray (uint8) {
-  var tmp
-  var len = uint8.length
-  var extraBytes = len % 3 // if we have 1 byte left, pad 2 bytes
-  var parts = []
-  var maxChunkLength = 16383 // must be multiple of 3
-
-  // go through the array every three bytes, we'll deal with trailing stuff later
-  for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
-    parts.push(encodeChunk(
-      uint8, i, (i + maxChunkLength) > len2 ? len2 : (i + maxChunkLength)
-    ))
-  }
-
-  // pad the end with zeros, but make sure to not forget the extra bytes
-  if (extraBytes === 1) {
-    tmp = uint8[len - 1]
-    parts.push(
-      lookup[tmp >> 2] +
-      lookup[(tmp << 4) & 0x3F] +
-      '=='
-    )
-  } else if (extraBytes === 2) {
-    tmp = (uint8[len - 2] << 8) + uint8[len - 1]
-    parts.push(
-      lookup[tmp >> 10] +
-      lookup[(tmp >> 4) & 0x3F] +
-      lookup[(tmp << 2) & 0x3F] +
-      '='
-    )
-  }
-
-  return parts.join('')
-}
-
-
-/***/ }),
-/* 66 */
-/***/ (function(module, exports) {
-
-exports.read = function (buffer, offset, isLE, mLen, nBytes) {
-  var e, m
-  var eLen = (nBytes * 8) - mLen - 1
-  var eMax = (1 << eLen) - 1
-  var eBias = eMax >> 1
-  var nBits = -7
-  var i = isLE ? (nBytes - 1) : 0
-  var d = isLE ? -1 : 1
-  var s = buffer[offset + i]
-
-  i += d
-
-  e = s & ((1 << (-nBits)) - 1)
-  s >>= (-nBits)
-  nBits += eLen
-  for (; nBits > 0; e = (e * 256) + buffer[offset + i], i += d, nBits -= 8) {}
-
-  m = e & ((1 << (-nBits)) - 1)
-  e >>= (-nBits)
-  nBits += mLen
-  for (; nBits > 0; m = (m * 256) + buffer[offset + i], i += d, nBits -= 8) {}
-
-  if (e === 0) {
-    e = 1 - eBias
-  } else if (e === eMax) {
-    return m ? NaN : ((s ? -1 : 1) * Infinity)
-  } else {
-    m = m + Math.pow(2, mLen)
-    e = e - eBias
-  }
-  return (s ? -1 : 1) * m * Math.pow(2, e - mLen)
-}
-
-exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
-  var e, m, c
-  var eLen = (nBytes * 8) - mLen - 1
-  var eMax = (1 << eLen) - 1
-  var eBias = eMax >> 1
-  var rt = (mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0)
-  var i = isLE ? 0 : (nBytes - 1)
-  var d = isLE ? 1 : -1
-  var s = value < 0 || (value === 0 && 1 / value < 0) ? 1 : 0
-
-  value = Math.abs(value)
-
-  if (isNaN(value) || value === Infinity) {
-    m = isNaN(value) ? 1 : 0
-    e = eMax
-  } else {
-    e = Math.floor(Math.log(value) / Math.LN2)
-    if (value * (c = Math.pow(2, -e)) < 1) {
-      e--
-      c *= 2
-    }
-    if (e + eBias >= 1) {
-      value += rt / c
-    } else {
-      value += rt * Math.pow(2, 1 - eBias)
-    }
-    if (value * c >= 2) {
-      e++
-      c /= 2
-    }
-
-    if (e + eBias >= eMax) {
-      m = 0
-      e = eMax
-    } else if (e + eBias >= 1) {
-      m = ((value * c) - 1) * Math.pow(2, mLen)
-      e = e + eBias
-    } else {
-      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen)
-      e = 0
-    }
-  }
-
-  for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
-
-  e = (e << mLen) | m
-  eLen += mLen
-  for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
-
-  buffer[offset + i - d] |= s * 128
-}
-
-
-/***/ }),
-/* 67 */
-/***/ (function(module, exports) {
-
-var toString = {}.toString;
-
-module.exports = Array.isArray || function (arr) {
-  return toString.call(arr) == '[object Array]';
-};
-
-
-/***/ }),
-/* 68 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A port of an algorithm by Johannes Baagøe <baagoe@baagoe.com>, 2010
-// http://baagoe.com/en/RandomMusings/javascript/
-// https://github.com/nquinlan/better-random-numbers-for-javascript-mirror
-// Original work is under MIT license -
-
-// Copyright (C) 2010 by Johannes Baagøe <baagoe@baagoe.org>
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy
-// of this software and associated documentation files (the "Software"), to deal
-// in the Software without restriction, including without limitation the rights
-// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-// copies of the Software, and to permit persons to whom the Software is
-// furnished to do so, subject to the following conditions:
-// 
-// The above copyright notice and this permission notice shall be included in
-// all copies or substantial portions of the Software.
-// 
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-// THE SOFTWARE.
-
-
-
-(function(global, module, define) {
-
-function Alea(seed) {
-  var me = this, mash = Mash();
-
-  me.next = function() {
-    var t = 2091639 * me.s0 + me.c * 2.3283064365386963e-10; // 2^-32
-    me.s0 = me.s1;
-    me.s1 = me.s2;
-    return me.s2 = t - (me.c = t | 0);
-  };
-
-  // Apply the seeding algorithm from Baagoe.
-  me.c = 1;
-  me.s0 = mash(' ');
-  me.s1 = mash(' ');
-  me.s2 = mash(' ');
-  me.s0 -= mash(seed);
-  if (me.s0 < 0) { me.s0 += 1; }
-  me.s1 -= mash(seed);
-  if (me.s1 < 0) { me.s1 += 1; }
-  me.s2 -= mash(seed);
-  if (me.s2 < 0) { me.s2 += 1; }
-  mash = null;
-}
-
-function copy(f, t) {
-  t.c = f.c;
-  t.s0 = f.s0;
-  t.s1 = f.s1;
-  t.s2 = f.s2;
-  return t;
-}
-
-function impl(seed, opts) {
-  var xg = new Alea(seed),
-      state = opts && opts.state,
-      prng = xg.next;
-  prng.int32 = function() { return (xg.next() * 0x100000000) | 0; }
-  prng.double = function() {
-    return prng() + (prng() * 0x200000 | 0) * 1.1102230246251565e-16; // 2^-53
-  };
-  prng.quick = prng;
-  if (state) {
-    if (typeof(state) == 'object') copy(state, xg);
-    prng.state = function() { return copy(xg, {}); }
-  }
-  return prng;
-}
-
-function Mash() {
-  var n = 0xefc8249d;
-
-  var mash = function(data) {
-    data = data.toString();
-    for (var i = 0; i < data.length; i++) {
-      n += data.charCodeAt(i);
-      var h = 0.02519603282416938 * n;
-      n = h >>> 0;
-      h -= n;
-      h *= n;
-      n = h >>> 0;
-      h -= n;
-      n += h * 0x100000000; // 2^32
-    }
-    return (n >>> 0) * 2.3283064365386963e-10; // 2^-32
-  };
-
-  return mash;
-}
-
-
-if (module && module.exports) {
-  module.exports = impl;
-} else if (__webpack_require__(16) && __webpack_require__(29)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-} else {
-  this.alea = impl;
-}
-
-})(
-  this,
-   true && module,    // present in node.js
-  __webpack_require__(16)   // present with an AMD loader
-);
-
-
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 69 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "xor128" prng algorithm by
-// George Marsaglia.  See http://www.jstatsoft.org/v08/i14/paper
-
-(function(global, module, define) {
-
-function XorGen(seed) {
-  var me = this, strseed = '';
-
-  me.x = 0;
-  me.y = 0;
-  me.z = 0;
-  me.w = 0;
-
-  // Set up generator function.
-  me.next = function() {
-    var t = me.x ^ (me.x << 11);
-    me.x = me.y;
-    me.y = me.z;
-    me.z = me.w;
-    return me.w ^= (me.w >>> 19) ^ t ^ (t >>> 8);
-  };
-
-  if (seed === (seed | 0)) {
-    // Integer seed.
-    me.x = seed;
-  } else {
-    // String seed.
-    strseed += seed;
-  }
-
-  // Mix in string seed, then discard an initial batch of 64 values.
-  for (var k = 0; k < strseed.length + 64; k++) {
-    me.x ^= strseed.charCodeAt(k) | 0;
-    me.next();
-  }
-}
-
-function copy(f, t) {
-  t.x = f.x;
-  t.y = f.y;
-  t.z = f.z;
-  t.w = f.w;
-  return t;
-}
-
-function impl(seed, opts) {
-  var xg = new XorGen(seed),
-      state = opts && opts.state,
-      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
-  prng.double = function() {
-    do {
-      var top = xg.next() >>> 11,
-          bot = (xg.next() >>> 0) / 0x100000000,
-          result = (top + bot) / (1 << 21);
-    } while (result === 0);
-    return result;
-  };
-  prng.int32 = xg.next;
-  prng.quick = prng;
-  if (state) {
-    if (typeof(state) == 'object') copy(state, xg);
-    prng.state = function() { return copy(xg, {}); }
-  }
-  return prng;
-}
-
-if (module && module.exports) {
-  module.exports = impl;
-} else if (__webpack_require__(16) && __webpack_require__(29)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-} else {
-  this.xor128 = impl;
-}
-
-})(
-  this,
-   true && module,    // present in node.js
-  __webpack_require__(16)   // present with an AMD loader
-);
-
-
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "xorwow" prng algorithm by
-// George Marsaglia.  See http://www.jstatsoft.org/v08/i14/paper
-
-(function(global, module, define) {
-
-function XorGen(seed) {
-  var me = this, strseed = '';
-
-  // Set up generator function.
-  me.next = function() {
-    var t = (me.x ^ (me.x >>> 2));
-    me.x = me.y; me.y = me.z; me.z = me.w; me.w = me.v;
-    return (me.d = (me.d + 362437 | 0)) +
-       (me.v = (me.v ^ (me.v << 4)) ^ (t ^ (t << 1))) | 0;
-  };
-
-  me.x = 0;
-  me.y = 0;
-  me.z = 0;
-  me.w = 0;
-  me.v = 0;
-
-  if (seed === (seed | 0)) {
-    // Integer seed.
-    me.x = seed;
-  } else {
-    // String seed.
-    strseed += seed;
-  }
-
-  // Mix in string seed, then discard an initial batch of 64 values.
-  for (var k = 0; k < strseed.length + 64; k++) {
-    me.x ^= strseed.charCodeAt(k) | 0;
-    if (k == strseed.length) {
-      me.d = me.x << 10 ^ me.x >>> 4;
-    }
-    me.next();
-  }
-}
-
-function copy(f, t) {
-  t.x = f.x;
-  t.y = f.y;
-  t.z = f.z;
-  t.w = f.w;
-  t.v = f.v;
-  t.d = f.d;
-  return t;
-}
-
-function impl(seed, opts) {
-  var xg = new XorGen(seed),
-      state = opts && opts.state,
-      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
-  prng.double = function() {
-    do {
-      var top = xg.next() >>> 11,
-          bot = (xg.next() >>> 0) / 0x100000000,
-          result = (top + bot) / (1 << 21);
-    } while (result === 0);
-    return result;
-  };
-  prng.int32 = xg.next;
-  prng.quick = prng;
-  if (state) {
-    if (typeof(state) == 'object') copy(state, xg);
-    prng.state = function() { return copy(xg, {}); }
-  }
-  return prng;
-}
-
-if (module && module.exports) {
-  module.exports = impl;
-} else if (__webpack_require__(16) && __webpack_require__(29)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-} else {
-  this.xorwow = impl;
-}
-
-})(
-  this,
-   true && module,    // present in node.js
-  __webpack_require__(16)   // present with an AMD loader
-);
-
-
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 71 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "xorshift7" algorithm by
-// François Panneton and Pierre L'ecuyer:
-// "On the Xorgshift Random Number Generators"
-// http://saluc.engr.uconn.edu/refs/crypto/rng/panneton05onthexorshift.pdf
-
-(function(global, module, define) {
-
-function XorGen(seed) {
-  var me = this;
-
-  // Set up generator function.
-  me.next = function() {
-    // Update xor generator.
-    var X = me.x, i = me.i, t, v, w;
-    t = X[i]; t ^= (t >>> 7); v = t ^ (t << 24);
-    t = X[(i + 1) & 7]; v ^= t ^ (t >>> 10);
-    t = X[(i + 3) & 7]; v ^= t ^ (t >>> 3);
-    t = X[(i + 4) & 7]; v ^= t ^ (t << 7);
-    t = X[(i + 7) & 7]; t = t ^ (t << 13); v ^= t ^ (t << 9);
-    X[i] = v;
-    me.i = (i + 1) & 7;
-    return v;
-  };
-
-  function init(me, seed) {
-    var j, w, X = [];
-
-    if (seed === (seed | 0)) {
-      // Seed state array using a 32-bit integer.
-      w = X[0] = seed;
-    } else {
-      // Seed state using a string.
-      seed = '' + seed;
-      for (j = 0; j < seed.length; ++j) {
-        X[j & 7] = (X[j & 7] << 15) ^
-            (seed.charCodeAt(j) + X[(j + 1) & 7] << 13);
-      }
-    }
-    // Enforce an array length of 8, not all zeroes.
-    while (X.length < 8) X.push(0);
-    for (j = 0; j < 8 && X[j] === 0; ++j);
-    if (j == 8) w = X[7] = -1; else w = X[j];
-
-    me.x = X;
-    me.i = 0;
-
-    // Discard an initial 256 values.
-    for (j = 256; j > 0; --j) {
-      me.next();
-    }
-  }
-
-  init(me, seed);
-}
-
-function copy(f, t) {
-  t.x = f.x.slice();
-  t.i = f.i;
-  return t;
-}
-
-function impl(seed, opts) {
-  if (seed == null) seed = +(new Date);
-  var xg = new XorGen(seed),
-      state = opts && opts.state,
-      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
-  prng.double = function() {
-    do {
-      var top = xg.next() >>> 11,
-          bot = (xg.next() >>> 0) / 0x100000000,
-          result = (top + bot) / (1 << 21);
-    } while (result === 0);
-    return result;
-  };
-  prng.int32 = xg.next;
-  prng.quick = prng;
-  if (state) {
-    if (state.x) copy(state, xg);
-    prng.state = function() { return copy(xg, {}); }
-  }
-  return prng;
-}
-
-if (module && module.exports) {
-  module.exports = impl;
-} else if (__webpack_require__(16) && __webpack_require__(29)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-} else {
-  this.xorshift7 = impl;
-}
-
-})(
-  this,
-   true && module,    // present in node.js
-  __webpack_require__(16)   // present with an AMD loader
-);
-
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 72 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of Richard Brent's Xorgens xor4096 algorithm.
-//
-// This fast non-cryptographic random number generator is designed for
-// use in Monte-Carlo algorithms. It combines a long-period xorshift
-// generator with a Weyl generator, and it passes all common batteries
-// of stasticial tests for randomness while consuming only a few nanoseconds
-// for each prng generated.  For background on the generator, see Brent's
-// paper: "Some long-period random number generators using shifts and xors."
-// http://arxiv.org/pdf/1004.3115v1.pdf
-//
-// Usage:
-//
-// var xor4096 = require('xor4096');
-// random = xor4096(1);                        // Seed with int32 or string.
-// assert.equal(random(), 0.1520436450538547); // (0, 1) range, 53 bits.
-// assert.equal(random.int32(), 1806534897);   // signed int32, 32 bits.
-//
-// For nonzero numeric keys, this impelementation provides a sequence
-// identical to that by Brent's xorgens 3 implementaion in C.  This
-// implementation also provides for initalizing the generator with
-// string seeds, or for saving and restoring the state of the generator.
-//
-// On Chrome, this prng benchmarks about 2.1 times slower than
-// Javascript's built-in Math.random().
-
-(function(global, module, define) {
-
-function XorGen(seed) {
-  var me = this;
-
-  // Set up generator function.
-  me.next = function() {
-    var w = me.w,
-        X = me.X, i = me.i, t, v;
-    // Update Weyl generator.
-    me.w = w = (w + 0x61c88647) | 0;
-    // Update xor generator.
-    v = X[(i + 34) & 127];
-    t = X[i = ((i + 1) & 127)];
-    v ^= v << 13;
-    t ^= t << 17;
-    v ^= v >>> 15;
-    t ^= t >>> 12;
-    // Update Xor generator array state.
-    v = X[i] = v ^ t;
-    me.i = i;
-    // Result is the combination.
-    return (v + (w ^ (w >>> 16))) | 0;
-  };
-
-  function init(me, seed) {
-    var t, v, i, j, w, X = [], limit = 128;
-    if (seed === (seed | 0)) {
-      // Numeric seeds initialize v, which is used to generates X.
-      v = seed;
-      seed = null;
-    } else {
-      // String seeds are mixed into v and X one character at a time.
-      seed = seed + '\0';
-      v = 0;
-      limit = Math.max(limit, seed.length);
-    }
-    // Initialize circular array and weyl value.
-    for (i = 0, j = -32; j < limit; ++j) {
-      // Put the unicode characters into the array, and shuffle them.
-      if (seed) v ^= seed.charCodeAt((j + 32) % seed.length);
-      // After 32 shuffles, take v as the starting w value.
-      if (j === 0) w = v;
-      v ^= v << 10;
-      v ^= v >>> 15;
-      v ^= v << 4;
-      v ^= v >>> 13;
-      if (j >= 0) {
-        w = (w + 0x61c88647) | 0;     // Weyl.
-        t = (X[j & 127] ^= (v + w));  // Combine xor and weyl to init array.
-        i = (0 == t) ? i + 1 : 0;     // Count zeroes.
-      }
-    }
-    // We have detected all zeroes; make the key nonzero.
-    if (i >= 128) {
-      X[(seed && seed.length || 0) & 127] = -1;
-    }
-    // Run the generator 512 times to further mix the state before using it.
-    // Factoring this as a function slows the main generator, so it is just
-    // unrolled here.  The weyl generator is not advanced while warming up.
-    i = 127;
-    for (j = 4 * 128; j > 0; --j) {
-      v = X[(i + 34) & 127];
-      t = X[i = ((i + 1) & 127)];
-      v ^= v << 13;
-      t ^= t << 17;
-      v ^= v >>> 15;
-      t ^= t >>> 12;
-      X[i] = v ^ t;
-    }
-    // Storing state as object members is faster than using closure variables.
-    me.w = w;
-    me.X = X;
-    me.i = i;
-  }
-
-  init(me, seed);
-}
-
-function copy(f, t) {
-  t.i = f.i;
-  t.w = f.w;
-  t.X = f.X.slice();
-  return t;
-};
-
-function impl(seed, opts) {
-  if (seed == null) seed = +(new Date);
-  var xg = new XorGen(seed),
-      state = opts && opts.state,
-      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
-  prng.double = function() {
-    do {
-      var top = xg.next() >>> 11,
-          bot = (xg.next() >>> 0) / 0x100000000,
-          result = (top + bot) / (1 << 21);
-    } while (result === 0);
-    return result;
-  };
-  prng.int32 = xg.next;
-  prng.quick = prng;
-  if (state) {
-    if (state.X) copy(state, xg);
-    prng.state = function() { return copy(xg, {}); }
-  }
-  return prng;
-}
-
-if (module && module.exports) {
-  module.exports = impl;
-} else if (__webpack_require__(16) && __webpack_require__(29)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-} else {
-  this.xor4096 = impl;
-}
-
-})(
-  this,                                     // window object or global
-   true && module,    // present in node.js
-  __webpack_require__(16)   // present with an AMD loader
-);
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 73 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "Tyche-i" prng algorithm by
-// Samuel Neves and Filipe Araujo.
-// See https://eden.dei.uc.pt/~sneves/pubs/2011-snfa2.pdf
-
-(function(global, module, define) {
-
-function XorGen(seed) {
-  var me = this, strseed = '';
-
-  // Set up generator function.
-  me.next = function() {
-    var b = me.b, c = me.c, d = me.d, a = me.a;
-    b = (b << 25) ^ (b >>> 7) ^ c;
-    c = (c - d) | 0;
-    d = (d << 24) ^ (d >>> 8) ^ a;
-    a = (a - b) | 0;
-    me.b = b = (b << 20) ^ (b >>> 12) ^ c;
-    me.c = c = (c - d) | 0;
-    me.d = (d << 16) ^ (c >>> 16) ^ a;
-    return me.a = (a - b) | 0;
-  };
-
-  /* The following is non-inverted tyche, which has better internal
-   * bit diffusion, but which is about 25% slower than tyche-i in JS.
-  me.next = function() {
-    var a = me.a, b = me.b, c = me.c, d = me.d;
-    a = (me.a + me.b | 0) >>> 0;
-    d = me.d ^ a; d = d << 16 ^ d >>> 16;
-    c = me.c + d | 0;
-    b = me.b ^ c; b = b << 12 ^ d >>> 20;
-    me.a = a = a + b | 0;
-    d = d ^ a; me.d = d = d << 8 ^ d >>> 24;
-    me.c = c = c + d | 0;
-    b = b ^ c;
-    return me.b = (b << 7 ^ b >>> 25);
-  }
-  */
-
-  me.a = 0;
-  me.b = 0;
-  me.c = 2654435769 | 0;
-  me.d = 1367130551;
-
-  if (seed === Math.floor(seed)) {
-    // Integer seed.
-    me.a = (seed / 0x100000000) | 0;
-    me.b = seed | 0;
-  } else {
-    // String seed.
-    strseed += seed;
-  }
-
-  // Mix in string seed, then discard an initial batch of 64 values.
-  for (var k = 0; k < strseed.length + 20; k++) {
-    me.b ^= strseed.charCodeAt(k) | 0;
-    me.next();
-  }
-}
-
-function copy(f, t) {
-  t.a = f.a;
-  t.b = f.b;
-  t.c = f.c;
-  t.d = f.d;
-  return t;
-};
-
-function impl(seed, opts) {
-  var xg = new XorGen(seed),
-      state = opts && opts.state,
-      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
-  prng.double = function() {
-    do {
-      var top = xg.next() >>> 11,
-          bot = (xg.next() >>> 0) / 0x100000000,
-          result = (top + bot) / (1 << 21);
-    } while (result === 0);
-    return result;
-  };
-  prng.int32 = xg.next;
-  prng.quick = prng;
-  if (state) {
-    if (typeof(state) == 'object') copy(state, xg);
-    prng.state = function() { return copy(xg, {}); }
-  }
-  return prng;
-}
-
-if (module && module.exports) {
-  module.exports = impl;
-} else if (__webpack_require__(16) && __webpack_require__(29)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-} else {
-  this.tychei = impl;
-}
-
-})(
-  this,
-   true && module,    // present in node.js
-  __webpack_require__(16)   // present with an AMD loader
-);
-
-
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)(module)))
-
-/***/ }),
-/* 74 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_RESULT__;/*
-Copyright 2014 David Bau.
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-*/
-
-(function (pool, math) {
-//
-// The following constants are related to IEEE 754 limits.
-//
-var global = this,
-    width = 256,        // each RC4 output is 0 <= x < 256
-    chunks = 6,         // at least six RC4 outputs for each double
-    digits = 52,        // there are 52 significant digits in a double
-    rngname = 'random', // rngname: name for Math.random and Math.seedrandom
-    startdenom = math.pow(width, chunks),
-    significance = math.pow(2, digits),
-    overflow = significance * 2,
-    mask = width - 1,
-    nodecrypto;         // node.js crypto module, initialized at the bottom.
-
-//
-// seedrandom()
-// This is the seedrandom function described above.
-//
-function seedrandom(seed, options, callback) {
-  var key = [];
-  options = (options == true) ? { entropy: true } : (options || {});
-
-  // Flatten the seed string or build one from local entropy if needed.
-  var shortseed = mixkey(flatten(
-    options.entropy ? [seed, tostring(pool)] :
-    (seed == null) ? autoseed() : seed, 3), key);
-
-  // Use the seed to initialize an ARC4 generator.
-  var arc4 = new ARC4(key);
-
-  // This function returns a random double in [0, 1) that contains
-  // randomness in every bit of the mantissa of the IEEE 754 value.
-  var prng = function() {
-    var n = arc4.g(chunks),             // Start with a numerator n < 2 ^ 48
-        d = startdenom,                 //   and denominator d = 2 ^ 48.
-        x = 0;                          //   and no 'extra last byte'.
-    while (n < significance) {          // Fill up all significant digits by
-      n = (n + x) * width;              //   shifting numerator and
-      d *= width;                       //   denominator and generating a
-      x = arc4.g(1);                    //   new least-significant-byte.
-    }
-    while (n >= overflow) {             // To avoid rounding up, before adding
-      n /= 2;                           //   last byte, shift everything
-      d /= 2;                           //   right using integer math until
-      x >>>= 1;                         //   we have exactly the desired bits.
-    }
-    return (n + x) / d;                 // Form the number within [0, 1).
-  };
-
-  prng.int32 = function() { return arc4.g(4) | 0; }
-  prng.quick = function() { return arc4.g(4) / 0x100000000; }
-  prng.double = prng;
-
-  // Mix the randomness into accumulated entropy.
-  mixkey(tostring(arc4.S), pool);
-
-  // Calling convention: what to return as a function of prng, seed, is_math.
-  return (options.pass || callback ||
-      function(prng, seed, is_math_call, state) {
-        if (state) {
-          // Load the arc4 state from the given state if it has an S array.
-          if (state.S) { copy(state, arc4); }
-          // Only provide the .state method if requested via options.state.
-          prng.state = function() { return copy(arc4, {}); }
-        }
-
-        // If called as a method of Math (Math.seedrandom()), mutate
-        // Math.random because that is how seedrandom.js has worked since v1.0.
-        if (is_math_call) { math[rngname] = prng; return seed; }
-
-        // Otherwise, it is a newer calling convention, so return the
-        // prng directly.
-        else return prng;
-      })(
-  prng,
-  shortseed,
-  'global' in options ? options.global : (this == math),
-  options.state);
-}
-math['seed' + rngname] = seedrandom;
-
-//
-// ARC4
-//
-// An ARC4 implementation.  The constructor takes a key in the form of
-// an array of at most (width) integers that should be 0 <= x < (width).
-//
-// The g(count) method returns a pseudorandom integer that concatenates
-// the next (count) outputs from ARC4.  Its return value is a number x
-// that is in the range 0 <= x < (width ^ count).
-//
-function ARC4(key) {
-  var t, keylen = key.length,
-      me = this, i = 0, j = me.i = me.j = 0, s = me.S = [];
-
-  // The empty key [] is treated as [0].
-  if (!keylen) { key = [keylen++]; }
-
-  // Set up S using the standard key scheduling algorithm.
-  while (i < width) {
-    s[i] = i++;
-  }
-  for (i = 0; i < width; i++) {
-    s[i] = s[j = mask & (j + key[i % keylen] + (t = s[i]))];
-    s[j] = t;
-  }
-
-  // The "g" method returns the next (count) outputs as one number.
-  (me.g = function(count) {
-    // Using instance members instead of closure state nearly doubles speed.
-    var t, r = 0,
-        i = me.i, j = me.j, s = me.S;
-    while (count--) {
-      t = s[i = mask & (i + 1)];
-      r = r * width + s[mask & ((s[i] = s[j = mask & (j + t)]) + (s[j] = t))];
-    }
-    me.i = i; me.j = j;
-    return r;
-    // For robust unpredictability, the function call below automatically
-    // discards an initial batch of values.  This is called RC4-drop[256].
-    // See http://google.com/search?q=rsa+fluhrer+response&btnI
-  })(width);
-}
-
-//
-// copy()
-// Copies internal state of ARC4 to or from a plain object.
-//
-function copy(f, t) {
-  t.i = f.i;
-  t.j = f.j;
-  t.S = f.S.slice();
-  return t;
-};
-
-//
-// flatten()
-// Converts an object tree to nested arrays of strings.
-//
-function flatten(obj, depth) {
-  var result = [], typ = (typeof obj), prop;
-  if (depth && typ == 'object') {
-    for (prop in obj) {
-      try { result.push(flatten(obj[prop], depth - 1)); } catch (e) {}
-    }
-  }
-  return (result.length ? result : typ == 'string' ? obj : obj + '\0');
-}
-
-//
-// mixkey()
-// Mixes a string seed into a key that is an array of integers, and
-// returns a shortened string seed that is equivalent to the result key.
-//
-function mixkey(seed, key) {
-  var stringseed = seed + '', smear, j = 0;
-  while (j < stringseed.length) {
-    key[mask & j] =
-      mask & ((smear ^= key[mask & j] * 19) + stringseed.charCodeAt(j++));
-  }
-  return tostring(key);
-}
-
-//
-// autoseed()
-// Returns an object for autoseeding, using window.crypto and Node crypto
-// module if available.
-//
-function autoseed() {
-  try {
-    var out;
-    if (nodecrypto && (out = nodecrypto.randomBytes)) {
-      // The use of 'out' to remember randomBytes makes tight minified code.
-      out = out(width);
-    } else {
-      out = new Uint8Array(width);
-      (global.crypto || global.msCrypto).getRandomValues(out);
-    }
-    return tostring(out);
-  } catch (e) {
-    var browser = global.navigator,
-        plugins = browser && browser.plugins;
-    return [+new Date, global, plugins, global.screen, tostring(pool)];
-  }
-}
-
-//
-// tostring()
-// Converts an array of charcodes to a string
-//
-function tostring(a) {
-  return String.fromCharCode.apply(0, a);
-}
-
-//
-// When seedrandom.js is loaded, we immediately mix a few bits
-// from the built-in RNG into the entropy pool.  Because we do
-// not want to interfere with deterministic PRNG state later,
-// seedrandom will not call math.random on its own again after
-// initialization.
-//
-mixkey(math.random(), pool);
-
-//
-// Nodejs and AMD support: export the implementation as a module using
-// either convention.
-//
-if ( true && module.exports) {
-  module.exports = seedrandom;
-  // When in node.js, try using crypto package for autoseeding.
-  try {
-    nodecrypto = __webpack_require__(75);
-  } catch (ex) {}
-} else if (true) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return seedrandom; }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-}
-
-// End anonymous scope, and pass initial values.
-})(
-  [],     // pool: entropy pool starts empty
-  Math    // math: package containing random, pow, and seedrandom
-);
-
-
-/***/ }),
-/* 75 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-/* 76 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
-            (typeof self !== "undefined" && self) ||
-            window;
-var apply = Function.prototype.apply;
-
-// DOM APIs, for completeness
-
-exports.setTimeout = function() {
-  return new Timeout(apply.call(setTimeout, scope, arguments), clearTimeout);
-};
-exports.setInterval = function() {
-  return new Timeout(apply.call(setInterval, scope, arguments), clearInterval);
-};
-exports.clearTimeout =
-exports.clearInterval = function(timeout) {
-  if (timeout) {
-    timeout.close();
-  }
-};
-
-function Timeout(id, clearFn) {
-  this._id = id;
-  this._clearFn = clearFn;
-}
-Timeout.prototype.unref = Timeout.prototype.ref = function() {};
-Timeout.prototype.close = function() {
-  this._clearFn.call(scope, this._id);
-};
-
-// Does not start the time, just sets up the members needed.
-exports.enroll = function(item, msecs) {
-  clearTimeout(item._idleTimeoutId);
-  item._idleTimeout = msecs;
-};
-
-exports.unenroll = function(item) {
-  clearTimeout(item._idleTimeoutId);
-  item._idleTimeout = -1;
-};
-
-exports._unrefActive = exports.active = function(item) {
-  clearTimeout(item._idleTimeoutId);
-
-  var msecs = item._idleTimeout;
-  if (msecs >= 0) {
-    item._idleTimeoutId = setTimeout(function onTimeout() {
-      if (item._onTimeout)
-        item._onTimeout();
-    }, msecs);
-  }
-};
-
-// setimmediate attaches itself to the global object
-__webpack_require__(77);
-// On some exotic environments, it's not clear which object `setimmediate` was
-// able to install onto.  Search each possibility in the same order as the
-// `setimmediate` library.
-exports.setImmediate = (typeof self !== "undefined" && self.setImmediate) ||
-                       (typeof global !== "undefined" && global.setImmediate) ||
-                       (this && this.setImmediate);
-exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
-                         (typeof global !== "undefined" && global.clearImmediate) ||
-                         (this && this.clearImmediate);
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(27)))
-
-/***/ }),
-/* 77 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
-    "use strict";
-
-    if (global.setImmediate) {
-        return;
-    }
-
-    var nextHandle = 1; // Spec says greater than zero
-    var tasksByHandle = {};
-    var currentlyRunningATask = false;
-    var doc = global.document;
-    var registerImmediate;
-
-    function setImmediate(callback) {
-      // Callback can either be a function or a string
-      if (typeof callback !== "function") {
-        callback = new Function("" + callback);
-      }
-      // Copy function arguments
-      var args = new Array(arguments.length - 1);
-      for (var i = 0; i < args.length; i++) {
-          args[i] = arguments[i + 1];
-      }
-      // Store and register the task
-      var task = { callback: callback, args: args };
-      tasksByHandle[nextHandle] = task;
-      registerImmediate(nextHandle);
-      return nextHandle++;
-    }
-
-    function clearImmediate(handle) {
-        delete tasksByHandle[handle];
-    }
-
-    function run(task) {
-        var callback = task.callback;
-        var args = task.args;
-        switch (args.length) {
-        case 0:
-            callback();
-            break;
-        case 1:
-            callback(args[0]);
-            break;
-        case 2:
-            callback(args[0], args[1]);
-            break;
-        case 3:
-            callback(args[0], args[1], args[2]);
-            break;
-        default:
-            callback.apply(undefined, args);
-            break;
-        }
-    }
-
-    function runIfPresent(handle) {
-        // From the spec: "Wait until any invocations of this algorithm started before this one have completed."
-        // So if we're currently running a task, we'll need to delay this invocation.
-        if (currentlyRunningATask) {
-            // Delay by doing a setTimeout. setImmediate was tried instead, but in Firefox 7 it generated a
-            // "too much recursion" error.
-            setTimeout(runIfPresent, 0, handle);
-        } else {
-            var task = tasksByHandle[handle];
-            if (task) {
-                currentlyRunningATask = true;
-                try {
-                    run(task);
-                } finally {
-                    clearImmediate(handle);
-                    currentlyRunningATask = false;
-                }
-            }
-        }
-    }
-
-    function installNextTickImplementation() {
-        registerImmediate = function(handle) {
-            process.nextTick(function () { runIfPresent(handle); });
-        };
-    }
-
-    function canUsePostMessage() {
-        // The test against `importScripts` prevents this implementation from being installed inside a web worker,
-        // where `global.postMessage` means something completely different and can't be used for this purpose.
-        if (global.postMessage && !global.importScripts) {
-            var postMessageIsAsynchronous = true;
-            var oldOnMessage = global.onmessage;
-            global.onmessage = function() {
-                postMessageIsAsynchronous = false;
-            };
-            global.postMessage("", "*");
-            global.onmessage = oldOnMessage;
-            return postMessageIsAsynchronous;
-        }
-    }
-
-    function installPostMessageImplementation() {
-        // Installs an event handler on `global` for the `message` event: see
-        // * https://developer.mozilla.org/en/DOM/window.postMessage
-        // * http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#crossDocumentMessages
-
-        var messagePrefix = "setImmediate$" + Math.random() + "$";
-        var onGlobalMessage = function(event) {
-            if (event.source === global &&
-                typeof event.data === "string" &&
-                event.data.indexOf(messagePrefix) === 0) {
-                runIfPresent(+event.data.slice(messagePrefix.length));
-            }
-        };
-
-        if (global.addEventListener) {
-            global.addEventListener("message", onGlobalMessage, false);
-        } else {
-            global.attachEvent("onmessage", onGlobalMessage);
-        }
-
-        registerImmediate = function(handle) {
-            global.postMessage(messagePrefix + handle, "*");
-        };
-    }
-
-    function installMessageChannelImplementation() {
-        var channel = new MessageChannel();
-        channel.port1.onmessage = function(event) {
-            var handle = event.data;
-            runIfPresent(handle);
-        };
-
-        registerImmediate = function(handle) {
-            channel.port2.postMessage(handle);
-        };
-    }
-
-    function installReadyStateChangeImplementation() {
-        var html = doc.documentElement;
-        registerImmediate = function(handle) {
-            // Create a <script> element; its readystatechange event will be fired asynchronously once it is inserted
-            // into the document. Do so, thus queuing up the task. Remember to clean up once it's been called.
-            var script = doc.createElement("script");
-            script.onreadystatechange = function () {
-                runIfPresent(handle);
-                script.onreadystatechange = null;
-                html.removeChild(script);
-                script = null;
-            };
-            html.appendChild(script);
-        };
-    }
-
-    function installSetTimeoutImplementation() {
-        registerImmediate = function(handle) {
-            setTimeout(runIfPresent, 0, handle);
-        };
-    }
-
-    // If supported, we should attach to the prototype of global, since that is where setTimeout et al. live.
-    var attachTo = Object.getPrototypeOf && Object.getPrototypeOf(global);
-    attachTo = attachTo && attachTo.setTimeout ? attachTo : global;
-
-    // Don't get fooled by e.g. browserify environments.
-    if ({}.toString.call(global.process) === "[object process]") {
-        // For Node.js before 0.9
-        installNextTickImplementation();
-
-    } else if (canUsePostMessage()) {
-        // For non-IE10 modern browsers
-        installPostMessageImplementation();
-
-    } else if (global.MessageChannel) {
-        // For web workers, where supported
-        installMessageChannelImplementation();
-
-    } else if (doc && "onreadystatechange" in doc.createElement("script")) {
-        // For IE 6–8
-        installReadyStateChangeImplementation();
-
-    } else {
-        // For older browsers
-        installSetTimeoutImplementation();
-    }
-
-    attachTo.setImmediate = setImmediate;
-    attachTo.clearImmediate = clearImmediate;
-}(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(27), __webpack_require__(35)))
-
-/***/ }),
-/* 78 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-/* 79 */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
@@ -50288,6 +48657,1637 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
+/* 62 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var _device_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(37);
+/* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
+/**
+ * @license
+ * Copyright 2019 Google Inc. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * =============================================================================
+ */
+
+
+const ENV = Object(_environment__WEBPACK_IMPORTED_MODULE_1__[/* env */ "c"])();
+/**
+ * This file contains environment-related flag registrations.
+ */
+/** Whether to enable debug mode. */
+ENV.registerFlag('DEBUG', () => false, debugValue => {
+    if (debugValue) {
+        console.warn('Debugging mode is ON. The output of every math call will ' +
+            'be downloaded to CPU and checked for NaNs. ' +
+            'This significantly impacts performance.');
+    }
+});
+/** Whether we are in a browser (as versus, say, node.js) environment. */
+ENV.registerFlag('IS_BROWSER', () => _device_util__WEBPACK_IMPORTED_MODULE_0__["isBrowser"]());
+/** Whether we are in a browser (as versus, say, node.js) environment. */
+ENV.registerFlag('IS_NODE', () => (typeof process !== 'undefined') &&
+    (typeof process.versions !== 'undefined') &&
+    (typeof process.versions.node !== 'undefined'));
+/** Whether this browser is Chrome. */
+ENV.registerFlag('IS_CHROME', () => typeof navigator !== 'undefined' && navigator != null &&
+    navigator.userAgent != null && /Chrome/.test(navigator.userAgent) &&
+    /Google Inc/.test(navigator.vendor));
+/**
+ * True when the environment is "production" where we disable safety checks
+ * to gain performance.
+ */
+ENV.registerFlag('PROD', () => false);
+/**
+ * Whether to do sanity checks when inferring a shape from user-provided
+ * values, used when creating a new tensor.
+ */
+ENV.registerFlag('TENSORLIKE_CHECK_SHAPE_CONSISTENCY', () => ENV.getBool('DEBUG'));
+/** Whether deprecation warnings are enabled. */
+ENV.registerFlag('DEPRECATION_WARNINGS_ENABLED', () => true);
+/** True if running unit tests. */
+ENV.registerFlag('IS_TEST', () => false);
+//# sourceMappingURL=flags.js.map
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(36)))
+
+/***/ }),
+/* 63 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {/* unused harmony export getNodeFetch */
+/* unused harmony export resetSystemFetch */
+/* unused harmony export setSystemFetch */
+/* unused harmony export getSystemFetch */
+/* unused harmony export PlatformNode */
+/* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * =============================================================================
+ */
+
+// We are wrapping this within an object so it can be stubbed by Jasmine.
+const getNodeFetch = {
+    // tslint:disable-next-line:no-require-imports
+    importFetch: () => __webpack_require__(64)
+};
+let systemFetch;
+// These getters and setters are for testing so we don't export a mutable
+// variable.
+function resetSystemFetch() {
+    systemFetch = null;
+}
+function setSystemFetch(fetchFn) {
+    systemFetch = fetchFn;
+}
+function getSystemFetch() {
+    return systemFetch;
+}
+class PlatformNode {
+    constructor() {
+        // tslint:disable-next-line:no-require-imports
+        this.util = __webpack_require__(65);
+        // According to the spec, the built-in encoder can do only UTF-8 encoding.
+        // https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder/TextEncoder
+        this.textEncoder = new this.util.TextEncoder();
+    }
+    fetch(path, requestInits) {
+        if (Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().global.fetch != null) {
+            return Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().global.fetch(path, requestInits);
+        }
+        if (systemFetch == null) {
+            systemFetch = getNodeFetch.importFetch();
+        }
+        return systemFetch(path, requestInits);
+    }
+    now() {
+        const time = process.hrtime();
+        return time[0] * 1000 + time[1] / 1000000;
+    }
+    encode(text, encoding) {
+        if (encoding !== 'utf-8' && encoding !== 'utf8') {
+            throw new Error(`Node built-in encoder only supports utf-8, but got ${encoding}`);
+        }
+        return this.textEncoder.encode(text);
+    }
+    decode(bytes, encoding) {
+        if (bytes.length === 0) {
+            return '';
+        }
+        return new this.util.TextDecoder(encoding).decode(bytes);
+    }
+}
+if (Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().get('IS_NODE')) {
+    Object(_environment__WEBPACK_IMPORTED_MODULE_0__[/* env */ "c"])().setPlatform('node', new PlatformNode());
+}
+//# sourceMappingURL=platform_node.js.map
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(36)))
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.byteLength = byteLength
+exports.toByteArray = toByteArray
+exports.fromByteArray = fromByteArray
+
+var lookup = []
+var revLookup = []
+var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array
+
+var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+for (var i = 0, len = code.length; i < len; ++i) {
+  lookup[i] = code[i]
+  revLookup[code.charCodeAt(i)] = i
+}
+
+// Support decoding URL-safe base64 strings, as Node.js does.
+// See: https://en.wikipedia.org/wiki/Base64#URL_applications
+revLookup['-'.charCodeAt(0)] = 62
+revLookup['_'.charCodeAt(0)] = 63
+
+function getLens (b64) {
+  var len = b64.length
+
+  if (len % 4 > 0) {
+    throw new Error('Invalid string. Length must be a multiple of 4')
+  }
+
+  // Trim off extra bytes after placeholder bytes are found
+  // See: https://github.com/beatgammit/base64-js/issues/42
+  var validLen = b64.indexOf('=')
+  if (validLen === -1) validLen = len
+
+  var placeHoldersLen = validLen === len
+    ? 0
+    : 4 - (validLen % 4)
+
+  return [validLen, placeHoldersLen]
+}
+
+// base64 is 4/3 + up to two characters of the original data
+function byteLength (b64) {
+  var lens = getLens(b64)
+  var validLen = lens[0]
+  var placeHoldersLen = lens[1]
+  return ((validLen + placeHoldersLen) * 3 / 4) - placeHoldersLen
+}
+
+function _byteLength (b64, validLen, placeHoldersLen) {
+  return ((validLen + placeHoldersLen) * 3 / 4) - placeHoldersLen
+}
+
+function toByteArray (b64) {
+  var tmp
+  var lens = getLens(b64)
+  var validLen = lens[0]
+  var placeHoldersLen = lens[1]
+
+  var arr = new Arr(_byteLength(b64, validLen, placeHoldersLen))
+
+  var curByte = 0
+
+  // if there are placeholders, only get up to the last complete 4 chars
+  var len = placeHoldersLen > 0
+    ? validLen - 4
+    : validLen
+
+  var i
+  for (i = 0; i < len; i += 4) {
+    tmp =
+      (revLookup[b64.charCodeAt(i)] << 18) |
+      (revLookup[b64.charCodeAt(i + 1)] << 12) |
+      (revLookup[b64.charCodeAt(i + 2)] << 6) |
+      revLookup[b64.charCodeAt(i + 3)]
+    arr[curByte++] = (tmp >> 16) & 0xFF
+    arr[curByte++] = (tmp >> 8) & 0xFF
+    arr[curByte++] = tmp & 0xFF
+  }
+
+  if (placeHoldersLen === 2) {
+    tmp =
+      (revLookup[b64.charCodeAt(i)] << 2) |
+      (revLookup[b64.charCodeAt(i + 1)] >> 4)
+    arr[curByte++] = tmp & 0xFF
+  }
+
+  if (placeHoldersLen === 1) {
+    tmp =
+      (revLookup[b64.charCodeAt(i)] << 10) |
+      (revLookup[b64.charCodeAt(i + 1)] << 4) |
+      (revLookup[b64.charCodeAt(i + 2)] >> 2)
+    arr[curByte++] = (tmp >> 8) & 0xFF
+    arr[curByte++] = tmp & 0xFF
+  }
+
+  return arr
+}
+
+function tripletToBase64 (num) {
+  return lookup[num >> 18 & 0x3F] +
+    lookup[num >> 12 & 0x3F] +
+    lookup[num >> 6 & 0x3F] +
+    lookup[num & 0x3F]
+}
+
+function encodeChunk (uint8, start, end) {
+  var tmp
+  var output = []
+  for (var i = start; i < end; i += 3) {
+    tmp =
+      ((uint8[i] << 16) & 0xFF0000) +
+      ((uint8[i + 1] << 8) & 0xFF00) +
+      (uint8[i + 2] & 0xFF)
+    output.push(tripletToBase64(tmp))
+  }
+  return output.join('')
+}
+
+function fromByteArray (uint8) {
+  var tmp
+  var len = uint8.length
+  var extraBytes = len % 3 // if we have 1 byte left, pad 2 bytes
+  var parts = []
+  var maxChunkLength = 16383 // must be multiple of 3
+
+  // go through the array every three bytes, we'll deal with trailing stuff later
+  for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
+    parts.push(encodeChunk(
+      uint8, i, (i + maxChunkLength) > len2 ? len2 : (i + maxChunkLength)
+    ))
+  }
+
+  // pad the end with zeros, but make sure to not forget the extra bytes
+  if (extraBytes === 1) {
+    tmp = uint8[len - 1]
+    parts.push(
+      lookup[tmp >> 2] +
+      lookup[(tmp << 4) & 0x3F] +
+      '=='
+    )
+  } else if (extraBytes === 2) {
+    tmp = (uint8[len - 2] << 8) + uint8[len - 1]
+    parts.push(
+      lookup[tmp >> 10] +
+      lookup[(tmp >> 4) & 0x3F] +
+      lookup[(tmp << 2) & 0x3F] +
+      '='
+    )
+  }
+
+  return parts.join('')
+}
+
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports) {
+
+exports.read = function (buffer, offset, isLE, mLen, nBytes) {
+  var e, m
+  var eLen = (nBytes * 8) - mLen - 1
+  var eMax = (1 << eLen) - 1
+  var eBias = eMax >> 1
+  var nBits = -7
+  var i = isLE ? (nBytes - 1) : 0
+  var d = isLE ? -1 : 1
+  var s = buffer[offset + i]
+
+  i += d
+
+  e = s & ((1 << (-nBits)) - 1)
+  s >>= (-nBits)
+  nBits += eLen
+  for (; nBits > 0; e = (e * 256) + buffer[offset + i], i += d, nBits -= 8) {}
+
+  m = e & ((1 << (-nBits)) - 1)
+  e >>= (-nBits)
+  nBits += mLen
+  for (; nBits > 0; m = (m * 256) + buffer[offset + i], i += d, nBits -= 8) {}
+
+  if (e === 0) {
+    e = 1 - eBias
+  } else if (e === eMax) {
+    return m ? NaN : ((s ? -1 : 1) * Infinity)
+  } else {
+    m = m + Math.pow(2, mLen)
+    e = e - eBias
+  }
+  return (s ? -1 : 1) * m * Math.pow(2, e - mLen)
+}
+
+exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
+  var e, m, c
+  var eLen = (nBytes * 8) - mLen - 1
+  var eMax = (1 << eLen) - 1
+  var eBias = eMax >> 1
+  var rt = (mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0)
+  var i = isLE ? 0 : (nBytes - 1)
+  var d = isLE ? 1 : -1
+  var s = value < 0 || (value === 0 && 1 / value < 0) ? 1 : 0
+
+  value = Math.abs(value)
+
+  if (isNaN(value) || value === Infinity) {
+    m = isNaN(value) ? 1 : 0
+    e = eMax
+  } else {
+    e = Math.floor(Math.log(value) / Math.LN2)
+    if (value * (c = Math.pow(2, -e)) < 1) {
+      e--
+      c *= 2
+    }
+    if (e + eBias >= 1) {
+      value += rt / c
+    } else {
+      value += rt * Math.pow(2, 1 - eBias)
+    }
+    if (value * c >= 2) {
+      e++
+      c /= 2
+    }
+
+    if (e + eBias >= eMax) {
+      m = 0
+      e = eMax
+    } else if (e + eBias >= 1) {
+      m = ((value * c) - 1) * Math.pow(2, mLen)
+      e = e + eBias
+    } else {
+      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen)
+      e = 0
+    }
+  }
+
+  for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
+
+  e = (e << mLen) | m
+  eLen += mLen
+  for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
+
+  buffer[offset + i - d] |= s * 128
+}
+
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports) {
+
+var toString = {}.toString;
+
+module.exports = Array.isArray || function (arr) {
+  return toString.call(arr) == '[object Array]';
+};
+
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A port of an algorithm by Johannes Baagøe <baagoe@baagoe.com>, 2010
+// http://baagoe.com/en/RandomMusings/javascript/
+// https://github.com/nquinlan/better-random-numbers-for-javascript-mirror
+// Original work is under MIT license -
+
+// Copyright (C) 2010 by Johannes Baagøe <baagoe@baagoe.org>
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+// 
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+
+
+
+(function(global, module, define) {
+
+function Alea(seed) {
+  var me = this, mash = Mash();
+
+  me.next = function() {
+    var t = 2091639 * me.s0 + me.c * 2.3283064365386963e-10; // 2^-32
+    me.s0 = me.s1;
+    me.s1 = me.s2;
+    return me.s2 = t - (me.c = t | 0);
+  };
+
+  // Apply the seeding algorithm from Baagoe.
+  me.c = 1;
+  me.s0 = mash(' ');
+  me.s1 = mash(' ');
+  me.s2 = mash(' ');
+  me.s0 -= mash(seed);
+  if (me.s0 < 0) { me.s0 += 1; }
+  me.s1 -= mash(seed);
+  if (me.s1 < 0) { me.s1 += 1; }
+  me.s2 -= mash(seed);
+  if (me.s2 < 0) { me.s2 += 1; }
+  mash = null;
+}
+
+function copy(f, t) {
+  t.c = f.c;
+  t.s0 = f.s0;
+  t.s1 = f.s1;
+  t.s2 = f.s2;
+  return t;
+}
+
+function impl(seed, opts) {
+  var xg = new Alea(seed),
+      state = opts && opts.state,
+      prng = xg.next;
+  prng.int32 = function() { return (xg.next() * 0x100000000) | 0; }
+  prng.double = function() {
+    return prng() + (prng() * 0x200000 | 0) * 1.1102230246251565e-16; // 2^-53
+  };
+  prng.quick = prng;
+  if (state) {
+    if (typeof(state) == 'object') copy(state, xg);
+    prng.state = function() { return copy(xg, {}); }
+  }
+  return prng;
+}
+
+function Mash() {
+  var n = 0xefc8249d;
+
+  var mash = function(data) {
+    data = data.toString();
+    for (var i = 0; i < data.length; i++) {
+      n += data.charCodeAt(i);
+      var h = 0.02519603282416938 * n;
+      n = h >>> 0;
+      h -= n;
+      h *= n;
+      n = h >>> 0;
+      h -= n;
+      n += h * 0x100000000; // 2^32
+    }
+    return (n >>> 0) * 2.3283064365386963e-10; // 2^-32
+  };
+
+  return mash;
+}
+
+
+if (module && module.exports) {
+  module.exports = impl;
+} else if (__webpack_require__(17) && __webpack_require__(30)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+} else {
+  this.alea = impl;
+}
+
+})(
+  this,
+   true && module,    // present in node.js
+  __webpack_require__(17)   // present with an AMD loader
+);
+
+
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(29)(module)))
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "xor128" prng algorithm by
+// George Marsaglia.  See http://www.jstatsoft.org/v08/i14/paper
+
+(function(global, module, define) {
+
+function XorGen(seed) {
+  var me = this, strseed = '';
+
+  me.x = 0;
+  me.y = 0;
+  me.z = 0;
+  me.w = 0;
+
+  // Set up generator function.
+  me.next = function() {
+    var t = me.x ^ (me.x << 11);
+    me.x = me.y;
+    me.y = me.z;
+    me.z = me.w;
+    return me.w ^= (me.w >>> 19) ^ t ^ (t >>> 8);
+  };
+
+  if (seed === (seed | 0)) {
+    // Integer seed.
+    me.x = seed;
+  } else {
+    // String seed.
+    strseed += seed;
+  }
+
+  // Mix in string seed, then discard an initial batch of 64 values.
+  for (var k = 0; k < strseed.length + 64; k++) {
+    me.x ^= strseed.charCodeAt(k) | 0;
+    me.next();
+  }
+}
+
+function copy(f, t) {
+  t.x = f.x;
+  t.y = f.y;
+  t.z = f.z;
+  t.w = f.w;
+  return t;
+}
+
+function impl(seed, opts) {
+  var xg = new XorGen(seed),
+      state = opts && opts.state,
+      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
+  prng.double = function() {
+    do {
+      var top = xg.next() >>> 11,
+          bot = (xg.next() >>> 0) / 0x100000000,
+          result = (top + bot) / (1 << 21);
+    } while (result === 0);
+    return result;
+  };
+  prng.int32 = xg.next;
+  prng.quick = prng;
+  if (state) {
+    if (typeof(state) == 'object') copy(state, xg);
+    prng.state = function() { return copy(xg, {}); }
+  }
+  return prng;
+}
+
+if (module && module.exports) {
+  module.exports = impl;
+} else if (__webpack_require__(17) && __webpack_require__(30)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+} else {
+  this.xor128 = impl;
+}
+
+})(
+  this,
+   true && module,    // present in node.js
+  __webpack_require__(17)   // present with an AMD loader
+);
+
+
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(29)(module)))
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "xorwow" prng algorithm by
+// George Marsaglia.  See http://www.jstatsoft.org/v08/i14/paper
+
+(function(global, module, define) {
+
+function XorGen(seed) {
+  var me = this, strseed = '';
+
+  // Set up generator function.
+  me.next = function() {
+    var t = (me.x ^ (me.x >>> 2));
+    me.x = me.y; me.y = me.z; me.z = me.w; me.w = me.v;
+    return (me.d = (me.d + 362437 | 0)) +
+       (me.v = (me.v ^ (me.v << 4)) ^ (t ^ (t << 1))) | 0;
+  };
+
+  me.x = 0;
+  me.y = 0;
+  me.z = 0;
+  me.w = 0;
+  me.v = 0;
+
+  if (seed === (seed | 0)) {
+    // Integer seed.
+    me.x = seed;
+  } else {
+    // String seed.
+    strseed += seed;
+  }
+
+  // Mix in string seed, then discard an initial batch of 64 values.
+  for (var k = 0; k < strseed.length + 64; k++) {
+    me.x ^= strseed.charCodeAt(k) | 0;
+    if (k == strseed.length) {
+      me.d = me.x << 10 ^ me.x >>> 4;
+    }
+    me.next();
+  }
+}
+
+function copy(f, t) {
+  t.x = f.x;
+  t.y = f.y;
+  t.z = f.z;
+  t.w = f.w;
+  t.v = f.v;
+  t.d = f.d;
+  return t;
+}
+
+function impl(seed, opts) {
+  var xg = new XorGen(seed),
+      state = opts && opts.state,
+      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
+  prng.double = function() {
+    do {
+      var top = xg.next() >>> 11,
+          bot = (xg.next() >>> 0) / 0x100000000,
+          result = (top + bot) / (1 << 21);
+    } while (result === 0);
+    return result;
+  };
+  prng.int32 = xg.next;
+  prng.quick = prng;
+  if (state) {
+    if (typeof(state) == 'object') copy(state, xg);
+    prng.state = function() { return copy(xg, {}); }
+  }
+  return prng;
+}
+
+if (module && module.exports) {
+  module.exports = impl;
+} else if (__webpack_require__(17) && __webpack_require__(30)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+} else {
+  this.xorwow = impl;
+}
+
+})(
+  this,
+   true && module,    // present in node.js
+  __webpack_require__(17)   // present with an AMD loader
+);
+
+
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(29)(module)))
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "xorshift7" algorithm by
+// François Panneton and Pierre L'ecuyer:
+// "On the Xorgshift Random Number Generators"
+// http://saluc.engr.uconn.edu/refs/crypto/rng/panneton05onthexorshift.pdf
+
+(function(global, module, define) {
+
+function XorGen(seed) {
+  var me = this;
+
+  // Set up generator function.
+  me.next = function() {
+    // Update xor generator.
+    var X = me.x, i = me.i, t, v, w;
+    t = X[i]; t ^= (t >>> 7); v = t ^ (t << 24);
+    t = X[(i + 1) & 7]; v ^= t ^ (t >>> 10);
+    t = X[(i + 3) & 7]; v ^= t ^ (t >>> 3);
+    t = X[(i + 4) & 7]; v ^= t ^ (t << 7);
+    t = X[(i + 7) & 7]; t = t ^ (t << 13); v ^= t ^ (t << 9);
+    X[i] = v;
+    me.i = (i + 1) & 7;
+    return v;
+  };
+
+  function init(me, seed) {
+    var j, w, X = [];
+
+    if (seed === (seed | 0)) {
+      // Seed state array using a 32-bit integer.
+      w = X[0] = seed;
+    } else {
+      // Seed state using a string.
+      seed = '' + seed;
+      for (j = 0; j < seed.length; ++j) {
+        X[j & 7] = (X[j & 7] << 15) ^
+            (seed.charCodeAt(j) + X[(j + 1) & 7] << 13);
+      }
+    }
+    // Enforce an array length of 8, not all zeroes.
+    while (X.length < 8) X.push(0);
+    for (j = 0; j < 8 && X[j] === 0; ++j);
+    if (j == 8) w = X[7] = -1; else w = X[j];
+
+    me.x = X;
+    me.i = 0;
+
+    // Discard an initial 256 values.
+    for (j = 256; j > 0; --j) {
+      me.next();
+    }
+  }
+
+  init(me, seed);
+}
+
+function copy(f, t) {
+  t.x = f.x.slice();
+  t.i = f.i;
+  return t;
+}
+
+function impl(seed, opts) {
+  if (seed == null) seed = +(new Date);
+  var xg = new XorGen(seed),
+      state = opts && opts.state,
+      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
+  prng.double = function() {
+    do {
+      var top = xg.next() >>> 11,
+          bot = (xg.next() >>> 0) / 0x100000000,
+          result = (top + bot) / (1 << 21);
+    } while (result === 0);
+    return result;
+  };
+  prng.int32 = xg.next;
+  prng.quick = prng;
+  if (state) {
+    if (state.x) copy(state, xg);
+    prng.state = function() { return copy(xg, {}); }
+  }
+  return prng;
+}
+
+if (module && module.exports) {
+  module.exports = impl;
+} else if (__webpack_require__(17) && __webpack_require__(30)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+} else {
+  this.xorshift7 = impl;
+}
+
+})(
+  this,
+   true && module,    // present in node.js
+  __webpack_require__(17)   // present with an AMD loader
+);
+
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(29)(module)))
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of Richard Brent's Xorgens xor4096 algorithm.
+//
+// This fast non-cryptographic random number generator is designed for
+// use in Monte-Carlo algorithms. It combines a long-period xorshift
+// generator with a Weyl generator, and it passes all common batteries
+// of stasticial tests for randomness while consuming only a few nanoseconds
+// for each prng generated.  For background on the generator, see Brent's
+// paper: "Some long-period random number generators using shifts and xors."
+// http://arxiv.org/pdf/1004.3115v1.pdf
+//
+// Usage:
+//
+// var xor4096 = require('xor4096');
+// random = xor4096(1);                        // Seed with int32 or string.
+// assert.equal(random(), 0.1520436450538547); // (0, 1) range, 53 bits.
+// assert.equal(random.int32(), 1806534897);   // signed int32, 32 bits.
+//
+// For nonzero numeric keys, this impelementation provides a sequence
+// identical to that by Brent's xorgens 3 implementaion in C.  This
+// implementation also provides for initalizing the generator with
+// string seeds, or for saving and restoring the state of the generator.
+//
+// On Chrome, this prng benchmarks about 2.1 times slower than
+// Javascript's built-in Math.random().
+
+(function(global, module, define) {
+
+function XorGen(seed) {
+  var me = this;
+
+  // Set up generator function.
+  me.next = function() {
+    var w = me.w,
+        X = me.X, i = me.i, t, v;
+    // Update Weyl generator.
+    me.w = w = (w + 0x61c88647) | 0;
+    // Update xor generator.
+    v = X[(i + 34) & 127];
+    t = X[i = ((i + 1) & 127)];
+    v ^= v << 13;
+    t ^= t << 17;
+    v ^= v >>> 15;
+    t ^= t >>> 12;
+    // Update Xor generator array state.
+    v = X[i] = v ^ t;
+    me.i = i;
+    // Result is the combination.
+    return (v + (w ^ (w >>> 16))) | 0;
+  };
+
+  function init(me, seed) {
+    var t, v, i, j, w, X = [], limit = 128;
+    if (seed === (seed | 0)) {
+      // Numeric seeds initialize v, which is used to generates X.
+      v = seed;
+      seed = null;
+    } else {
+      // String seeds are mixed into v and X one character at a time.
+      seed = seed + '\0';
+      v = 0;
+      limit = Math.max(limit, seed.length);
+    }
+    // Initialize circular array and weyl value.
+    for (i = 0, j = -32; j < limit; ++j) {
+      // Put the unicode characters into the array, and shuffle them.
+      if (seed) v ^= seed.charCodeAt((j + 32) % seed.length);
+      // After 32 shuffles, take v as the starting w value.
+      if (j === 0) w = v;
+      v ^= v << 10;
+      v ^= v >>> 15;
+      v ^= v << 4;
+      v ^= v >>> 13;
+      if (j >= 0) {
+        w = (w + 0x61c88647) | 0;     // Weyl.
+        t = (X[j & 127] ^= (v + w));  // Combine xor and weyl to init array.
+        i = (0 == t) ? i + 1 : 0;     // Count zeroes.
+      }
+    }
+    // We have detected all zeroes; make the key nonzero.
+    if (i >= 128) {
+      X[(seed && seed.length || 0) & 127] = -1;
+    }
+    // Run the generator 512 times to further mix the state before using it.
+    // Factoring this as a function slows the main generator, so it is just
+    // unrolled here.  The weyl generator is not advanced while warming up.
+    i = 127;
+    for (j = 4 * 128; j > 0; --j) {
+      v = X[(i + 34) & 127];
+      t = X[i = ((i + 1) & 127)];
+      v ^= v << 13;
+      t ^= t << 17;
+      v ^= v >>> 15;
+      t ^= t >>> 12;
+      X[i] = v ^ t;
+    }
+    // Storing state as object members is faster than using closure variables.
+    me.w = w;
+    me.X = X;
+    me.i = i;
+  }
+
+  init(me, seed);
+}
+
+function copy(f, t) {
+  t.i = f.i;
+  t.w = f.w;
+  t.X = f.X.slice();
+  return t;
+};
+
+function impl(seed, opts) {
+  if (seed == null) seed = +(new Date);
+  var xg = new XorGen(seed),
+      state = opts && opts.state,
+      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
+  prng.double = function() {
+    do {
+      var top = xg.next() >>> 11,
+          bot = (xg.next() >>> 0) / 0x100000000,
+          result = (top + bot) / (1 << 21);
+    } while (result === 0);
+    return result;
+  };
+  prng.int32 = xg.next;
+  prng.quick = prng;
+  if (state) {
+    if (state.X) copy(state, xg);
+    prng.state = function() { return copy(xg, {}); }
+  }
+  return prng;
+}
+
+if (module && module.exports) {
+  module.exports = impl;
+} else if (__webpack_require__(17) && __webpack_require__(30)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+} else {
+  this.xor4096 = impl;
+}
+
+})(
+  this,                                     // window object or global
+   true && module,    // present in node.js
+  __webpack_require__(17)   // present with an AMD loader
+);
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(29)(module)))
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_RESULT__;// A Javascript implementaion of the "Tyche-i" prng algorithm by
+// Samuel Neves and Filipe Araujo.
+// See https://eden.dei.uc.pt/~sneves/pubs/2011-snfa2.pdf
+
+(function(global, module, define) {
+
+function XorGen(seed) {
+  var me = this, strseed = '';
+
+  // Set up generator function.
+  me.next = function() {
+    var b = me.b, c = me.c, d = me.d, a = me.a;
+    b = (b << 25) ^ (b >>> 7) ^ c;
+    c = (c - d) | 0;
+    d = (d << 24) ^ (d >>> 8) ^ a;
+    a = (a - b) | 0;
+    me.b = b = (b << 20) ^ (b >>> 12) ^ c;
+    me.c = c = (c - d) | 0;
+    me.d = (d << 16) ^ (c >>> 16) ^ a;
+    return me.a = (a - b) | 0;
+  };
+
+  /* The following is non-inverted tyche, which has better internal
+   * bit diffusion, but which is about 25% slower than tyche-i in JS.
+  me.next = function() {
+    var a = me.a, b = me.b, c = me.c, d = me.d;
+    a = (me.a + me.b | 0) >>> 0;
+    d = me.d ^ a; d = d << 16 ^ d >>> 16;
+    c = me.c + d | 0;
+    b = me.b ^ c; b = b << 12 ^ d >>> 20;
+    me.a = a = a + b | 0;
+    d = d ^ a; me.d = d = d << 8 ^ d >>> 24;
+    me.c = c = c + d | 0;
+    b = b ^ c;
+    return me.b = (b << 7 ^ b >>> 25);
+  }
+  */
+
+  me.a = 0;
+  me.b = 0;
+  me.c = 2654435769 | 0;
+  me.d = 1367130551;
+
+  if (seed === Math.floor(seed)) {
+    // Integer seed.
+    me.a = (seed / 0x100000000) | 0;
+    me.b = seed | 0;
+  } else {
+    // String seed.
+    strseed += seed;
+  }
+
+  // Mix in string seed, then discard an initial batch of 64 values.
+  for (var k = 0; k < strseed.length + 20; k++) {
+    me.b ^= strseed.charCodeAt(k) | 0;
+    me.next();
+  }
+}
+
+function copy(f, t) {
+  t.a = f.a;
+  t.b = f.b;
+  t.c = f.c;
+  t.d = f.d;
+  return t;
+};
+
+function impl(seed, opts) {
+  var xg = new XorGen(seed),
+      state = opts && opts.state,
+      prng = function() { return (xg.next() >>> 0) / 0x100000000; };
+  prng.double = function() {
+    do {
+      var top = xg.next() >>> 11,
+          bot = (xg.next() >>> 0) / 0x100000000,
+          result = (top + bot) / (1 << 21);
+    } while (result === 0);
+    return result;
+  };
+  prng.int32 = xg.next;
+  prng.quick = prng;
+  if (state) {
+    if (typeof(state) == 'object') copy(state, xg);
+    prng.state = function() { return copy(xg, {}); }
+  }
+  return prng;
+}
+
+if (module && module.exports) {
+  module.exports = impl;
+} else if (__webpack_require__(17) && __webpack_require__(30)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return impl; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+} else {
+  this.tychei = impl;
+}
+
+})(
+  this,
+   true && module,    // present in node.js
+  __webpack_require__(17)   // present with an AMD loader
+);
+
+
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(29)(module)))
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_RESULT__;/*
+Copyright 2014 David Bau.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+*/
+
+(function (pool, math) {
+//
+// The following constants are related to IEEE 754 limits.
+//
+var global = this,
+    width = 256,        // each RC4 output is 0 <= x < 256
+    chunks = 6,         // at least six RC4 outputs for each double
+    digits = 52,        // there are 52 significant digits in a double
+    rngname = 'random', // rngname: name for Math.random and Math.seedrandom
+    startdenom = math.pow(width, chunks),
+    significance = math.pow(2, digits),
+    overflow = significance * 2,
+    mask = width - 1,
+    nodecrypto;         // node.js crypto module, initialized at the bottom.
+
+//
+// seedrandom()
+// This is the seedrandom function described above.
+//
+function seedrandom(seed, options, callback) {
+  var key = [];
+  options = (options == true) ? { entropy: true } : (options || {});
+
+  // Flatten the seed string or build one from local entropy if needed.
+  var shortseed = mixkey(flatten(
+    options.entropy ? [seed, tostring(pool)] :
+    (seed == null) ? autoseed() : seed, 3), key);
+
+  // Use the seed to initialize an ARC4 generator.
+  var arc4 = new ARC4(key);
+
+  // This function returns a random double in [0, 1) that contains
+  // randomness in every bit of the mantissa of the IEEE 754 value.
+  var prng = function() {
+    var n = arc4.g(chunks),             // Start with a numerator n < 2 ^ 48
+        d = startdenom,                 //   and denominator d = 2 ^ 48.
+        x = 0;                          //   and no 'extra last byte'.
+    while (n < significance) {          // Fill up all significant digits by
+      n = (n + x) * width;              //   shifting numerator and
+      d *= width;                       //   denominator and generating a
+      x = arc4.g(1);                    //   new least-significant-byte.
+    }
+    while (n >= overflow) {             // To avoid rounding up, before adding
+      n /= 2;                           //   last byte, shift everything
+      d /= 2;                           //   right using integer math until
+      x >>>= 1;                         //   we have exactly the desired bits.
+    }
+    return (n + x) / d;                 // Form the number within [0, 1).
+  };
+
+  prng.int32 = function() { return arc4.g(4) | 0; }
+  prng.quick = function() { return arc4.g(4) / 0x100000000; }
+  prng.double = prng;
+
+  // Mix the randomness into accumulated entropy.
+  mixkey(tostring(arc4.S), pool);
+
+  // Calling convention: what to return as a function of prng, seed, is_math.
+  return (options.pass || callback ||
+      function(prng, seed, is_math_call, state) {
+        if (state) {
+          // Load the arc4 state from the given state if it has an S array.
+          if (state.S) { copy(state, arc4); }
+          // Only provide the .state method if requested via options.state.
+          prng.state = function() { return copy(arc4, {}); }
+        }
+
+        // If called as a method of Math (Math.seedrandom()), mutate
+        // Math.random because that is how seedrandom.js has worked since v1.0.
+        if (is_math_call) { math[rngname] = prng; return seed; }
+
+        // Otherwise, it is a newer calling convention, so return the
+        // prng directly.
+        else return prng;
+      })(
+  prng,
+  shortseed,
+  'global' in options ? options.global : (this == math),
+  options.state);
+}
+math['seed' + rngname] = seedrandom;
+
+//
+// ARC4
+//
+// An ARC4 implementation.  The constructor takes a key in the form of
+// an array of at most (width) integers that should be 0 <= x < (width).
+//
+// The g(count) method returns a pseudorandom integer that concatenates
+// the next (count) outputs from ARC4.  Its return value is a number x
+// that is in the range 0 <= x < (width ^ count).
+//
+function ARC4(key) {
+  var t, keylen = key.length,
+      me = this, i = 0, j = me.i = me.j = 0, s = me.S = [];
+
+  // The empty key [] is treated as [0].
+  if (!keylen) { key = [keylen++]; }
+
+  // Set up S using the standard key scheduling algorithm.
+  while (i < width) {
+    s[i] = i++;
+  }
+  for (i = 0; i < width; i++) {
+    s[i] = s[j = mask & (j + key[i % keylen] + (t = s[i]))];
+    s[j] = t;
+  }
+
+  // The "g" method returns the next (count) outputs as one number.
+  (me.g = function(count) {
+    // Using instance members instead of closure state nearly doubles speed.
+    var t, r = 0,
+        i = me.i, j = me.j, s = me.S;
+    while (count--) {
+      t = s[i = mask & (i + 1)];
+      r = r * width + s[mask & ((s[i] = s[j = mask & (j + t)]) + (s[j] = t))];
+    }
+    me.i = i; me.j = j;
+    return r;
+    // For robust unpredictability, the function call below automatically
+    // discards an initial batch of values.  This is called RC4-drop[256].
+    // See http://google.com/search?q=rsa+fluhrer+response&btnI
+  })(width);
+}
+
+//
+// copy()
+// Copies internal state of ARC4 to or from a plain object.
+//
+function copy(f, t) {
+  t.i = f.i;
+  t.j = f.j;
+  t.S = f.S.slice();
+  return t;
+};
+
+//
+// flatten()
+// Converts an object tree to nested arrays of strings.
+//
+function flatten(obj, depth) {
+  var result = [], typ = (typeof obj), prop;
+  if (depth && typ == 'object') {
+    for (prop in obj) {
+      try { result.push(flatten(obj[prop], depth - 1)); } catch (e) {}
+    }
+  }
+  return (result.length ? result : typ == 'string' ? obj : obj + '\0');
+}
+
+//
+// mixkey()
+// Mixes a string seed into a key that is an array of integers, and
+// returns a shortened string seed that is equivalent to the result key.
+//
+function mixkey(seed, key) {
+  var stringseed = seed + '', smear, j = 0;
+  while (j < stringseed.length) {
+    key[mask & j] =
+      mask & ((smear ^= key[mask & j] * 19) + stringseed.charCodeAt(j++));
+  }
+  return tostring(key);
+}
+
+//
+// autoseed()
+// Returns an object for autoseeding, using window.crypto and Node crypto
+// module if available.
+//
+function autoseed() {
+  try {
+    var out;
+    if (nodecrypto && (out = nodecrypto.randomBytes)) {
+      // The use of 'out' to remember randomBytes makes tight minified code.
+      out = out(width);
+    } else {
+      out = new Uint8Array(width);
+      (global.crypto || global.msCrypto).getRandomValues(out);
+    }
+    return tostring(out);
+  } catch (e) {
+    var browser = global.navigator,
+        plugins = browser && browser.plugins;
+    return [+new Date, global, plugins, global.screen, tostring(pool)];
+  }
+}
+
+//
+// tostring()
+// Converts an array of charcodes to a string
+//
+function tostring(a) {
+  return String.fromCharCode.apply(0, a);
+}
+
+//
+// When seedrandom.js is loaded, we immediately mix a few bits
+// from the built-in RNG into the entropy pool.  Because we do
+// not want to interfere with deterministic PRNG state later,
+// seedrandom will not call math.random on its own again after
+// initialization.
+//
+mixkey(math.random(), pool);
+
+//
+// Nodejs and AMD support: export the implementation as a module using
+// either convention.
+//
+if ( true && module.exports) {
+  module.exports = seedrandom;
+  // When in node.js, try using crypto package for autoseeding.
+  try {
+    nodecrypto = __webpack_require__(76);
+  } catch (ex) {}
+} else if (true) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() { return seedrandom; }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+}
+
+// End anonymous scope, and pass initial values.
+})(
+  [],     // pool: entropy pool starts empty
+  Math    // math: package containing random, pow, and seedrandom
+);
+
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
+            (typeof self !== "undefined" && self) ||
+            window;
+var apply = Function.prototype.apply;
+
+// DOM APIs, for completeness
+
+exports.setTimeout = function() {
+  return new Timeout(apply.call(setTimeout, scope, arguments), clearTimeout);
+};
+exports.setInterval = function() {
+  return new Timeout(apply.call(setInterval, scope, arguments), clearInterval);
+};
+exports.clearTimeout =
+exports.clearInterval = function(timeout) {
+  if (timeout) {
+    timeout.close();
+  }
+};
+
+function Timeout(id, clearFn) {
+  this._id = id;
+  this._clearFn = clearFn;
+}
+Timeout.prototype.unref = Timeout.prototype.ref = function() {};
+Timeout.prototype.close = function() {
+  this._clearFn.call(scope, this._id);
+};
+
+// Does not start the time, just sets up the members needed.
+exports.enroll = function(item, msecs) {
+  clearTimeout(item._idleTimeoutId);
+  item._idleTimeout = msecs;
+};
+
+exports.unenroll = function(item) {
+  clearTimeout(item._idleTimeoutId);
+  item._idleTimeout = -1;
+};
+
+exports._unrefActive = exports.active = function(item) {
+  clearTimeout(item._idleTimeoutId);
+
+  var msecs = item._idleTimeout;
+  if (msecs >= 0) {
+    item._idleTimeoutId = setTimeout(function onTimeout() {
+      if (item._onTimeout)
+        item._onTimeout();
+    }, msecs);
+  }
+};
+
+// setimmediate attaches itself to the global object
+__webpack_require__(78);
+// On some exotic environments, it's not clear which object `setimmediate` was
+// able to install onto.  Search each possibility in the same order as the
+// `setimmediate` library.
+exports.setImmediate = (typeof self !== "undefined" && self.setImmediate) ||
+                       (typeof global !== "undefined" && global.setImmediate) ||
+                       (this && this.setImmediate);
+exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
+                         (typeof global !== "undefined" && global.clearImmediate) ||
+                         (this && this.clearImmediate);
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28)))
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
+    "use strict";
+
+    if (global.setImmediate) {
+        return;
+    }
+
+    var nextHandle = 1; // Spec says greater than zero
+    var tasksByHandle = {};
+    var currentlyRunningATask = false;
+    var doc = global.document;
+    var registerImmediate;
+
+    function setImmediate(callback) {
+      // Callback can either be a function or a string
+      if (typeof callback !== "function") {
+        callback = new Function("" + callback);
+      }
+      // Copy function arguments
+      var args = new Array(arguments.length - 1);
+      for (var i = 0; i < args.length; i++) {
+          args[i] = arguments[i + 1];
+      }
+      // Store and register the task
+      var task = { callback: callback, args: args };
+      tasksByHandle[nextHandle] = task;
+      registerImmediate(nextHandle);
+      return nextHandle++;
+    }
+
+    function clearImmediate(handle) {
+        delete tasksByHandle[handle];
+    }
+
+    function run(task) {
+        var callback = task.callback;
+        var args = task.args;
+        switch (args.length) {
+        case 0:
+            callback();
+            break;
+        case 1:
+            callback(args[0]);
+            break;
+        case 2:
+            callback(args[0], args[1]);
+            break;
+        case 3:
+            callback(args[0], args[1], args[2]);
+            break;
+        default:
+            callback.apply(undefined, args);
+            break;
+        }
+    }
+
+    function runIfPresent(handle) {
+        // From the spec: "Wait until any invocations of this algorithm started before this one have completed."
+        // So if we're currently running a task, we'll need to delay this invocation.
+        if (currentlyRunningATask) {
+            // Delay by doing a setTimeout. setImmediate was tried instead, but in Firefox 7 it generated a
+            // "too much recursion" error.
+            setTimeout(runIfPresent, 0, handle);
+        } else {
+            var task = tasksByHandle[handle];
+            if (task) {
+                currentlyRunningATask = true;
+                try {
+                    run(task);
+                } finally {
+                    clearImmediate(handle);
+                    currentlyRunningATask = false;
+                }
+            }
+        }
+    }
+
+    function installNextTickImplementation() {
+        registerImmediate = function(handle) {
+            process.nextTick(function () { runIfPresent(handle); });
+        };
+    }
+
+    function canUsePostMessage() {
+        // The test against `importScripts` prevents this implementation from being installed inside a web worker,
+        // where `global.postMessage` means something completely different and can't be used for this purpose.
+        if (global.postMessage && !global.importScripts) {
+            var postMessageIsAsynchronous = true;
+            var oldOnMessage = global.onmessage;
+            global.onmessage = function() {
+                postMessageIsAsynchronous = false;
+            };
+            global.postMessage("", "*");
+            global.onmessage = oldOnMessage;
+            return postMessageIsAsynchronous;
+        }
+    }
+
+    function installPostMessageImplementation() {
+        // Installs an event handler on `global` for the `message` event: see
+        // * https://developer.mozilla.org/en/DOM/window.postMessage
+        // * http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#crossDocumentMessages
+
+        var messagePrefix = "setImmediate$" + Math.random() + "$";
+        var onGlobalMessage = function(event) {
+            if (event.source === global &&
+                typeof event.data === "string" &&
+                event.data.indexOf(messagePrefix) === 0) {
+                runIfPresent(+event.data.slice(messagePrefix.length));
+            }
+        };
+
+        if (global.addEventListener) {
+            global.addEventListener("message", onGlobalMessage, false);
+        } else {
+            global.attachEvent("onmessage", onGlobalMessage);
+        }
+
+        registerImmediate = function(handle) {
+            global.postMessage(messagePrefix + handle, "*");
+        };
+    }
+
+    function installMessageChannelImplementation() {
+        var channel = new MessageChannel();
+        channel.port1.onmessage = function(event) {
+            var handle = event.data;
+            runIfPresent(handle);
+        };
+
+        registerImmediate = function(handle) {
+            channel.port2.postMessage(handle);
+        };
+    }
+
+    function installReadyStateChangeImplementation() {
+        var html = doc.documentElement;
+        registerImmediate = function(handle) {
+            // Create a <script> element; its readystatechange event will be fired asynchronously once it is inserted
+            // into the document. Do so, thus queuing up the task. Remember to clean up once it's been called.
+            var script = doc.createElement("script");
+            script.onreadystatechange = function () {
+                runIfPresent(handle);
+                script.onreadystatechange = null;
+                html.removeChild(script);
+                script = null;
+            };
+            html.appendChild(script);
+        };
+    }
+
+    function installSetTimeoutImplementation() {
+        registerImmediate = function(handle) {
+            setTimeout(runIfPresent, 0, handle);
+        };
+    }
+
+    // If supported, we should attach to the prototype of global, since that is where setTimeout et al. live.
+    var attachTo = Object.getPrototypeOf && Object.getPrototypeOf(global);
+    attachTo = attachTo && attachTo.setTimeout ? attachTo : global;
+
+    // Don't get fooled by e.g. browserify environments.
+    if ({}.toString.call(global.process) === "[object process]") {
+        // For Node.js before 0.9
+        installNextTickImplementation();
+
+    } else if (canUsePostMessage()) {
+        // For non-IE10 modern browsers
+        installPostMessageImplementation();
+
+    } else if (global.MessageChannel) {
+        // For web workers, where supported
+        installMessageChannelImplementation();
+
+    } else if (doc && "onreadystatechange" in doc.createElement("script")) {
+        // For IE 6–8
+        installReadyStateChangeImplementation();
+
+    } else {
+        // For older browsers
+        installSetTimeoutImplementation();
+    }
+
+    attachTo.setImmediate = setImmediate;
+    attachTo.clearImmediate = clearImmediate;
+}(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(28), __webpack_require__(36)))
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
 /* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -50296,7 +50296,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "load", function() { return load; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlazeFaceModel", function() { return BlazeFaceModel; });
 /* harmony import */ var _tensorflow_tfjs_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _tensorflow_tfjs_converter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(38);
+/* harmony import */ var _tensorflow_tfjs_converter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(39);
 /**
     * @license
     * Copyright 2020 Google LLC. All Rights Reserved.
@@ -51061,7 +51061,7 @@ __webpack_require__.d(__webpack_exports__, "webgl_util", function() { return /* 
 __webpack_require__.d(__webpack_exports__, "forceHalfFloat", function() { return /* reexport */ forceHalfFloat; });
 __webpack_require__.d(__webpack_exports__, "webgl", function() { return /* binding */ webgl; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
 var webgl_util_namespaceObject = {};
 __webpack_require__.r(webgl_util_namespaceObject);
 __webpack_require__.d(webgl_util_namespaceObject, "callAndCheck", function() { return callAndCheck; });
@@ -51106,7 +51106,7 @@ __webpack_require__.d(webgl_util_namespaceObject, "isCapableOfRenderingToFloatTe
 __webpack_require__.d(webgl_util_namespaceObject, "isDownloadFloatTextureEnabled", function() { return isDownloadFloatTextureEnabled; });
 __webpack_require__.d(webgl_util_namespaceObject, "isWebGLFenceEnabled", function() { return isWebGLFenceEnabled; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
 var gpgpu_util_namespaceObject = {};
 __webpack_require__.r(gpgpu_util_namespaceObject);
 __webpack_require__.d(gpgpu_util_namespaceObject, "createVertexShader", function() { return gpgpu_util_createVertexShader; });
@@ -51126,10 +51126,10 @@ __webpack_require__.d(gpgpu_util_namespaceObject, "downloadByteEncodedFloatMatri
 __webpack_require__.d(gpgpu_util_namespaceObject, "downloadPackedMatrixFromBuffer", function() { return downloadPackedMatrixFromBuffer; });
 __webpack_require__.d(gpgpu_util_namespaceObject, "downloadMatrixFromPackedOutputTexture", function() { return downloadMatrixFromPackedOutputTexture; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/canvas_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/canvas_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -51206,7 +51206,7 @@ function getWebGLRenderingContext(webGLVersion) {
     return canvas.getContext('webgl2', WEBGL_ATTRIBUTES);
 }
 //# sourceMappingURL=canvas_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/tex_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/tex_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -51375,7 +51375,7 @@ gl, textureHalfFloatExtension) {
     };
 }
 //# sourceMappingURL=tex_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -51898,7 +51898,7 @@ function isWebGLFenceEnabled(webGLVersion) {
     return isEnabled;
 }
 //# sourceMappingURL=webgl_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/flags_webgl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/flags_webgl.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -52020,7 +52020,7 @@ ENV.registerFlag('WEBGL_SIZE_UPLOAD_UNIFORM', () => {
     return useUniforms ? 4 : 0;
 });
 //# sourceMappingURL=flags_webgl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/addn_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -52064,7 +52064,7 @@ class AddNProgram {
     }
 }
 //# sourceMappingURL=addn_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/addn_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -52110,7 +52110,7 @@ class AddNPackedProgram {
     }
 }
 //# sourceMappingURL=addn_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/argminmax_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -52166,7 +52166,7 @@ class ArgMinMaxProgram {
     }
 }
 //# sourceMappingURL=argminmax_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/packing_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/packing_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -52206,7 +52206,7 @@ function getSourceCoords(rank, dims) {
     return coords;
 }
 //# sourceMappingURL=packing_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/glsl_version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/glsl_version.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -52325,7 +52325,7 @@ function getGlslDifferences() {
     };
 }
 //# sourceMappingURL=glsl_version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/shader_compiler_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -52446,7 +52446,7 @@ const ENCODE_FLOAT_SNIPPET = `
   }
 `;
 //# sourceMappingURL=shader_compiler_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/shader_compiler.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -53677,7 +53677,7 @@ function getSqueezedParams(params, keptDims) {
     return keptDims.map(d => params[d]).join(', ');
 }
 //# sourceMappingURL=shader_compiler.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/argminmax_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -53805,7 +53805,7 @@ class argminmax_packed_gpu_ArgMinMaxPackedProgram {
     }
 }
 //# sourceMappingURL=argminmax_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/avg_pool_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/avg_pool_backprop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -53962,7 +53962,7 @@ class AvgPool3DBackpropProgram {
     }
 }
 //# sourceMappingURL=avg_pool_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/batchnorm_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54013,7 +54013,7 @@ class batchnorm_gpu_BatchNormProgram {
     }
 }
 //# sourceMappingURL=batchnorm_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/batchnorm_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54068,7 +54068,7 @@ class batchnorm_packed_gpu_BatchNormPackedProgram {
     }
 }
 //# sourceMappingURL=batchnorm_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/binaryop_complex_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_complex_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54115,7 +54115,7 @@ class binaryop_complex_gpu_BinaryOpComplexProgram {
     }
 }
 //# sourceMappingURL=binaryop_complex_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/binaryop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54212,7 +54212,7 @@ class binaryop_gpu_BinaryOpProgram {
     }
 }
 //# sourceMappingURL=binaryop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/binaryop_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -54425,7 +54425,7 @@ class binaryop_packed_gpu_BinaryOpPackedProgram {
     }
 }
 //# sourceMappingURL=binaryop_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/clip_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54473,7 +54473,7 @@ class ClipProgram {
     }
 }
 //# sourceMappingURL=clip_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/clip_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54524,7 +54524,7 @@ class ClipPackedProgram {
     }
 }
 //# sourceMappingURL=clip_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/complex_abs_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/complex_abs_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -54562,7 +54562,7 @@ class ComplexAbsProgram {
     }
 }
 //# sourceMappingURL=complex_abs_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/concat_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54612,7 +54612,7 @@ class concat_gpu_ConcatProgram {
     }
 }
 //# sourceMappingURL=concat_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/concat_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -54728,7 +54728,7 @@ function shiftedChannels(channels, channel, shift) {
     return res.join();
 }
 //# sourceMappingURL=concat_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -54998,7 +54998,7 @@ class Conv3DDerInputProgram {
     }
 }
 //# sourceMappingURL=conv_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu_depthwise.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu_depthwise.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -55122,7 +55122,7 @@ class DepthwiseConv2DDerInputProgram {
     }
 }
 //# sourceMappingURL=conv_backprop_gpu_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -55418,7 +55418,7 @@ class Conv3DProgram {
     }
 }
 //# sourceMappingURL=conv_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_gpu_depthwise.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu_depthwise.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -55524,7 +55524,7 @@ class DepthwiseConv2DProgram {
     }
 }
 //# sourceMappingURL=conv_gpu_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu_depthwise.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu_depthwise.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -55827,7 +55827,7 @@ class conv_packed_gpu_depthwise_DepthwiseConvPacked2DProgram {
     }
 }
 //# sourceMappingURL=conv_packed_gpu_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/crop_and_resize_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/crop_and_resize_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -55944,7 +55944,7 @@ class CropAndResizeProgram {
     }
 }
 //# sourceMappingURL=crop_and_resize_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/cumsum_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/cumsum_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56029,7 +56029,7 @@ function getFinalCoord(rank, name) {
     }
 }
 //# sourceMappingURL=cumsum_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/decode_matrix_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -56083,7 +56083,7 @@ class decode_matrix_gpu_DecodeMatrixProgram {
     }
 }
 //# sourceMappingURL=decode_matrix_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/decode_matrix_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -56137,7 +56137,7 @@ class decode_matrix_packed_gpu_DecodeMatrixPackedProgram {
     }
 }
 //# sourceMappingURL=decode_matrix_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/depth_to_space_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/depth_to_space_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56224,7 +56224,7 @@ class DepthToSpaceProgram {
     }
 }
 //# sourceMappingURL=depth_to_space_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/diag_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/diag_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -56255,7 +56255,7 @@ class DiagProgram {
     }
 }
 //# sourceMappingURL=diag_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_float_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56292,7 +56292,7 @@ class encode_float_gpu_EncodeFloatProgram {
     }
 }
 //# sourceMappingURL=encode_float_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_float_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56332,7 +56332,7 @@ class encode_float_packed_gpu_EncodeFloatPackedProgram {
     }
 }
 //# sourceMappingURL=encode_float_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_matrix_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56395,7 +56395,7 @@ class encode_matrix_gpu_EncodeMatrixProgram {
     }
 }
 //# sourceMappingURL=encode_matrix_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/encode_matrix_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56496,7 +56496,7 @@ class encode_matrix_packed_gpu_EncodeMatrixPackedProgram {
     }
 }
 //# sourceMappingURL=encode_matrix_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/fft_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/fft_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -56561,7 +56561,7 @@ class FFTProgram {
     }
 }
 //# sourceMappingURL=fft_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/fill_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/fill_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -56601,7 +56601,7 @@ class FillProgram {
     }
 }
 //# sourceMappingURL=fill_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gather_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -56657,7 +56657,7 @@ function gather_gpu_getSourceCoords(aShape, axis) {
     return sourceCoords.join();
 }
 //# sourceMappingURL=gather_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gather_nd_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_nd_gpu.js
 
 class gather_nd_gpu_GatherNDProgram {
     constructor(sliceDim, strides, shape) {
@@ -56683,7 +56683,7 @@ class gather_nd_gpu_GatherNDProgram {
     }
 }
 //# sourceMappingURL=gather_nd_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -56842,7 +56842,7 @@ function downloadMatrixFromPackedOutputTexture(gl, debug, physicalRows, physical
     return packedRGBA;
 }
 //# sourceMappingURL=gpgpu_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_context.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_context.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57304,7 +57304,7 @@ function linearSearchLastTrue(arr) {
     return i - 1;
 }
 //# sourceMappingURL=gpgpu_context.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/gpgpu_math.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_math.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57471,7 +57471,7 @@ function makeShaderKey(program, inputs, output) {
     return key;
 }
 //# sourceMappingURL=gpgpu_math.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/im2col_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/im2col_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -57556,7 +57556,7 @@ class im2col_packed_gpu_Im2ColPackedProgram {
     }
 }
 //# sourceMappingURL=im2col_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/lrn_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57618,7 +57618,7 @@ class LRNProgram {
     }
 }
 //# sourceMappingURL=lrn_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/lrn_grad_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_grad_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -57704,7 +57704,7 @@ class LRNGradProgram {
     }
 }
 //# sourceMappingURL=lrn_grad_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/lrn_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC All Rights Reserved.
@@ -57811,7 +57811,7 @@ class LRNPackedProgram {
     }
 }
 //# sourceMappingURL=lrn_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/max_pool_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/max_pool_backprop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -57974,7 +57974,7 @@ class MaxPool3DBackpropProgram {
     }
 }
 //# sourceMappingURL=max_pool_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/mulmat_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/mulmat_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -58058,7 +58058,7 @@ class MatMulPackedProgram {
     }
 }
 //# sourceMappingURL=mulmat_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/multinomial_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/multinomial_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58113,7 +58113,7 @@ class MultinomialProgram {
     }
 }
 //# sourceMappingURL=multinomial_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/onehot_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/onehot_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58145,7 +58145,7 @@ class OneHotProgram {
     }
 }
 //# sourceMappingURL=onehot_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pack_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pack_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -58256,7 +58256,7 @@ function getOutput(shape, dims) {
           rEdge || cEdge ? 0. : getA(${sourceCoords[3]})`;
 }
 //# sourceMappingURL=pack_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pad_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58316,7 +58316,7 @@ class pad_gpu_PadProgram {
     }
 }
 //# sourceMappingURL=pad_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pad_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -58390,7 +58390,7 @@ class pad_packed_gpu_PadPackedProgram {
     }
 }
 //# sourceMappingURL=pad_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/pool_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/pool_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58802,7 +58802,7 @@ class Pool3DProgram {
     }
 }
 //# sourceMappingURL=pool_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reduce_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reduce_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -58963,7 +58963,7 @@ class ReduceProgram {
     }
 }
 //# sourceMappingURL=reduce_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reshape_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reshape_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -59039,7 +59039,7 @@ function getReshapedInputCoords(shape) {
   `;
 }
 //# sourceMappingURL=reshape_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_backprop_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59167,7 +59167,7 @@ class ResizeBilinearBackpropProgram {
     }
 }
 //# sourceMappingURL=resize_bilinear_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -59235,7 +59235,7 @@ class ResizeBilinearProgram {
     }
 }
 //# sourceMappingURL=resize_bilinear_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -59349,7 +59349,7 @@ class ResizeBilinearPackedProgram {
     }
 }
 //# sourceMappingURL=resize_bilinear_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_backprop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_backprop_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC All Rights Reserved.
@@ -59466,7 +59466,7 @@ class ResizeNearestNeigborBackpropProgram {
     }
 }
 //# sourceMappingURL=resize_nearest_neighbor_backprop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59526,7 +59526,7 @@ class ResizeNearestNeighborProgram {
     }
 }
 //# sourceMappingURL=resize_nearest_neighbor_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reverse_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -59578,7 +59578,7 @@ class reverse_gpu_ReverseProgram {
     }
 }
 //# sourceMappingURL=reverse_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/reverse_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google LLC All Rights Reserved.
@@ -59678,7 +59678,7 @@ class reverse_packed_gpu_ReversePackedProgram {
     }
 }
 //# sourceMappingURL=reverse_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/scatter_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/scatter_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59743,7 +59743,7 @@ class scatter_gpu_ScatterProgram {
     }
 }
 //# sourceMappingURL=scatter_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/segment_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/segment_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -59892,7 +59892,7 @@ class SegmentOpProgram {
     }
 }
 //# sourceMappingURL=segment_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/select_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/select_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -59951,7 +59951,7 @@ class select_gpu_SelectProgram {
     }
 }
 //# sourceMappingURL=select_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/slice_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60025,7 +60025,7 @@ function slice_gpu_getCoords(rank) {
     }
 }
 //# sourceMappingURL=slice_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/slice_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -60112,7 +60112,7 @@ class slice_packed_gpu_SlicePackedProgram {
     }
 }
 //# sourceMappingURL=slice_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/strided_slice_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/strided_slice_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60164,7 +60164,7 @@ class strided_slice_gpu_StridedSliceProgram {
     }
 }
 //# sourceMappingURL=strided_slice_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/texture_manager.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/texture_manager.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60319,7 +60319,7 @@ function getKeyFromTextureShape(shapeRowsCol, physicalTexType, isPacked) {
     return `${shapeRowsCol[0]}_${shapeRowsCol[1]}_${physicalTexType}_${isPacked}`;
 }
 //# sourceMappingURL=texture_manager.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/tile_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/tile_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60372,7 +60372,7 @@ function tile_gpu_getSourceCoords(aShape) {
     return sourceCoords.join();
 }
 //# sourceMappingURL=tile_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/unaryop_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -60561,7 +60561,7 @@ const LOGICAL_NOT = `return float(!(x >= 1.0));`;
 const TO_INT = `return float(int(x));`;
 const CLONE = 'return x;';
 //# sourceMappingURL=unaryop_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/unaryop_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -60642,7 +60642,7 @@ class UnaryOpPackedProgram {
     }
 }
 //# sourceMappingURL=unaryop_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/unpack_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/unpack_gpu.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -60684,7 +60684,7 @@ class unpack_gpu_UnpackProgram {
     }
 }
 //# sourceMappingURL=unpack_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/backend_webgl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/backend_webgl.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -62853,13 +62853,13 @@ function float32ToTypedArray(a, dtype) {
     }
 }
 //# sourceMappingURL=backend_webgl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version_version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Div_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Div_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -62890,7 +62890,7 @@ function divImpl(a, b, backend) {
     return output;
 }
 //# sourceMappingURL=Div_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Div.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Div.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -62919,7 +62919,7 @@ const divConfig = {
     }
 };
 //# sourceMappingURL=Div.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -62969,7 +62969,7 @@ class from_pixels_gpu_FromPixelsProgram {
     }
 }
 //# sourceMappingURL=from_pixels_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_packed_gpu.js
 /**
  * @license
  * Copyright 2018 Google Inc. All Rights Reserved.
@@ -63033,7 +63033,7 @@ class from_pixels_packed_gpu_FromPixelsPackedProgram {
     }
 }
 //# sourceMappingURL=from_pixels_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -63098,10 +63098,10 @@ function fromPixels(args) {
     return res;
 }
 //# sourceMappingURL=FromPixels.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
-var base = __webpack_require__(31);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
+var base = __webpack_require__(32);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernel_utils/shared.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/shared.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63125,7 +63125,7 @@ var base = __webpack_require__(31);
 const { maxImpl: maxImplCPU, transposeImpl: transposeImplCPU } = base["b" /* shared */];
 
 //# sourceMappingURL=shared.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reduce.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reduce.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63156,7 +63156,7 @@ function reduce(x, dtype, reductionType, backend) {
     return reduce(output, dtype, reductionType, backend);
 }
 //# sourceMappingURL=reduce.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reshape.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reshape.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63200,7 +63200,7 @@ function reshape(x, afterShape, backend) {
     return { dataId: x.dataId, shape: afterShape, dtype: x.dtype };
 }
 //# sourceMappingURL=reshape.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Max_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63233,7 +63233,7 @@ function maxImpl(x, reduceShape, outShape, backend) {
     return reshape(reduced, outShape, backend);
 }
 //# sourceMappingURL=Max_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/transpose_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_gpu.js
 /**
  * @license
  * Copyright 2017 Google Inc. All Rights Reserved.
@@ -63283,7 +63283,7 @@ function getSwitchedCoords(newDim) {
     return switchedCoords.join();
 }
 //# sourceMappingURL=transpose_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/transpose_packed_gpu.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_packed_gpu.js
 /**
  * @license
  * Copyright 2019 Google Inc. All Rights Reserved.
@@ -63346,7 +63346,7 @@ class transpose_packed_gpu_TransposePackedProgram {
     }
 }
 //# sourceMappingURL=transpose_packed_gpu.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63375,7 +63375,7 @@ function transposeImpl(x, perm, backend) {
 }
 
 //# sourceMappingURL=Transpose_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Max.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63450,7 +63450,7 @@ const maxConfig = {
     }
 };
 //# sourceMappingURL=Max.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63476,7 +63476,7 @@ function maxPoolWithArgmaxImpl(x, includeBatchInIndex, convInfo, backend) {
     return [poolOutput, indexOutput];
 }
 //# sourceMappingURL=MaxPoolWithArgmax_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63513,7 +63513,7 @@ const maxPoolWithArgmaxConfig = {
     }
 };
 //# sourceMappingURL=MaxPoolWithArgmax.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV3.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV3.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63549,7 +63549,7 @@ const nonMaxSuppressionV3Config = {
     }
 };
 //# sourceMappingURL=NonMaxSuppressionV3.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV5.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV5.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63589,7 +63589,7 @@ const nonMaxSuppressionV5Config = {
     }
 };
 //# sourceMappingURL=NonMaxSuppressionV5.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Square.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Square.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -63619,7 +63619,7 @@ const squareConfig = {
     }
 };
 //# sourceMappingURL=Square.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/SquaredDifference.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SquaredDifference.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63653,7 +63653,7 @@ const squaredDifferenceConfig = {
     }
 };
 //# sourceMappingURL=SquaredDifference.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63701,7 +63701,7 @@ const transposeConfig = {
     }
 };
 //# sourceMappingURL=Transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/register_all_kernels.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/register_all_kernels.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63738,7 +63738,7 @@ for (const kernelConfig of kernelConfigs) {
     Object(dist["registerKernel"])(kernelConfig);
 }
 //# sourceMappingURL=register_all_kernels.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/webgl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -63771,7 +63771,7 @@ function forceHalfFloat() {
     Object(dist["env"])().set('WEBGL_FORCE_F16_TEXTURES', true);
 }
 //# sourceMappingURL=webgl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-webgl@2.0.1@@tensorflow/tfjs-backend-webgl/dist/index.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-webgl/dist/index.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -63836,7 +63836,7 @@ __webpack_require__.d(__webpack_exports__, "metrics", function() { return /* ree
 __webpack_require__.d(__webpack_exports__, "models", function() { return /* reexport */ exports_models_namespaceObject; });
 __webpack_require__.d(__webpack_exports__, "regularizers", function() { return /* reexport */ exports_regularizers_namespaceObject; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_constraints.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_constraints.js
 var exports_constraints_namespaceObject = {};
 __webpack_require__.r(exports_constraints_namespaceObject);
 __webpack_require__.d(exports_constraints_namespaceObject, "maxNorm", function() { return maxNorm; });
@@ -63844,7 +63844,7 @@ __webpack_require__.d(exports_constraints_namespaceObject, "unitNorm", function(
 __webpack_require__.d(exports_constraints_namespaceObject, "nonNeg", function() { return nonNeg; });
 __webpack_require__.d(exports_constraints_namespaceObject, "minMaxNorm", function() { return minMaxNorm; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_initializers.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_initializers.js
 var exports_initializers_namespaceObject = {};
 __webpack_require__.r(exports_initializers_namespaceObject);
 __webpack_require__.d(exports_initializers_namespaceObject, "zeros", function() { return zeros; });
@@ -63863,7 +63863,7 @@ __webpack_require__.d(exports_initializers_namespaceObject, "leCunNormal", funct
 __webpack_require__.d(exports_initializers_namespaceObject, "leCunUniform", function() { return leCunUniform; });
 __webpack_require__.d(exports_initializers_namespaceObject, "orthogonal", function() { return orthogonal; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_layers.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_layers.js
 var exports_layers_namespaceObject = {};
 __webpack_require__.r(exports_layers_namespaceObject);
 __webpack_require__.d(exports_layers_namespaceObject, "inputLayer", function() { return exports_layers_inputLayer; });
@@ -63939,7 +63939,7 @@ __webpack_require__.d(exports_layers_namespaceObject, "gaussianDropout", functio
 __webpack_require__.d(exports_layers_namespaceObject, "alphaDropout", function() { return alphaDropout; });
 __webpack_require__.d(exports_layers_namespaceObject, "masking", function() { return masking; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_metrics.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_metrics.js
 var exports_metrics_namespaceObject = {};
 __webpack_require__.r(exports_metrics_namespaceObject);
 __webpack_require__.d(exports_metrics_namespaceObject, "binaryAccuracy", function() { return exports_metrics_binaryAccuracy; });
@@ -63958,22 +63958,22 @@ __webpack_require__.d(exports_metrics_namespaceObject, "meanSquaredError", funct
 __webpack_require__.d(exports_metrics_namespaceObject, "MSE", function() { return exports_metrics_MSE; });
 __webpack_require__.d(exports_metrics_namespaceObject, "mse", function() { return exports_metrics_mse; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_models.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_models.js
 var exports_models_namespaceObject = {};
 __webpack_require__.r(exports_models_namespaceObject);
 __webpack_require__.d(exports_models_namespaceObject, "modelFromJSON", function() { return modelFromJSON; });
 
-// NAMESPACE OBJECT: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_regularizers.js
+// NAMESPACE OBJECT: ./node_modules/@tensorflow/tfjs-layers/dist/exports_regularizers.js
 var exports_regularizers_namespaceObject = {};
 __webpack_require__.r(exports_regularizers_namespaceObject);
 __webpack_require__.d(exports_regularizers_namespaceObject, "l1l2", function() { return l1l2; });
 __webpack_require__.d(exports_regularizers_namespaceObject, "l1", function() { return exports_regularizers_l1; });
 __webpack_require__.d(exports_regularizers_namespaceObject, "l2", function() { return exports_regularizers_l2; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/backend/common.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/backend/common.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64008,7 +64008,7 @@ function imageDataFormat() {
     return 'channelsLast';
 }
 //# sourceMappingURL=common.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/errors.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/errors.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64088,7 +64088,7 @@ class IndexError extends Error {
     }
 }
 //# sourceMappingURL=errors.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/generic_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/generic_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64572,7 +64572,7 @@ function mapActivationToFusedKernel(activationName) {
     return null;
 }
 //# sourceMappingURL=generic_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/constraints.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/constraints.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64721,7 +64721,7 @@ function getConstraint(identifier) {
     }
 }
 //# sourceMappingURL=constraints.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_constraints.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_constraints.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64767,7 +64767,7 @@ function minMaxNorm(config) {
     return new constraints_MinMaxNorm(config);
 }
 //# sourceMappingURL=exports_constraints.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/keras_format/common.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/keras_format/common.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64783,7 +64783,7 @@ const VALID_POOL_MODE_VALUES = ['max', 'avg'];
 const VALID_BIDIRECTIONAL_MERGE_MODES = ['sum', 'mul', 'concat', 'ave'];
 const VALID_SAMPLE_WEIGHT_MODES = ['temporal'];
 //# sourceMappingURL=common.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/common.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/common.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -64890,7 +64890,7 @@ function isValidTensorName(name) {
     return !!name.match(tensorNameRegex);
 }
 //# sourceMappingURL=common.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/math_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/math_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -65022,7 +65022,7 @@ function range(begin, end) {
     return out;
 }
 //# sourceMappingURL=math_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/backend/tfjs_backend.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/backend/tfjs_backend.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -65666,7 +65666,7 @@ function inTrainPhase(x, alt, training = false) {
     return training ? x() : alt();
 }
 //# sourceMappingURL=tfjs_backend.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/keras_format/initializer_config.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/keras_format/initializer_config.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -65691,7 +65691,7 @@ const initializerClassNames = [
     'TruncatedNormal', 'VarianceScaling', 'Orthogonal', 'Identity'
 ];
 //# sourceMappingURL=initializer_config.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/initializers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/initializers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66181,7 +66181,7 @@ function getInitializer(identifier) {
     }
 }
 //# sourceMappingURL=initializers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_initializers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_initializers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66363,7 +66363,7 @@ function orthogonal(args) {
     return new initializers_Orthogonal(args);
 }
 //# sourceMappingURL=exports_initializers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/backend/state.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/backend/state.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66399,7 +66399,7 @@ function getUid(prefix = '') {
     return prefix + _uidPrefixes[prefix].toString();
 }
 //# sourceMappingURL=state.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/types_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/types_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66476,7 +66476,7 @@ function getExactlyOneShape(shapes) {
     }
 }
 //# sourceMappingURL=types_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/variable_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/variable_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66506,7 +66506,7 @@ function countParamsInWeights(weights) {
     return count;
 }
 //# sourceMappingURL=variable_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/variables.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/variables.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -66797,7 +66797,7 @@ function gradients(lossFn, variables) {
     return variables.map(variable => valudAndGrads.grads[variable.name]);
 }
 //# sourceMappingURL=variables.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/topology.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/topology.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68031,7 +68031,7 @@ function getSourceInputs(tensor, layer, nodeIndex) {
     }
 }
 //# sourceMappingURL=topology.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/input_layer.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/input_layer.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68156,7 +68156,7 @@ function Input(config) {
     return outputs[0];
 }
 //# sourceMappingURL=input_layer.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/logs.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/logs.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68215,7 +68215,7 @@ function disposeTensorsInLogs(logs) {
     }
 }
 //# sourceMappingURL=logs.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/base_callbacks.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/base_callbacks.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68704,7 +68704,7 @@ function configureCallbacks(callbacks, verbose, epochs, initialEpoch, numTrainSa
     return { callbackList, history };
 }
 //# sourceMappingURL=base_callbacks.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/serialization.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/serialization.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68732,7 +68732,7 @@ function deserialize(config, customObjects = {}, fastWeightInit = false) {
     return deserializeKerasObject(config, dist["serialization"].SerializationMap.getMap().classNameMap, customObjects, 'layer', fastWeightInit);
 }
 //# sourceMappingURL=serialization.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/losses.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/losses.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -68970,7 +68970,7 @@ function get(identifierOrFn) {
     }
 }
 //# sourceMappingURL=losses.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/metrics.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/metrics.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69135,7 +69135,7 @@ function getLossOrMetricName(fn) {
     }
 }
 //# sourceMappingURL=metrics.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/optimizers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/optimizers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69175,7 +69175,7 @@ function getOptimizer(identifier) {
     throw new ValueError(`Unknown Optimizer ${identifier}`);
 }
 //# sourceMappingURL=optimizers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/user_defined_metadata.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/user_defined_metadata.js
 /**
  * @license
  * Copyright 2019 Google LLC
@@ -69277,7 +69277,7 @@ function plainObjectCheck(x) {
     }
 }
 //# sourceMappingURL=user_defined_metadata.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/layer_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/layer_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69475,7 +69475,7 @@ printFn) {
     }
 }
 //# sourceMappingURL=layer_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/serialization_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/serialization_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -69600,13 +69600,13 @@ function convertTsToPythonic(tsConfig, key) {
     }
 }
 //# sourceMappingURL=serialization_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/executor.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/executor.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -70051,7 +70051,7 @@ function getNodeOutputs(fetch) {
     return layerOutputs;
 }
 //# sourceMappingURL=executor.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/container.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/container.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -71193,7 +71193,7 @@ class container_Container extends topology_Layer {
     }
 }
 //# sourceMappingURL=container.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -71350,7 +71350,7 @@ function computeWeightedLoss(losses, sampleWeights) {
     return Object(dist["mul"])(losses, sampleWeights);
 }
 //# sourceMappingURL=training_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training_dataset.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training_dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -71702,7 +71702,7 @@ model, dataset, args) {
     return singletonOrArray(outs);
 }
 //# sourceMappingURL=training_dataset.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training_tensors.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training_tensors.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -72140,7 +72140,7 @@ function disposeNewTensors(tensors, refTensors) {
     });
 }
 //# sourceMappingURL=training_tensors.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/engine/training.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/engine/training.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -73746,7 +73746,7 @@ class training_LayersModel extends container_Container {
 training_LayersModel.className = 'Model';
 dist["serialization"].registerClass(training_LayersModel);
 //# sourceMappingURL=training.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/models.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/models.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -74683,7 +74683,7 @@ class models_Sequential extends training_LayersModel {
 models_Sequential.className = 'Sequential';
 dist["serialization"].registerClass(models_Sequential);
 //# sourceMappingURL=models.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -74934,7 +74934,7 @@ function registerCallbackConstructor(verbosityLevel, callbackConstructor) {
     base_callbacks_CallbackConstructorRegistry.registerCallbackConstructor(verbosityLevel, callbackConstructor);
 }
 //# sourceMappingURL=exports.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/activations.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/activations.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75155,7 +75155,7 @@ function getActivation(identifier) {
     }
 }
 //# sourceMappingURL=activations.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/regularizers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/regularizers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75255,7 +75255,7 @@ function getRegularizer(identifier) {
     }
 }
 //# sourceMappingURL=regularizers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/advanced_activations.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/advanced_activations.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75483,7 +75483,7 @@ class advanced_activations_Softmax extends topology_Layer {
 advanced_activations_Softmax.className = 'Softmax';
 dist["serialization"].registerClass(advanced_activations_Softmax);
 //# sourceMappingURL=advanced_activations.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/utils/conv_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/utils/conv_utils.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -75561,7 +75561,7 @@ function deconvLength(dimSize, strideSize, kernelSize, padding) {
     return dimSize;
 }
 //# sourceMappingURL=conv_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/convolutional.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -76399,7 +76399,7 @@ class convolutional_UpSampling2D extends topology_Layer {
 convolutional_UpSampling2D.className = 'UpSampling2D';
 dist["serialization"].registerClass(convolutional_UpSampling2D);
 //# sourceMappingURL=convolutional.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/convolutional_depthwise.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional_depthwise.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -76539,7 +76539,7 @@ class convolutional_depthwise_DepthwiseConv2D extends convolutional_BaseConv {
 convolutional_depthwise_DepthwiseConv2D.className = 'DepthwiseConv2D';
 dist["serialization"].registerClass(convolutional_depthwise_DepthwiseConv2D);
 //# sourceMappingURL=convolutional_depthwise.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/core.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/core.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -77001,7 +77001,7 @@ class core_Masking extends topology_Layer {
 core_Masking.className = 'Masking';
 dist["serialization"].registerClass(core_Masking);
 //# sourceMappingURL=core.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/embeddings.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/embeddings.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -77141,7 +77141,7 @@ class embeddings_Embedding extends topology_Layer {
 embeddings_Embedding.className = 'Embedding';
 dist["serialization"].registerClass(embeddings_Embedding);
 //# sourceMappingURL=embeddings.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/merge.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/merge.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78123,7 +78123,7 @@ merge_Dot.className = 'Dot';
 dist["serialization"].registerClass(merge_Dot);
 // TODO(cais): Add functional interfaces for the merge layers.
 //# sourceMappingURL=merge.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/noise.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/noise.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78277,7 +78277,7 @@ class noise_AlphaDropout extends topology_Layer {
 noise_AlphaDropout.className = 'AlphaDropout';
 dist["serialization"].registerClass(noise_AlphaDropout);
 //# sourceMappingURL=noise.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/normalization.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/normalization.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78674,7 +78674,7 @@ class normalization_LayerNormalization extends topology_Layer {
 normalization_LayerNormalization.className = 'LayerNormalization';
 dist["serialization"].registerClass(normalization_LayerNormalization);
 //# sourceMappingURL=normalization.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/padding.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/padding.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -78859,7 +78859,7 @@ class padding_ZeroPadding2D extends topology_Layer {
 padding_ZeroPadding2D.className = 'ZeroPadding2D';
 dist["serialization"].registerClass(padding_ZeroPadding2D);
 //# sourceMappingURL=padding.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/pooling.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/pooling.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -79378,7 +79378,7 @@ class pooling_GlobalMaxPooling2D extends pooling_GlobalPooling2D {
 pooling_GlobalMaxPooling2D.className = 'GlobalMaxPooling2D';
 dist["serialization"].registerClass(pooling_GlobalMaxPooling2D);
 //# sourceMappingURL=pooling.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/recurrent.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/recurrent.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -80914,7 +80914,7 @@ function generateDropoutMask(ones, rate, training = null, count = 1) {
     }
 }
 //# sourceMappingURL=recurrent.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/layers/wrappers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/layers/wrappers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -81399,7 +81399,7 @@ class wrappers_Bidirectional extends wrappers_Wrapper {
 wrappers_Bidirectional.className = 'Bidirectional';
 dist["serialization"].registerClass(wrappers_Bidirectional);
 //# sourceMappingURL=wrappers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_layers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_layers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -82933,7 +82933,7 @@ function masking(args) {
     return new core_Masking(args);
 }
 //# sourceMappingURL=exports_layers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_metrics.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_metrics.js
 
 
 /**
@@ -83212,7 +83212,7 @@ function exports_metrics_mse(yTrue, yPred) {
     return meanSquaredError(yTrue, yPred);
 }
 //# sourceMappingURL=exports_metrics.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_models.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_models.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83224,7 +83224,7 @@ function exports_metrics_mse(yTrue, yPred) {
  */
 
 //# sourceMappingURL=exports_models.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/exports_regularizers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/exports_regularizers.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83270,7 +83270,7 @@ function exports_regularizers_l2(config) {
     return l2(config);
 }
 //# sourceMappingURL=exports_regularizers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/callbacks.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/callbacks.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83443,7 +83443,7 @@ function earlyStopping(args) {
 }
 const callbacks_callbacks = { earlyStopping };
 //# sourceMappingURL=callbacks.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-layers@2.0.1@@tensorflow/tfjs-layers/dist/index.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-layers/dist/index.js
 /**
  * @license
  * Copyright 2018 Google LLC
@@ -83495,19 +83495,19 @@ __webpack_require__.d(__webpack_exports__, "FileDataSource", function() { return
 __webpack_require__.d(__webpack_exports__, "URLDataSource", function() { return /* reexport */ url_data_source_URLDataSource; });
 __webpack_require__.d(__webpack_exports__, "version_data", function() { return /* reexport */ version; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/_seedrandom@2.4.3@seedrandom/index.js
-var _seedrandom_2_4_3_seedrandom = __webpack_require__(20);
+// EXTERNAL MODULE: ./node_modules/seedrandom/index.js
+var seedrandom = __webpack_require__(21);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js + 3 modules
-var lazy_iterator = __webpack_require__(14);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js + 3 modules
+var lazy_iterator = __webpack_require__(15);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/deep_map.js
-var deep_map = __webpack_require__(19);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/deep_map.js
+var deep_map = __webpack_require__(20);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/dataset.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -83905,7 +83905,7 @@ class dataset_Dataset {
             }
         }
         const base = this;
-        const random = _seedrandom_2_4_3_seedrandom["alea"](seed || dist["util"].now().toString());
+        const random = seedrandom["alea"](seed || dist["util"].now().toString());
         return datasetFromIteratorFn(async () => {
             let seed2 = random.int32();
             if (reshuffleEachIteration) {
@@ -84152,7 +84152,7 @@ function batchConcat(arrays) {
     }
 }
 //# sourceMappingURL=dataset.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/datasets/text_line_dataset.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/datasets/text_line_dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84200,7 +84200,7 @@ class text_line_dataset_TextLineDataset extends dataset_Dataset {
     }
 }
 //# sourceMappingURL=text_line_dataset.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/datasets/csv_dataset.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/datasets/csv_dataset.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84578,7 +84578,7 @@ class csv_dataset_CSVDataset extends dataset_Dataset {
 // tf.data.FixedLengthRecordDataset()
 // tf.data.TFRecordDataset()
 //# sourceMappingURL=csv_dataset.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/microphone_iterator.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/microphone_iterator.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -84766,7 +84766,7 @@ class microphone_iterator_MicrophoneIterator extends lazy_iterator["a" /* LazyIt
     }
 }
 //# sourceMappingURL=microphone_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/webcam_iterator.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/webcam_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84959,7 +84959,7 @@ class webcam_iterator_WebcamIterator extends lazy_iterator["a" /* LazyIterator *
     }
 }
 //# sourceMappingURL=webcam_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/datasource.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/datasource.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -84990,10 +84990,10 @@ class DataSource {
 // in combination with chainable source->dataset above, e.g.:
 // tf.data.url(...).asCsvDataset().shuffle().batch()
 //# sourceMappingURL=datasource.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/byte_chunk_iterator.js
-var byte_chunk_iterator = __webpack_require__(57);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/byte_chunk_iterator.js
+var byte_chunk_iterator = __webpack_require__(58);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/file_chunk_iterator.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/file_chunk_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85088,7 +85088,7 @@ class file_chunk_iterator_FileChunkIterator extends byte_chunk_iterator["a" /* B
     }
 }
 //# sourceMappingURL=file_chunk_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/iterators/url_chunk_iterator.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/iterators/url_chunk_iterator.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85150,7 +85150,7 @@ const getRequestInitFromRequest = (request) => {
     return init;
 };
 //# sourceMappingURL=url_chunk_iterator.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/util/source_util.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/util/source_util.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85175,7 +85175,7 @@ function isLocalPath(source) {
     return (typeof source === 'string') && source.substr(0, 7) === 'file://';
 }
 //# sourceMappingURL=source_util.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/sources/file_data_source.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/sources/file_data_source.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85218,7 +85218,7 @@ class file_data_source_FileDataSource extends DataSource {
     async iterator() {
         if (isLocalPath(this.input) && Object(dist["env"])().get('IS_NODE')) {
             // tslint:disable-next-line:no-require-imports
-            const fs = __webpack_require__(79);
+            const fs = __webpack_require__(80);
             this.input = fs.readFileSync(this.input.substr(7));
         }
         // TODO(kangyizhang): Add LocalFileChunkIterator to split local streaming
@@ -85227,7 +85227,7 @@ class file_data_source_FileDataSource extends DataSource {
     }
 }
 //# sourceMappingURL=file_data_source.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/sources/url_data_source.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/sources/url_data_source.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85280,7 +85280,7 @@ class url_data_source_URLDataSource extends DataSource {
     }
 }
 //# sourceMappingURL=url_data_source.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/readers.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/readers.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85554,13 +85554,13 @@ async function microphone(microphoneConfig) {
     return microphone_iterator_MicrophoneIterator.create(microphoneConfig);
 }
 //# sourceMappingURL=readers.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/version.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/version.js
 /** @license See the LICENSE file. */
 // This code is auto-generated, do not modify this file!
 const version = '2.0.1';
 
 //# sourceMappingURL=version.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-data@2.0.1@@tensorflow/tfjs-data/dist/index.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-data/dist/index.js
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
@@ -85599,16 +85599,16 @@ __webpack_require__.d(__webpack_exports__, "MathBackendCPU", function() { return
 __webpack_require__.d(__webpack_exports__, "version_cpu", function() { return /* reexport */ base["c" /* version_cpu */]; });
 __webpack_require__.d(__webpack_exports__, "shared", function() { return /* reexport */ base["b" /* shared */]; });
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-core@2.0.1@@tensorflow/tfjs-core/dist/index.js + 269 modules
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-core/dist/index.js + 269 modules
 var dist = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
-var base = __webpack_require__(31);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js + 3 modules
+var base = __webpack_require__(32);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
 var cpu_util = __webpack_require__(9);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/utils/kernel_utils.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/kernel_utils.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85678,7 +85678,7 @@ function createBinaryKernelImpl(op) {
     };
 }
 //# sourceMappingURL=kernel_utils.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Div_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Div_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85698,7 +85698,7 @@ function createBinaryKernelImpl(op) {
 
 const divImpl = createBinaryKernelImpl((a, b) => a / b);
 //# sourceMappingURL=Div_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Div.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Div.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85720,13 +85720,13 @@ const divImpl = createBinaryKernelImpl((a, b) => a / b);
 
 const divConfig = createBinaryKernelConfig(dist["Div"], divImpl);
 //# sourceMappingURL=Div.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
-var Max_impl = __webpack_require__(37);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
+var Max_impl = __webpack_require__(38);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
-var Transpose_impl = __webpack_require__(30);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
+var Transpose_impl = __webpack_require__(31);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Max.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -85781,10 +85781,10 @@ const maxConfig = {
     }
 };
 //# sourceMappingURL=Max.js.map
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
-var pool_utils = __webpack_require__(26);
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
+var pool_utils = __webpack_require__(27);
 
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax_impl.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax_impl.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85810,7 +85810,7 @@ function maxPoolWithArgmaxImpl(xValues, xShape, dtype, includeBatchInIndex, conv
     return [maxPools.values, maxPositions.values];
 }
 //# sourceMappingURL=MaxPoolWithArgmax_impl.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85851,7 +85851,7 @@ const maxPoolWithArgmaxConfig = {
     }
 };
 //# sourceMappingURL=MaxPoolWithArgmax.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV5.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV5.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -85891,7 +85891,7 @@ const nonMaxSuppressionV5Config = {
     }
 };
 //# sourceMappingURL=NonMaxSuppressionV5.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Square.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Square.js
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -85928,7 +85928,7 @@ const squareConfig = {
     }
 };
 //# sourceMappingURL=Square.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/SquaredDifference.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SquaredDifference.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85954,7 +85954,7 @@ const squaredDifferenceImpl = createBinaryKernelImpl((aVal, bVal) => {
 });
 const squaredDifferenceConfig = createBinaryKernelConfig(dist["SquaredDifference"], squaredDifferenceImpl);
 //# sourceMappingURL=SquaredDifference.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -85994,7 +85994,7 @@ const transposeConfig = {
     }
 };
 //# sourceMappingURL=Transpose.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/register_all_kernels.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/register_all_kernels.js
 /**
  * @license
  * Copyright 2020 Google Inc. All Rights Reserved.
@@ -86031,7 +86031,7 @@ for (const kernelConfig of kernelConfigs) {
     Object(dist["registerKernel"])(kernelConfig);
 }
 //# sourceMappingURL=register_all_kernels.js.map
-// CONCATENATED MODULE: ./node_modules/_@tensorflow_tfjs-backend-cpu@2.0.1@@tensorflow/tfjs-backend-cpu/dist/index.js
+// CONCATENATED MODULE: ./node_modules/@tensorflow/tfjs-backend-cpu/dist/index.js
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -86065,14 +86065,17 @@ Object(dist["registerBackend"])('cpu', () => new base["a" /* MathBackendCPU */](
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow_tfjs@2.0.1@@tensorflow/tfjs/dist/tf.node.js
-var tf_node = __webpack_require__(60);
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "deep_learning_model", function() { return /* binding */ src_deep_learning_model; });
 
-// EXTERNAL MODULE: ./node_modules/_regression@2.0.1@regression/dist/regression.js
-var regression = __webpack_require__(80);
+// EXTERNAL MODULE: ./node_modules/regression/dist/regression.js
+var regression = __webpack_require__(61);
+
+// EXTERNAL MODULE: ./node_modules/@tensorflow/tfjs/dist/tf.node.js
+var tf_node = __webpack_require__(12);
 
 // CONCATENATED MODULE: ./src/params.mjs
-const params = {
+var params = {
   moveTickSize: 50,
   videoElementId: 'webgazerVideoFeed',
   videoElementCanvasId: 'webgazerVideoCanvas',
@@ -86089,228 +86092,81 @@ const params = {
   showFaceFeedbackBox: true,
   showGazeDot: true,
   // Params to clmtrackr and getUserMedia constraints
-  clmParams: {useWebGL : true},
-  camConstraints: { video: { width: { min: 320, ideal: 640, max: 1920 }, height: { min: 240, ideal: 480, max: 1080 }, facingMode: "user" } },
+  clmParams: {
+    useWebGL: true
+  },
+  camConstraints: {
+    video: {
+      width: {
+        min: 320,
+        ideal: 640,
+        max: 1920
+      },
+      height: {
+        min: 240,
+        ideal: 480,
+        max: 1080
+      },
+      facingMode: "user"
+    }
+  },
   smoothEyeBB: false,
   dataTimestep: 50,
   // Whether or not to store accuracy eigenValues, used by the calibration example file
-  storingPoints: false,
+  storingPoints: false
 };
-
 /* harmony default export */ var src_params = (params);
-
 // CONCATENATED MODULE: ./src/dom_util.mjs
 // helper functions
 
 /**
  * Provides requestAnimationFrame in a cross browser way.
  */
-window.requestAnimFrame = (function() {
-  return window.requestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
-    window.mozRequestAnimationFrame ||
-    window.oRequestAnimationFrame ||
-    window.msRequestAnimationFrame ||
-    function(/* function FrameRequestCallback */ callback, /* DOMElement Element */ element) {
-      return window.setTimeout(callback, 1000/60);
-    };
-})();
-
+window.requestAnimFrame = function () {
+  return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (
+  /* function FrameRequestCallback */
+  callback,
+  /* DOMElement Element */
+  element) {
+    return window.setTimeout(callback, 1000 / 60);
+  };
+}();
 /**
  * Provides cancelRequestAnimationFrame in a cross browser way.
  */
-window.cancelRequestAnimFrame = (function() {
-  return window.cancelCancelRequestAnimationFrame ||
-    window.webkitCancelRequestAnimationFrame ||
-    window.mozCancelRequestAnimationFrame ||
-    window.oCancelRequestAnimationFrame ||
-    window.msCancelRequestAnimationFrame ||
-    window.clearTimeout;
-})();
 
-// EXTERNAL MODULE: ./node_modules/_localforage@1.7.3@localforage/dist/localforage.js
-var localforage = __webpack_require__(32);
 
-// EXTERNAL MODULE: ./node_modules/_@tensorflow-models_facemesh@0.0.3@@tensorflow-models/facemesh/dist/index.js
-var dist = __webpack_require__(59);
+window.cancelRequestAnimFrame = function () {
+  return window.cancelCancelRequestAnimationFrame || window.webkitCancelRequestAnimationFrame || window.mozCancelRequestAnimationFrame || window.oCancelRequestAnimationFrame || window.msCancelRequestAnimationFrame || window.clearTimeout;
+}();
+// EXTERNAL MODULE: ./node_modules/localforage/dist/localforage.js
+var localforage = __webpack_require__(33);
 
-// CONCATENATED MODULE: ./src/facemesh.mjs
-
-/**
- * Constructor of TFFaceMesh object
- * @constructor
- * */
-const TFFaceMesh = function() {
-  //Backend options are webgl, wasm, and CPU.
-  //For recent laptops WASM is better than WebGL.
-  //TODO: This hack makes loading the model block the UI. We should fix that
-  // this.model = (async () => { return await facemesh.load({"maxFaces":1}) })();
-  this.model = dist.load({"maxFaces":1});
-  this.predictionReady = false;
-};
-
-// Global variable for face landmark positions array
-TFFaceMesh.prototype.positionsArray = null;
-
-/**
- * Isolates the two patches that correspond to the user's eyes
- * @param  {Canvas} imageCanvas - canvas corresponding to the webcam stream
- * @param  {Number} width - of imageCanvas
- * @param  {Number} height - of imageCanvas
- * @return {Object} the two eye-patches, first left, then right eye
- */
-TFFaceMesh.prototype.getEyePatches = async function(imageCanvas, width, height) {
-
-  if (imageCanvas.width === 0) {
-    return null;
-  }
-
-  // Load the MediaPipe facemesh model.
-  const model = await this.model;
-
-  // Pass in a video stream (or an image, canvas, or 3D tensor) to obtain an
-  // array of detected faces from the MediaPipe graph.
-  const predictions = await model.estimateFaces(imageCanvas);
-
-  if (predictions.length == 0){
-    return false;
-  }
-
-  // Save positions to global variable
-  this.positionsArray = predictions[0].scaledMesh;
-  const positions = this.positionsArray;
-
-  // Fit the detected eye in a rectangle. [20200626 xk] not clear which approach is better
-  // https://raw.githubusercontent.com/tensorflow/tfjs-models/master/facemesh/mesh_map.jpg
-
-  // // Maintains a relatively stable shape of the bounding box at the cost of cutting off parts of
-  // // the eye when the eye is tilted.
-  // var leftOriginX = Math.round(positions[130][0]);
-  // var leftOriginY = Math.round(positions[27][1]);
-  // var leftWidth = Math.round(positions[243][0] - leftOriginX);
-  // var leftHeight = Math.round(positions[23][1] - leftOriginY);
-  // var rightOriginX = Math.round(positions[463][0]);
-  // var rightOriginY = Math.round(positions[257][1]);
-  // var rightWidth = Math.round(positions[359][0] - rightOriginX);
-  // var rightHeight = Math.round(positions[253][1] - rightOriginY);
-
-  // Won't really cut off any parts of the eye, at the cost of warping the shape (i.e. height/
-  // width ratio) of the bounding box.
-  var leftOriginX = Math.round(Math.min(positions[247][0], positions[130][0], positions[25][0]));
-  var leftOriginY = Math.round(Math.min(positions[247][1], positions[27][1], positions[190][1]));
-  var leftWidth = Math.round(Math.max(positions[190][0], positions[243][0], positions[233][0]) - leftOriginX);
-  var leftHeight = Math.round(Math.max(positions[25][1], positions[23][1], positions[112][1]) - leftOriginY);
-  var rightOriginX = Math.round(Math.min(positions[414][0], positions[463][0], positions[453][0]));
-  var rightOriginY = Math.round(Math.min(positions[414][1], positions[257][1], positions[467][1]));
-  var rightWidth = Math.round(Math.max(positions[467][0], positions[359][0], positions[255][0]) - rightOriginX);
-  var rightHeight = Math.round(Math.max(positions[341][1], positions[253][1], positions[255][1]) - rightOriginY);
-
-  if (leftWidth === 0 || rightWidth === 0){
-    console.log('an eye patch had zero width');
-    return null;
-  }
-
-  if (leftHeight === 0 || rightHeight === 0){
-    console.log('an eye patch had zero height');
-    return null;
-  }
-
-  // Start building object to be returned
-  var eyeObjs = {};
-
-  var leftImageData = imageCanvas.getContext('2d').getImageData(leftOriginX, leftOriginY, leftWidth, leftHeight);
-  eyeObjs.left = {
-    patch: leftImageData,
-    imagex: leftOriginX,
-    imagey: leftOriginY,
-    width: leftWidth,
-    height: leftHeight
-  };
-
-  var rightImageData = imageCanvas.getContext('2d').getImageData(rightOriginX, rightOriginY, rightWidth, rightHeight);
-  eyeObjs.right = {
-    patch: rightImageData,
-    imagex: rightOriginX,
-    imagey: rightOriginY,
-    width: rightWidth,
-    height: rightHeight
-  };
-
-  this.predictionReady = true;
-
-  return eyeObjs;
-};
-
-/**
- * Returns the positions array corresponding to the last call to getEyePatches.
- * Requires that getEyePatches() was called previously, else returns null.
- */
-TFFaceMesh.prototype.getPositions = function () {
-  return this.positionsArray;
-}
-
-/**
- * Reset the tracker to default values
- */
-TFFaceMesh.prototype.reset = function(){
-  console.log( "Unimplemented; Tracking.js has no obvious reset function" );
-}
-
-/**
- * Draw TF_FaceMesh_Overlay
- */
-TFFaceMesh.prototype.drawFaceOverlay= function(ctx, keypoints){
-  // If keypoints is falsy, don't do anything
-  if (keypoints) {
-    ctx.fillStyle = '#32EEDB';
-    ctx.strokeStyle = '#32EEDB';
-    ctx.lineWidth = 0.5;
-
-    for (let i = 0; i < keypoints.length; i++) {
-      const x = keypoints[i][0];
-      const y = keypoints[i][1];
-
-      ctx.beginPath();
-      ctx.arc(x, y, 1 /* radius */, 0, 2 * Math.PI);
-      ctx.closePath();
-      ctx.fill();
-    }
-  }
-}
-
-/**
- * The TFFaceMesh object name
- * @type {string}
- */
-TFFaceMesh.prototype.name = 'TFFaceMesh';
-
-/* harmony default export */ var facemesh = (TFFaceMesh);
-
-// EXTERNAL MODULE: ./node_modules/_numeric@1.2.6@numeric/numeric-1.2.6.js
-var numeric_1_2_6 = __webpack_require__(12);
+// EXTERNAL MODULE: ./node_modules/@tensorflow-models/facemesh/dist/index.js
+var dist = __webpack_require__(60);
 
 // CONCATENATED MODULE: ./src/mat.mjs
-const mat = {};
+var mat = {};
 /**
  * Transposes an mxn array
  * @param {Array.<Array.<Number>>} matrix - of 'M x N' dimensionality
  * @return {Array.<Array.<Number>>} transposed matrix
  */
-mat.transpose = function(matrix){
-    var m = matrix.length;
-    var n = matrix[0].length;
-    var transposedMatrix = new Array(n);
 
-    for (var i = 0; i < m; i++){
-        for (var j = 0; j < n; j++){
-            if (i === 0) transposedMatrix[j] = new Array(m);
-            transposedMatrix[j][i] = matrix[i][j];
-        }
+mat.transpose = function (matrix) {
+  var m = matrix.length;
+  var n = matrix[0].length;
+  var transposedMatrix = new Array(n);
+
+  for (var i = 0; i < m; i++) {
+    for (var j = 0; j < n; j++) {
+      if (i === 0) transposedMatrix[j] = new Array(m);
+      transposedMatrix[j][i] = matrix[i][j];
     }
+  }
 
-    return transposedMatrix;
+  return transposedMatrix;
 };
-
 /**
  * Get a sub-matrix of matrix
  * @param {Array.<Array.<Number>>} matrix - original matrix
@@ -86319,19 +86175,22 @@ mat.transpose = function(matrix){
  * @param {Number} j1 - Final column index
  * @returns {Array} The sub-matrix matrix(r(:),j0:j1)
  */
-mat.getMatrix = function(matrix, r, j0, j1){
-    var X = new Array(r.length),
-        m = j1-j0+1;
 
-    for (var i = 0; i < r.length; i++){
-        X[i] = new Array(m);
-        for (var j = j0; j <= j1; j++){
-            X[i][j-j0] = matrix[r[i]][j];
-        }
+
+mat.getMatrix = function (matrix, r, j0, j1) {
+  var X = new Array(r.length),
+      m = j1 - j0 + 1;
+
+  for (var i = 0; i < r.length; i++) {
+    X[i] = new Array(m);
+
+    for (var j = j0; j <= j1; j++) {
+      X[i][j - j0] = matrix[r[i]][j];
     }
-    return X;
-};
+  }
 
+  return X;
+};
 /**
  * Get a submatrix of matrix
  * @param {Array.<Array.<Number>>} matrix - original matrix
@@ -86341,262 +86200,300 @@ mat.getMatrix = function(matrix, r, j0, j1){
  * @param {Number} j1 - Final column index
  * @return {Array} The sub-matrix matrix(i0:i1,j0:j1)
  */
-mat.getSubMatrix = function(matrix, i0, i1, j0, j1){
-    var size = j1 - j0 + 1,
-        X = new Array(i1-i0+1);
 
-    for (var i = i0; i <= i1; i++){
-        var subI = i-i0;
 
-        X[subI] = new Array(size);
+mat.getSubMatrix = function (matrix, i0, i1, j0, j1) {
+  var size = j1 - j0 + 1,
+      X = new Array(i1 - i0 + 1);
 
-        for (var j = j0; j <= j1; j++){
-            X[subI][j-j0] = matrix[i][j];
-        }
+  for (var i = i0; i <= i1; i++) {
+    var subI = i - i0;
+    X[subI] = new Array(size);
+
+    for (var j = j0; j <= j1; j++) {
+      X[subI][j - j0] = matrix[i][j];
     }
-    return X;
-};
+  }
 
+  return X;
+};
 /**
  * Linear algebraic matrix multiplication, matrix1 * matrix2
  * @param {Array.<Array.<Number>>} matrix1
  * @param {Array.<Array.<Number>>} matrix2
  * @return {Array.<Array.<Number>>} Matrix product, matrix1 * matrix2
  */
-mat.mult = function(matrix1, matrix2){
 
-    if (matrix2.length != matrix1[0].length){
-        console.log('Matrix inner dimensions must agree:');
 
+mat.mult = function (matrix1, matrix2) {
+  if (matrix2.length != matrix1[0].length) {
+    console.log('Matrix inner dimensions must agree:');
+  }
+
+  var X = new Array(matrix1.length),
+      Bcolj = new Array(matrix1[0].length);
+
+  for (var j = 0; j < matrix2[0].length; j++) {
+    for (var k = 0; k < matrix1[0].length; k++) {
+      Bcolj[k] = matrix2[k][j];
     }
 
-    var X = new Array(matrix1.length),
-        Bcolj = new Array(matrix1[0].length);
+    for (var i = 0; i < matrix1.length; i++) {
+      if (j === 0) X[i] = new Array(matrix2[0].length);
+      var Arowi = matrix1[i];
+      var s = 0;
 
-    for (var j = 0; j < matrix2[0].length; j++){
-        for (var k = 0; k < matrix1[0].length; k++){
-            Bcolj[k] = matrix2[k][j];
-        }
-        for (var i = 0; i < matrix1.length; i++){
+      for (var k = 0; k < matrix1[0].length; k++) {
+        s += Arowi[k] * Bcolj[k];
+      }
 
-            if (j === 0)
-                X[i] = new Array(matrix2[0].length);
-
-            var Arowi = matrix1[i];
-            var s = 0;
-            for (var k = 0; k < matrix1[0].length; k++){
-                s += Arowi[k]*Bcolj[k];
-            }
-            X[i][j] = s;
-        }
+      X[i][j] = s;
     }
-    return X;
+  }
+
+  return X;
 };
-
-
 /**
  * LUDecomposition to solve A*X = B, based on WEKA code
  * @param {Array.<Array.<Number>>} A - left matrix of equation to be solved
  * @param {Array.<Array.<Number>>} B - right matrix of equation to be solved
  * @return {Array.<Array.<Number>>} X so that L*U*X = B(piv,:)
  */
-mat.LUDecomposition = function(A,B){
-    var LU = new Array(A.length);
 
-    for (var i = 0; i < A.length; i++){
-        LU[i] = new Array(A[0].length);
-        for (var j = 0; j < A[0].length; j++){
-            LU[i][j] = A[i][j];
-        }
+
+mat.LUDecomposition = function (A, B) {
+  var LU = new Array(A.length);
+
+  for (var i = 0; i < A.length; i++) {
+    LU[i] = new Array(A[0].length);
+
+    for (var j = 0; j < A[0].length; j++) {
+      LU[i][j] = A[i][j];
+    }
+  }
+
+  var m = A.length;
+  var n = A[0].length;
+  var piv = new Array(m);
+
+  for (var i = 0; i < m; i++) {
+    piv[i] = i;
+  }
+
+  var pivsign = 1;
+  var LUrowi = new Array();
+  var LUcolj = new Array(m); // Outer loop.
+
+  for (var j = 0; j < n; j++) {
+    // Make a copy of the j-th column to localize references.
+    for (var i = 0; i < m; i++) {
+      LUcolj[i] = LU[i][j];
+    } // Apply previous transformations.
+
+
+    for (var i = 0; i < m; i++) {
+      LUrowi = LU[i]; // Most of the time is spent in the following dot product.
+
+      var kmax = Math.min(i, j);
+      var s = 0;
+
+      for (var k = 0; k < kmax; k++) {
+        s += LUrowi[k] * LUcolj[k];
+      }
+
+      LUrowi[j] = LUcolj[i] -= s;
+    } // Find pivot and exchange if necessary.
+
+
+    var p = j;
+
+    for (var i = j + 1; i < m; i++) {
+      if (Math.abs(LUcolj[i]) > Math.abs(LUcolj[p])) {
+        p = i;
+      }
     }
 
-    var m = A.length;
-    var n = A[0].length;
-    var piv = new Array(m);
-    for (var i = 0; i < m; i++){
-        piv[i] = i;
+    if (p != j) {
+      for (var k = 0; k < n; k++) {
+        var t = LU[p][k];
+        LU[p][k] = LU[j][k];
+        LU[j][k] = t;
+      }
+
+      var k = piv[p];
+      piv[p] = piv[j];
+      piv[j] = k;
+      pivsign = -pivsign;
+    } // Compute multipliers.
+
+
+    if (j < m & LU[j][j] != 0) {
+      for (var i = j + 1; i < m; i++) {
+        LU[i][j] /= LU[j][j];
+      }
     }
-    var pivsign = 1;
-    var LUrowi = new Array();
-    var LUcolj = new Array(m);
-    // Outer loop.
-    for (var j = 0; j < n; j++){
-        // Make a copy of the j-th column to localize references.
-        for (var i = 0; i < m; i++){
-            LUcolj[i] = LU[i][j];
-        }
-        // Apply previous transformations.
-        for (var i = 0; i < m; i++){
-            LUrowi = LU[i];
-            // Most of the time is spent in the following dot product.
-            var kmax = Math.min(i,j);
-            var s = 0;
-            for (var k = 0; k < kmax; k++){
-                s += LUrowi[k]*LUcolj[k];
-            }
-            LUrowi[j] = LUcolj[i] -= s;
-        }
-        // Find pivot and exchange if necessary.
-        var p = j;
-        for (var i = j+1; i < m; i++){
-            if (Math.abs(LUcolj[i]) > Math.abs(LUcolj[p])){
-                p = i;
-            }
-        }
-        if (p != j){
-            for (var k = 0; k < n; k++){
-                var t = LU[p][k];
-                LU[p][k] = LU[j][k];
-                LU[j][k] = t;
-            }
-            var k = piv[p];
-            piv[p] = piv[j];
-            piv[j] = k;
-            pivsign = -pivsign;
-        }
-        // Compute multipliers.
-        if (j < m & LU[j][j] != 0){
-            for (var i = j+1; i < m; i++){
-                LU[i][j] /= LU[j][j];
-            }
-        }
+  }
+
+  if (B.length != m) {
+    console.log('Matrix row dimensions must agree.');
+  }
+
+  for (var j = 0; j < n; j++) {
+    if (LU[j][j] === 0) {
+      console.log('Matrix is singular.');
     }
-    if (B.length != m){
-        console.log('Matrix row dimensions must agree.');
+  }
+
+  var nx = B[0].length;
+  var X = self.webgazer.mat.getMatrix(B, piv, 0, nx - 1); // Solve L*Y = B(piv,:)
+
+  for (var k = 0; k < n; k++) {
+    for (var i = k + 1; i < n; i++) {
+      for (var j = 0; j < nx; j++) {
+        X[i][j] -= X[k][j] * LU[i][k];
+      }
     }
-    for (var j = 0; j < n; j++){
-        if (LU[j][j] === 0){
-            console.log('Matrix is singular.')
-        }
+  } // Solve U*X = Y;
+
+
+  for (var k = n - 1; k >= 0; k--) {
+    for (var j = 0; j < nx; j++) {
+      X[k][j] /= LU[k][k];
     }
-    var nx = B[0].length;
-    var X = self.webgazer.mat.getMatrix(B,piv,0,nx-1);
-    // Solve L*Y = B(piv,:)
-    for (var k = 0; k < n; k++){
-        for (var i = k+1; i < n; i++){
-            for (var j = 0; j < nx; j++){
-                X[i][j] -= X[k][j]*LU[i][k];
-            }
-        }
+
+    for (var i = 0; i < k; i++) {
+      for (var j = 0; j < nx; j++) {
+        X[i][j] -= X[k][j] * LU[i][k];
+      }
     }
-    // Solve U*X = Y;
-    for (var k = n-1; k >= 0; k--){
-        for (var j = 0; j < nx; j++){
-            X[k][j] /= LU[k][k];
-        }
-        for (var i = 0; i < k; i++){
-            for (var j = 0; j < nx; j++){
-                X[i][j] -= X[k][j]*LU[i][k];
-            }
-        }
-    }
-    return X;
+  }
+
+  return X;
 };
-
 /**
  * Least squares solution of A*X = B, based on WEKA code
  * @param {Array.<Array.<Number>>} A - left side matrix to be solved
  * @param {Array.<Array.<Number>>} B - a matrix with as many rows as A and any number of columns.
  * @return {Array.<Array.<Number>>} X - that minimizes the two norms of QR*X-B.
  */
-mat.QRDecomposition = function(A, B){
-    // Initialize.
-    var QR = new Array(A.length);
 
-    for (var i = 0; i < A.length; i++){
-        QR[i] = new Array(A[0].length);
-        for (var j = 0; j < A[0].length; j++){
-            QR[i][j] = A[i][j];
-        }
-    }
-    var m = A.length;
-    var n = A[0].length;
-    var Rdiag = new Array(n);
-    var nrm;
 
-    // Main loop.
-    for (var k = 0; k < n; k++){
-        // Compute 2-norm of k-th column without under/overflow.
-        nrm = 0;
-        for (var i = k; i < m; i++){
-            nrm = Math.hypot(nrm,QR[i][k]);
-        }
-        if (nrm != 0){
-            // Form k-th Householder vector.
-            if (QR[k][k] < 0){
-                nrm = -nrm;
-            }
-            for (var i = k; i < m; i++){
-                QR[i][k] /= nrm;
-            }
-            QR[k][k] += 1;
+mat.QRDecomposition = function (A, B) {
+  // Initialize.
+  var QR = new Array(A.length);
 
-            // Apply transformation to remaining columns.
-            for (var j = k+1; j < n; j++){
-                var s = 0;
-                for (var i = k; i < m; i++){
-                    s += QR[i][k]*QR[i][j];
-                }
-                s = -s/QR[k][k];
-                for (var i = k; i < m; i++){
-                    QR[i][j] += s*QR[i][k];
-                }
-            }
+  for (var i = 0; i < A.length; i++) {
+    QR[i] = new Array(A[0].length);
+
+    for (var j = 0; j < A[0].length; j++) {
+      QR[i][j] = A[i][j];
+    }
+  }
+
+  var m = A.length;
+  var n = A[0].length;
+  var Rdiag = new Array(n);
+  var nrm; // Main loop.
+
+  for (var k = 0; k < n; k++) {
+    // Compute 2-norm of k-th column without under/overflow.
+    nrm = 0;
+
+    for (var i = k; i < m; i++) {
+      nrm = Math.hypot(nrm, QR[i][k]);
+    }
+
+    if (nrm != 0) {
+      // Form k-th Householder vector.
+      if (QR[k][k] < 0) {
+        nrm = -nrm;
+      }
+
+      for (var i = k; i < m; i++) {
+        QR[i][k] /= nrm;
+      }
+
+      QR[k][k] += 1; // Apply transformation to remaining columns.
+
+      for (var j = k + 1; j < n; j++) {
+        var s = 0;
+
+        for (var i = k; i < m; i++) {
+          s += QR[i][k] * QR[i][j];
         }
-        Rdiag[k] = -nrm;
-    }
-    if (B.length != m){
-        console.log('Matrix row dimensions must agree.');
-    }
-    for (var j = 0; j < n; j++){
-        if (Rdiag[j] === 0)
-            console.log('Matrix is rank deficient');
-    }
-    // Copy right hand side
-    var nx = B[0].length;
-    var X = new Array(B.length);
-    for(var i=0; i<B.length; i++){
-        X[i] = new Array(B[0].length);
-    }
-    for (var i = 0; i < B.length; i++){
-        for (var j = 0; j < B[0].length; j++){
-            X[i][j] = B[i][j];
+
+        s = -s / QR[k][k];
+
+        for (var i = k; i < m; i++) {
+          QR[i][j] += s * QR[i][k];
         }
+      }
     }
-    // Compute Y = transpose(Q)*B
-    for (var k = 0; k < n; k++){
-        for (var j = 0; j < nx; j++){
-            var s = 0.0;
-            for (var i = k; i < m; i++){
-                s += QR[i][k]*X[i][j];
-            }
-            s = -s/QR[k][k];
-            for (var i = k; i < m; i++){
-                X[i][j] += s*QR[i][k];
-            }
-        }
+
+    Rdiag[k] = -nrm;
+  }
+
+  if (B.length != m) {
+    console.log('Matrix row dimensions must agree.');
+  }
+
+  for (var j = 0; j < n; j++) {
+    if (Rdiag[j] === 0) console.log('Matrix is rank deficient');
+  } // Copy right hand side
+
+
+  var nx = B[0].length;
+  var X = new Array(B.length);
+
+  for (var i = 0; i < B.length; i++) {
+    X[i] = new Array(B[0].length);
+  }
+
+  for (var i = 0; i < B.length; i++) {
+    for (var j = 0; j < B[0].length; j++) {
+      X[i][j] = B[i][j];
     }
-    // Solve R*X = Y;
-    for (var k = n-1; k >= 0; k--){
-        for (var j = 0; j < nx; j++){
-            X[k][j] /= Rdiag[k];
-        }
-        for (var i = 0; i < k; i++){
-            for (var j = 0; j < nx; j++){
-                X[i][j] -= X[k][j]*QR[i][k];
-            }
-        }
+  } // Compute Y = transpose(Q)*B
+
+
+  for (var k = 0; k < n; k++) {
+    for (var j = 0; j < nx; j++) {
+      var s = 0.0;
+
+      for (var i = k; i < m; i++) {
+        s += QR[i][k] * X[i][j];
+      }
+
+      s = -s / QR[k][k];
+
+      for (var i = k; i < m; i++) {
+        X[i][j] += s * QR[i][k];
+      }
     }
-    return mat.getSubMatrix(X,0,n-1,0,nx-1);
-}
+  } // Solve R*X = Y;
+
+
+  for (var k = n - 1; k >= 0; k--) {
+    for (var j = 0; j < nx; j++) {
+      X[k][j] /= Rdiag[k];
+    }
+
+    for (var i = 0; i < k; i++) {
+      for (var j = 0; j < nx; j++) {
+        X[i][j] -= X[k][j] * QR[i][k];
+      }
+    }
+  }
+
+  return mat.getSubMatrix(X, 0, n - 1, 0, nx - 1);
+};
 
 /* harmony default export */ var src_mat = (mat);
-
 // CONCATENATED MODULE: ./src/util.mjs
 
 
-const util = {};
 
+var util = {};
 /**
  * Eye class, represents an eye patch detected in the video stream
  * @param {ImageData} patch - the image data corresponding to an eye
@@ -86605,107 +86502,137 @@ const util = {};
  * @param {Number} width  - width of the eye patch
  * @param {Number} height - height of the eye patch
  */
+// 224 * 224 for deep learning model
 
-
+var modelWidth = 224;
+var modelHeight = 224;
 var resizeWidth = 10;
 var resizeHeight = 6;
 
-util.Eye = function(patch, imagex, imagey, width, height) {
-    this.patch = patch;
-    this.imagex = imagex;
-    this.imagey = imagey;
-    this.width = width;
-    this.height = height;
+util.Eye = function (patch, imagex, imagey, width, height) {
+  this.patch = patch;
+  this.imagex = imagex;
+  this.imagey = imagey;
+  this.width = width;
+  this.height = height;
 };
 
-util.getEyeFeats = function(eyes) {
-    var resizedLeft = this.resizeEye(eyes.left, resizeHeight, resizeHeight);
-    var resizedright = this.resizeEye(eyes.right, resizeHeight, resizeHeight);
+util.getEyeFeats = function (eyes) {
+  // face model
+  var resizedFace = this.resizeEye(eyes.face, modelWidth, modelHeight);
+  resizedFace = this.convertPixels(resizedFace.data, 224, 224);
+  var face_tensor = tf_node.tensor4d(resizedFace);
+  var face_output_0 = src_deep_learning_model.face[0].predict(face_tensor);
+  var [face_input_0, face_input_1] = tf_node.split(face_output_0, 2, 3);
+  var face_output_1_a = src_deep_learning_model.face[1].predict(face_input_0);
+  var face_output_1_b = src_deep_learning_model.face[2].predict(face_input_1);
+  var face_input_2 = tf_node.concat([face_output_1_a, face_output_1_b], 3);
+  var face_output_2_1 = src_deep_learning_model.face[3].predict(face_input_2); //eyes model
 
-    var leftGray = this.grayscale(resizedLeft.data, resizedLeft.width, resizedLeft.height);
-    var rightGray = this.grayscale(resizedright.data, resizedright.width, resizedright.height);
-
-    var histLeft = [];
-    this.equalizeHistogram(leftGray, 5, histLeft);
-    var histRight = [];
-    this.equalizeHistogram(rightGray, 5, histRight);
-
-    var leftGrayArray = Array.prototype.slice.call(histLeft);
-    var rightGrayArray = Array.prototype.slice.call(histRight);
-
-    return leftGrayArray.concat(rightGrayArray);
-}
-//Data Window class
+  var resizedLeft = this.resizeEye(eyes.left, modelWidth, modelHeight);
+  resizedLeft = this.convertPixels(resizedLeft.data, 224, 224);
+  var face_tensor = tf_node.tensor4d(resizedLeft);
+  var face_output_0 = src_deep_learning_model.eyes[0].predict(face_tensor);
+  var [face_input_0, face_input_1] = tf_node.split(face_output_0, 2, 3);
+  var face_output_1_a = src_deep_learning_model.eyes[1].predict(face_input_0);
+  var face_output_1_b = src_deep_learning_model.eyes[2].predict(face_input_1);
+  var face_input_2 = tf_node.concat([face_output_1_a, face_output_1_b], 3);
+  var face_output_2_2 = src_deep_learning_model.eyes[3].predict(face_input_2);
+  var resizedRight = this.resizeEye(eyes.right, modelWidth, modelHeight);
+  resizedRight = this.convertPixels(resizedRight.data, 224, 224);
+  var face_tensor = tf_node.tensor4d(resizedRight);
+  var face_output_0 = src_deep_learning_model.eyes[0].predict(face_tensor);
+  var [face_input_0, face_input_1] = tf_node.split(face_output_0, 2, 3);
+  var face_output_1_a = src_deep_learning_model.eyes[1].predict(face_input_0);
+  var face_output_1_b = src_deep_learning_model.eyes[2].predict(face_input_1);
+  var face_input_2 = tf_node.concat([face_output_1_a, face_output_1_b], 3);
+  var face_output_2_3 = src_deep_learning_model.eyes[3].predict(face_input_2);
+  var eye_input = tf_node.concat([face_output_2_2.reshape([-1]), face_output_2_3.reshape([-1])]);
+  var eye_output = src_deep_learning_model.eyes[4].predict(eye_input.reshape([1, -1]));
+  var faceGrid = tf_node.tensor1d(eyes.faceGrid);
+  var face_grid = src_deep_learning_model.face_grid.predict(faceGrid.reshape([1, -1]));
+  var connect_input = tf_node.concat([face_output_2_1, eye_output, face_grid], 1);
+  var full_connect = src_deep_learning_model.full_connect.predict(connect_input);
+  var result = full_connect.arraySync();
+  console.log(result);
+  return result[0];
+}; //Data Window class
 //operates like an array but 'wraps' data around to keep the array at a fixed windowSize
+
 /**
  * DataWindow class - Operates like an array, but 'wraps' data around to keep the array at a fixed windowSize
  * @param {Number} windowSize - defines the maximum size of the window
  * @param {Array} data - optional data to seed the DataWindow with
  **/
-util.DataWindow = function(windowSize, data) {
-    this.data = [];
-    this.windowSize = windowSize;
-    this.index = 0;
-    this.length = 0;
-    if(data){
-        this.data = data.slice(data.length-windowSize,data.length);
-        this.length = this.data.length;
-    }
-};
 
+
+util.DataWindow = function (windowSize, data) {
+  this.data = [];
+  this.windowSize = windowSize;
+  this.index = 0;
+  this.length = 0;
+
+  if (data) {
+    this.data = data.slice(data.length - windowSize, data.length);
+    this.length = this.data.length;
+  }
+};
 /**
  * [push description]
  * @param  {*} entry - item to be inserted. It either grows the DataWindow or replaces the oldest item
  * @return {DataWindow} this
  */
-util.DataWindow.prototype.push = function(entry) {
-    if (this.data.length < this.windowSize) {
-        this.data.push(entry);
-        this.length = this.data.length;
-        return this;
-    }
 
-    //replace oldest entry by wrapping around the DataWindow
-    this.data[this.index] = entry;
-    this.index = (this.index + 1) % this.windowSize;
+
+util.DataWindow.prototype.push = function (entry) {
+  if (this.data.length < this.windowSize) {
+    this.data.push(entry);
+    this.length = this.data.length;
     return this;
-};
+  } //replace oldest entry by wrapping around the DataWindow
 
+
+  this.data[this.index] = entry;
+  this.index = (this.index + 1) % this.windowSize;
+  return this;
+};
 /**
  * Get the element at the ind position by wrapping around the DataWindow
  * @param  {Number} ind index of desired entry
  * @return {*}
  */
-util.DataWindow.prototype.get = function(ind) {
-    return this.data[this.getTrueIndex(ind)];
-};
 
+
+util.DataWindow.prototype.get = function (ind) {
+  return this.data[this.getTrueIndex(ind)];
+};
 /**
  * Gets the true this.data array index given an index for a desired element
  * @param {Number} ind - index of desired entry
  * @return {Number} index of desired entry in this.data
  */
-util.DataWindow.prototype.getTrueIndex = function(ind) {
-    if (this.data.length < this.windowSize) {
-        return ind;
-    } else {
-        //wrap around ind so that we can traverse from oldest to newest
-        return (ind + this.index) % this.windowSize;
-    }
-};
 
+
+util.DataWindow.prototype.getTrueIndex = function (ind) {
+  if (this.data.length < this.windowSize) {
+    return ind;
+  } else {
+    //wrap around ind so that we can traverse from oldest to newest
+    return (ind + this.index) % this.windowSize;
+  }
+};
 /**
  * Append all the contents of data
  * @param {Array} data - to be inserted
  */
-util.DataWindow.prototype.addAll = function(data) {
-    for (var i = 0; i < data.length; i++) {
-        this.push(data[i]);
-    }
-};
 
 
-//Helper functions
+util.DataWindow.prototype.addAll = function (data) {
+  for (var i = 0; i < data.length; i++) {
+    this.push(data[i]);
+  }
+}; //Helper functions
+
 /**
  * Grayscales an image patch. Can be used for the whole canvas, detected face, detected eye, etc.
  *
@@ -86727,21 +86654,51 @@ util.DataWindow.prototype.addAll = function(data) {
  * @param  {Number} height - height of image data to be grayscaled
  * @return {Array} grayscaledImage
  */
-util.grayscale = function(pixels, width, height){
-    var gray = new Uint8ClampedArray(pixels.length >> 2);
-    var p = 0;
-    var w = 0;
-    for (var i = 0; i < height; i++) {
-        for (var j = 0; j < width; j++) {
-            var value = pixels[w] * 0.299 + pixels[w + 1] * 0.587 + pixels[w + 2] * 0.114;
-            gray[p++] = value;
 
-            w += 4;
-        }
+
+util.grayscale = function (pixels, width, height) {
+  var gray = new Uint8ClampedArray(pixels.length >> 2);
+  var p = 0;
+  var w = 0;
+
+  for (var i = 0; i < height; i++) {
+    for (var j = 0; j < width; j++) {
+      var value = pixels[w] * 0.299 + pixels[w + 1] * 0.587 + pixels[w + 2] * 0.114;
+      gray[p++] = value;
+      w += 4;
     }
-    return gray;
-};
+  }
 
+  return gray;
+};
+/* 
+Reform the pixel data to: height * width * channel
+*/
+
+
+util.convertPixels = function (pixels, width, height) {
+  var matrix = new Array(height);
+
+  for (var row = 0; row < matrix.length; row++) {
+    var colArr = new Array(width);
+
+    for (var col = 0; col < colArr.length; col++) {
+      var channelArr = new Array(3);
+
+      for (var channel = 0; channel < channelArr.length; channel++) {
+        channelArr[channel] = pixels[row * width * 4 + col * 4 + channel];
+      }
+
+      colArr[col] = channelArr;
+    }
+
+    matrix[row] = colArr;
+  }
+
+  matrix = [matrix]; // make it a 4D
+
+  return matrix;
+};
 /**
  * Increase contrast of an image.
  *
@@ -86752,88 +86709,84 @@ util.grayscale = function(pixels, width, height){
  * @param {Number} step - sampling rate, control performance
  * @param {Array} dst - array to hold the resulting image
  */
-util.equalizeHistogram = function(src, step, dst) {
-    var srcLength = src.length;
-    if (!dst) dst = src;
-    if (!step) step = 5;
 
-    // Compute histogram and histogram sum:
-    var hist = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0];
 
-    for (var i = 0; i < srcLength; i += step) {
-        ++hist[src[i]];
-    }
+util.equalizeHistogram = function (src, step, dst) {
+  var srcLength = src.length;
+  if (!dst) dst = src;
+  if (!step) step = 5; // Compute histogram and histogram sum:
 
-    // Compute integral histogram:
-    var norm = 255 * step / srcLength,
-        prev = 0;
-    for (var i = 0; i < 256; ++i) {
-        var h = hist[i];
-        prev = h += prev;
-        hist[i] = h * norm; // For non-integer src: ~~(h * norm + 0.5);
-    }
+  var hist = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-    // Equalize image:
-    for (var i = 0; i < srcLength; ++i) {
-        dst[i] = hist[src[i]];
-    }
-    return dst;
+  for (var i = 0; i < srcLength; i += step) {
+    ++hist[src[i]];
+  } // Compute integral histogram:
+
+
+  var norm = 255 * step / srcLength,
+      prev = 0;
+
+  for (var i = 0; i < 256; ++i) {
+    var h = hist[i];
+    prev = h += prev;
+    hist[i] = h * norm; // For non-integer src: ~~(h * norm + 0.5);
+  } // Equalize image:
+
+
+  for (var i = 0; i < srcLength; ++i) {
+    dst[i] = hist[src[i]];
+  }
+
+  return dst;
 };
 
-util.equalizeHistogramTest = function(src, step, dst) {
-    var srcLength = src.length;
-    if (!dst) dst = src;
-    if (!step) step = 5;
-    step = Math.floor(srcLength / 12);
-    var index = 0;
-    var totalPixel = 0;
-    for (var i = 0; i < srcLength; i += step){
-        var segmentPixel = 0;
-        for (var j = 0; j < step; j++){
-            segmentPixel += src[i + j];
-        }
-        dst[index] = segmentPixel;
-        index += 1;
-        totalPixel += segmentPixel;
+util.equalizeHistogramTest = function (src, step, dst) {
+  var srcLength = src.length;
+  if (!dst) dst = src;
+  if (!step) step = 5;
+  step = Math.floor(srcLength / 12);
+  var index = 0;
+  var totalPixel = 0;
+
+  for (var i = 0; i < srcLength; i += step) {
+    var segmentPixel = 0;
+
+    for (var j = 0; j < step; j++) {
+      segmentPixel += src[i + j];
     }
-    for (var i = 0; i < dst.length; i++){
-        dst[i] /= totalPixel;
-    }
-    return dst;
+
+    dst[index] = segmentPixel;
+    index += 1;
+    totalPixel += segmentPixel;
+  }
+
+  for (var i = 0; i < dst.length; i++) {
+    dst[i] /= totalPixel;
+  }
+
+  return dst;
 };
 
-util.threshold = function(data, threshold) {
-    for (let i = 0; i < data.length; i++) {
-        data[i] = (data[i] > threshold) ? 255 : 0;
-    }
-    return data;
+util.threshold = function (data, threshold) {
+  for (var i = 0; i < data.length; i++) {
+    data[i] = data[i] > threshold ? 255 : 0;
+  }
+
+  return data;
 };
 
-util.correlation = function(data1, data2) {
-    const length = Math.min(data1.length, data2.length);
-    let count = 0;
-    for (let i = 0; i < length; i++) {
-        if (data1[i] === data2[i]) {
-            count++;
-        }
-    }
-    return count / Math.max(data1.length, data2.length);
-};
+util.correlation = function (data1, data2) {
+  var length = Math.min(data1.length, data2.length);
+  var count = 0;
 
+  for (var i = 0; i < length; i++) {
+    if (data1[i] === data2[i]) {
+      count++;
+    }
+  }
+
+  return count / Math.max(data1.length, data2.length);
+};
 /**
  * Gets an Eye object and resizes it to the desired resolution
  * @param  {webgazer.util.Eye} eye - patch to be resized
@@ -86841,93 +86794,93 @@ util.correlation = function(data1, data2) {
  * @param  {Number} resizeHeight - desired height
  * @return {webgazer.util.Eye} resized eye patch
  */
-util.resizeEye = function(eye, resizeWidth, resizeHeight) {
 
-    var canvas = document.createElement('canvas');
-    canvas.width = eye.width;
-    canvas.height = eye.height;
 
-    canvas.getContext('2d').putImageData(eye.patch,0,0);
+util.resizeEye = function (eye, resizeWidth, resizeHeight) {
+  var canvas = document.createElement('canvas');
+  canvas.width = eye.width;
+  canvas.height = eye.height;
+  canvas.getContext('2d').putImageData(eye.patch, 0, 0);
+  var tempCanvas = document.createElement('canvas');
+  tempCanvas.width = resizeWidth;
+  tempCanvas.height = resizeHeight; // save the canvas into temp canvas
 
-    var tempCanvas = document.createElement('canvas');
-
-    tempCanvas.width = resizeWidth;
-    tempCanvas.height = resizeHeight;
-
-    // save the canvas into temp canvas
-    tempCanvas.getContext('2d').drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, resizeWidth, resizeHeight);
-
-    return tempCanvas.getContext('2d').getImageData(0, 0, resizeWidth, resizeHeight);
+  tempCanvas.getContext('2d').drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, resizeWidth, resizeHeight);
+  return tempCanvas.getContext('2d').getImageData(0, 0, resizeWidth, resizeHeight);
 };
-
 /**
  * Checks if the prediction is within the boundaries of the viewport and constrains it
  * @param  {Array} prediction [x,y] - predicted gaze coordinates
  * @return {Array} constrained coordinates
  */
-util.bound = function(prediction){
-    if(prediction.x < 0)
-        prediction.x = 0;
-    if(prediction.y < 0)
-        prediction.y = 0;
-    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    if(prediction.x > w){
-        prediction.x = w;
-    }
 
-    if(prediction.y > h)
-    {
-        prediction.y = h;
-    }
-    return prediction;
+
+util.bound = function (prediction) {
+  if (prediction.x < 0) prediction.x = 0;
+  if (prediction.y < 0) prediction.y = 0;
+  var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+  if (prediction.x > w) {
+    prediction.x = w;
+  }
+
+  if (prediction.y > h) {
+    prediction.y = h;
+  }
+
+  return prediction;
 };
-
 /**
  * Write statistics in debug paragraph panel
  * @param {HTMLElement} para - The <p> tag where write data
  * @param {Object} stats - The stats data to output
  */
-function debugBoxWrite(para, stats) {
-    var str = '';
-    for (var key in stats) {
-        str += key + ': ' + stats[key] + '\n';
-    }
-    para.innerText = str;
-}
 
+
+function debugBoxWrite(para, stats) {
+  var str = '';
+
+  for (var key in stats) {
+    str += key + ': ' + stats[key] + '\n';
+  }
+
+  para.innerText = str;
+}
 /**
  * Constructor of DebugBox object,
  * it insert an paragraph inside a div to the body, in view to display debug data
  * @param {Number} interval - The log interval
  * @constructor
  */
-util.DebugBox = function(interval) {
-    this.para = document.createElement('p');
-    this.div = document.createElement('div');
-    this.div.appendChild(this.para);
-    document.body.appendChild(this.div);
 
-    this.buttons = {};
-    this.canvas = {};
-    this.stats = {};
-    var updateInterval = interval || 300;
-    (function(localThis) {
-        setInterval(function() {
-            debugBoxWrite(localThis.para, localThis.stats);
-        }, updateInterval);
-    }(this));
+
+util.DebugBox = function (interval) {
+  this.para = document.createElement('p');
+  this.div = document.createElement('div');
+  this.div.appendChild(this.para);
+  document.body.appendChild(this.div);
+  this.buttons = {};
+  this.canvas = {};
+  this.stats = {};
+  var updateInterval = interval || 300;
+
+  (function (localThis) {
+    setInterval(function () {
+      debugBoxWrite(localThis.para, localThis.stats);
+    }, updateInterval);
+  })(this);
 };
-
 /**
  * Add stat data for log
  * @param {String} key - The data key
  * @param {*} value - The value
  */
-util.DebugBox.prototype.set = function(key, value) {
-    this.stats[key] = value;
-};
 
+
+util.DebugBox.prototype.set = function (key, value) {
+  this.stats[key] = value;
+};
 /**
  * Initialize stats in case where key does not exist, else
  * increment value for key
@@ -86935,45 +86888,51 @@ util.DebugBox.prototype.set = function(key, value) {
  * @param {Number} incBy - Value to increment for given key (default: 1)
  * @param {Number} init - Initial value in case where key does not exist (default: 0)
  */
-util.DebugBox.prototype.inc = function(key, incBy, init) {
-    if (!this.stats[key]) {
-        this.stats[key] = init || 0;
-    }
-    this.stats[key] += incBy || 1;
-};
 
+
+util.DebugBox.prototype.inc = function (key, incBy, init) {
+  if (!this.stats[key]) {
+    this.stats[key] = init || 0;
+  }
+
+  this.stats[key] += incBy || 1;
+};
 /**
  * Create a button and register the given function to the button click event
  * @param {String} name - The button name to link
  * @param {Function} func - The onClick callback
  */
-util.DebugBox.prototype.addButton = function(name, func) {
-    if (!this.buttons[name]) {
-        this.buttons[name] = document.createElement('button');
-        this.div.appendChild(this.buttons[name]);
-    }
-    var button = this.buttons[name];
-    this.buttons[name] = button;
-    button.addEventListener('click', func);
-    button.innerText = name;
-};
 
+
+util.DebugBox.prototype.addButton = function (name, func) {
+  if (!this.buttons[name]) {
+    this.buttons[name] = document.createElement('button');
+    this.div.appendChild(this.buttons[name]);
+  }
+
+  var button = this.buttons[name];
+  this.buttons[name] = button;
+  button.addEventListener('click', func);
+  button.innerText = name;
+};
 /**
  * Search for a canvas elemenet with name, or create on if not exist.
  * Then send the canvas element as callback parameter.
  * @param {String} name - The canvas name to send/create
  * @param {Function} func - The callback function where send canvas
  */
-util.DebugBox.prototype.show = function(name, func) {
-    if (!this.canvas[name]) {
-        this.canvas[name] = document.createElement('canvas');
-        this.div.appendChild(this.canvas[name]);
-    }
-    var canvas = this.canvas[name];
-    canvas.getContext('2d').clearRect(0,0, canvas.width, canvas.height);
-    func(canvas);
-};
 
+
+util.DebugBox.prototype.show = function (name, func) {
+  if (!this.canvas[name]) {
+    this.canvas[name] = document.createElement('canvas');
+    this.div.appendChild(this.canvas[name]);
+  }
+
+  var canvas = this.canvas[name];
+  canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
+  func(canvas);
+};
 /**
  * Kalman Filter constructor
  * Kalman filters work by reducing the amount of noise in a models.
@@ -86986,63 +86945,289 @@ util.DebugBox.prototype.show = function(name, func) {
  * @param {Array} P_initial - the initial state
  * @param {Array} X_initial - the initial state of the device
  */
-util.KalmanFilter = function(F, H, Q, R, P_initial, X_initial) {
-    this.F = F; // State transition matrix
-    this.Q = Q; // Process noise matrix
-    this.H = H; // Transformation matrix
-    this.R = R; // Measurement Noise
-    this.P = P_initial; //Initial covariance matrix
-    this.X = X_initial; //Initial guess of measurement
-};
 
+
+util.KalmanFilter = function (F, H, Q, R, P_initial, X_initial) {
+  this.F = F; // State transition matrix
+
+  this.Q = Q; // Process noise matrix
+
+  this.H = H; // Transformation matrix
+
+  this.R = R; // Measurement Noise
+
+  this.P = P_initial; //Initial covariance matrix
+
+  this.X = X_initial; //Initial guess of measurement
+};
 /**
  * Get Kalman next filtered value and update the internal state
  * @param {Array} z - the new measurement
  * @return {Array}
  */
-util.KalmanFilter.prototype.update = function(z) {
 
-    // Here, we define all the different matrix operations we will need
-    var add = numeric.add, sub = numeric.sub, inv = numeric.inv, identity = numeric.identity;
-    var mult = src_mat.mult, transpose = src_mat.transpose;
-    //TODO cache variables like the transpose of H
 
-    // prediction: X = F * X  |  P = F * P * F' + Q
-    var X_p = mult(this.F, this.X); //Update state vector
-    var P_p = add(mult(mult(this.F,this.P), transpose(this.F)), this.Q); //Predicted covaraince
+util.KalmanFilter.prototype.update = function (z) {
+  // Here, we define all the different matrix operations we will need
+  var add = numeric.add,
+      sub = numeric.sub,
+      inv = numeric.inv,
+      identity = numeric.identity;
+  var mult = src_mat.mult,
+      transpose = src_mat.transpose; //TODO cache variables like the transpose of H
+  // prediction: X = F * X  |  P = F * P * F' + Q
 
-    //Calculate the update values
-    var y = sub(z, mult(this.H, X_p)); // This is the measurement error (between what we expect and the actual value)
-    var S = add(mult(mult(this.H, P_p), transpose(this.H)), this.R); //This is the residual covariance (the error in the covariance)
+  var X_p = mult(this.F, this.X); //Update state vector
 
-    // kalman multiplier: K = P * H' * (H * P * H' + R)^-1
-    var K = mult(P_p, mult(transpose(this.H), inv(S))); //This is the Optimal Kalman Gain
+  var P_p = add(mult(mult(this.F, this.P), transpose(this.F)), this.Q); //Predicted covaraince
+  //Calculate the update values
 
-    //We need to change Y into it's column vector form
-    for(var i = 0; i < y.length; i++){
-        y[i] = [y[i]];
+  var y = sub(z, mult(this.H, X_p)); // This is the measurement error (between what we expect and the actual value)
+
+  var S = add(mult(mult(this.H, P_p), transpose(this.H)), this.R); //This is the residual covariance (the error in the covariance)
+  // kalman multiplier: K = P * H' * (H * P * H' + R)^-1
+
+  var K = mult(P_p, mult(transpose(this.H), inv(S))); //This is the Optimal Kalman Gain
+  //We need to change Y into it's column vector form
+
+  for (var i = 0; i < y.length; i++) {
+    y[i] = [y[i]];
+  } //Now we correct the internal values of the model
+  // correction: X = X + K * (m - H * X)  |  P = (I - K * H) * P
+
+
+  this.X = add(X_p, mult(K, y));
+  this.P = mult(sub(identity(K.length), mult(K, this.H)), P_p);
+  return transpose(mult(this.H, this.X))[0]; //Transforms the predicted state back into it's measurement form
+};
+
+util.getFace = function (imageCanvas, positions) {
+  var faceY = Math.round(Math.min(positions[109][1], positions[10][1], positions[338][1]));
+  var faceX = Math.round(Math.min(positions[127][0], positions[234][0], positions[93][0]));
+  var width = Math.round(Math.max(positions[356][0], positions[454][0], positions[323][0]) - faceX);
+  var height = Math.round(Math.max(positions[148][1], positions[152][1], positions[377][1]) - faceY);
+  var patch = imageCanvas.getContext('2d').getImageData(faceX, faceY, width, height);
+  var face = {};
+  face = {
+    patch: patch,
+    width: width,
+    height: height
+  };
+  return face;
+};
+
+util.getGrid = function (imageCanvas, positions) {
+  var width = imageCanvas.width;
+  var height = imageCanvas.height;
+  var array = [];
+  var meshSize = 25;
+  var rectWidth = width / meshSize;
+  var rectHeight = height / meshSize;
+  var xMin = positions[54][0];
+  var xMax = positions[365][0];
+  var yMin = positions[54][1];
+  var yMax = positions[365][1];
+  var startPoint1 = Math.ceil(xMin / rectWidth);
+  var endPoint1 = Math.ceil(xMax / rectWidth);
+  var startPoint2 = Math.ceil(yMin / rectHeight);
+  var endPoint2 = Math.ceil(yMax / rectHeight);
+
+  for (var i = 0; i < meshSize; i++) {
+    if (i >= startPoint2 && i <= endPoint2) {
+      for (var j = 0; j < meshSize; j++) {
+        if (j >= startPoint1 && j <= endPoint1) {
+          array.push(1);
+        } else {
+          array.push(0);
+        }
+      }
+    } else {
+      for (var k = 0; k < meshSize; k++) {
+        array.push(0);
+      }
     }
+  }
 
-    //Now we correct the internal values of the model
-    // correction: X = X + K * (m - H * X)  |  P = (I - K * H) * P
-    this.X = add(X_p, mult(K, y));
-    this.P = mult(sub(identity(K.length), mult(K,this.H)), P_p);
-    return transpose(mult(this.H, this.X))[0]; //Transforms the predicted state back into it's measurement form
+  return array;
 };
 
 /* harmony default export */ var src_util = (util);
+// CONCATENATED MODULE: ./src/facemesh.mjs
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+/**
+ * Constructor of TFFaceMesh object
+ * @constructor
+ * */
+
+var facemesh_TFFaceMesh = function TFFaceMesh() {
+  //Backend options are webgl, wasm, and CPU.
+  //For recent laptops WASM is better than WebGL.
+  //TODO: This hack makes loading the model block the UI. We should fix that
+  // this.model = (async () => { return await facemesh.load({"maxFaces":1}) })();
+  this.model = dist.load({
+    "maxFaces": 1
+  });
+  this.predictionReady = false;
+}; // Global variable for face landmark positions array
+
+
+facemesh_TFFaceMesh.prototype.positionsArray = null;
+/**
+ * Isolates the two patches that correspond to the user's eyes
+ * @param  {Canvas} imageCanvas - canvas corresponding to the webcam stream
+ * @param  {Number} width - of imageCanvas
+ * @param  {Number} height - of imageCanvas
+ * @return {Object} the two eye-patches, first left, then right eye
+ */
+
+facemesh_TFFaceMesh.prototype.getEyePatches = /*#__PURE__*/function () {
+  var _ref = _asyncToGenerator(function* (imageCanvas, width, height) {
+    if (imageCanvas.width === 0) {
+      return null;
+    } // Load the MediaPipe facemesh model.
+
+
+    var model = yield this.model; // Pass in a video stream (or an image, canvas, or 3D tensor) to obtain an
+    // array of detected faces from the MediaPipe graph.
+
+    var predictions = yield model.estimateFaces(imageCanvas);
+
+    if (predictions.length == 0) {
+      return false;
+    } // Save positions to global variable
+
+
+    this.positionsArray = predictions[0].scaledMesh;
+    var positions = this.positionsArray; // Fit the detected eye in a rectangle. [20200626 xk] not clear which approach is better
+    // https://raw.githubusercontent.com/tensorflow/tfjs-models/master/facemesh/mesh_map.jpg
+    // // Maintains a relatively stable shape of the bounding box at the cost of cutting off parts of
+    // // the eye when the eye is tilted.
+    // var leftOriginX = Math.round(positions[130][0]);
+    // var leftOriginY = Math.round(positions[27][1]);
+    // var leftWidth = Math.round(positions[243][0] - leftOriginX);
+    // var leftHeight = Math.round(positions[23][1] - leftOriginY);
+    // var rightOriginX = Math.round(positions[463][0]);
+    // var rightOriginY = Math.round(positions[257][1]);
+    // var rightWidth = Math.round(positions[359][0] - rightOriginX);
+    // var rightHeight = Math.round(positions[253][1] - rightOriginY);
+    // Won't really cut off any parts of the eye, at the cost of warping the shape (i.e. height/
+    // width ratio) of the bounding box.
+
+    var leftOriginX = Math.round(Math.min(positions[247][0], positions[130][0], positions[25][0]));
+    var leftOriginY = Math.round(Math.min(positions[247][1], positions[27][1], positions[190][1]));
+    var leftWidth = Math.round(Math.max(positions[190][0], positions[243][0], positions[233][0]) - leftOriginX);
+    var leftHeight = Math.round(Math.max(positions[25][1], positions[23][1], positions[112][1]) - leftOriginY);
+    var rightOriginX = Math.round(Math.min(positions[414][0], positions[463][0], positions[453][0]));
+    var rightOriginY = Math.round(Math.min(positions[414][1], positions[257][1], positions[467][1]));
+    var rightWidth = Math.round(Math.max(positions[467][0], positions[359][0], positions[255][0]) - rightOriginX);
+    var rightHeight = Math.round(Math.max(positions[341][1], positions[253][1], positions[255][1]) - rightOriginY);
+
+    if (leftWidth === 0 || rightWidth === 0) {
+      console.log('an eye patch had zero width');
+      return null;
+    }
+
+    if (leftHeight === 0 || rightHeight === 0) {
+      console.log('an eye patch had zero height');
+      return null;
+    } // Start building object to be returned
+
+
+    var eyeObjs = {};
+    var leftImageData = imageCanvas.getContext('2d').getImageData(leftOriginX, leftOriginY, leftWidth, leftHeight);
+    eyeObjs.left = {
+      patch: leftImageData,
+      imagex: leftOriginX,
+      imagey: leftOriginY,
+      width: leftWidth,
+      height: leftHeight
+    };
+    var rightImageData = imageCanvas.getContext('2d').getImageData(rightOriginX, rightOriginY, rightWidth, rightHeight);
+    eyeObjs.right = {
+      patch: rightImageData,
+      imagex: rightOriginX,
+      imagey: rightOriginY,
+      width: rightWidth,
+      height: rightHeight
+    };
+    this.predictionReady = true;
+    var face = src_util.getFace(imageCanvas, positions);
+    eyeObjs.face = face;
+    var faceGrid = src_util.getGrid(imageCanvas, positions);
+    eyeObjs.faceGrid = faceGrid;
+    return eyeObjs;
+  });
+
+  return function (_x, _x2, _x3) {
+    return _ref.apply(this, arguments);
+  };
+}();
+/**
+ * Returns the positions array corresponding to the last call to getEyePatches.
+ * Requires that getEyePatches() was called previously, else returns null.
+ */
+
+
+facemesh_TFFaceMesh.prototype.getPositions = function () {
+  return this.positionsArray;
+};
+/**
+ * Reset the tracker to default values
+ */
+
+
+facemesh_TFFaceMesh.prototype.reset = function () {
+  console.log("Unimplemented; Tracking.js has no obvious reset function");
+};
+/**
+ * Draw TF_FaceMesh_Overlay
+ */
+
+
+facemesh_TFFaceMesh.prototype.drawFaceOverlay = function (ctx, keypoints) {
+  // If keypoints is falsy, don't do anything
+  if (keypoints) {
+    ctx.fillStyle = '#32EEDB';
+    ctx.strokeStyle = '#32EEDB';
+    ctx.lineWidth = 0.5;
+
+    for (var i = 0; i < keypoints.length; i++) {
+      var x = keypoints[i][0];
+      var y = keypoints[i][1];
+      ctx.beginPath();
+      ctx.arc(x, y, 1
+      /* radius */
+      , 0, 2 * Math.PI);
+      ctx.closePath();
+      ctx.fill();
+    }
+  }
+};
+/**
+ * The TFFaceMesh object name
+ * @type {string}
+ */
+
+
+facemesh_TFFaceMesh.prototype.name = 'TFFaceMesh';
+/* harmony default export */ var facemesh = (facemesh_TFFaceMesh);
+// EXTERNAL MODULE: ./node_modules/numeric/numeric-1.2.6.js
+var numeric_1_2_6 = __webpack_require__(13);
 
 // CONCATENATED MODULE: ./src/ridgeReg.mjs
 
 
 
 
-
-const reg = {};
-var ridgeParameter = Math.pow(10,-5);
+var ridgeReg_reg = {};
+var ridgeParameter = Math.pow(10, -5);
 var dataWindow = 700;
 var trailDataWindow = 10;
-
 /**
  * Performs ridge regression, according to the Weka code.
  * @param {Array} y - corresponds to screen coordinates (either x or y) for each of n click events
@@ -87050,176 +87235,187 @@ var trailDataWindow = 10;
  * @param {Array} k - ridge parameter
  * @return{Array} regression coefficients
  */
-function ridge(y, X, k){
+
+function ridge(y, X, k) {
   var nc = X[0].length;
   var m_Coefficients = new Array(nc);
   var xt = src_mat.transpose(X);
   var solution = new Array();
   var success = true;
-  do{
-    var ss = src_mat.mult(xt,X);
-    // Set ridge regression adjustment
+
+  do {
+    var ss = src_mat.mult(xt, X); // Set ridge regression adjustment
+
     for (var i = 0; i < nc; i++) {
       ss[i][i] = ss[i][i] + k;
-    }
+    } // Carry out the regression
 
-    // Carry out the regression
-    var bb = src_mat.mult(xt,y);
-    for(var i = 0; i < nc; i++) {
+
+    var bb = src_mat.mult(xt, y);
+
+    for (var i = 0; i < nc; i++) {
       m_Coefficients[i] = bb[i][0];
     }
-    try{
-      var n = (m_Coefficients.length !== 0 ? m_Coefficients.length/m_Coefficients.length: 0);
-      if (m_Coefficients.length*n !== m_Coefficients.length){
-        console.log('Array length must be a multiple of m')
-      }
-      solution = (ss.length === ss[0].length ? (numeric_1_2_6.LUsolve(numeric_1_2_6.LU(ss,true),bb)) : (src_mat.QRDecomposition(ss,bb)));
 
-      for (var i = 0; i < nc; i++){
+    try {
+      var n = m_Coefficients.length !== 0 ? m_Coefficients.length / m_Coefficients.length : 0;
+
+      if (m_Coefficients.length * n !== m_Coefficients.length) {
+        console.log('Array length must be a multiple of m');
+      }
+
+      solution = ss.length === ss[0].length ? numeric_1_2_6.LUsolve(numeric_1_2_6.LU(ss, true), bb) : src_mat.QRDecomposition(ss, bb);
+
+      for (var i = 0; i < nc; i++) {
         m_Coefficients[i] = solution[i];
       }
+
       success = true;
-    }
-    catch (ex){
+    } catch (ex) {
       k *= 10;
       console.log(ex);
       success = false;
     }
   } while (!success);
-  return m_Coefficients;
-}
 
-//TODO: still usefull ???
+  return m_Coefficients;
+} //TODO: still usefull ???
+
 /**
  *
  * @returns {Number}
  */
+
+
 function getCurrentFixationIndex() {
   var index = 0;
   var recentX = this.screenXTrailArray.get(0);
   var recentY = this.screenYTrailArray.get(0);
+
   for (var i = this.screenXTrailArray.length - 1; i >= 0; i--) {
     var currX = this.screenXTrailArray.get(i);
     var currY = this.screenYTrailArray.get(i);
-    var euclideanDistance = Math.sqrt(Math.pow((currX-recentX),2)+Math.pow((currY-recentY),2));
-    if (euclideanDistance > 72){
-      return i+1;
+    var euclideanDistance = Math.sqrt(Math.pow(currX - recentX, 2) + Math.pow(currY - recentY, 2));
+
+    if (euclideanDistance > 72) {
+      return i + 1;
     }
   }
+
   return i;
 }
-
 /**
  * Constructor of RidgeReg object,
  * this object allow to perform ridge regression
  * @constructor
  */
-reg.RidgeReg = function() {
+
+
+ridgeReg_reg.RidgeReg = function () {
   this.init();
 };
-
 /**
  * Initialize new arrays and initialize Kalman filter.
  */
-reg.RidgeReg.prototype.init = function() {
+
+
+ridgeReg_reg.RidgeReg.prototype.init = function () {
   this.screenXClicksArray = new src_util.DataWindow(dataWindow);
   this.screenYClicksArray = new src_util.DataWindow(dataWindow);
-  this.eyeFeaturesClicks = new src_util.DataWindow(dataWindow);
+  this.eyeFeaturesClicks = new src_util.DataWindow(dataWindow); //sets to one second worth of cursor trail
 
-  //sets to one second worth of cursor trail
   this.trailTime = 1000;
   this.trailDataWindow = this.trailTime / src_params.moveTickSize;
   this.screenXTrailArray = new src_util.DataWindow(trailDataWindow);
   this.screenYTrailArray = new src_util.DataWindow(trailDataWindow);
   this.eyeFeaturesTrail = new src_util.DataWindow(trailDataWindow);
   this.trailTimes = new src_util.DataWindow(trailDataWindow);
-
   this.dataClicks = new src_util.DataWindow(dataWindow);
-  this.dataTrail = new src_util.DataWindow(trailDataWindow);
-
-  // Initialize Kalman filter [20200608 xk] what do we do about parameters?
+  this.dataTrail = new src_util.DataWindow(trailDataWindow); // Initialize Kalman filter [20200608 xk] what do we do about parameters?
   // [20200611 xk] unsure what to do w.r.t. dimensionality of these matrices. So far at least
   //               by my own anecdotal observation a 4x1 x vector seems to work alright
-  var F = [ [1, 0, 1, 0],
-    [0, 1, 0, 1],
-    [0, 0, 1, 0],
-    [0, 0, 0, 1]];
 
-  //Parameters Q and R may require some fine tuning
-  var Q = [ [1/4, 0,    1/2, 0],
-    [0,   1/4,  0,   1/2],
-    [1/2, 0,    1,   0],
-    [0,  1/2,  0,   1]];// * delta_t
-  var delta_t = 1/10; // The amount of time between frames
+  var F = [[1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0], [0, 0, 0, 1]]; //Parameters Q and R may require some fine tuning
+
+  var Q = [[1 / 4, 0, 1 / 2, 0], [0, 1 / 4, 0, 1 / 2], [1 / 2, 0, 1, 0], [0, 1 / 2, 0, 1]]; // * delta_t
+
+  var delta_t = 1 / 10; // The amount of time between frames
+
   Q = numeric_1_2_6.mul(Q, delta_t);
-
-  var H = [ [1, 0, 0, 0, 0, 0],
-    [0, 1, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0, 0],
-    [0, 0, 0, 1, 0, 0]];
-  var H = [ [1, 0, 0, 0],
-    [0, 1, 0, 0]];
+  var H = [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0]];
+  var H = [[1, 0, 0, 0], [0, 1, 0, 0]];
   var pixel_error = 47; //We will need to fine tune this value [20200611 xk] I just put a random value here
-
   //This matrix represents the expected measurement error
-  var R = numeric_1_2_6.mul(numeric_1_2_6.identity(2), pixel_error);
 
+  var R = numeric_1_2_6.mul(numeric_1_2_6.identity(2), pixel_error);
   var P_initial = numeric_1_2_6.mul(numeric_1_2_6.identity(4), 0.0001); //Initial covariance matrix
+
   var x_initial = [[500], [500], [0], [0]]; // Initial measurement matrix
 
   this.kalman = new src_util.KalmanFilter(F, H, Q, R, P_initial, x_initial);
 };
-
 /**
  * Add given data from eyes
  * @param {Object} eyes - eyes where extract data to add
  * @param {Object} screenPos - The current screen point
  * @param {Object} type - The type of performed action
  */
-reg.RidgeReg.prototype.addData = function(eyes, screenPos, type) {
+
+
+ridgeReg_reg.RidgeReg.prototype.addData = function (eyes, screenPos, type) {
   if (!eyes) {
     return;
   }
+
   if (eyes.left.blink || eyes.right.blink) {
     return;
   }
+
   if (type === 'click') {
     this.screenXClicksArray.push([screenPos[0]]);
     this.screenYClicksArray.push([screenPos[1]]);
-
     this.eyeFeaturesClicks.push(src_util.getEyeFeats(eyes));
-    this.dataClicks.push({'eyes':eyes, 'screenPos':screenPos, 'type':type});
+    this.dataClicks.push({
+      'eyes': eyes,
+      'screenPos': screenPos,
+      'type': type
+    });
   } else if (type === 'move') {
     this.screenXTrailArray.push([screenPos[0]]);
     this.screenYTrailArray.push([screenPos[1]]);
-
     this.eyeFeaturesTrail.push(src_util.getEyeFeats(eyes));
     this.trailTimes.push(performance.now());
-    this.dataTrail.push({'eyes':eyes, 'screenPos':screenPos, 'type':type});
-  }
-
-  // [20180730 JT] Why do we do this? It doesn't return anything...
+    this.dataTrail.push({
+      'eyes': eyes,
+      'screenPos': screenPos,
+      'type': type
+    });
+  } // [20180730 JT] Why do we do this? It doesn't return anything...
   // But as JS is pass by reference, it still affects it.
   //
   // Causes problems for when we want to call 'addData' twice in a row on the same object, but perhaps with different screenPos or types (think multiple interactions within one video frame)
   //eyes.left.patch = Array.from(eyes.left.patch.data);
   //eyes.right.patch = Array.from(eyes.right.patch.data);
-}
 
+};
 /**
  * Try to predict coordinates from pupil data
  * after apply linear regression on data set
  * @param {Object} eyesObj - The current user eyes object
  * @returns {Object}
  */
-reg.RidgeReg.prototype.predict = function(eyesObj) {
+
+
+ridgeReg_reg.RidgeReg.prototype.predict = function (eyesObj) {
   if (!eyesObj || this.eyeFeaturesClicks.length === 0) {
     return null;
   }
+
   var acceptTime = performance.now() - this.trailTime;
   var trailX = [];
   var trailY = [];
   var trailFeat = [];
+
   for (var i = 0; i < this.trailDataWindow; i++) {
     if (this.trailTimes.get(i) > acceptTime) {
       trailX.push(this.screenXTrailArray.get(i));
@@ -87231,17 +87427,18 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
   var screenXArray = this.screenXClicksArray.data.concat(trailX);
   var screenYArray = this.screenYClicksArray.data.concat(trailY);
   var eyeFeatures = this.eyeFeaturesClicks.data.concat(trailFeat);
-
   var coefficientsX = ridge(screenXArray, eyeFeatures, ridgeParameter);
   var coefficientsY = ridge(screenYArray, eyeFeatures, ridgeParameter);
-
   var eyeFeats = src_util.getEyeFeats(eyesObj);
   var predictedX = 0;
-  for(var i=0; i< eyeFeats.length; i++){
+
+  for (var i = 0; i < eyeFeats.length; i++) {
     predictedX += eyeFeats[i] * coefficientsX[i];
   }
+
   var predictedY = 0;
-  for(var i=0; i< eyeFeats.length; i++){
+
+  for (var i = 0; i < eyeFeats.length; i++) {
     predictedY += eyeFeats[i] * coefficientsY[i];
   }
 
@@ -87251,8 +87448,8 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
   if (window.applyKalmanFilter) {
     // Update Kalman model, and get prediction
     var newGaze = [predictedX, predictedY]; // [20200607 xk] Should we use a 1x4 vector?
-    newGaze = this.kalman.update(newGaze);
 
+    newGaze = this.kalman.update(newGaze);
     return {
       x: newGaze[0],
       y: newGaze[1]
@@ -87264,53 +87461,50 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
     };
   }
 };
-
 /**
  * Add given data to current data set then,
  * replace current data member with given data
  * @param {Array.<Object>} data - The data to set
  */
-reg.RidgeReg.prototype.setData = function(data) {
+
+
+ridgeReg_reg.RidgeReg.prototype.setData = function (data) {
   for (var i = 0; i < data.length; i++) {
     // Clone data array
     var leftData = new Uint8ClampedArray(data[i].eyes.left.patch.data);
-    var rightData = new Uint8ClampedArray(data[i].eyes.right.patch.data);
-    // Duplicate ImageData object
-    data[i].eyes.left.patch = new ImageData(leftData, data[i].eyes.left.width, data[i].eyes.left.height);
-    data[i].eyes.right.patch = new ImageData(rightData, data[i].eyes.right.width, data[i].eyes.right.height);
+    var rightData = new Uint8ClampedArray(data[i].eyes.right.patch.data); // Duplicate ImageData object
 
-    // Add those data objects to model
+    data[i].eyes.left.patch = new ImageData(leftData, data[i].eyes.left.width, data[i].eyes.left.height);
+    data[i].eyes.right.patch = new ImageData(rightData, data[i].eyes.right.width, data[i].eyes.right.height); // Add those data objects to model
+
     this.addData(data[i].eyes, data[i].screenPos, data[i].type);
   }
 };
-
 /**
  * Return the data
  * @returns {Array.<Object>|*}
  */
-reg.RidgeReg.prototype.getData = function() {
-  return this.dataClicks.data;
-}
 
+
+ridgeReg_reg.RidgeReg.prototype.getData = function () {
+  return this.dataClicks.data;
+};
 /**
  * The RidgeReg object name
  * @type {string}
  */
-reg.RidgeReg.prototype.name = 'ridge';
 
-/* harmony default export */ var ridgeReg = (reg);
 
+ridgeReg_reg.RidgeReg.prototype.name = 'ridge';
+/* harmony default export */ var ridgeReg = (ridgeReg_reg);
 // CONCATENATED MODULE: ./src/ridgeWeightedReg.mjs
 
 
 
-
-const ridgeWeightedReg_reg = {};
-
-var ridgeWeightedReg_ridgeParameter = Math.pow(10,-5);
+var ridgeWeightedReg_reg = {};
+var ridgeWeightedReg_ridgeParameter = Math.pow(10, -5);
 var ridgeWeightedReg_dataWindow = 700;
 var ridgeWeightedReg_trailDataWindow = 10;
-
 /**
  * Performs ridge regression, according to the Weka code.
  * @param {Array} y - corresponds to screen coordinates (either x or y) for each of n click events
@@ -87318,460 +87512,480 @@ var ridgeWeightedReg_trailDataWindow = 10;
  * @param {Array} k - ridge parameter
  * @return{Array} regression coefficients
  */
-function ridgeWeightedReg_ridge(y, X, k){
-    var nc = X[0].length;
-    var m_Coefficients = new Array(nc);
-    var xt = src_mat.transpose(X);
-    var solution = new Array();
-    var success = true;
-    do{
-        var ss = src_mat.mult(xt,X);
-        // Set ridge regression adjustment
-        for (var i = 0; i < nc; i++) {
-            ss[i][i] = ss[i][i] + k;
-        }
 
-        // Carry out the regression
-        var bb = src_mat.mult(xt,y);
-        for(var i = 0; i < nc; i++) {
-            m_Coefficients[i] = bb[i][0];
-        }
-        try{
-            var n = (m_Coefficients.length !== 0 ? m_Coefficients.length/m_Coefficients.length: 0);
-            if (m_Coefficients.length*n !== m_Coefficients.length){
-                console.log('Array length must be a multiple of m')
-            }
-            solution = (ss.length === ss[0].length ? (numeric_1_2_6.LUsolve(numeric_1_2_6.LU(ss,true),bb)) : (webgazer.mat.QRDecomposition(ss,bb)));
+function ridgeWeightedReg_ridge(y, X, k) {
+  var nc = X[0].length;
+  var m_Coefficients = new Array(nc);
+  var xt = src_mat.transpose(X);
+  var solution = new Array();
+  var success = true;
 
-            for (var i = 0; i < nc; i++){
-                m_Coefficients[i] = solution[i];
-            }
-            success = true;
-        }
-        catch (ex){
-            k *= 10;
-            console.log(ex);
-            success = false;
-        }
-    } while (!success);
-    return m_Coefficients;
+  do {
+    var ss = src_mat.mult(xt, X); // Set ridge regression adjustment
+
+    for (var i = 0; i < nc; i++) {
+      ss[i][i] = ss[i][i] + k;
+    } // Carry out the regression
+
+
+    var bb = src_mat.mult(xt, y);
+
+    for (var i = 0; i < nc; i++) {
+      m_Coefficients[i] = bb[i][0];
+    }
+
+    try {
+      var n = m_Coefficients.length !== 0 ? m_Coefficients.length / m_Coefficients.length : 0;
+
+      if (m_Coefficients.length * n !== m_Coefficients.length) {
+        console.log('Array length must be a multiple of m');
+      }
+
+      solution = ss.length === ss[0].length ? numeric_1_2_6.LUsolve(numeric_1_2_6.LU(ss, true), bb) : webgazer.mat.QRDecomposition(ss, bb);
+
+      for (var i = 0; i < nc; i++) {
+        m_Coefficients[i] = solution[i];
+      }
+
+      success = true;
+    } catch (ex) {
+      k *= 10;
+      console.log(ex);
+      success = false;
+    }
+  } while (!success);
+
+  return m_Coefficients;
 }
-
 /**
  * Compute eyes size as gray histogram
  * @param {Object} eyes - The eyes where looking for gray histogram
  * @returns {Array.<T>} The eyes gray level histogram
  */
-
-
 //TODO: still usefull ???
+
 /**
  *
  * @returns {Number}
  */
-function ridgeWeightedReg_getCurrentFixationIndex() {
-    var index = 0;
-    var recentX = this.screenXTrailArray.get(0);
-    var recentY = this.screenYTrailArray.get(0);
-    for (var i = this.screenXTrailArray.length - 1; i >= 0; i--) {
-        var currX = this.screenXTrailArray.get(i);
-        var currY = this.screenYTrailArray.get(i);
-        var euclideanDistance = Math.sqrt(Math.pow((currX-recentX),2)+Math.pow((currY-recentY),2));
-        if (euclideanDistance > 72){
-            return i+1;
-        }
-    }
-    return i;
-}
 
+
+function ridgeWeightedReg_getCurrentFixationIndex() {
+  var index = 0;
+  var recentX = this.screenXTrailArray.get(0);
+  var recentY = this.screenYTrailArray.get(0);
+
+  for (var i = this.screenXTrailArray.length - 1; i >= 0; i--) {
+    var currX = this.screenXTrailArray.get(i);
+    var currY = this.screenYTrailArray.get(i);
+    var euclideanDistance = Math.sqrt(Math.pow(currX - recentX, 2) + Math.pow(currY - recentY, 2));
+
+    if (euclideanDistance > 72) {
+      return i + 1;
+    }
+  }
+
+  return i;
+}
 /**
  * Constructor of RidgeWeightedReg object
  * @constructor
  */
-ridgeWeightedReg_reg.RidgeWeightedReg = function() {
-    this.init();
-};
 
+
+ridgeWeightedReg_reg.RidgeWeightedReg = function () {
+  this.init();
+};
 /**
  * Initialize new arrays and initialize Kalman filter.
  */
-ridgeWeightedReg_reg.RidgeWeightedReg.prototype.init = function() {
-    this.screenXClicksArray = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
-    this.screenYClicksArray = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
-    this.eyeFeaturesClicks = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
 
-    //sets to one second worth of cursor trail
-    this.trailTime = 1000;
-    this.trailDataWindow = this.trailTime / webgazer.params.moveTickSize;
-    this.screenXTrailArray = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
-    this.screenYTrailArray = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
-    this.eyeFeaturesTrail = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
-    this.trailTimes = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
 
-    this.dataClicks = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
-    this.dataTrail = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
+ridgeWeightedReg_reg.RidgeWeightedReg.prototype.init = function () {
+  this.screenXClicksArray = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
+  this.screenYClicksArray = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
+  this.eyeFeaturesClicks = new src_util.DataWindow(ridgeWeightedReg_dataWindow); //sets to one second worth of cursor trail
 
-    // Initialize Kalman filter [20200608 xk] what do we do about parameters?
-    // [20200611 xk] unsure what to do w.r.t. dimensionality of these matrices. So far at least
-    //               by my own anecdotal observation a 4x1 x vector seems to work alright
-    var F = [ [1, 0, 1, 0],
-              [0, 1, 0, 1],
-              [0, 0, 1, 0],
-              [0, 0, 0, 1]];
+  this.trailTime = 1000;
+  this.trailDataWindow = this.trailTime / webgazer.params.moveTickSize;
+  this.screenXTrailArray = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
+  this.screenYTrailArray = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
+  this.eyeFeaturesTrail = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
+  this.trailTimes = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow);
+  this.dataClicks = new src_util.DataWindow(ridgeWeightedReg_dataWindow);
+  this.dataTrail = new src_util.DataWindow(ridgeWeightedReg_trailDataWindow); // Initialize Kalman filter [20200608 xk] what do we do about parameters?
+  // [20200611 xk] unsure what to do w.r.t. dimensionality of these matrices. So far at least
+  //               by my own anecdotal observation a 4x1 x vector seems to work alright
 
-    //Parameters Q and R may require some fine tuning
-    var Q = [ [1/4, 0,    1/2, 0],
-              [0,   1/4,  0,   1/2],
-              [1/2, 0,    1,   0],
-              [0,  1/2,  0,   1]];// * delta_t
-    var delta_t = 1/10; // The amount of time between frames
-    Q = numeric_1_2_6.mul(Q, delta_t);
+  var F = [[1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0], [0, 0, 0, 1]]; //Parameters Q and R may require some fine tuning
 
-    var H = [ [1, 0, 0, 0, 0, 0],
-              [0, 1, 0, 0, 0, 0],
-              [0, 0, 1, 0, 0, 0],
-              [0, 0, 0, 1, 0, 0]];
-    var H = [ [1, 0, 0, 0],
-              [0, 1, 0, 0]];
-    var pixel_error = 47; //We will need to fine tune this value [20200611 xk] I just put a random value here
+  var Q = [[1 / 4, 0, 1 / 2, 0], [0, 1 / 4, 0, 1 / 2], [1 / 2, 0, 1, 0], [0, 1 / 2, 0, 1]]; // * delta_t
 
-    //This matrix represents the expected measurement error
-    var R = numeric_1_2_6.mul(numeric_1_2_6.identity(2), pixel_error);
+  var delta_t = 1 / 10; // The amount of time between frames
 
-    var P_initial = numeric_1_2_6.mul(numeric_1_2_6.identity(4), 0.0001); //Initial covariance matrix
-    var x_initial = [[500], [500], [0], [0]]; // Initial measurement matrix
+  Q = numeric_1_2_6.mul(Q, delta_t);
+  var H = [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0]];
+  var H = [[1, 0, 0, 0], [0, 1, 0, 0]];
+  var pixel_error = 47; //We will need to fine tune this value [20200611 xk] I just put a random value here
+  //This matrix represents the expected measurement error
 
-    this.kalman = new src_util.KalmanFilter(F, H, Q, R, P_initial, x_initial);
+  var R = numeric_1_2_6.mul(numeric_1_2_6.identity(2), pixel_error);
+  var P_initial = numeric_1_2_6.mul(numeric_1_2_6.identity(4), 0.0001); //Initial covariance matrix
+
+  var x_initial = [[500], [500], [0], [0]]; // Initial measurement matrix
+
+  this.kalman = new src_util.KalmanFilter(F, H, Q, R, P_initial, x_initial);
 };
-
 /**
  * Add given data from eyes
  * @param {Object} eyes - eyes where extract data to add
  * @param {Object} screenPos - The current screen point
  * @param {Object} type - The type of performed action
  */
-ridgeWeightedReg_reg.RidgeWeightedReg.prototype.addData = function(eyes, screenPos, type) {
-    if (!eyes) {
-        return;
-    }
-    if (eyes.left.blink || eyes.right.blink) {
-        return;
-    }
-    if (type === 'click') {
-        this.screenXClicksArray.push([screenPos[0]]);
-        this.screenYClicksArray.push([screenPos[1]]);
 
-        this.eyeFeaturesClicks.push(src_util.getEyeFeats(eyes));
-        this.dataClicks.push({'eyes':eyes, 'screenPos':screenPos, 'type':type});
-    } else if (type === 'move') {
-        this.screenXTrailArray.push([screenPos[0]]);
-        this.screenYTrailArray.push([screenPos[1]]);
 
-        this.eyeFeaturesTrail.push(src_util.getEyeFeats(eyes));
-        this.trailTimes.push(performance.now());
-        this.dataTrail.push({'eyes':eyes, 'screenPos':screenPos, 'type':type});
-    }
+ridgeWeightedReg_reg.RidgeWeightedReg.prototype.addData = function (eyes, screenPos, type) {
+  if (!eyes) {
+    return;
+  }
 
-    // [20180730 JT] Why do we do this? It doesn't return anything...
-    // But as JS is pass by reference, it still affects it.
-    //
-    // Causes problems for when we want to call 'addData' twice in a row on the same object, but perhaps with different screenPos or types (think multiple interactions within one video frame)
-    //eyes.left.patch = Array.from(eyes.left.patch.data);
-    //eyes.right.patch = Array.from(eyes.right.patch.data);
+  if (eyes.left.blink || eyes.right.blink) {
+    return;
+  }
+
+  if (type === 'click') {
+    this.screenXClicksArray.push([screenPos[0]]);
+    this.screenYClicksArray.push([screenPos[1]]);
+    this.eyeFeaturesClicks.push(src_util.getEyeFeats(eyes));
+    this.dataClicks.push({
+      'eyes': eyes,
+      'screenPos': screenPos,
+      'type': type
+    });
+  } else if (type === 'move') {
+    this.screenXTrailArray.push([screenPos[0]]);
+    this.screenYTrailArray.push([screenPos[1]]);
+    this.eyeFeaturesTrail.push(src_util.getEyeFeats(eyes));
+    this.trailTimes.push(performance.now());
+    this.dataTrail.push({
+      'eyes': eyes,
+      'screenPos': screenPos,
+      'type': type
+    });
+  } // [20180730 JT] Why do we do this? It doesn't return anything...
+  // But as JS is pass by reference, it still affects it.
+  //
+  // Causes problems for when we want to call 'addData' twice in a row on the same object, but perhaps with different screenPos or types (think multiple interactions within one video frame)
+  //eyes.left.patch = Array.from(eyes.left.patch.data);
+  //eyes.right.patch = Array.from(eyes.right.patch.data);
+
 };
-
 /**
  * Try to predict coordinates from pupil data
  * after apply linear regression on data set
  * @param {Object} eyesObj - The current user eyes object
  * @returns {Object}
  */
-ridgeWeightedReg_reg.RidgeWeightedReg.prototype.predict = function(eyesObj) {
-    if (!eyesObj || this.eyeFeaturesClicks.length === 0) {
-        return null;
-    }
-    var acceptTime = performance.now() - this.trailTime;
-    var trailX = [];
-    var trailY = [];
-    var trailFeat = [];
-    for (var i = 0; i < this.trailDataWindow; i++) {
-        if (this.trailTimes.get(i) > acceptTime) {
-            trailX.push(this.screenXTrailArray.get(i));
-            trailY.push(this.screenYTrailArray.get(i));
-            trailFeat.push(this.eyeFeaturesTrail.get(i));
-        }
-    }
 
-    var len = this.eyeFeaturesClicks.data.length;
-    var weightedEyeFeats = Array(len);
-    var weightedXArray = Array(len);
-    var weightedYArray = Array(len);
-    for (var i = 0; i < len; i++) {
-        var weight = Math.sqrt( 1 / (len - i) ); // access from oldest to newest so should start with low weight and increase steadily
-        //abstraction is leaking...
-        var trueIndex = this.eyeFeaturesClicks.getTrueIndex(i);
-        for (var j = 0; j < this.eyeFeaturesClicks.data[trueIndex].length; j++) {
-            var val = this.eyeFeaturesClicks.data[trueIndex][j] * weight;
-            if (weightedEyeFeats[trueIndex] !== undefined){
-                weightedEyeFeats[trueIndex].push(val);
-            } else {
-                weightedEyeFeats[trueIndex] = [val];
-            }
-        }
-        weightedXArray[trueIndex] = this.screenXClicksArray.get(i).slice(0, this.screenXClicksArray.get(i).length);
-        weightedYArray[trueIndex] = this.screenYClicksArray.get(i).slice(0, this.screenYClicksArray.get(i).length);
-        weightedXArray[i][0] = weightedXArray[i][0] * weight;
-        weightedYArray[i][0] = weightedYArray[i][0] * weight;
+
+ridgeWeightedReg_reg.RidgeWeightedReg.prototype.predict = function (eyesObj) {
+  if (!eyesObj || this.eyeFeaturesClicks.length === 0) {
+    return null;
+  }
+
+  var acceptTime = performance.now() - this.trailTime;
+  var trailX = [];
+  var trailY = [];
+  var trailFeat = [];
+
+  for (var i = 0; i < this.trailDataWindow; i++) {
+    if (this.trailTimes.get(i) > acceptTime) {
+      trailX.push(this.screenXTrailArray.get(i));
+      trailY.push(this.screenYTrailArray.get(i));
+      trailFeat.push(this.eyeFeaturesTrail.get(i));
     }
+  }
 
-    var screenXArray = weightedXArray.concat(trailX);
-    var screenYArray = weightedYArray.concat(trailY);
-    var eyeFeatures = weightedEyeFeats.concat(trailFeat);
+  var len = this.eyeFeaturesClicks.data.length;
+  var weightedEyeFeats = Array(len);
+  var weightedXArray = Array(len);
+  var weightedYArray = Array(len);
 
-    var coefficientsX = ridgeWeightedReg_ridge(screenXArray, eyeFeatures, ridgeWeightedReg_ridgeParameter);
-    var coefficientsY = ridgeWeightedReg_ridge(screenYArray, eyeFeatures, ridgeWeightedReg_ridgeParameter);
+  for (var i = 0; i < len; i++) {
+    var weight = Math.sqrt(1 / (len - i)); // access from oldest to newest so should start with low weight and increase steadily
+    //abstraction is leaking...
 
-    var eyeFeats = src_util.getEyeFeats(eyesObj);
-    var predictedX = 0;
-    for(var i=0; i< eyeFeats.length; i++){
-        predictedX += eyeFeats[i] * coefficientsX[i];
-    }
-    var predictedY = 0;
-    for(var i=0; i< eyeFeats.length; i++){
-        predictedY += eyeFeats[i] * coefficientsY[i];
+    var trueIndex = this.eyeFeaturesClicks.getTrueIndex(i);
+
+    for (var j = 0; j < this.eyeFeaturesClicks.data[trueIndex].length; j++) {
+      var val = this.eyeFeaturesClicks.data[trueIndex][j] * weight;
+
+      if (weightedEyeFeats[trueIndex] !== undefined) {
+        weightedEyeFeats[trueIndex].push(val);
+      } else {
+        weightedEyeFeats[trueIndex] = [val];
+      }
     }
 
-    predictedX = Math.floor(predictedX);
-    predictedY = Math.floor(predictedY);
+    weightedXArray[trueIndex] = this.screenXClicksArray.get(i).slice(0, this.screenXClicksArray.get(i).length);
+    weightedYArray[trueIndex] = this.screenYClicksArray.get(i).slice(0, this.screenYClicksArray.get(i).length);
+    weightedXArray[i][0] = weightedXArray[i][0] * weight;
+    weightedYArray[i][0] = weightedYArray[i][0] * weight;
+  }
 
-    if (window.applyKalmanFilter) {
-        // Update Kalman model, and get prediction
-        var newGaze = [predictedX, predictedY]; // [20200607 xk] Should we use a 1x4 vector?
-        newGaze = this.kalman.update(newGaze);
+  var screenXArray = weightedXArray.concat(trailX);
+  var screenYArray = weightedYArray.concat(trailY);
+  var eyeFeatures = weightedEyeFeats.concat(trailFeat);
+  var coefficientsX = ridgeWeightedReg_ridge(screenXArray, eyeFeatures, ridgeWeightedReg_ridgeParameter);
+  var coefficientsY = ridgeWeightedReg_ridge(screenYArray, eyeFeatures, ridgeWeightedReg_ridgeParameter);
+  var eyeFeats = src_util.getEyeFeats(eyesObj);
+  var predictedX = 0;
 
-        return {
-            x: newGaze[0],
-            y: newGaze[1]
-        };
-    } else {
-        return {
-            x: predictedX,
-            y: predictedY
-        };
-    }
+  for (var i = 0; i < eyeFeats.length; i++) {
+    predictedX += eyeFeats[i] * coefficientsX[i];
+  }
+
+  var predictedY = 0;
+
+  for (var i = 0; i < eyeFeats.length; i++) {
+    predictedY += eyeFeats[i] * coefficientsY[i];
+  }
+
+  predictedX = Math.floor(predictedX);
+  predictedY = Math.floor(predictedY);
+
+  if (window.applyKalmanFilter) {
+    // Update Kalman model, and get prediction
+    var newGaze = [predictedX, predictedY]; // [20200607 xk] Should we use a 1x4 vector?
+
+    newGaze = this.kalman.update(newGaze);
+    return {
+      x: newGaze[0],
+      y: newGaze[1]
+    };
+  } else {
+    return {
+      x: predictedX,
+      y: predictedY
+    };
+  }
 };
-
 /**
  * Add given data to current data set then,
  * replace current data member with given data
  * @param {Array.<Object>} data - The data to set
  */
-ridgeWeightedReg_reg.RidgeWeightedReg.prototype.setData = function(data) {
-    for (var i = 0; i < data.length; i++) {
-        // [20200611 xk] Previous comment said this was a kludge, but it seems like this is the best solution
 
-        // Clone data array
-        var leftData = new Uint8ClampedArray(data[i].eyes.left.patch.data);
-        var rightData = new Uint8ClampedArray(data[i].eyes.right.patch.data);
-        // Duplicate ImageData object
-        data[i].eyes.left.patch = new ImageData(leftData, data[i].eyes.left.width, data[i].eyes.left.height);
-        data[i].eyes.right.patch = new ImageData(rightData, data[i].eyes.right.width, data[i].eyes.right.height);
 
-        this.addData(data[i].eyes, data[i].screenPos, data[i].type);
-    }
+ridgeWeightedReg_reg.RidgeWeightedReg.prototype.setData = function (data) {
+  for (var i = 0; i < data.length; i++) {
+    // [20200611 xk] Previous comment said this was a kludge, but it seems like this is the best solution
+    // Clone data array
+    var leftData = new Uint8ClampedArray(data[i].eyes.left.patch.data);
+    var rightData = new Uint8ClampedArray(data[i].eyes.right.patch.data); // Duplicate ImageData object
+
+    data[i].eyes.left.patch = new ImageData(leftData, data[i].eyes.left.width, data[i].eyes.left.height);
+    data[i].eyes.right.patch = new ImageData(rightData, data[i].eyes.right.width, data[i].eyes.right.height);
+    this.addData(data[i].eyes, data[i].screenPos, data[i].type);
+  }
 };
-
 /**
  * Return the data
  * @returns {Array.<Object>|*}
  */
-ridgeWeightedReg_reg.RidgeWeightedReg.prototype.getData = function() {
-    return this.dataClicks.data;
-};
 
+
+ridgeWeightedReg_reg.RidgeWeightedReg.prototype.getData = function () {
+  return this.dataClicks.data;
+};
 /**
  * The RidgeWeightedReg object name
  * @type {string}
  */
+
+
 ridgeWeightedReg_reg.RidgeWeightedReg.prototype.name = 'ridge';
-
 /* harmony default export */ var ridgeWeightedReg = (ridgeWeightedReg_reg);
-
 // CONCATENATED MODULE: ./src/ridgeRegThreaded.mjs
 
 
-
-const ridgeRegThreaded_reg = {};
-
-var ridgeRegThreaded_ridgeParameter = Math.pow(10,-5);
+var ridgeRegThreaded_reg = {};
+var ridgeRegThreaded_ridgeParameter = Math.pow(10, -5);
 var ridgeRegThreaded_dataWindow = 700;
-var weights = {'X':[0],'Y':[0]};
+var weights = {
+  'X': [0],
+  'Y': [0]
+};
 var ridgeRegThreaded_trailDataWindow = 10;
-
-
 /**
  * Constructor of RidgeRegThreaded object,
  * it retrieve data window, and prepare a worker,
  * this object allow to perform threaded ridge regression
  * @constructor
  */
-ridgeRegThreaded_reg.RidgeRegThreaded = function() {
-    this.init();
-};
 
+ridgeRegThreaded_reg.RidgeRegThreaded = function () {
+  this.init();
+};
 /**
  * Initialize new arrays and initialize Kalman filter.
  */
-ridgeRegThreaded_reg.RidgeRegThreaded.prototype.init = function() {
-    this.screenXClicksArray = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
-    this.screenYClicksArray = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
-    this.eyeFeaturesClicks = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
 
-    this.screenXTrailArray = new src_util.DataWindow(ridgeRegThreaded_trailDataWindow);
-    this.screenYTrailArray = new src_util.DataWindow(ridgeRegThreaded_trailDataWindow);
-    this.eyeFeaturesTrail = new src_util.DataWindow(ridgeRegThreaded_trailDataWindow);
 
-    this.dataClicks = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
-    this.dataTrail = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
+ridgeRegThreaded_reg.RidgeRegThreaded.prototype.init = function () {
+  this.screenXClicksArray = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
+  this.screenYClicksArray = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
+  this.eyeFeaturesClicks = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
+  this.screenXTrailArray = new src_util.DataWindow(ridgeRegThreaded_trailDataWindow);
+  this.screenYTrailArray = new src_util.DataWindow(ridgeRegThreaded_trailDataWindow);
+  this.eyeFeaturesTrail = new src_util.DataWindow(ridgeRegThreaded_trailDataWindow);
+  this.dataClicks = new src_util.DataWindow(ridgeRegThreaded_dataWindow);
+  this.dataTrail = new src_util.DataWindow(ridgeRegThreaded_dataWindow); // Place the src/ridgeworker.js file into the same directory as your html file.
 
-    // Place the src/ridgeworker.js file into the same directory as your html file.
-    if (!this.worker) {
-        this.worker = new Worker('ridgeWorker.mjs'); // [20200708] TODO: Figure out how to make this inline
-        this.worker.onerror = function(err) { console.log(err.message); };
-        this.worker.onmessage = function(evt) {
-            weights.X = evt.data.X;
-            weights.Y = evt.data.Y;
-        };
-        console.log('initialized worker');
-    }
+  if (!this.worker) {
+    this.worker = new Worker('ridgeWorker.mjs'); // [20200708] TODO: Figure out how to make this inline
 
-    // Initialize Kalman filter [20200608 xk] what do we do about parameters?
-    // [20200611 xk] unsure what to do w.r.t. dimensionality of these matrices. So far at least
-    //               by my own anecdotal observation a 4x1 x vector seems to work alright
-    var F = [ [1, 0, 1, 0],
-              [0, 1, 0, 1],
-              [0, 0, 1, 0],
-              [0, 0, 0, 1]];
+    this.worker.onerror = function (err) {
+      console.log(err.message);
+    };
 
-    //Parameters Q and R may require some fine tuning
-    var Q = [ [1/4, 0,    1/2, 0],
-              [0,   1/4,  0,   1/2],
-              [1/2, 0,    1,   0],
-              [0,  1/2,  0,   1]];// * delta_t
-    var delta_t = 1/10; // The amount of time between frames
-    Q = numeric_1_2_6.mul(Q, delta_t);
+    this.worker.onmessage = function (evt) {
+      weights.X = evt.data.X;
+      weights.Y = evt.data.Y;
+    };
 
-    var H = [ [1, 0, 0, 0, 0, 0],
-              [0, 1, 0, 0, 0, 0],
-              [0, 0, 1, 0, 0, 0],
-              [0, 0, 0, 1, 0, 0]];
-    var H = [ [1, 0, 0, 0],
-              [0, 1, 0, 0]];
-    var pixel_error = 47; //We will need to fine tune this value [20200611 xk] I just put a random value here
+    console.log('initialized worker');
+  } // Initialize Kalman filter [20200608 xk] what do we do about parameters?
+  // [20200611 xk] unsure what to do w.r.t. dimensionality of these matrices. So far at least
+  //               by my own anecdotal observation a 4x1 x vector seems to work alright
 
-    //This matrix represents the expected measurement error
-    var R = numeric_1_2_6.mul(numeric_1_2_6.identity(2), pixel_error);
 
-    var P_initial = numeric_1_2_6.mul(numeric_1_2_6.identity(4), 0.0001); //Initial covariance matrix
-    var x_initial = [[500], [500], [0], [0]]; // Initial measurement matrix
+  var F = [[1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0], [0, 0, 0, 1]]; //Parameters Q and R may require some fine tuning
 
-    this.kalman = new src_util.KalmanFilter(F, H, Q, R, P_initial, x_initial);
-}
+  var Q = [[1 / 4, 0, 1 / 2, 0], [0, 1 / 4, 0, 1 / 2], [1 / 2, 0, 1, 0], [0, 1 / 2, 0, 1]]; // * delta_t
 
+  var delta_t = 1 / 10; // The amount of time between frames
+
+  Q = numeric_1_2_6.mul(Q, delta_t);
+  var H = [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0]];
+  var H = [[1, 0, 0, 0], [0, 1, 0, 0]];
+  var pixel_error = 47; //We will need to fine tune this value [20200611 xk] I just put a random value here
+  //This matrix represents the expected measurement error
+
+  var R = numeric_1_2_6.mul(numeric_1_2_6.identity(2), pixel_error);
+  var P_initial = numeric_1_2_6.mul(numeric_1_2_6.identity(4), 0.0001); //Initial covariance matrix
+
+  var x_initial = [[500], [500], [0], [0]]; // Initial measurement matrix
+
+  this.kalman = new src_util.KalmanFilter(F, H, Q, R, P_initial, x_initial);
+};
 /**
  * Add given data from eyes
  * @param {Object} eyes - eyes where extract data to add
  * @param {Object} screenPos - The current screen point
  * @param {Object} type - The type of performed action
  */
-ridgeRegThreaded_reg.RidgeRegThreaded.prototype.addData = function(eyes, screenPos, type) {
-    if (!eyes) {
-        return;
-    }
-    if (eyes.left.blink || eyes.right.blink) {
-        return;
-    }
-    this.worker.postMessage({'eyes':src_util.getEyeFeats(eyes), 'screenPos':screenPos, 'type':type});
-};
 
+
+ridgeRegThreaded_reg.RidgeRegThreaded.prototype.addData = function (eyes, screenPos, type) {
+  if (!eyes) {
+    return;
+  }
+
+  if (eyes.left.blink || eyes.right.blink) {
+    return;
+  }
+
+  this.worker.postMessage({
+    'eyes': src_util.getEyeFeats(eyes),
+    'screenPos': screenPos,
+    'type': type
+  });
+};
 /**
  * Try to predict coordinates from pupil data
  * after apply linear regression on data set
  * @param {Object} eyesObj - The current user eyes object
  * @returns {Object}
  */
-ridgeRegThreaded_reg.RidgeRegThreaded.prototype.predict = function(eyesObj) {
-    // console.log('LOGGING..');
-    if (!eyesObj) {
-        return null;
-    }
-    var coefficientsX = weights.X;
-    var coefficientsY = weights.Y;
 
-    var eyeFeats = src_util.getEyeFeats(eyesObj);
-    var predictedX = 0, predictedY = 0;
-    for(var i=0; i< eyeFeats.length; i++){
-        predictedX += eyeFeats[i] * coefficientsX[i];
-        predictedY += eyeFeats[i] * coefficientsY[i];
-    }
 
-    predictedX = Math.floor(predictedX);
-    predictedY = Math.floor(predictedY);
+ridgeRegThreaded_reg.RidgeRegThreaded.prototype.predict = function (eyesObj) {
+  // console.log('LOGGING..');
+  if (!eyesObj) {
+    return null;
+  }
 
-    if (window.applyKalmanFilter) {
-        // Update Kalman model, and get prediction
-        var newGaze = [predictedX, predictedY]; // [20200607 xk] Should we use a 1x4 vector?
-        newGaze = this.kalman.update(newGaze);
+  var coefficientsX = weights.X;
+  var coefficientsY = weights.Y;
+  var eyeFeats = src_util.getEyeFeats(eyesObj);
+  var predictedX = 0,
+      predictedY = 0;
 
-        return {
-            x: newGaze[0],
-            y: newGaze[1]
-        };
-    } else {
-        return {
-            x: predictedX,
-            y: predictedY
-        };
-    }
+  for (var i = 0; i < eyeFeats.length; i++) {
+    predictedX += eyeFeats[i] * coefficientsX[i];
+    predictedY += eyeFeats[i] * coefficientsY[i];
+  }
+
+  predictedX = Math.floor(predictedX);
+  predictedY = Math.floor(predictedY);
+
+  if (window.applyKalmanFilter) {
+    // Update Kalman model, and get prediction
+    var newGaze = [predictedX, predictedY]; // [20200607 xk] Should we use a 1x4 vector?
+
+    newGaze = this.kalman.update(newGaze);
+    return {
+      x: newGaze[0],
+      y: newGaze[1]
+    };
+  } else {
+    return {
+      x: predictedX,
+      y: predictedY
+    };
+  }
 };
-
 /**
  * Add given data to current data set then,
  * replace current data member with given data
  * @param {Array.<Object>} data - The data to set
  */
-ridgeRegThreaded_reg.RidgeRegThreaded.prototype.setData = function(data) {
-    for (var i = 0; i < data.length; i++) {
-        // [20200611 xk] Previous comment said this was a kludge, but it seems like this is the best solution
 
-        // Clone data array
-        var leftData = new Uint8ClampedArray(data[i].eyes.left.patch.data);
-        var rightData = new Uint8ClampedArray(data[i].eyes.right.patch.data);
-        // Duplicate ImageData object
-        data[i].eyes.left.patch = new ImageData(leftData, data[i].eyes.left.width, data[i].eyes.left.height);
-        data[i].eyes.right.patch = new ImageData(rightData, data[i].eyes.right.width, data[i].eyes.right.height);
 
-        this.addData(data[i].eyes, data[i].screenPos, data[i].type);
-    }
+ridgeRegThreaded_reg.RidgeRegThreaded.prototype.setData = function (data) {
+  for (var i = 0; i < data.length; i++) {
+    // [20200611 xk] Previous comment said this was a kludge, but it seems like this is the best solution
+    // Clone data array
+    var leftData = new Uint8ClampedArray(data[i].eyes.left.patch.data);
+    var rightData = new Uint8ClampedArray(data[i].eyes.right.patch.data); // Duplicate ImageData object
+
+    data[i].eyes.left.patch = new ImageData(leftData, data[i].eyes.left.width, data[i].eyes.left.height);
+    data[i].eyes.right.patch = new ImageData(rightData, data[i].eyes.right.width, data[i].eyes.right.height);
+    this.addData(data[i].eyes, data[i].screenPos, data[i].type);
+  }
 };
-
 /**
  * Return the data
  * @returns {Array.<Object>|*}
  */
-ridgeRegThreaded_reg.RidgeRegThreaded.prototype.getData = function() {
-    return this.dataClicks.data;
-};
 
+
+ridgeRegThreaded_reg.RidgeRegThreaded.prototype.getData = function () {
+  return this.dataClicks.data;
+};
 /**
  * The RidgeRegThreaded object name
  * @type {string}
  */
+
+
 ridgeRegThreaded_reg.RidgeRegThreaded.prototype.name = 'ridge';
-
 /* harmony default export */ var ridgeRegThreaded = (ridgeRegThreaded_reg);
-
 // CONCATENATED MODULE: ./src/index.mjs
+function src_asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function src_asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { src_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { src_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 
 
@@ -87783,7 +87997,7 @@ ridgeRegThreaded_reg.RidgeRegThreaded.prototype.name = 'ridge';
 
 
 
-const src_webgazer = {};
+var src_webgazer = {};
 src_webgazer.tracker = {};
 src_webgazer.tracker.TFFaceMesh = facemesh;
 src_webgazer.reg = ridgeReg;
@@ -87791,175 +88005,163 @@ src_webgazer.reg.RidgeWeightedReg = ridgeWeightedReg.RidgeWeightedReg;
 src_webgazer.reg.RidgeRegThreaded = ridgeRegThreaded.RidgeRegThreaded;
 src_webgazer.util = src_util;
 src_webgazer.params = src_params;
-
-//PRIVATE VARIABLES
-
+var src_deep_learning_model = null; //PRIVATE VARIABLES
 //video elements
+
 var videoStream = null;
 var videoElement = null;
 var videoElementCanvas = null;
 var faceOverlay = null;
 var faceFeedbackBox = null;
-var gazeDot = null;
-// Why is this not in webgazer.params ?
+var gazeDot = null; // Why is this not in webgazer.params ?
+
 var debugVideoLoc = '';
 var eyePatch = null;
-
 /*
  * Initialises variables used to store accuracy eigenValues
  * This is used by the calibration example file
  */
-var xPast50 = new Array(50);
-var yPast50 = new Array(50);
 
-// loop parameters
+var xPast50 = new Array(50);
+var yPast50 = new Array(50); // loop parameters
+
 var clockStart = performance.now();
 var latestEyeFeatures = null;
 var latestGazeData = null;
-var paused = false;
-//registered callback for loop
-var nopCallback = function(data, time) {};
-var callback = nopCallback;
+var paused = false; //registered callback for loop
 
-//Types that regression systems should handle
+var nopCallback = function nopCallback(data, time) {};
+
+var callback = nopCallback; //Types that regression systems should handle
 //Describes the source of data so that regression systems may ignore or handle differently the various generating events
-var eventTypes = ['click', 'move'];
 
-//movelistener timeout clock parameters
-var moveClock = performance.now();
-//currently used tracker and regression models, defaults to clmtrackr and linear regression
+var eventTypes = ['click', 'move']; //movelistener timeout clock parameters
+
+var moveClock = performance.now(); //currently used tracker and regression models, defaults to clmtrackr and linear regression
+
 var curTracker = new src_webgazer.tracker.TFFaceMesh();
-var regs = [new src_webgazer.reg.RidgeReg()];
-// var blinkDetector = new webgazer.BlinkDetector();
-
+var regs = [new src_webgazer.reg.RidgeReg()]; // var blinkDetector = new webgazer.BlinkDetector();
 //lookup tables
+
 var curTrackerMap = {
-  'TFFacemesh': function() { return new src_webgazer.tracker.TFFaceMesh(); },
+  'TFFacemesh': function TFFacemesh() {
+    return new src_webgazer.tracker.TFFaceMesh();
+  }
 };
 var regressionMap = {
-  'ridge': function() { return new src_webgazer.reg.RidgeReg(); },
-  'weightedRidge': function() { return new src_webgazer.reg.RidgeWeightedReg(); },
-  'threadedRidge': function() { return new src_webgazer.reg.RidgeRegThreaded(); },
-};
+  'ridge': function ridge() {
+    return new src_webgazer.reg.RidgeReg();
+  },
+  'weightedRidge': function weightedRidge() {
+    return new src_webgazer.reg.RidgeWeightedReg();
+  },
+  'threadedRidge': function threadedRidge() {
+    return new src_webgazer.reg.RidgeRegThreaded();
+  }
+}; //localstorage name
 
-//localstorage name
 var localstorageDataLabel = 'webgazerGlobalData';
-var localstorageSettingsLabel = 'webgazerGlobalSettings';
-//settings object for future storage of settings
+var localstorageSettingsLabel = 'webgazerGlobalSettings'; //settings object for future storage of settings
+
 var settings = {};
 var data = [];
 var defaults = {
   'data': [],
   'settings': {}
-};
-
-
-//PRIVATE FUNCTIONS
+}; //PRIVATE FUNCTIONS
 
 /**
  * Computes the size of the face overlay validation box depending on the size of the video preview window.
  * @returns {Object} The dimensions of the validation box as top, left, width, height.
  */
-src_webgazer.computeValidationBoxSize = function() {
 
+src_webgazer.computeValidationBoxSize = function () {
   var vw = videoElement.videoWidth;
   var vh = videoElement.videoHeight;
   var pw = parseInt(videoElement.style.width);
-  var ph = parseInt(videoElement.style.height);
-
-  // Find the size of the box.
+  var ph = parseInt(videoElement.style.height); // Find the size of the box.
   // Pick the smaller of the two video preview sizes
-  var smaller = Math.min( vw, vh );
-  var larger  = Math.max( vw, vh );
 
-  // Overall scalar
-  var scalar = ( vw == larger ? pw / vw : ph / vh );
+  var smaller = Math.min(vw, vh);
+  var larger = Math.max(vw, vh); // Overall scalar
 
-  // Multiply this by 2/3, then adjust it to the size of the preview
-  var boxSize = (smaller * src_webgazer.params.faceFeedbackBoxRatio) * scalar;
+  var scalar = vw == larger ? pw / vw : ph / vh; // Multiply this by 2/3, then adjust it to the size of the preview
 
-  // Set the boundaries of the face overlay validation box based on the preview
-  var topVal = (ph - boxSize)/2;
-  var leftVal = (pw - boxSize)/2;
+  var boxSize = smaller * src_webgazer.params.faceFeedbackBoxRatio * scalar; // Set the boundaries of the face overlay validation box based on the preview
 
-  // top, left, width, height
-  return [topVal, leftVal, boxSize, boxSize]
-}
+  var topVal = (ph - boxSize) / 2;
+  var leftVal = (pw - boxSize) / 2; // top, left, width, height
 
+  return [topVal, leftVal, boxSize, boxSize];
+};
 /**
  * Checks if the pupils are in the position box on the video
  * // TODO These are all wrong. The latestEyeFeatures will be in 'video' space not 'preview' space, and so need to be converted.
  */
-function checkEyesInValidationBox() {
 
+
+function checkEyesInValidationBox() {
   if (faceFeedbackBox != null && latestEyeFeatures) {
     var w = videoElement.videoWidth;
-    var h = videoElement.videoHeight;
-
-    // Find the size of the box.
+    var h = videoElement.videoHeight; // Find the size of the box.
     // Pick the smaller of the two video preview sizes
-    var smaller = Math.min( w, h );
-    var boxSize = smaller * src_webgazer.params.faceFeedbackBoxRatio;
 
-    // Set the boundaries of the face overlay validation box based on the preview
-    var topBound = (h - boxSize)/2;
-    var leftBound = (w - boxSize)/2;
+    var smaller = Math.min(w, h);
+    var boxSize = smaller * src_webgazer.params.faceFeedbackBoxRatio; // Set the boundaries of the face overlay validation box based on the preview
+
+    var topBound = (h - boxSize) / 2;
+    var leftBound = (w - boxSize) / 2;
     var rightBound = leftBound + boxSize;
-    var bottomBound = topBound + boxSize;
+    var bottomBound = topBound + boxSize; //get the x and y positions of the left and right eyes
 
-    //get the x and y positions of the left and right eyes
     var eyeLX = latestEyeFeatures.left.imagex;
     var eyeLY = latestEyeFeatures.left.imagey;
     var eyeRX = latestEyeFeatures.right.imagex;
     var eyeRY = latestEyeFeatures.right.imagey;
-
-
     var xPositions = false;
-    var yPositions = false;
-
-    //check if the x values for the left and right eye are within the
+    var yPositions = false; //check if the x values for the left and right eye are within the
     //validation box
+
     if (eyeLX > leftBound && eyeLX < rightBound) {
       if (eyeRX > leftBound && eyeRX < rightBound) {
         xPositions = true;
       }
-    }
-
-    //check if the y values for the left and right eye are within the
+    } //check if the y values for the left and right eye are within the
     //validation box
+
+
     if (eyeLY > topBound && eyeLY < bottomBound) {
       if (eyeRY > topBound && eyeRY < bottomBound) {
         yPositions = true;
       }
-    }
-
-    //if the x and y values for both the left and right eye are within
+    } //if the x and y values for both the left and right eye are within
     //the validation box then the box border turns green, otherwise if
     //the eyes are outside of the box the colour is red
-    if (xPositions && yPositions){
+
+
+    if (xPositions && yPositions) {
       faceFeedbackBox.style.border = 'solid green';
     } else {
       faceFeedbackBox.style.border = 'solid red';
     }
-  }
-  else
-    faceFeedbackBox.style.border = 'solid black';
+  } else faceFeedbackBox.style.border = 'solid black';
 }
-
 /**
  * This draws the point (x,y) onto the canvas in the HTML
  * @param {colour} colour - The colour of the circle to plot
  * @param {x} x - The x co-ordinate of the desired point to plot
  * @param {y} y - The y co-ordinate of the desired point to plot
  */
-function drawCoordinates(colour,x,y){
+
+
+function drawCoordinates(colour, x, y) {
   var ctx = document.getElementById("plotting_canvas").getContext('2d');
   ctx.fillStyle = colour; // Red color
+
   ctx.beginPath();
   ctx.arc(x, y, 5, 0, Math.PI * 2, true);
   ctx.fill();
 }
-
 /**
  * Gets the pupil features by following the pipeline which threads an eyes object through each call:
  * curTracker gets eye patches -> blink detector -> pupil detection
@@ -87967,28 +88169,33 @@ function drawCoordinates(colour,x,y){
  * @param {Number} width - the width of canvas
  * @param {Number} height - the height of canvas
  */
+
+
 function getPupilFeatures(canvas, width, height) {
   if (!canvas) {
     return;
   }
+
   try {
     return curTracker.getEyePatches(canvas, width, height);
-  } catch(err) {
+  } catch (err) {
     console.log(err);
     return null;
   }
 }
-
 /**
  * Gets the most current frame of video and paints it to a resized version of the canvas with width and height
  * @param {Canvas} canvas - the canvas to paint the video on to
  * @param {Number} width - the new width of the canvas
  * @param {Number} height - the new height of the canvas
  */
+
+
 function paintCurrentFrame(canvas, width, height) {
   if (canvas.width != width) {
     canvas.width = width;
   }
+
   if (canvas.height != height) {
     canvas.height = height;
   }
@@ -87996,129 +88203,87 @@ function paintCurrentFrame(canvas, width, height) {
   var ctx = canvas.getContext('2d');
   ctx.drawImage(videoElement, 0, 0, canvas.width, canvas.height);
 }
-
 /**
  * Paints the video to a canvas and runs the prediction pipeline to get a prediction
  * @param {Number|undefined} regModelIndex - The prediction index we're looking for
  * @returns {*}
  */
-async function getPrediction(regModelIndex) {
-  var predictions = [];
-  // [20200617 xk] TODO: this call should be made async somehow. will take some work.
-  latestEyeFeatures = await getPupilFeatures(videoElementCanvas, videoElementCanvas.width, videoElementCanvas.height);
 
-  if (regs.length === 0) {
-    console.log('regression not set, call setRegression()');
-    return null;
-  }
-  for (let reg = 0; reg < regs.length; reg++) {
-    predictions.push(regs[reg].predict(latestEyeFeatures));
-  }
-  if (regModelIndex !== undefined) {
-    return predictions[regModelIndex] === null ? null : {
-      'x' : predictions[regModelIndex].x,
-      'y' : predictions[regModelIndex].y,
-      'eyeFeatures': latestEyeFeatures
-    };
-  } else {
-    return predictions.length === 0 || predictions[0] === null ? null : {
-      'x' : predictions[0].x,
-      'y' : predictions[0].y,
-      'eyeFeatures': latestEyeFeatures,
-      'all' : predictions
-    };
-  }
+
+function getPrediction(_x) {
+  return _getPrediction.apply(this, arguments);
 }
 
+function _getPrediction() {
+  _getPrediction = src_asyncToGenerator(function* (regModelIndex) {
+    var predictions = []; // [20200617 xk] TODO: this call should be made async somehow. will take some work.
+
+    latestEyeFeatures = yield getPupilFeatures(videoElementCanvas, videoElementCanvas.width, videoElementCanvas.height);
+
+    if (regs.length === 0) {
+      console.log('regression not set, call setRegression()');
+      return null;
+    }
+
+    for (var reg = 0; reg < regs.length; reg++) {
+      predictions.push(regs[reg].predict(latestEyeFeatures));
+    }
+
+    if (regModelIndex !== undefined) {
+      return predictions[regModelIndex] === null ? null : {
+        'x': predictions[regModelIndex].x,
+        'y': predictions[regModelIndex].y,
+        'eyeFeatures': latestEyeFeatures
+      };
+    } else {
+      return predictions.length === 0 || predictions[0] === null ? null : {
+        'x': predictions[0].x,
+        'y': predictions[0].y,
+        'eyeFeatures': latestEyeFeatures,
+        'all': predictions
+      };
+    }
+  });
+  return _getPrediction.apply(this, arguments);
+}
+
+function loadModel() {
+  return _loadModel.apply(this, arguments);
+}
 /**
  * Runs every available animation frame if webgazer is not paused
  */
+
+
+function _loadModel() {
+  _loadModel = src_asyncToGenerator(function* () {
+    var eyes_model_groups0 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups0/model.json');
+    var eyes_model_groups10 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups10/model.json');
+    var eyes_model_groups11 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups11/model.json');
+    var eyes_model_groups2 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/eyes_model_groups2/model.json');
+    var face_model_groups0 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/face_model_groups0/model.json');
+    var face_model_groups10 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/face_model_groups10/model.json');
+    var face_model_groups11 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/face_model_groups11/model.json');
+    var face_model_groups2 = yield tf_node.loadLayersModel('http://localhost:5503/www/models/face_model_groups2/model.json');
+    var face_grid = yield tf_node.loadLayersModel('http://localhost:5503/www/models/face_grid_model/model.json');
+    var eye_connect = yield tf_node.loadLayersModel('http://localhost:5503/www/models/eye_conect_model/model.json');
+    var full_connect = yield tf_node.loadLayersModel('http://localhost:5503/www/models/full_connect_model/model.json');
+    var deep_learning_model = {};
+    deep_learning_model.eyes = [eyes_model_groups0, eyes_model_groups10, eyes_model_groups11, eyes_model_groups2, eye_connect];
+    deep_learning_model.face = [face_model_groups0, face_model_groups10, face_model_groups11, face_model_groups2];
+    deep_learning_model.face_grid = face_grid;
+    deep_learning_model.full_connect = full_connect;
+    return deep_learning_model;
+  });
+  return _loadModel.apply(this, arguments);
+}
+
 var smoothingVals = new src_webgazer.util.DataWindow(4);
 var src_k = 0;
 
-async function loop() {
-  if (!paused) {
-
-    // [20200617 XK] TODO: there is currently lag between the camera input and the face overlay. This behavior
-    // is not seen in the facemesh demo. probably need to optimize async implementation. I think the issue lies
-    // in the implementation of getPrediction().
-
-    // Paint the latest video frame into the canvas which will be analyzed by WebGazer
-    // [20180729 JT] Why do we need to do this? clmTracker does this itself _already_, which is just duplicating the work.
-    // Is it because other trackers need a canvas instead of an img/video element?
-    paintCurrentFrame(videoElementCanvas, videoElementCanvas.width, videoElementCanvas.height);
-
-    // Get gaze prediction (ask clm to track; pass the data to the regressor; get back a prediction)
-    latestGazeData = getPrediction();
-    // Count time
-    var elapsedTime = performance.now() - clockStart;
-
-
-    // Draw face overlay
-    if( src_webgazer.params.showFaceOverlay )
-    {
-      // Get tracker object
-      var tracker = src_webgazer.getTracker();
-      faceOverlay.getContext('2d').clearRect( 0, 0, videoElement.videoWidth, videoElement.videoHeight);
-      tracker.drawFaceOverlay(faceOverlay.getContext('2d'), tracker.getPositions());
-      if(latestEyeFeatures){
-        eyePatch.getContext('2d').clearRect(0, 0, 300, 200);
-        eyePatch.getContext('2d').drawImage(videoElementCanvas, 
-            latestEyeFeatures.left.imagex, latestEyeFeatures.left.imagey,
-            latestEyeFeatures.left.width, latestEyeFeatures.left.height, 100, 5,
-            60, 36);
-        eyePatch.getContext('2d').drawImage(videoElementCanvas, 
-            latestEyeFeatures.right.imagex, latestEyeFeatures.right.imagey,
-            latestEyeFeatures.right.width, latestEyeFeatures.right.height, 5, 5,
-            60, 36);
-      }
-    }
-
-    // Feedback box
-    // Check that the eyes are inside of the validation box
-    if( src_webgazer.params.showFaceFeedbackBox )
-      checkEyesInValidationBox();
-
-    latestGazeData = await latestGazeData;
-
-    // [20200623 xk] callback to function passed into setGazeListener(fn)
-    callback(latestGazeData, elapsedTime);
-
-    if( latestGazeData ) {
-      // [20200608 XK] Smoothing across the most recent 4 predictions, do we need this with Kalman filter?
-      smoothingVals.push(latestGazeData);
-      var x = 0;
-      var y = 0;
-      var len = smoothingVals.length;
-      for (let d = 0; d < smoothingVals.data.length; d++) {
-        x += smoothingVals.get(d).x;
-        y += smoothingVals.get(d).y;
-      }
-
-      var pred = src_webgazer.util.bound({'x':x/len, 'y':y/len});
-
-      if (src_webgazer.params.storingPoints) {
-        //drawCoordinates('blue',pred.x,pred.y); //draws the previous predictions
-        //store the position of the past fifty occuring tracker preditions
-        src_webgazer.storePoints(pred.x, pred.y, src_k);
-        src_k++;
-        if (src_k == 50) {
-          src_k = 0;
-        }
-      }
-      // GazeDot
-      if (src_webgazer.params.showGazeDot) {
-        gazeDot.style.display = 'block';
-      }
-      gazeDot.style.transform = 'translate3d(' + pred.x + 'px,' + pred.y + 'px,0)';
-    } else {
-      gazeDot.style.display = 'none';
-    }
-
-    requestAnimationFrame(loop);
-  }
+function loop() {
+  return _loop.apply(this, arguments);
 }
-
 /**
  * Records screen position data based on current pupil feature and passes it
  * to the regression model.
@@ -88127,269 +88292,369 @@ async function loop() {
  * @param {String} eventType - The event type to store
  * @returns {null}
  */
-var recordScreenPosition = function(x, y, eventType) {
+
+
+function _loop() {
+  _loop = src_asyncToGenerator(function* () {
+    if (!paused) {
+      // [20200617 XK] TODO: there is currently lag between the camera input and the face overlay. This behavior
+      // is not seen in the facemesh demo. probably need to optimize async implementation. I think the issue lies
+      // in the implementation of getPrediction().
+      // Paint the latest video frame into the canvas which will be analyzed by WebGazer
+      // [20180729 JT] Why do we need to do this? clmTracker does this itself _already_, which is just duplicating the work.
+      // Is it because other trackers need a canvas instead of an img/video element?
+      paintCurrentFrame(videoElementCanvas, videoElementCanvas.width, videoElementCanvas.height); // Get gaze prediction (ask clm to track; pass the data to the regressor; get back a prediction)
+
+      latestGazeData = getPrediction(); // Count time
+
+      var elapsedTime = performance.now() - clockStart; // Draw face overlay
+
+      if (src_webgazer.params.showFaceOverlay) {
+        // Get tracker object
+        var tracker = src_webgazer.getTracker();
+        faceOverlay.getContext('2d').clearRect(0, 0, videoElement.videoWidth, videoElement.videoHeight);
+        tracker.drawFaceOverlay(faceOverlay.getContext('2d'), tracker.getPositions());
+
+        if (latestEyeFeatures) {
+          eyePatch.getContext('2d').clearRect(0, 0, 300, 200);
+          eyePatch.getContext('2d').drawImage(videoElementCanvas, latestEyeFeatures.left.imagex, latestEyeFeatures.left.imagey, latestEyeFeatures.left.width, latestEyeFeatures.left.height, 100, 5, 60, 36);
+          eyePatch.getContext('2d').drawImage(videoElementCanvas, latestEyeFeatures.right.imagex, latestEyeFeatures.right.imagey, latestEyeFeatures.right.width, latestEyeFeatures.right.height, 5, 5, 60, 36);
+        }
+      } // Feedback box
+      // Check that the eyes are inside of the validation box
+
+
+      if (src_webgazer.params.showFaceFeedbackBox) checkEyesInValidationBox();
+      latestGazeData = yield latestGazeData; // [20200623 xk] callback to function passed into setGazeListener(fn)
+
+      callback(latestGazeData, elapsedTime);
+
+      if (latestGazeData) {
+        // [20200608 XK] Smoothing across the most recent 4 predictions, do we need this with Kalman filter?
+        smoothingVals.push(latestGazeData);
+        var x = 0;
+        var y = 0;
+        var len = smoothingVals.length;
+
+        for (var d = 0; d < smoothingVals.data.length; d++) {
+          x += smoothingVals.get(d).x;
+          y += smoothingVals.get(d).y;
+        }
+
+        var pred = src_webgazer.util.bound({
+          'x': x / len,
+          'y': y / len
+        });
+
+        if (src_webgazer.params.storingPoints) {
+          //drawCoordinates('blue',pred.x,pred.y); //draws the previous predictions
+          //store the position of the past fifty occuring tracker preditions
+          src_webgazer.storePoints(pred.x, pred.y, src_k);
+          src_k++;
+
+          if (src_k == 50) {
+            src_k = 0;
+          }
+        } // GazeDot
+
+
+        if (src_webgazer.params.showGazeDot) {
+          gazeDot.style.display = 'block';
+        }
+
+        gazeDot.style.transform = 'translate3d(' + pred.x + 'px,' + pred.y + 'px,0)';
+      } else {
+        gazeDot.style.display = 'none';
+      }
+
+      requestAnimationFrame(loop);
+    }
+  });
+  return _loop.apply(this, arguments);
+}
+
+var recordScreenPosition = function recordScreenPosition(x, y, eventType) {
   if (paused) {
     return;
   }
+
   if (regs.length === 0) {
     console.log('regression not set, call setRegression()');
     return null;
   }
-  for (let reg = 0; reg < regs.length; reg++) {
-    if( latestEyeFeatures )
-      regs[reg].addData(latestEyeFeatures, [x, y], eventType);
+
+  for (var reg = 0; reg < regs.length; reg++) {
+    if (latestEyeFeatures) regs[reg].addData(latestEyeFeatures, [x, y], eventType);
   }
 };
-
 /**
  * Records click data and passes it to the regression model
  * @param {Event} event - The listened event
  */
-var clickListener = async function(event) {
-  recordScreenPosition(event.clientX, event.clientY, eventTypes[0]); // eventType[0] === 'click'
 
-  if (window.saveDataAcrossSessions) {
-    // Each click stores the next data point into localforage.
-    await setGlobalData();
 
-    // // Debug line
-    // console.log('Model size: ' + JSON.stringify(await localforage.getItem(localstorageDataLabel)).length / 1000000 + 'MB');
-  }
-};
+var clickListener = /*#__PURE__*/function () {
+  var _ref = src_asyncToGenerator(function* (event) {
+    recordScreenPosition(event.clientX, event.clientY, eventTypes[0]); // eventType[0] === 'click'
 
+    if (window.saveDataAcrossSessions) {
+      // Each click stores the next data point into localforage.
+      yield setGlobalData(); // // Debug line
+      // console.log('Model size: ' + JSON.stringify(await localforage.getItem(localstorageDataLabel)).length / 1000000 + 'MB');
+    }
+  });
+
+  return function clickListener(_x2) {
+    return _ref.apply(this, arguments);
+  };
+}();
 /**
  * Records mouse movement data and passes it to the regression model
  * @param {Event} event - The listened event
  */
-var moveListener = function(event) {
+
+
+var moveListener = function moveListener(event) {
   if (paused) {
     return;
   }
 
   var now = performance.now();
+
   if (now < moveClock + src_webgazer.params.moveTickSize) {
     return;
   } else {
     moveClock = now;
   }
+
   recordScreenPosition(event.clientX, event.clientY, eventTypes[1]); //eventType[1] === 'move'
 };
-
 /**
  * Add event listeners for mouse click and move.
  */
-var addMouseEventListeners = function() {
+
+
+var addMouseEventListeners = function addMouseEventListeners() {
   //third argument set to true so that we get event on 'capture' instead of 'bubbling'
   //this prevents a client using event.stopPropagation() preventing our access to the click
   document.addEventListener('click', clickListener, true);
   document.addEventListener('mousemove', moveListener, true);
 };
-
 /**
  * Remove event listeners for mouse click and move.
  */
-var removeMouseEventListeners = function() {
+
+
+var removeMouseEventListeners = function removeMouseEventListeners() {
   // must set third argument to same value used in addMouseEventListeners
   // for this to work.
   document.removeEventListener('click', clickListener, true);
   document.removeEventListener('mousemove', moveListener, true);
 };
-
 /**
  * Loads the global data and passes it to the regression model
  */
-async function loadGlobalData() {
-  // Get settings object from localforage
-  // [20200611 xk] still unsure what this does, maybe would be good for Kalman filter settings etc?
-  settings = await localforage.getItem(localstorageSettingsLabel);
-  settings = settings || defaults;
 
-  // Get click data from localforage
-  var loadData = await localforage.getItem(localstorageDataLabel);
-  loadData = loadData || defaults;
 
-  // Set global var data to newly loaded data
-  data = loadData;
-
-  // Load data into regression model(s)
-  for (let reg = 0; reg < regs.length; reg++) {
-    regs[reg].setData(loadData);
-  }
-
-  console.log("loaded stored data into regression model");
+function loadGlobalData() {
+  return _loadGlobalData.apply(this, arguments);
 }
-
 /**
  * Adds data to localforage
  */
-async function setGlobalData() {
-  // Grab data from regression model
-  var storeData = regs[0].getData() || data; // Array
 
-  // Store data into localforage
-  localforage.setItem(localstorageSettingsLabel, settings) // [20200605 XK] is 'settings' ever being used?
-  localforage.setItem(localstorageDataLabel, storeData);
-  //TODO data should probably be stored in webgazer object instead of each regression model
-  //     -> requires duplication of data, but is likely easier on regression model implementors
+
+function _loadGlobalData() {
+  _loadGlobalData = src_asyncToGenerator(function* () {
+    // Get settings object from localforage
+    // [20200611 xk] still unsure what this does, maybe would be good for Kalman filter settings etc?
+    settings = yield localforage.getItem(localstorageSettingsLabel);
+    settings = settings || defaults; // Get click data from localforage
+
+    var loadData = yield localforage.getItem(localstorageDataLabel);
+    loadData = loadData || defaults; // Set global var data to newly loaded data
+
+    data = loadData; // Load data into regression model(s)
+
+    for (var reg = 0; reg < regs.length; reg++) {
+      regs[reg].setData(loadData);
+    }
+
+    console.log("loaded stored data into regression model");
+  });
+  return _loadGlobalData.apply(this, arguments);
 }
 
+function setGlobalData() {
+  return _setGlobalData.apply(this, arguments);
+}
 /**
  * Clears data from model and global storage
  */
+
+
+function _setGlobalData() {
+  _setGlobalData = src_asyncToGenerator(function* () {
+    // Grab data from regression model
+    var storeData = regs[0].getData() || data; // Array
+    // Store data into localforage
+
+    localforage.setItem(localstorageSettingsLabel, settings); // [20200605 XK] is 'settings' ever being used?
+
+    localforage.setItem(localstorageDataLabel, storeData); //TODO data should probably be stored in webgazer object instead of each regression model
+    //     -> requires duplication of data, but is likely easier on regression model implementors
+  });
+  return _setGlobalData.apply(this, arguments);
+}
+
 function clearData() {
   // Removes data from localforage
-  localforage.clear();
+  localforage.clear(); // Removes data from regression model
 
-  // Removes data from regression model
-  for (let reg = 0; reg < regs.length; reg++) {
+  for (var reg = 0; reg < regs.length; reg++) {
     regs[reg].init();
   }
 }
-
 /**
  * Initializes all needed dom elements and begins the loop
  * @param {URL} stream - The video stream to use
  */
-async function init(stream) {
-  //////////////////////////
-  // Video and video preview
-  //////////////////////////
-  var topDist = '0px'
-  var leftDist = '0px'
 
-  // used for webgazer.stopVideo() and webgazer.setCameraConstraints()
-  videoStream = stream;
 
-  videoElement = document.createElement('video');
-  videoElement.id = src_webgazer.params.videoElementId;
-  videoElement.srcObject = stream;
-  videoElement.autoplay = true;
-  videoElement.style.display = src_webgazer.params.showVideo ? 'block' : 'none';
-  videoElement.style.position = 'fixed';
-  videoElement.style.top = topDist;
-  videoElement.style.left = leftDist;
-  // We set these to stop the video appearing too large when it is added for the very first time
-  videoElement.style.width = src_webgazer.params.videoViewerWidth + 'px';
-  videoElement.style.height = src_webgazer.params.videoViewerHeight + 'px';
-  // videoElement.style.zIndex="-1";
-
-  // Canvas for drawing video to pass to clm tracker
-  videoElementCanvas = document.createElement('canvas');
-  videoElementCanvas.id = src_webgazer.params.videoElementCanvasId;
-  videoElementCanvas.style.display = 'none';
-
-  // Face overlay
-  // Shows the CLM tracking result
-  faceOverlay = document.createElement('canvas');
-  faceOverlay.id = src_webgazer.params.faceOverlayId;
-  faceOverlay.style.display = src_webgazer.params.showFaceOverlay ? 'block' : 'none';
-  faceOverlay.style.position = 'fixed';
-  faceOverlay.style.top = topDist;
-  faceOverlay.style.left = leftDist;
-
-  // Mirror video feed
-  if (src_webgazer.params.mirrorVideo) {
-    videoElement.style.setProperty("-moz-transform", "scale(-1, 1)");
-    videoElement.style.setProperty("-webkit-transform", "scale(-1, 1)");
-    videoElement.style.setProperty("-o-transform", "scale(-1, 1)");
-    videoElement.style.setProperty("transform", "scale(-1, 1)");
-    videoElement.style.setProperty("filter", "FlipH");
-    faceOverlay.style.setProperty("-moz-transform", "scale(-1, 1)");
-    faceOverlay.style.setProperty("-webkit-transform", "scale(-1, 1)");
-    faceOverlay.style.setProperty("-o-transform", "scale(-1, 1)");
-    faceOverlay.style.setProperty("transform", "scale(-1, 1)");
-    faceOverlay.style.setProperty("filter", "FlipH");
-  }
-
-  // Feedback box
-  // Lets the user know when their face is in the middle
-  faceFeedbackBox = document.createElement('canvas');
-  faceFeedbackBox.id = src_webgazer.params.faceFeedbackBoxId;
-  faceFeedbackBox.style.display = src_webgazer.params.showFaceFeedbackBox ? 'block' : 'none';
-  faceFeedbackBox.style.position = 'fixed';
-  faceFeedbackBox.style.border = 'solid';
-
-  // Gaze dot
-  // Starts offscreen
-  gazeDot = document.createElement('div');
-  gazeDot.id = src_webgazer.params.gazeDotId;
-  gazeDot.style.display = src_webgazer.params.showGazeDot ? 'block' : 'none';
-  gazeDot.style.position = 'fixed';
-  gazeDot.style.zIndex = 99999;
-  gazeDot.style.left = '-5px'; //'-999em';
-  gazeDot.style.top  = '-5px';
-  gazeDot.style.background = 'red';
-  gazeDot.style.borderRadius = '100%';
-  gazeDot.style.opacity = '0.7';
-  gazeDot.style.width = '10px';
-  gazeDot.style.height = '10px';
-
-  eyePatch = document.createElement('canvas');
-  eyePatch.style.display = 'block' ;
-  eyePatch.style.position = 'fixed';
-  eyePatch.style.top = 500 + 'px';
-  eyePatch.style.left = 400 + 'px';
-  eyePatch.style.width = 300 + 'px';
-  eyePatch.style.height = 200 + 'px';
-
-  // Add other preview/feedback elements to the screen once the video has shown and its parameters are initialized
-  document.body.appendChild(videoElement);
-  function setupPreviewVideo(e) {
-
-    // All video preview parts have now been added, so set the size both internally and in the preview window.
-    setInternalVideoBufferSizes( videoElement.videoWidth, videoElement.videoHeight );
-    src_webgazer.setVideoViewerSize( src_webgazer.params.videoViewerWidth, src_webgazer.params.videoViewerHeight );
-
-    document.body.appendChild(videoElementCanvas);
-    document.body.appendChild(faceOverlay);
-    document.body.appendChild(faceFeedbackBox);
-    document.body.appendChild(gazeDot);
-    //document.body.appendChild(eyePatch);
-
-    // Run this only once, so remove the event listener
-    e.target.removeEventListener(e.type, setupPreviewVideo);
-  };
-  videoElement.addEventListener('timeupdate', setupPreviewVideo);
-
-  addMouseEventListeners();
-
-  //BEGIN CALLBACK LOOP
-  paused = false;
-  clockStart = performance.now();
-
-  await loop();
+function init(_x3) {
+  return _init.apply(this, arguments);
 }
-
 /**
  * Initializes navigator.mediaDevices.getUserMedia
  * depending on the browser capabilities
  */
-function setUserMediaVariable(){
 
+
+function _init() {
+  _init = src_asyncToGenerator(function* (stream) {
+    //////////////////////////
+    // Video and video preview
+    //////////////////////////
+    var topDist = '0px';
+    var leftDist = '0px'; // used for webgazer.stopVideo() and webgazer.setCameraConstraints()
+
+    videoStream = stream;
+    videoElement = document.createElement('video');
+    videoElement.id = src_webgazer.params.videoElementId;
+    videoElement.srcObject = stream;
+    videoElement.autoplay = true;
+    videoElement.style.display = src_webgazer.params.showVideo ? 'block' : 'none';
+    videoElement.style.position = 'fixed';
+    videoElement.style.top = topDist;
+    videoElement.style.left = leftDist; // We set these to stop the video appearing too large when it is added for the very first time
+
+    videoElement.style.width = src_webgazer.params.videoViewerWidth + 'px';
+    videoElement.style.height = src_webgazer.params.videoViewerHeight + 'px'; // videoElement.style.zIndex="-1";
+    // Canvas for drawing video to pass to clm tracker
+
+    videoElementCanvas = document.createElement('canvas');
+    videoElementCanvas.id = src_webgazer.params.videoElementCanvasId;
+    videoElementCanvas.style.display = 'none'; // Face overlay
+    // Shows the CLM tracking result
+
+    faceOverlay = document.createElement('canvas');
+    faceOverlay.id = src_webgazer.params.faceOverlayId;
+    faceOverlay.style.display = src_webgazer.params.showFaceOverlay ? 'block' : 'none';
+    faceOverlay.style.position = 'fixed';
+    faceOverlay.style.top = topDist;
+    faceOverlay.style.left = leftDist; // Mirror video feed
+
+    if (src_webgazer.params.mirrorVideo) {
+      videoElement.style.setProperty("-moz-transform", "scale(-1, 1)");
+      videoElement.style.setProperty("-webkit-transform", "scale(-1, 1)");
+      videoElement.style.setProperty("-o-transform", "scale(-1, 1)");
+      videoElement.style.setProperty("transform", "scale(-1, 1)");
+      videoElement.style.setProperty("filter", "FlipH");
+      faceOverlay.style.setProperty("-moz-transform", "scale(-1, 1)");
+      faceOverlay.style.setProperty("-webkit-transform", "scale(-1, 1)");
+      faceOverlay.style.setProperty("-o-transform", "scale(-1, 1)");
+      faceOverlay.style.setProperty("transform", "scale(-1, 1)");
+      faceOverlay.style.setProperty("filter", "FlipH");
+    } // Feedback box
+    // Lets the user know when their face is in the middle
+
+
+    faceFeedbackBox = document.createElement('canvas');
+    faceFeedbackBox.id = src_webgazer.params.faceFeedbackBoxId;
+    faceFeedbackBox.style.display = src_webgazer.params.showFaceFeedbackBox ? 'block' : 'none';
+    faceFeedbackBox.style.position = 'fixed';
+    faceFeedbackBox.style.border = 'solid'; // Gaze dot
+    // Starts offscreen
+
+    gazeDot = document.createElement('div');
+    gazeDot.id = src_webgazer.params.gazeDotId;
+    gazeDot.style.display = src_webgazer.params.showGazeDot ? 'block' : 'none';
+    gazeDot.style.position = 'fixed';
+    gazeDot.style.zIndex = 99999;
+    gazeDot.style.left = '-5px'; //'-999em';
+
+    gazeDot.style.top = '-5px';
+    gazeDot.style.background = 'red';
+    gazeDot.style.borderRadius = '100%';
+    gazeDot.style.opacity = '0.7';
+    gazeDot.style.width = '10px';
+    gazeDot.style.height = '10px';
+    eyePatch = document.createElement('canvas');
+    eyePatch.style.display = 'block';
+    eyePatch.style.position = 'fixed';
+    eyePatch.style.top = 500 + 'px';
+    eyePatch.style.left = 400 + 'px';
+    eyePatch.style.width = 300 + 'px';
+    eyePatch.style.height = 200 + 'px'; // Add other preview/feedback elements to the screen once the video has shown and its parameters are initialized
+
+    document.body.appendChild(videoElement);
+
+    function setupPreviewVideo(e) {
+      // All video preview parts have now been added, so set the size both internally and in the preview window.
+      setInternalVideoBufferSizes(videoElement.videoWidth, videoElement.videoHeight);
+      src_webgazer.setVideoViewerSize(src_webgazer.params.videoViewerWidth, src_webgazer.params.videoViewerHeight);
+      document.body.appendChild(videoElementCanvas);
+      document.body.appendChild(faceOverlay);
+      document.body.appendChild(faceFeedbackBox);
+      document.body.appendChild(gazeDot); //document.body.appendChild(eyePatch);
+      // Run this only once, so remove the event listener
+
+      e.target.removeEventListener(e.type, setupPreviewVideo);
+    }
+
+    ;
+    videoElement.addEventListener('timeupdate', setupPreviewVideo);
+    addMouseEventListeners(); //BEGIN CALLBACK LOOP
+
+    paused = false;
+    clockStart = performance.now();
+    src_deep_learning_model = yield loadModel();
+    yield loop();
+  });
+  return _init.apply(this, arguments);
+}
+
+function setUserMediaVariable() {
   if (navigator.mediaDevices === undefined) {
     navigator.mediaDevices = {};
   }
 
   if (navigator.mediaDevices.getUserMedia === undefined) {
-    navigator.mediaDevices.getUserMedia = function(constraints) {
-
+    navigator.mediaDevices.getUserMedia = function (constraints) {
       // gets the alternative old getUserMedia is possible
-      var getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+      var getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia; // set an error message if browser doesn't support getUserMedia
 
-      // set an error message if browser doesn't support getUserMedia
       if (!getUserMedia) {
         return Promise.reject(new Error("Unfortunately, your browser does not support access to the webcam through the getUserMedia API. Try to use the latest version of Google Chrome, Mozilla Firefox, Opera, or Microsoft Edge instead."));
-      }
+      } // uses navigator.getUserMedia for older browsers
 
-      // uses navigator.getUserMedia for older browsers
-      return new Promise(function(resolve, reject) {
+
+      return new Promise(function (resolve, reject) {
         getUserMedia.call(navigator, constraints, resolve, reject);
       });
-    }
+    };
   }
-}
-
-//PUBLIC FUNCTIONS - CONTROL
+} //PUBLIC FUNCTIONS - CONTROL
 
 /**
  * Starts all state related to webgazer -> dataLoop, video collection, click listener
@@ -88397,183 +88662,197 @@ function setUserMediaVariable(){
  * @param {Function} onFail - Callback to call in case it is impossible to find user camera
  * @returns {*}
  */
-src_webgazer.begin = function(onFail) {
-  if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost' && window.chrome){
-    alert("WebGazer works only over https. If you are doing local development you need to run a local server.");
-  }
 
-  // Load model data stored in localforage.
+
+src_webgazer.begin = function (onFail) {
+  if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost' && window.chrome) {
+    alert("WebGazer works only over https. If you are doing local development you need to run a local server.");
+  } // Load model data stored in localforage.
+
+
   if (window.saveDataAcrossSessions) {
     loadGlobalData();
   }
 
-  onFail = onFail || function() {console.log('No stream')};
+  onFail = onFail || function () {
+    console.log('No stream');
+  };
 
   if (debugVideoLoc) {
     init(debugVideoLoc);
     return src_webgazer;
-  }
-
-  ///////////////////////
+  } ///////////////////////
   // SETUP VIDEO ELEMENTS
   // Sets .mediaDevices.getUserMedia depending on browser
-  setUserMediaVariable();
 
-  // Request webcam access under specific constraints
+
+  setUserMediaVariable(); // Request webcam access under specific constraints
   // WAIT for access
-  return new Promise(async (resolve, reject) => {
-    let stream;
-    try {
-      stream = await navigator.mediaDevices.getUserMedia( src_webgazer.params.camConstraints );
-      init(stream);
-      resolve(src_webgazer);
-    } catch(err) {
-      onFail();
-      videoElement = null;
-      stream = null;
-      reject(err);
-    }
-  });
+
+  return new Promise( /*#__PURE__*/function () {
+    var _ref2 = src_asyncToGenerator(function* (resolve, reject) {
+      var stream;
+
+      try {
+        stream = yield navigator.mediaDevices.getUserMedia(src_webgazer.params.camConstraints);
+        init(stream);
+        resolve(src_webgazer);
+      } catch (err) {
+        onFail();
+        videoElement = null;
+        stream = null;
+        reject(err);
+      }
+    });
+
+    return function (_x4, _x5) {
+      return _ref2.apply(this, arguments);
+    };
+  }());
 };
-
-
 /**
  * Checks if webgazer has finished initializing after calling begin()
  * [20180729 JT] This seems like a bad idea for how this function should be implemented.
  * @returns {boolean} if webgazer is ready
  */
-src_webgazer.isReady = function() {
+
+
+src_webgazer.isReady = function () {
   if (videoElementCanvas === null) {
     return false;
   }
+
   return videoElementCanvas.width > 0;
 };
-
 /**
  * Stops collection of data and predictions
  * @returns {webgazer} this
  */
-src_webgazer.pause = function() {
+
+
+src_webgazer.pause = function () {
   paused = true;
   return src_webgazer;
 };
-
 /**
  * Resumes collection of data and predictions if paused
  * @returns {webgazer} this
  */
-src_webgazer.resume = async function() {
+
+
+src_webgazer.resume = /*#__PURE__*/src_asyncToGenerator(function* () {
   if (!paused) {
     return src_webgazer;
   }
-  paused = false;
-  await loop();
-  return src_webgazer;
-};
 
+  paused = false;
+  yield loop();
+  return src_webgazer;
+});
 /**
  * stops collection of data and removes dom modifications, must call begin() to reset up
  * @return {webgazer} this
  */
-src_webgazer.end = function() {
+
+src_webgazer.end = function () {
   //loop may run an extra time and fail due to removed elements
   paused = true;
-
   src_webgazer.stopVideo(); // uncomment if you want to stop the video from streaming
-
   //remove video element and canvas
+
   document.body.removeChild(videoElement);
   document.body.removeChild(videoElementCanvas);
-
   return src_webgazer;
 };
-
 /**
  * Stops the video camera from streaming and removes the video outlines
  * @return {webgazer} this
  */
-src_webgazer.stopVideo = function() {
+
+
+src_webgazer.stopVideo = function () {
   // Stops the video from streaming
-  videoStream.getTracks()[0].stop();
+  videoStream.getTracks()[0].stop(); // Removes the outline of the face
 
-  // Removes the outline of the face
-  document.body.removeChild( faceOverlay );
+  document.body.removeChild(faceOverlay); // Removes the box around the face
 
-  // Removes the box around the face
-  document.body.removeChild( faceFeedbackBox );
-
+  document.body.removeChild(faceFeedbackBox);
   return src_webgazer;
-}
-
-
-//PUBLIC FUNCTIONS - DEBUG
+}; //PUBLIC FUNCTIONS - DEBUG
 
 /**
  * Returns if the browser is compatible with webgazer
  * @return {boolean} if browser is compatible
  */
-src_webgazer.detectCompatibility = function() {
 
-  var getUserMedia = navigator.mediaDevices.getUserMedia ||
-    navigator.getUserMedia ||
-    navigator.webkitGetUserMedia ||
-    navigator.mozGetUserMedia;
 
+src_webgazer.detectCompatibility = function () {
+  var getUserMedia = navigator.mediaDevices.getUserMedia || navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
   return getUserMedia !== undefined;
 };
-
 /**
  * Set whether the video preview is visible or not.
  * @param {*} bool
  * @return {webgazer} this
  */
-src_webgazer.showVideo = function(val) {
+
+
+src_webgazer.showVideo = function (val) {
   src_webgazer.params.showVideo = val;
-  if( videoElement) {
+
+  if (videoElement) {
     videoElement.style.display = val ? 'block' : 'none';
   }
+
   return src_webgazer;
 };
-
 /**
  * Set whether the face overlay is visible or not.
  * @param {*} bool
  * @return {webgazer} this
  */
-src_webgazer.showFaceOverlay = function(val) {
+
+
+src_webgazer.showFaceOverlay = function (val) {
   src_webgazer.params.showFaceOverlay = val;
-  if( faceOverlay ) {
+
+  if (faceOverlay) {
     faceOverlay.style.display = val ? 'block' : 'none';
   }
+
   return src_webgazer;
 };
-
 /**
  * Set whether the face feedback box is visible or not.
  * @param {*} bool
  * @return {webgazer} this
  */
-src_webgazer.showFaceFeedbackBox = function(val) {
 
+
+src_webgazer.showFaceFeedbackBox = function (val) {
   src_webgazer.params.showFaceFeedbackBox = val;
-  if( faceFeedbackBox ) {
+
+  if (faceFeedbackBox) {
     faceFeedbackBox.style.display = val ? 'block' : 'none';
   }
+
   return src_webgazer;
 };
-
 /**
  * Set whether the gaze prediction point(s) are visible or not. Multiple because of a trail of past dots.
  * @return {webgazer} this
  */
-src_webgazer.showPredictionPoints = function(val) {
+
+
+src_webgazer.showPredictionPoints = function (val) {
   src_webgazer.params.showGazeDot = val;
-  if( gazeDot ) {
+
+  if (gazeDot) {
     gazeDot.style.display = val ? 'block' : 'none';
   }
+
   return src_webgazer;
 };
-
 /**
  * Define constraints on the video camera that is used. Useful for non-standard setups.
  * This can be set before calling webgazer.begin(), but also mid stream.
@@ -88587,119 +88866,125 @@ src_webgazer.showPredictionPoints = function(val) {
  * Note: The constraints set here are applied to the video track only. They also _replace_ any constraints, so be sure to set everything you need.
  * Warning: Setting a large video resolution will decrease performance, and may require
  */
-src_webgazer.setCameraConstraints = async function(constraints) {
-  var videoTrack,videoSettings;
-  src_webgazer.params.camConstraints = constraints;
 
-  // If the camera stream is already up...
-  if(videoStream)
-  {
-    src_webgazer.pause();
-    videoTrack = videoStream.getVideoTracks()[0];
-    try {
-      await videoTrack.applyConstraints( src_webgazer.params.camConstraints );
-      videoSettings = videoTrack.getSettings();
-      setInternalVideoBufferSizes( videoSettings.width, videoSettings.height );
-    } catch(err) {
-      console.log( err );
-      return;
+
+src_webgazer.setCameraConstraints = /*#__PURE__*/function () {
+  var _ref4 = src_asyncToGenerator(function* (constraints) {
+    var videoTrack, videoSettings;
+    src_webgazer.params.camConstraints = constraints; // If the camera stream is already up...
+
+    if (videoStream) {
+      src_webgazer.pause();
+      videoTrack = videoStream.getVideoTracks()[0];
+
+      try {
+        yield videoTrack.applyConstraints(src_webgazer.params.camConstraints);
+        videoSettings = videoTrack.getSettings();
+        setInternalVideoBufferSizes(videoSettings.width, videoSettings.height);
+      } catch (err) {
+        console.log(err);
+        return;
+      } // Reset and recompute sizes of the video viewer.
+      // This is only to adjust the feedback box, say, if the aspect ratio of the video has changed.
+
+
+      src_webgazer.setVideoViewerSize(src_webgazer.params.videoViewerWidth, src_webgazer.params.videoViewerHeight);
+      src_webgazer.getTracker().reset();
+      yield src_webgazer.resume();
     }
-    // Reset and recompute sizes of the video viewer.
-    // This is only to adjust the feedback box, say, if the aspect ratio of the video has changed.
-    src_webgazer.setVideoViewerSize( src_webgazer.params.videoViewerWidth, src_webgazer.params.videoViewerHeight )
-    src_webgazer.getTracker().reset();
-    await src_webgazer.resume();
-  }
-}
+  });
 
-
+  return function (_x6) {
+    return _ref4.apply(this, arguments);
+  };
+}();
 /**
  * Does what it says on the tin.
  * @param {*} width
  * @param {*} height
  */
-function setInternalVideoBufferSizes( width, height ) {
+
+
+function setInternalVideoBufferSizes(width, height) {
   // Re-set the canvas size used by the internal processes
-  if( videoElementCanvas )
-  {
+  if (videoElementCanvas) {
     videoElementCanvas.width = width;
     videoElementCanvas.height = height;
-  }
+  } // Re-set the face overlay canvas size
 
-  // Re-set the face overlay canvas size
-  if( faceOverlay )
-  {
+
+  if (faceOverlay) {
     faceOverlay.width = width;
     faceOverlay.height = height;
   }
 }
-
 /**
  *  Set a static video file to be used instead of webcam video
  *  @param {String} videoLoc - video file location
  *  @return {webgazer} this
  */
-src_webgazer.setStaticVideo = function(videoLoc) {
+
+
+src_webgazer.setStaticVideo = function (videoLoc) {
   debugVideoLoc = videoLoc;
   return src_webgazer;
 };
-
 /**
  * Set the size of the video viewer
  */
-src_webgazer.setVideoViewerSize = function(w, h) {
 
+
+src_webgazer.setVideoViewerSize = function (w, h) {
   src_webgazer.params.videoViewerWidth = w;
-  src_webgazer.params.videoViewerHeight = h;
+  src_webgazer.params.videoViewerHeight = h; // Change the video viewer
 
-  // Change the video viewer
   videoElement.style.width = w + 'px';
-  videoElement.style.height = h + 'px';
+  videoElement.style.height = h + 'px'; // Change the face overlay
 
-  // Change the face overlay
   faceOverlay.style.width = w + 'px';
-  faceOverlay.style.height = h + 'px';
-
-  // Change the feedback box size
+  faceOverlay.style.height = h + 'px'; // Change the feedback box size
   // Compute the boundaries of the face overlay validation box based on the video size
-  var tlwh = src_webgazer.computeValidationBoxSize()
-  // Assign them to the object
+
+  var tlwh = src_webgazer.computeValidationBoxSize(); // Assign them to the object
+
   faceFeedbackBox.style.top = tlwh[0] + 'px';
   faceFeedbackBox.style.left = tlwh[1] + 'px';
   faceFeedbackBox.style.width = tlwh[2] + 'px';
   faceFeedbackBox.style.height = tlwh[3] + 'px';
 };
-
 /**
  *  Add the mouse click and move listeners that add training data.
  *  @return {webgazer} this
  */
-src_webgazer.addMouseEventListeners = function() {
+
+
+src_webgazer.addMouseEventListeners = function () {
   addMouseEventListeners();
   return src_webgazer;
 };
-
 /**
  *  Remove the mouse click and move listeners that add training data.
  *  @return {webgazer} this
  */
-src_webgazer.removeMouseEventListeners = function() {
+
+
+src_webgazer.removeMouseEventListeners = function () {
   removeMouseEventListeners();
   return src_webgazer;
 };
-
 /**
  *  Records current screen position for current pupil features.
  *  @param {String} x - position on screen in the x axis
  *  @param {String} y - position on screen in the y axis
  *  @return {webgazer} this
  */
-src_webgazer.recordScreenPosition = function(x, y) {
+
+
+src_webgazer.recordScreenPosition = function (x, y) {
   // give this the same weight that a click gets.
   recordScreenPosition(x, y, eventTypes[0]);
   return src_webgazer;
 };
-
 /**
  *  Records current screen position for current pupil features.
  *  @param {String} x - position on screen in the x axis
@@ -88707,184 +88992,207 @@ src_webgazer.recordScreenPosition = function(x, y) {
  *  @param {String} eventType - "click" or "move", as per eventTypes
  *  @return {webgazer} this
  */
-src_webgazer.recordScreenPosition = function(x, y, eventType) {
+
+
+src_webgazer.recordScreenPosition = function (x, y, eventType) {
   // give this the same weight that a click gets.
   recordScreenPosition(x, y, eventType);
   return src_webgazer;
 };
-
 /*
  * Stores the position of the fifty most recent tracker preditions
  */
-src_webgazer.storePoints = function(x, y, k) {
+
+
+src_webgazer.storePoints = function (x, y, k) {
   xPast50[k] = x;
   yPast50[k] = y;
-}
+}; //SETTERS
 
-//SETTERS
 /**
  * Sets the tracking module
  * @param {String} name - The name of the tracking module to use
  * @return {webgazer} this
  */
-src_webgazer.setTracker = function(name) {
+
+
+src_webgazer.setTracker = function (name) {
   if (curTrackerMap[name] === undefined) {
     console.log('Invalid tracker selection');
     console.log('Options are: ');
+
     for (var t in curTrackerMap) {
       console.log(t);
     }
+
     return src_webgazer;
   }
+
   curTracker = curTrackerMap[name]();
   return src_webgazer;
 };
-
 /**
  * Sets the regression module and clears any other regression modules
  * @param {String} name - The name of the regression module to use
  * @return {webgazer} this
  */
-src_webgazer.setRegression = function(name) {
+
+
+src_webgazer.setRegression = function (name) {
   if (regressionMap[name] === undefined) {
     console.log('Invalid regression selection');
     console.log('Options are: ');
+
     for (var reg in regressionMap) {
       console.log(reg);
     }
+
     return src_webgazer;
   }
+
   data = regs[0].getData();
   regs = [regressionMap[name]()];
   regs[0].setData(data);
   return src_webgazer;
 };
-
 /**
  * Adds a new tracker module so that it can be used by setTracker()
  * @param {String} name - the new name of the tracker
  * @param {Function} constructor - the constructor of the curTracker object
  * @return {webgazer} this
  */
-src_webgazer.addTrackerModule = function(name, constructor) {
-  curTrackerMap[name] = function() {
+
+
+src_webgazer.addTrackerModule = function (name, constructor) {
+  curTrackerMap[name] = function () {
     return new constructor();
   };
 };
-
 /**
  * Adds a new regression module so that it can be used by setRegression() and addRegression()
  * @param {String} name - the new name of the regression
  * @param {Function} constructor - the constructor of the regression object
  */
-src_webgazer.addRegressionModule = function(name, constructor) {
-  regressionMap[name] = function() {
+
+
+src_webgazer.addRegressionModule = function (name, constructor) {
+  regressionMap[name] = function () {
     return new constructor();
   };
 };
-
 /**
  * Adds a new regression module to the list of regression modules, seeding its data from the first regression module
  * @param {String} name - the string name of the regression module to add
  * @return {webgazer} this
  */
-src_webgazer.addRegression = function(name) {
+
+
+src_webgazer.addRegression = function (name) {
   var newReg = regressionMap[name]();
   data = regs[0].getData();
   newReg.setData(data);
   regs.push(newReg);
   return src_webgazer;
 };
-
 /**
  * Sets a callback to be executed on every gaze event (currently all time steps)
  * @param {function} listener - The callback function to call (it must be like function(data, elapsedTime))
  * @return {webgazer} this
  */
-src_webgazer.setGazeListener = function(listener) {
+
+
+src_webgazer.setGazeListener = function (listener) {
   callback = listener;
   return src_webgazer;
 };
-
 /**
  * Removes the callback set by setGazeListener
  * @return {webgazer} this
  */
-src_webgazer.clearGazeListener = function() {
+
+
+src_webgazer.clearGazeListener = function () {
   callback = nopCallback;
   return src_webgazer;
 };
-
 /**
  * Set the video element canvas; useful if you want to run WebGazer on your own canvas (e.g., on any random image).
  * @return The current video element canvas
  */
-src_webgazer.setVideoElementCanvas = function(canvas) {
-  videoElementCanvas = canvas;
-}
 
+
+src_webgazer.setVideoElementCanvas = function (canvas) {
+  videoElementCanvas = canvas;
+};
 /**
  * Clear data from localforage and from regs
  */
-src_webgazer.clearData = async function() {
+
+
+src_webgazer.clearData = /*#__PURE__*/src_asyncToGenerator(function* () {
   clearData();
-}
+}); //GETTERS
 
-
-//GETTERS
 /**
  * Returns the tracker currently in use
  * @return {tracker} an object following the tracker interface
  */
-src_webgazer.getTracker = function() {
+
+src_webgazer.getTracker = function () {
   return curTracker;
 };
-
 /**
  * Returns the regression currently in use
  * @return {Array.<Object>} an array of regression objects following the regression interface
  */
-src_webgazer.getRegression = function() {
+
+
+src_webgazer.getRegression = function () {
   return regs;
 };
-
 /**
  * Requests an immediate prediction
  * @return {object} prediction data object
  */
-src_webgazer.getCurrentPrediction = function() {
+
+
+src_webgazer.getCurrentPrediction = function () {
   return getPrediction();
 };
-
 /**
  * returns the different event types that may be passed to regressions when calling regression.addData()
  * @return {Array} array of strings where each string is an event type
  */
-src_webgazer.params.getEventTypes = function() {
-  return eventTypes.slice();
-}
 
+
+src_webgazer.params.getEventTypes = function () {
+  return eventTypes.slice();
+};
 /**
  * Get the video element canvas that WebGazer uses internally on which to run its face tracker.
  * @return The current video element canvas
  */
-src_webgazer.getVideoElementCanvas = function() {
-  return videoElementCanvas;
-}
 
+
+src_webgazer.getVideoElementCanvas = function () {
+  return videoElementCanvas;
+};
 /**
  * @return array [a,b] where a is width ratio and b is height ratio
  */
-src_webgazer.getVideoPreviewToCameraResolutionRatio = function() {
-  return [src_webgazer.params.videoViewerWidth / videoElement.videoWidth, src_webgazer.params.videoViewerHeight / videoElement.videoHeight];
-}
 
+
+src_webgazer.getVideoPreviewToCameraResolutionRatio = function () {
+  return [src_webgazer.params.videoViewerWidth / videoElement.videoWidth, src_webgazer.params.videoViewerHeight / videoElement.videoHeight];
+};
 /*
  * Gets the fifty most recent tracker preditions
  */
-src_webgazer.getStoredPoints = function() {
+
+
+src_webgazer.getStoredPoints = function () {
   return [xPast50, yPast50];
-}
+};
 
 /* harmony default export */ var src = __webpack_exports__["default"] = (src_webgazer);
 
