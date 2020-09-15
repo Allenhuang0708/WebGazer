@@ -86113,7 +86113,9 @@ var params = {
   smoothEyeBB: false,
   dataTimestep: 50,
   // Whether or not to store accuracy eigenValues, used by the calibration example file
-  storingPoints: false
+  storingPoints: false,
+  loopCounts: 0,
+  framesPerSecond: 20
 };
 /* harmony default export */ var src_params = (params);
 // CONCATENATED MODULE: ./src/dom_util.mjs
@@ -86542,7 +86544,6 @@ util.getEyeFeats = function (eyes) {
   var connect_input = tf_node.concat([faceLayer, eye_output, face_grid], 1);
   var full_connect = src_deep_learning_model.full_connect.predict(connect_input);
   var result = full_connect.arraySync();
-  console.log('before disposing', tf_node.memory().numTensors);
   leftEyeLayer.dispose();
   faceLayer.dispose();
   rightEyeLayer.dispose();
@@ -86550,18 +86551,17 @@ util.getEyeFeats = function (eyes) {
   face_grid.dispose();
   connect_input.dispose();
   full_connect.dispose();
-  console.log('after disposing', tf_node.memory().numTensors);
   return result[0];
 };
 
 util.convGroupModel = function (inputData, modelSequence) {
   return tf_node.tidy(() => {
     var inputTensorLayer1 = tf_node.tensor4d(inputData);
-    var outputTensorLayer1 = modelSequence[0].predict(inputTensorLayer1);
+    var outputTensorLayer1 = tf_node.localResponseNormalization(modelSequence[0].predict(inputTensorLayer1), 5, 1, 0.0001, 0.75);
     var [inputTensorLayer2a, inputTensorLayer2b] = tf_node.split(outputTensorLayer1, 2, 3);
     var outputTensorLayer2a = modelSequence[1].predict(inputTensorLayer2a);
     var outputTensorLayer2b = modelSequence[2].predict(inputTensorLayer2b);
-    var inputTensorLayer3 = tf_node.concat([outputTensorLayer2a, outputTensorLayer2b], 3);
+    var inputTensorLayer3 = tf_node.localResponseNormalization(tf_node.concat([outputTensorLayer2a, outputTensorLayer2b], 3), 5, 1, 0.0001, 0.75);
     var outputTensorLayer3 = modelSequence[3].predict(inputTensorLayer3);
     return outputTensorLayer3;
   });
@@ -87233,6 +87233,7 @@ var numeric_1_2_6 = __webpack_require__(13);
 
 
 
+
 var ridgeReg_reg = {};
 var ridgeParameter = Math.pow(10, -5);
 var dataWindow = 700;
@@ -87438,7 +87439,33 @@ ridgeReg_reg.RidgeReg.prototype.predict = function (eyesObj) {
   var eyeFeatures = this.eyeFeaturesClicks.data.concat(trailFeat);
   var coefficientsX = ridge(screenXArray, eyeFeatures, ridgeParameter);
   var coefficientsY = ridge(screenYArray, eyeFeatures, ridgeParameter);
+  var input = tf_node.input({
+    shape: [128]
+  });
+  var denseLayer = tf_node.layers.dense({
+    units: 2
+  });
+  var output = denseLayer.apply(input);
+  var model = tf_node.model({
+    inputs: input,
+    outputs: output
+  });
+  var y1 = tf_node.tensor2d(screenXArray);
+  var y2 = tf_node.tensor2d(screenYArray);
+  var y = tf_node.concat([y1, y2], 1);
+  model.compile({
+    optimizer: 'sgd',
+    loss: 'meanSquaredError'
+  });
+  console.log(y.shape)
+  console.log(tf_node.tensor2d(eyeFeatures).shape)
+  model.fit(tf_node.tensor2d(eyeFeatures), y, {
+    batchSize: 5,
+    epochs: 5
+  });
   var eyeFeats = src_util.getEyeFeats(eyesObj);
+  var c = tf_node.tensor2d(eyeFeats, [1, 128]);
+  console.log(model.predict(c).print());
   var predictedX = 0;
 
   for (var i = 0; i < eyeFeats.length; i++) {
@@ -87453,7 +87480,6 @@ ridgeReg_reg.RidgeReg.prototype.predict = function (eyesObj) {
 
   predictedX = Math.floor(predictedX);
   predictedY = Math.floor(predictedY);
-
   if (window.applyKalmanFilter) {
     // Update Kalman model, and get prediction
     var newGaze = [predictedX, predictedY]; // [20200607 xk] Should we use a 1x4 vector?
@@ -88305,7 +88331,9 @@ function loop() {
 
 function _loop() {
   _loop = src_asyncToGenerator(function* () {
-    if (!paused) {
+    var shouldRun = src_webgazer.params.loopCounts % (60 / src_webgazer.params.framesPerSecond) === 0;
+
+    if (!paused && shouldRun) {
       // [20200617 XK] TODO: there is currently lag between the camera input and the face overlay. This behavior
       // is not seen in the facemesh demo. probably need to optimize async implementation. I think the issue lies
       // in the implementation of getPrediction().
@@ -88371,9 +88399,10 @@ function _loop() {
       } else {
         gazeDot.style.display = 'none';
       }
-
-      requestAnimationFrame(loop);
     }
+
+    requestAnimationFrame(loop);
+    src_webgazer.params.loopCounts += 1;
   });
   return _loop.apply(this, arguments);
 }

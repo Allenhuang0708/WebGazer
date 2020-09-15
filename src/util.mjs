@@ -70,11 +70,12 @@ util.getEyeFeats = function(eyes) {
 util.convGroupModel = function(inputData, modelSequence) {
     return tf.tidy(() =>{
         const inputTensorLayer1 = tf.tensor4d(inputData);
-        const outputTensorLayer1 =  modelSequence[0].predict(inputTensorLayer1);
+        const outputTensorLayer1 =  tf.localResponseNormalization(modelSequence[0].predict(inputTensorLayer1), 5, 1, 0.0001, 0.75);
+
         const [inputTensorLayer2a, inputTensorLayer2b] = tf.split(outputTensorLayer1, 2, 3);
         const outputTensorLayer2a = modelSequence[1].predict(inputTensorLayer2a);
         const outputTensorLayer2b = modelSequence[2].predict(inputTensorLayer2b);
-        const inputTensorLayer3 = tf.concat([outputTensorLayer2a, outputTensorLayer2b], 3);
+        const inputTensorLayer3 =  tf.localResponseNormalization(tf.concat([outputTensorLayer2a, outputTensorLayer2b], 3), 5, 1, 0.0001, 0.75);
         const outputTensorLayer3 = modelSequence[3].predict(inputTensorLayer3);
         return outputTensorLayer3;
     });

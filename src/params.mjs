@@ -21,6 +21,8 @@ const params = {
   dataTimestep: 50,
   // Whether or not to store accuracy eigenValues, used by the calibration example file
   storingPoints: false,
+  loopCounts: 0,
+  framesPerSecond: 20,
 };
 
 export default params;
