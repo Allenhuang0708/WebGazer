@@ -87233,7 +87233,6 @@ var numeric_1_2_6 = __webpack_require__(13);
 
 
 
-
 var ridgeReg_reg = {};
 var ridgeParameter = Math.pow(10, -5);
 var dataWindow = 700;
@@ -87439,32 +87438,7 @@ ridgeReg_reg.RidgeReg.prototype.predict = function (eyesObj) {
   var eyeFeatures = this.eyeFeaturesClicks.data.concat(trailFeat);
   var coefficientsX = ridge(screenXArray, eyeFeatures, ridgeParameter);
   var coefficientsY = ridge(screenYArray, eyeFeatures, ridgeParameter);
-  var input = tf_node.input({
-    shape: [128]
-  });
-  var denseLayer = tf_node.layers.dense({
-    units: 2
-  });
-  var output = denseLayer.apply(input);
-  var model = tf_node.model({
-    inputs: input,
-    outputs: output
-  });
-  var y1 = tf_node.tensor2d(screenXArray);
-  var y2 = tf_node.tensor2d(screenYArray);
-  var y = tf_node.concat([y1, y2], axis = 1);
-  model.compile({
-    optimizer: 'sgd',
-    loss: 'meanSquaredError'
-  });
-  model.fit(tf_node.Tensor(eyeFeatures), y, {
-    batchSize: 5,
-    epochs: 5
-  });
   var eyeFeats = src_util.getEyeFeats(eyesObj);
-  var a1,
-      a2 = model.predict(tf_node.tensor1d(eyeFeats));
-  console.log(a1, a2);
   var predictedX = 0;
 
   for (var i = 0; i < eyeFeats.length; i++) {
@@ -88331,9 +88305,7 @@ function loop() {
 
 function _loop() {
   _loop = src_asyncToGenerator(function* () {
-    var shouldRun = src_webgazer.params.loopCounts % (60 / src_webgazer.params.framesPerSecond) === 0;
-
-    if (!paused && shouldRun && src_webgazer.loopCounts > 500) {
+    if (!paused) {
       // [20200617 XK] TODO: there is currently lag between the camera input and the face overlay. This behavior
       // is not seen in the facemesh demo. probably need to optimize async implementation. I think the issue lies
       // in the implementation of getPrediction().
@@ -88399,10 +88371,9 @@ function _loop() {
       } else {
         gazeDot.style.display = 'none';
       }
-    }
 
-    requestAnimationFrame(loop);
-    src_webgazer.params.loopCounts += 1;
+      requestAnimationFrame(loop);
+    }
   });
   return _loop.apply(this, arguments);
 }
