@@ -2,6 +2,8 @@ import numeric from 'numeric';
 import mat from './mat';
 import util from './util';
 import params from './params';
+import tf from '@tensorflow/tfjs';
+import {deep_learning_model} from './index';
 
 const reg = {};
 var ridgeParameter = Math.pow(10,-5);
@@ -209,6 +211,19 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
   for(var i=0; i< eyeFeats.length; i++){
     predictedY += eyeFeats[i] * coefficientsY[i];
   }
+
+  var dense_connect = deep_learning_model.dense_connect;
+  const trainX = tf.tensor2d(eyeFeatures);
+  const trainY = tf.concat([tf.tensor2d(screenXArray), tf.tensor2d(screenYArray)], 1);
+  dense_connect.compile({optimizer: 'sgd', loss: 'meanSquaredError'});
+  dense_connect.fit(trainX, trainY, {
+    batchSize: 10,
+    epochs: 2
+  });
+
+  var predictFeatures = tf.tensor2d(eyeFeats, [1, 128]);
+  console.log(dense_connect.predict(predictFeatures).print());
+  console.log(predictedX, predictedY)
 
   predictedX = Math.floor(predictedX);
   predictedY = Math.floor(predictedY);

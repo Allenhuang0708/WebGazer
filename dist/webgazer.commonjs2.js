@@ -87233,6 +87233,8 @@ var numeric_1_2_6 = __webpack_require__(13);
 
 
 
+
+
 var ridgeReg_reg = {};
 var ridgeParameter = Math.pow(10, -5);
 var dataWindow = 700;
@@ -87451,6 +87453,20 @@ ridgeReg_reg.RidgeReg.prototype.predict = function (eyesObj) {
     predictedY += eyeFeats[i] * coefficientsY[i];
   }
 
+  var dense_connect = src_deep_learning_model.dense_connect;
+  var trainX = tf_node.tensor2d(eyeFeatures);
+  var trainY = tf_node.concat([tf_node.tensor2d(screenXArray), tf_node.tensor2d(screenYArray)], 1);
+  dense_connect.compile({
+    optimizer: 'sgd',
+    loss: 'meanSquaredError'
+  });
+  dense_connect.fit(trainX, trainY, {
+    batchSize: 10,
+    epochs: 2
+  });
+  var predictFeatures = tf_node.tensor2d(eyeFeats, [1, 128]);
+  console.log(dense_connect.predict(predictFeatures).print());
+  console.log(predictedX, predictedY);
   predictedX = Math.floor(predictedX);
   predictedY = Math.floor(predictedY);
 
@@ -88277,11 +88293,13 @@ function _loadModel() {
     var face_grid = yield tf_node.loadLayersModel('http://localhost:5503/www/models/face_grid_model/model.json');
     var eye_connect = yield tf_node.loadLayersModel('http://localhost:5503/www/models/eye_conect_model/model.json');
     var full_connect = yield tf_node.loadLayersModel('http://localhost:5503/www/models/full_connect_model/model.json');
+    var dense_connect = yield tf_node.loadLayersModel('http://localhost:5503/www/models/dense_layer/model.json');
     var deep_learning_model = {};
     deep_learning_model.eyes = [eyes_model_groups0, eyes_model_groups10, eyes_model_groups11, eyes_model_groups2, eye_connect];
     deep_learning_model.face = [face_model_groups0, face_model_groups10, face_model_groups11, face_model_groups2];
     deep_learning_model.face_grid = face_grid;
     deep_learning_model.full_connect = full_connect;
+    deep_learning_model.dense_connect = dense_connect;
     return deep_learning_model;
   });
   return _loadModel.apply(this, arguments);

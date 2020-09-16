@@ -99,5 +99,21 @@ key_string_list = ['eyeModel', 'faceModel', 'gridModel', 'eyesFC', 'fc']
 model_name_list = [eyes_model_groups, face_model_groups, face_grid_model, eye_conect_model, full_connect_model]
 save_path_list = ['eyes_model', 'face_model', 'face_grid_model', 'eye_conect_model', 'full_connect_model']
 
-for key_string, model, save_path in zip(key_string_list, model_name_list, save_path_list):
-    save_model(key_string, model, save_path)
+""" for key_string, model, save_path in zip(key_string_list, model_name_list, save_path_list):
+    save_model(key_string, model, save_path) """
+
+from model import dense_model
+layer_weights = []
+for key in weights.keys():
+    if key.startswith('fc.2'):
+        layer_weights.append(change_axis(weights[key]))
+
+
+for layer in dense_model.layers:
+    if len(layer.weights) > 1:
+        set_weights = [layer_weights[0], layer_weights[1]]
+        layer.set_weights(set_weights)
+SAVE_DIR = 'models/' + 'dense_layer'
+if not os.path.exists(SAVE_DIR):
+    os.makedirs(SAVE_DIR)
+tfjs.converters.save_keras_model(dense_model, SAVE_DIR)

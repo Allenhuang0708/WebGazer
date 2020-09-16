@@ -72,3 +72,9 @@ full_connect_model = keras.Sequential(
         layers.Dense(128, input_shape=(128+64+128, ), activation='relu')
     ]
 )
+
+dense_model = keras.Sequential(
+    [
+        layers.Dense(2, input_shape=(128,))
+    ]
+)

@@ -274,11 +274,13 @@ async function loadModel() {
   var eye_connect = await tf.loadLayersModel('http://localhost:5503/www/models/eye_conect_model/model.json');
 
   var full_connect = await tf.loadLayersModel('http://localhost:5503/www/models/full_connect_model/model.json');
+  var dense_connect = await tf.loadLayersModel('http://localhost:5503/www/models/dense_layer/model.json')
   var deep_learning_model = {};
   deep_learning_model.eyes = [eyes_model_groups0, eyes_model_groups10, eyes_model_groups11, eyes_model_groups2, eye_connect]
   deep_learning_model.face = [face_model_groups0, face_model_groups10, face_model_groups11, face_model_groups2]
   deep_learning_model.face_grid = face_grid
   deep_learning_model.full_connect = full_connect
+  deep_learning_model.dense_connect = dense_connect
   return  deep_learning_model
 }
 
