@@ -199,18 +199,7 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
   var screenYArray = this.screenYClicksArray.data.concat(trailY);
   var eyeFeatures = this.eyeFeaturesClicks.data.concat(trailFeat);
 
-  var coefficientsX = ridge(screenXArray, eyeFeatures, ridgeParameter);
-  var coefficientsY = ridge(screenYArray, eyeFeatures, ridgeParameter);
-
   var eyeFeats = util.getEyeFeats(eyesObj);
-  var predictedX = 0;
-  for(var i=0; i< eyeFeats.length; i++){
-    predictedX += eyeFeats[i] * coefficientsX[i];
-  }
-  var predictedY = 0;
-  for(var i=0; i< eyeFeats.length; i++){
-    predictedY += eyeFeats[i] * coefficientsY[i];
-  }
 
   var dense_connect = deep_learning_model.dense_connect;
   const trainX = tf.tensor2d(eyeFeatures);
@@ -222,8 +211,10 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
   });
 
   var predictFeatures = tf.tensor2d(eyeFeats, [1, 128]);
-  console.log(dense_connect.predict(predictFeatures).print());
-  console.log(predictedX, predictedY)
+
+  var predictions = dense_connect.predict(predictFeatures).dataSync();
+  var predictedX = predictions[0];
+  var predictedY = predictions[1];
 
   predictedX = Math.floor(predictedX);
   predictedY = Math.floor(predictedY);
