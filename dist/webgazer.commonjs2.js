@@ -87451,8 +87451,9 @@ ridgeReg_reg.RidgeReg.prototype.predict = function (eyesObj) {
     epochs: 2
   });
   var predictFeatures = tf_node.tensor2d(eyeFeats, [1, 128]);
-  var predictedX,
-      predictedY = dense_connect.predict(predictFeatures).dataSync();
+  var predictions = dense_connect.predict(predictFeatures).dataSync();
+  var predictedX = predictions[0];
+  var predictedY = predictions[1];
   predictedX = Math.floor(predictedX);
   predictedY = Math.floor(predictedY);
 
