@@ -27,4 +27,8 @@ If you want to build the repository from source follow these instructions:
     #build the project
     npm run build
 
-open calibration.html, the model should be working
+## run the calibration example
+cd www folder
+npm install
+cd ..
+open calibration.html with liver server, url should be: http://127.0.0.1:5503/www/calibration.html
