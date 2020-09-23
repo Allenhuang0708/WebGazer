@@ -216,6 +216,9 @@ reg.RidgeReg.prototype.predict = function(eyesObj) {
   var predictedX = predictions[0];
   var predictedY = predictions[1];
 
+  trainX.dispose();
+  trainY.dispose();
+
   predictedX = Math.floor(predictedX);
   predictedY = Math.floor(predictedY);
 

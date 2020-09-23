@@ -37,4 +37,5 @@ www/data/FramesDataset/
 docs/
 dist/*.map
 dist/*.min.js
+dist/webgazer.*.js
 .idea/
